@@ -16,7 +16,8 @@ Here you'll find topic notes, Python templates, and curated problem lists.
 | 3 | [Kadane's Algorithm](topics/basics/kadanes-algorithm.md) | Basics | 🟢 Easy | ✅ Full notes available |
 | 4 | Prefix Sums | Basics | 🟢 Easy | 🔒 Coming soon |
 | 5 | Two Pointers | Basics | 🟢 Easy | 🔒 Coming soon |
-| 6 | Sliding Window | Basics | 🟡 Medium | 🔒 Coming soon |
+| 6 | [Sliding Window (Fixed)](topics/basics/sliding-window/fixed-size.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 7 | [Sliding Window (Variable)](topics/basics/sliding-window/variable-size.md) | Basics | 🟡 Medium | ✅ Full notes available |
 
 ---
 
