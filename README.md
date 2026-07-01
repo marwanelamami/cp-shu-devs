@@ -1,6 +1,6 @@
 <div align="center">
 
-# CP-SHU-Devs
+# CP Playbook
 
 **The competitive programming knowledge base for SHU Developers Club members.**
 
