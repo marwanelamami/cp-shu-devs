@@ -14,7 +14,7 @@ Competitive programming is a mind sport that combines two distinct but equally i
 1. **Designing algorithms**: Requiring problem-solving abilities and mathematical thinking.
 2. **Implementing them**: Writing the code correctly and efficiently under tight time pressure.
 
-![What is CP](images/intro-to-cp/diagram_5f45b710.png)
+![What is CP](images/intro-to-cp/intro-1.png)
 
 In competitive programming, you are given a problem statement accompanied by strict execution time and memory limits. Your goal is to write a program that solves the problem correctly and within these bounds.
 
@@ -35,7 +35,7 @@ As Antti Laaksonen states in the *Competitive Programmer's Handbook*:
 
 The competitive programming landscape is structured like a ladder, scaling from local challenges to international arenas.
 
-![The Competition Ladder](images/intro-to-cp/competition_ladder.svg)
+![The Competition Ladder](images/intro-to-cp/intro-2.svg)
 
 ## The Online Judge
 
@@ -55,7 +55,7 @@ Every submission returns exactly one of the following verdicts:
 
 To understand how to read problem constraints and construct solutions, we begin by analyzing a starter problem.
 
-![Your First Problem](images/intro-to-cp/diagram_3f5df78c.png)
+![Your First Problem](images/intro-to-cp/intro-3.png)
 
 ## Algorithms & Data Structures
 
@@ -91,11 +91,11 @@ In asymptotic analysis, we evaluate the growth rate of algorithms under differen
 - **Average Case (Tight Bound)**: The expected behavior on typical inputs.
 - **Best Case (Lower Bound)**: The minimum operations required under ideal inputs.
 
-![Asymptotic Analysis Bounds](images/intro-to-cp/asymptotic_bounds.png)
+![Asymptotic Analysis Bounds](images/intro-to-cp/intro-4.png)
 
 ## Big-O Notation
 
-![Big-O Notation Graph](images/intro-to-cp/asymptotic_big_o.png)
+![Big-O Notation Graph](images/intro-to-cp/intro-5.png)
 
 Big-O notation is the mathematical language we use to express the upper bound of an algorithm’s growth rate:
 
@@ -114,7 +114,7 @@ This simplifies to \(T(n) = O(n^2)\). We ignore the coefficient \(3\), the linea
 
 The higher you go up the ladder, the faster the algorithm’s performance degrades as the input size \(n\) increases.
 
-![Complexity Ladder](images/intro-to-cp/diagram_611363f2.jpg)
+![Complexity Ladder](images/intro-to-cp/intro-6.jpg)
 
 | Complexity | Type | Max \(n\) safe in ~1s |
 |---|---|---|
@@ -188,7 +188,9 @@ The inner loop runs exactly \(10\) times regardless of \(n\). Since \(10\) is a 
 
 $$10 \times n = 10n \rightarrow O(n)$$
 
-## Practice
+## Closing Notes
+
+Now that you understand how to measure efficiency, the next step is to start applying these concepts to real problems. The practice problems below are beginner-friendly and focus on basic I/O and simple logic — a good way to get comfortable with the online judge before diving into data structures and algorithms.
 
 | # | Problem | Platform | Difficulty |
 |---|---|---|---|
