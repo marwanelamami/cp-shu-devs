@@ -1,0 +1,76 @@
+<svg viewBox="0 0 2020 570" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- YOU ARE HERE bubble -->
+  <g>
+    <rect x="230" y="80" width="175" height="42" rx="21" fill="#ffffff" stroke="#2C4A7C" stroke-width="2"/>
+    <path d="M 300 122 L 318 122 L 309 138 Z" fill="#ffffff" stroke="#2C4A7C" stroke-width="2"/>
+    <text x="317" y="107" text-anchor="middle" fill="#2C4A7C" font-size="15" font-weight="bold" letter-spacing="0.5">YOU ARE HERE</text>
+  </g>
+
+  <!-- LCPC filled circle -->
+  <g filter="url(#glowRed)">
+    <circle cx="317" cy="268" r="105" fill="#2C4A7C"/>
+  </g>
+  <circle cx="317" cy="268" r="105" fill="#2C4A7C"/>
+  <text x="317" y="280" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="bold">LCPC</text>
+
+  <!-- ACPC outline circle -->
+  <circle cx="1022" cy="268" r="105" fill="#ffffff" stroke="#2C4A7C" stroke-width="4"/>
+  <text x="1022" y="280" text-anchor="middle" fill="#2C4A7C" font-size="30" font-weight="bold">ACPC</text>
+
+  <!-- ICPC World Finals outline circle -->
+  <circle cx="1725" cy="268" r="105" fill="#ffffff" stroke="#2C4A7C" stroke-width="4"/>
+  <text x="1725" y="245" text-anchor="middle" fill="#2C4A7C" font-size="26" font-weight="bold">ICPC</text>
+  <text x="1725" y="278" text-anchor="middle" fill="#2C4A7C" font-size="26" font-weight="bold">World</text>
+  <text x="1725" y="311" text-anchor="middle" fill="#2C4A7C" font-size="26" font-weight="bold">Finals</text>
+
+  <!-- Chevron arrows: LCPC -> ACPC (first faded, last near ACPC solid) -->
+  <g>
+    <!-- faded chevrons -->
+    <path d="M 440 250 L 460 268 L 440 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 485 250 L 505 268 L 485 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 530 250 L 550 268 L 530 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 575 250 L 595 268 L 575 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 620 250 L 640 268 L 620 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 665 250 L 685 268 L 665 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 710 250 L 730 268 L 710 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 755 250 L 775 268 L 755 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 800 250 L 820 268 L 800 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 845 250 L 865 268 L 845 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Chevron arrows: ACPC -> ICPC (mixed faded/solid, escalating near ICPC) -->
+  <g>
+    <path d="M 1145 250 L 1165 268 L 1145 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1190 250 L 1210 268 L 1190 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1235 250 L 1255 268 L 1235 286" fill="none" stroke="#A9BBD6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1280 246 L 1304 268 L 1280 290" fill="none" stroke="#5A7DAE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1328 242 L 1356 268 L 1328 294" fill="none" stroke="#3D6098" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1378 238 L 1410 268 L 1378 298" fill="none" stroke="#2C4A7C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1440 250 L 1460 268 L 1440 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1485 250 L 1505 268 L 1485 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1530 250 L 1550 268 L 1530 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 1575 250 L 1595 268 L 1575 286" fill="none" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Labels under LCPC -->
+  <text x="317" y="425" text-anchor="middle" fill="#1F2937" font-size="24" font-weight="bold">Libya Collegiate</text>
+  <text x="317" y="455" text-anchor="middle" fill="#1F2937" font-size="19">Programming Contest</text>
+
+  <!-- Labels under ACPC -->
+  <text x="1022" y="425" text-anchor="middle" fill="#4B5563" font-size="24" font-weight="bold">Arab Collegiate</text>
+  <text x="1022" y="455" text-anchor="middle" fill="#6B7280" font-size="19">Programming Contest</text>
+
+  <!-- Labels under ICPC -->
+  <text x="1725" y="425" text-anchor="middle" fill="#4B5563" font-size="24" font-weight="bold">ICPC World Finals</text>
+  <text x="1725" y="455" text-anchor="middle" fill="#6B7280" font-size="19">Top Teams Globally</text>
+</svg>
