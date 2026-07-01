@@ -1,0 +1,61 @@
+site_name: LCPC 2026
+site_description: Competitive Programming Bootcamp — Topics, Templates & Problems
+site_url: https://marwanelamami.github.io/lcpc-2026/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/marwanelamami/lcpc-2026
+repo_name: marwanelamami/lcpc-2026
+
+nav:
+  - Home: index.md
+  - Topics:
+    - Basics:
+      - Intro to CP & Complexity: topics/basics/intro-to-cp.md
+      - Arrays: topics/basics/arrays.md
+      - Kadane's Algorithm: topics/basics/kadanes-algorithm.md
+    - Two Pointers:
+      - Two Pointers: topics/two-pointers/two-pointers.md
+    - Sliding Window:
+      - Sliding Window: topics/sliding-window/sliding-window.md
+    - Prefix Sums:
+      - Prefix Sums: topics/prefix-sums/prefix-sums.md
+  - Resources: resources.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
