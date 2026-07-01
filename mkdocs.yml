@@ -42,11 +42,11 @@ nav:
         - Static Arrays: topics/basics/02-arrays/static-arrays.md
         - Dynamic Arrays: topics/basics/02-arrays/dynamic-arrays.md
       - Kadane's Algorithm: topics/basics/03-kadanes-algorithm/kadanes-algorithm.md
-      - Prefix Sums: topics/basics/04-prefix-sums/prefix-sums.md
-      - Two Pointers: topics/basics/05-two-pointers/two-pointers.md
       - Sliding Window:
-        - Fixed Size: topics/basics/06-sliding-window/fixed-size.md
-        - Variable Size: topics/basics/06-sliding-window/variable-size.md
+        - Fixed Size: topics/basics/04-sliding-window/fixed-size.md
+        - Variable Size: topics/basics/04-sliding-window/variable-size.md
+      - Two Pointers: topics/basics/05-two-pointers/two-pointers.md
+      - Prefix Sums: topics/basics/06-prefix-sums/prefix-sums.md
   - Resources: resources.md
 
 plugins:
