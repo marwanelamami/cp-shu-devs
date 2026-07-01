@@ -187,13 +187,3 @@ for i in range(1, n+1):
 The inner loop runs exactly \(10\) times regardless of \(n\). Since \(10\) is a constant:
 
 $$10 \times n = 10n \rightarrow O(n)$$
-
-## Closing Notes
-
-Now that you understand how to measure efficiency, the next step is to start applying these concepts to real problems. The practice problems below are beginner-friendly and focus on basic I/O and simple logic — a good way to get comfortable with the online judge before diving into data structures and algorithms.
-
-| # | Problem | Platform | Difficulty |
-|---|---|---|---|
-| 1 | [Watermelon](https://codeforces.com/problemset/problem/4/A) | Codeforces | 🟢 Very Easy |
-| 2 | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Codeforces | 🟢 Very Easy |
-| 3 | [Team](https://codeforces.com/problemset/problem/231/A) | Codeforces | 🟢 Very Easy |

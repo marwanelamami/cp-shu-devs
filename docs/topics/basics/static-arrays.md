@@ -126,7 +126,10 @@ The operations discussed above are critical for solving many problems. In fact, 
 
 | # | Problem | Platform | Difficulty |
 |---|---|---|---|
-| 1 | [Missing Number](https://cses.fi/problemset/task/1083) | CSES | 🟢 Very Easy |
-| 2 | [Increasing Array](https://cses.fi/problemset/task/1094) | CSES | 🟢 Very Easy |
-| 3 | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Codeforces | 🟢 Very Easy |
-| 4 | [Permutations](https://cses.fi/problemset/task/1070) | CSES | 🟢 Easy |
+| 1 | [Watermelon](https://codeforces.com/problemset/problem/4/A) | Codeforces | 🟢 Very Easy |
+| 2 | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Codeforces | 🟢 Very Easy |
+| 3 | [Team](https://codeforces.com/problemset/problem/231/A) | Codeforces | 🟢 Very Easy |
+| 4 | [Missing Number](https://cses.fi/problemset/task/1083) | CSES | 🟢 Very Easy |
+| 5 | [Increasing Array](https://cses.fi/problemset/task/1094) | CSES | 🟢 Very Easy |
+| 6 | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Codeforces | 🟢 Very Easy |
+| 7 | [Permutations](https://cses.fi/problemset/task/1070) | CSES | 🟢 Easy |
