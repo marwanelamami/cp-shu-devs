@@ -30,8 +30,6 @@ theme:
 extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
-extra_css: []
-
 repo_url: https://github.com/marwanelamami/cp-shu-devs
 repo_name: marwanelamami/cp-shu-devs
 
@@ -40,7 +38,9 @@ nav:
   - Topics:
     - Basics:
       - Intro to CP & Complexity: topics/basics/intro-to-cp.md
-      - Arrays: topics/basics/arrays.md
+      - Arrays:
+        - Static Arrays: topics/basics/static-arrays.md
+        - Dynamic Arrays: topics/basics/dynamic-arrays.md
       - Kadane's Algorithm: topics/basics/kadanes-algorithm.md
   - Resources: resources.md
 
