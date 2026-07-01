@@ -98,9 +98,3 @@ Arrays are often combined with:
 - Two pointers
 - Sliding window
 - Kadane’s algorithm
-
-## Practice
-
-| # | Problem | Platform | Difficulty |
-|---|---|---|---|
-| 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | 🟢 Easy |
