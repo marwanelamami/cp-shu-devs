@@ -73,13 +73,13 @@ Rather than measuring execution time in seconds (which varies depending on hardw
 ```python
 a = 1 + 1           # 2 operations (constant time)
 for i in range(n):  # n operations
-    for j in range(n):  # n² operations
+    for j in range(n):  # n^2 operations
         print(i, j)
 ```
 
 The total number of operations is represented by the Complexity Equation:
 
-\[T(n) = n^2 + n + 2\]
+$$T(n) = n^2 + n + 2$$
 
 As \(n\) grows extremely large, only the dominant term matters. The constants and smaller terms become negligible noise. This is the foundation of **Asymptotic Analysis** — we drop the smaller terms (\(n\) and \(2\)) to focus on the dominant rate of growth: \(n^2\).
 
@@ -99,12 +99,16 @@ In asymptotic analysis, we evaluate the growth rate of algorithms under differen
 
 Big-O notation is the mathematical language we use to express the upper bound of an algorithm’s growth rate:
 
-- **Mathematical Definition**: We write \(T(n) = O(f(n))\) to indicate that, for large \(n\), your algorithm’s operations grow no faster than \(f(n))\).
+- **Mathematical Definition**: We write \(T(n) = O(f(n))\) to indicate that, for large \(n\), your algorithm’s operations grow no faster than \(f(n)\).
 - **In Plain English**: It is an upper bound on how your algorithm scales — a worst-case guarantee that your algorithm will never perform worse than this.
 
 ### Example
 
-For the function \(T(n) = 3n^2 + 100n + 500\), this simplifies to \(T(n) = O(n^2)\). We ignore the coefficient \(3\), the linear term \(100n\), and the constant \(500\). We only focus on the dominant shape of growth, which is quadratic (\(n^2\)).
+For the function:
+
+$$T(n) = 3n^2 + 100n + 500$$
+
+This simplifies to \(T(n) = O(n^2)\). We ignore the coefficient \(3\), the linear term \(100n\), and the constant \(500\). We only focus on the dominant shape of growth, which is quadratic (\(n^2\)).
 
 ## The Complexity Ladder
 
@@ -116,13 +120,13 @@ The higher you go up the ladder, the faster the algorithm’s performance degrad
 |---|---|---|
 | \(O(1)\) | Constant | Any |
 | \(O(\log n)\) | Logarithmic | Any |
-| \(O(\sqrt{n})\) | Square Root | ~10¹⁶ |
-| \(O(n)\) | Linear | ~10⁸ |
-| \(O(n \log n)\) | Linearithmic | ~10⁷ |
-| \(O(n^2)\) | Quadratic | ~10⁴ |
-| \(O(n^3)\) | Cubic | ~10² |
-| \(O(2^n)\) | Exponential | ~20 |
-| \(O(n!)\) | Factorial | ~12 |
+| \(O(\sqrt{n})\) | Square Root | ~\(10^{16}\) |
+| \(O(n)\) | Linear | ~\(10^{8}\) |
+| \(O(n \log n)\) | Linearithmic | ~\(10^{7}\) |
+| \(O(n^2)\) | Quadratic | ~\(10^{4}\) |
+| \(O(n^3)\) | Cubic | ~\(10^{2}\) |
+| \(O(2^n)\) | Exponential | ~\(20\) |
+| \(O(n!)\) | Factorial | ~\(12\) |
 
 ## Complexity Analysis Examples
 
@@ -146,7 +150,9 @@ for i in range(1, n+1):
     if B[i] == t: return True
 ```
 
-The loops run one after the other. Total steps are \(n + n = 2n\). Since we drop constant factors: \(2n \rightarrow O(n)\).
+The loops run one after the other. Total steps are \(n + n = 2n\). Since we drop constant factors:
+
+$$2n \rightarrow O(n)$$
 
 ### Example 3 — Nested Loops
 
@@ -167,7 +173,8 @@ for i in range(1, n+1):
 ```
 
 Even though the inner loop runs fewer iterations on average, the quadratic growth shape is preserved:
-\[\frac{n(n-1)}{2} = \frac{1}{2}n^2 - \frac{1}{2}n \rightarrow O(n^2)\]
+
+$$\frac{n(n-1)}{2} = \frac{1}{2}n^2 - \frac{1}{2}n \rightarrow O(n^2)$$
 
 ### Example 5 — Constant Inner Loop
 
@@ -177,7 +184,9 @@ for i in range(1, n+1):
         print(A[i][j])
 ```
 
-The inner loop runs exactly \(10\) times regardless of \(n\). Since \(10\) is a constant: \(10 \times n = 10n \rightarrow O(n)\).
+The inner loop runs exactly \(10\) times regardless of \(n\). Since \(10\) is a constant:
+
+$$10 \times n = 10n \rightarrow O(n)$$
 
 ## Practice
 
