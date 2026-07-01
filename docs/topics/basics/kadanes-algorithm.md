@@ -31,7 +31,7 @@ def bruteForce(nums):
 While this approach works, it is not the most efficient. The intuition behind Kadane's algorithm is that:
 
 1. If all elements in the array are positive, the maximum sum subarray is the entire array.
-2. If we ever have a negative sum subarray, that's the case we want to avoid.
+2. If we ever have a negative sum subarray, that’s the case we want to avoid.
 
 ## Optimizing with Kadane's Algorithm
 
@@ -119,7 +119,3 @@ Next, we'll formally look at the sliding window technique. There are two variati
 | 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | 🟢 Easy |
 | 2 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | 🟡 Medium |
 | 3 | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | 🟢 Easy |
-
-## Source notes
-
-- [Kadane's Algorithm Notes](https://drive.google.com/open?id=1x_W1epn7zn5XrAVJlgyh-1k2IvYaCP5ILcVTpFECeUY)

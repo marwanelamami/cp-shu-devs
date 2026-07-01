@@ -104,7 +104,3 @@ Arrays are often combined with:
 | # | Problem | Platform | Difficulty |
 |---|---|---|---|
 | 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | 🟢 Easy |
-
-## Source notes
-
-- [Dynamic Arrays](https://docs.google.com/document/d/10m3mg6DnY-lYkePVDlsE_TYkiYws5x2r4jg5S-pYtEg/edit?usp=drive_link)

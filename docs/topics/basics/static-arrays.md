@@ -130,7 +130,3 @@ The operations discussed above are critical for solving many problems. In fact, 
 | 2 | [Increasing Array](https://cses.fi/problemset/task/1094) | CSES | 🟢 Very Easy |
 | 3 | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Codeforces | 🟢 Very Easy |
 | 4 | [Permutations](https://cses.fi/problemset/task/1070) | CSES | 🟢 Easy |
-
-## Source notes
-
-- [Static Arrays](https://drive.google.com/open?id=1gt2PgG9IUutOKj4JCO6xsg13B9grKIIaf0z63GFYzGg)

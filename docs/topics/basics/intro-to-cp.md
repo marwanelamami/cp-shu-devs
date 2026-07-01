@@ -197,7 +197,3 @@ Now that you understand how to measure efficiency, the next step is to start app
 | 1 | [Watermelon](https://codeforces.com/problemset/problem/4/A) | Codeforces | 🟢 Very Easy |
 | 2 | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Codeforces | 🟢 Very Easy |
 | 3 | [Team](https://codeforces.com/problemset/problem/231/A) | Codeforces | 🟢 Very Easy |
-
-## Source notes
-
-- [Session 1 Slides](https://drive.google.com/open?id=1qLEuowC8HPBUd8VHO-lth6u3nothMG3L)
