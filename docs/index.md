@@ -1,6 +1,8 @@
-# LCPC 2026 — Competitive Programming Bootcamp
+# CP-SHU-Devs
 
-Welcome to the official resource hub for the **LCPC 2026 CP Bootcamp**.
+**SHU Developers Club — Competitive Programming Hub**
+
+Welcome to the official CP resource hub, maintained by the SHU Developers Club.
 Here you'll find topic notes, Python templates, and curated problem lists.
 
 ---

@@ -1,6 +1,6 @@
-site_name: LCPC 2026
-site_description: Competitive Programming Bootcamp — Topics, Templates & Problems
-site_url: https://marwanelamami.github.io/lcpc-2026/
+site_name: CP-SHU-Devs
+site_description: SHU Developers Club — Competitive Programming Hub
+site_url: https://marwanelamami.github.io/cp-shu-devs/
 
 theme:
   name: material
@@ -27,8 +27,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-repo_url: https://github.com/marwanelamami/lcpc-2026
-repo_name: marwanelamami/lcpc-2026
+repo_url: https://github.com/marwanelamami/cp-shu-devs
+repo_name: marwanelamami/cp-shu-devs
 
 nav:
   - Home: index.md
