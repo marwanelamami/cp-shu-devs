@@ -5,103 +5,179 @@
 
 ---
 
-## What competitive programming is
+This topic covers the fundamentals of Competitive Programming, the metrics we use to judge algorithm efficiency, and how to analyze code complexity.
 
-Competitive programming is the practice of solving clearly specified algorithmic problems under strict time and memory limits. Your solution is judged automatically against hidden tests, so the goal is not only correctness but also efficiency and robustness.
+## What is Competitive Programming?
 
-Two skills are trained at the same time:
+Competitive programming is a mind sport that combines two distinct but equally important skills:
 
-- Designing algorithms: choosing the right idea and reasoning about why it works.
-- Implementing them well: writing code that is correct, fast, and safe under pressure.
+1. **Designing algorithms**: Requiring problem-solving abilities and mathematical thinking.
+2. **Implementing them**: Writing the code correctly and efficiently under tight time pressure.
 
-## Why it matters
+![What is CP](images/intro-to-cp/diagram_5f45b710.png)
 
-This style of problem solving builds mathematical thinking, pattern recognition, and disciplined implementation. It also mirrors the kind of reasoning tested in technical interviews and programming contests.
+In competitive programming, you are given a problem statement accompanied by strict execution time and memory limits. Your goal is to write a program that solves the problem correctly and within these bounds.
 
-## The online judge model
+Once submitted, your solution is judged automatically by an online system. It is either accepted or it is not — there is no partial credit, and no "almost correct" solutions.
 
-Most competitive programming happens on an online judge such as Codeforces or CSES.
+## Why Competitive Programming?
 
-The workflow is simple:
+Engaging in competitive programming offers several key benefits:
 
-1. Read the statement and constraints carefully.
-2. Design an algorithm that is correct and fast enough.
-3. Implement it.
-4. Submit it.
-5. Receive a verdict.
+- **Tech Career Preparation**: Technical interviews at top technology companies test exactly these problem-solving and implementation skills.
+- **Mathematical Growth**: It builds mathematical maturity and refines your ability to reason under constraints.
+- **Problem-Solving Mindset**: You are not just learning a list of algorithms; you are building a structured way of thinking.
 
-Common verdicts:
+As Antti Laaksonen states in the *Competitive Programmer's Handbook*:
+> “It takes a long time to become a good competitive programmer, but it is also an opportunity to learn a lot.”
+
+## The Competition Ladder
+
+The competitive programming landscape is structured like a ladder, scaling from local challenges to international arenas.
+
+![The Competition Ladder](images/intro-to-cp/competition_ladder.svg)
+
+## The Online Judge
+
+In competitive programming, you submit your code through a web interface. The online judge compiles your code and runs it against a set of hidden test cases. You never get to see these test cases; you must think of edge cases and verify your solution’s correctness on your own before submitting.
+
+Every submission returns exactly one of the following verdicts:
 
 | Verdict | Meaning |
 |---|---|
-| Accepted | Correct output within limits |
-| Wrong Answer | Incorrect output on at least one test |
-| Time Limit Exceeded | Logic may be correct, but too slow |
-| Runtime Error | Program crashed during execution |
-| Compilation Error | Code did not compile |
+| Accepted | Correct output, within time limit |
+| Wrong Answer | Incorrect output on at least one case |
+| Time Limit Exceeded | Correct logic, too slow |
+| Runtime Error | Crash — division by zero, out of bounds, etc. |
+| Compilation Error | Code didn’t compile |
 
-There is no partial credit. A solution either passes all tests or it does not.
+## Your First Problem
 
-## Algorithms and data structures
+To understand how to read problem constraints and construct solutions, we begin by analyzing a starter problem.
 
-An **algorithm** is the sequence of steps used to solve a problem. A **data structure** is the way data is organized so those steps can be done efficiently.
+![Your First Problem](images/intro-to-cp/diagram_3f5df78c.png)
 
-The same problem can become easy or hard depending on the data structure you choose. In competitive programming, strong solutions usually come from matching the right algorithm with the right structure.
+## Algorithms & Data Structures
 
-## Measuring efficiency
+Every solution in competitive programming is composed of an algorithm working in tandem with one or more data structures. If you modify one, the entire performance of your solution changes. An algorithm is only as fast as the data structures it runs on.
 
-We usually measure efficiency in terms of the input size `n`. Instead of counting seconds directly, we count how the number of operations grows as `n` grows.
+- **Algorithm**: A step-by-step method to solve a problem. It must be both correct and efficient. Think of it as *the recipe* — it defines what actions to perform and in what order.
+- **Data Structure**: A concrete way to organize and store data so that operations can be performed efficiently. It is *the container*, and its shape determines which operations are cheap and which are expensive.
 
-Examples:
+## Measuring Algorithm Efficiency
 
-- A single array access is constant time.
-- A full traversal over an array is linear time.
-- A nested loop over all pairs is often quadratic time.
+Rather than measuring execution time in seconds (which varies depending on hardware), we count the number of basic operations the algorithm performs relative to the input size \(n\).
 
-If an algorithm performs n² + n + 2 operations, we describe it as O(n²), because the dominant growth term matters most for large input sizes.
-
-## Big-O notation
-
-Big-O is an upper bound on how runtime grows.
-
-| Complexity | Name | Max n safe in ~1s |
-|---|---|---|
-| O(1) | Constant | Any |
-| O(log n) | Logarithmic | Any |
-| O(n) | Linear | ~10⁸ |
-| O(n log n) | Linearithmic | ~10⁷ |
-| O(n²) | Quadratic | ~10⁴ |
-| O(2ⁿ) | Exponential | ~20 |
-| O(n!) | Factorial | ~12 |
-
-## Small examples
-
-- One loop over n elements → O(n).
-- Two separate loops over n → still O(n), not O(n²).
-- A loop inside a loop over n → usually O(n²).
-- An inner loop that always runs exactly 10 times → still O(n) overall.
+### Example Code Analysis
 
 ```python
-# O(n)
-for i in range(n):
-    print(i)
-
-# O(n) — two loops, not nested
-for i in range(n):
-    print(i)
-for i in range(n):
-    print(i)
-
-# O(n²) — nested loops
-for i in range(n):
-    for j in range(n):
-        print(i, j)
-
-# Still O(n) — inner loop is constant
-for i in range(n):
-    for j in range(10):
+a = 1 + 1           # 2 operations (constant time)
+for i in range(n):  # n operations
+    for j in range(n):  # n² operations
         print(i, j)
 ```
+
+The total number of operations is represented by the Complexity Equation:
+
+\[T(n) = n^2 + n + 2\]
+
+As \(n\) grows extremely large, only the dominant term matters. The constants and smaller terms become negligible noise. This is the foundation of **Asymptotic Analysis** — we drop the smaller terms (\(n\) and \(2\)) to focus on the dominant rate of growth: \(n^2\).
+
+## Asymptotic Analysis & Bounds
+
+In asymptotic analysis, we evaluate the growth rate of algorithms under different scenarios:
+
+- **Worst Case (Upper Bound)**: The maximum number of operations the algorithm could perform.
+- **Average Case (Tight Bound)**: The expected behavior on typical inputs.
+- **Best Case (Lower Bound)**: The minimum operations required under ideal inputs.
+
+![Asymptotic Analysis Bounds](images/intro-to-cp/asymptotic_bounds.png)
+
+## Big-O Notation
+
+![Big-O Notation Graph](images/intro-to-cp/asymptotic_big_o.png)
+
+Big-O notation is the mathematical language we use to express the upper bound of an algorithm’s growth rate:
+
+- **Mathematical Definition**: We write \(T(n) = O(f(n))\) to indicate that, for large \(n\), your algorithm’s operations grow no faster than \(f(n))\).
+- **In Plain English**: It is an upper bound on how your algorithm scales — a worst-case guarantee that your algorithm will never perform worse than this.
+
+### Example
+
+For the function \(T(n) = 3n^2 + 100n + 500\), this simplifies to \(T(n) = O(n^2)\). We ignore the coefficient \(3\), the linear term \(100n\), and the constant \(500\). We only focus on the dominant shape of growth, which is quadratic (\(n^2\)).
+
+## The Complexity Ladder
+
+The higher you go up the ladder, the faster the algorithm’s performance degrades as the input size \(n\) increases.
+
+![Complexity Ladder](images/intro-to-cp/diagram_611363f2.jpg)
+
+| Complexity | Type | Max \(n\) safe in ~1s |
+|---|---|---|
+| \(O(1)\) | Constant | Any |
+| \(O(\log n)\) | Logarithmic | Any |
+| \(O(\sqrt{n})\) | Square Root | ~10¹⁶ |
+| \(O(n)\) | Linear | ~10⁸ |
+| \(O(n \log n)\) | Linearithmic | ~10⁷ |
+| \(O(n^2)\) | Quadratic | ~10⁴ |
+| \(O(n^3)\) | Cubic | ~10² |
+| \(O(2^n)\) | Exponential | ~20 |
+| \(O(n!)\) | Factorial | ~12 |
+
+## Complexity Analysis Examples
+
+Below are five practical examples demonstrating how to evaluate the Big-O complexity of different code structures.
+
+### Example 1 — Linear Search
+
+```python
+for i in range(1, n+1):
+    if A[i] == t: return True
+```
+
+**Complexity**: \(O(n)\) — Linear time.
+
+### Example 2 — Two Sequential Loops
+
+```python
+for i in range(1, n+1):
+    if A[i] == t: return True
+for i in range(1, n+1):
+    if B[i] == t: return True
+```
+
+The loops run one after the other. Total steps are \(n + n = 2n\). Since we drop constant factors: \(2n \rightarrow O(n)\).
+
+### Example 3 — Nested Loops
+
+```python
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        if A[i] == B[j]: return True
+```
+
+**Complexity**: \(O(n^2)\) — Quadratic time.
+
+### Example 4 — Dependent Boundaries
+
+```python
+for i in range(1, n+1):
+    for j in range(i+1, n+1):
+        if A[i] == A[j]: return True
+```
+
+Even though the inner loop runs fewer iterations on average, the quadratic growth shape is preserved:
+\[\frac{n(n-1)}{2} = \frac{1}{2}n^2 - \frac{1}{2}n \rightarrow O(n^2)\]
+
+### Example 5 — Constant Inner Loop
+
+```python
+for i in range(1, n+1):
+    for j in range(1, 11):
+        print(A[i][j])
+```
+
+The inner loop runs exactly \(10\) times regardless of \(n\). Since \(10\) is a constant: \(10 \times n = 10n \rightarrow O(n)\).
 
 ## Practice
 
