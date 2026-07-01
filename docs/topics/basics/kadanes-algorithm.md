@@ -1,37 +1,107 @@
 # Kadane's Algorithm
 
-**Category:** Basics | **Difficulty:** 🟡 Easy
+**Category:** Basics  
+**Difficulty:** 🟡 Easy
 
 ---
 
-## Intuition
+## Problem statement
 
-Kadane's algorithm finds the maximum sum subarray in O(n) by tracking the best sum ending at each position. At every index, you decide: extend the previous subarray or start fresh.
+Kadane's algorithm solves the **maximum subarray sum** problem:
 
-## Python Template
+> Find a non-empty contiguous subarray with the largest possible sum.
+
+This is one of the classic array problems because it reduces an O(n²) brute-force into a linear-time O(n) solution.
+
+## Brute force
+
+A direct approach tries every starting index and extends right while tracking the best sum.
 
 ```python
-def kadane(a):
-    max_sum = cur = a[0]
-    for x in a[1:]:
-        cur = max(x, cur + x)
-        max_sum = max(max_sum, cur)
-    return max_sum
-
-n = int(input())
-a = list(map(int, input().split()))
-print(kadane(a))
+def brute_force(nums):
+    best = nums[0]
+    for i in range(len(nums)):
+        cur = 0
+        for j in range(i, len(nums)):
+            cur += nums[j]
+            best = max(best, cur)
+    return best
 ```
 
-## Resources
+This works but costs O(n²).
 
-- 📹 [Video — Kadane's Algorithm](https://www.youtube.com/watch?v=86CQq3pKSUw)
-- 📖 [CP-Algorithms — Maximum Subarray](https://cp-algorithms.com/others/maximum_average_segment.html)
+## Key insight
 
-## Problems
+If the running sum becomes negative, keeping it will only hurt any future subarray. So discard it and start fresh.
+
+Two cases:
+
+- `[4, -1, 7]` — maximum sum is 10. We must include -1 to connect 4 and 7.
+- `[1, -3, 7]` — maximum sum is 7. Including -3 just to keep the 1 is not worth it.
+
+The rule: if the current subarray sum goes negative, reset and start a new subarray.
+
+## Linear solution
+
+```python
+def kadane(nums):
+    max_sum = nums[0]
+    cur_sum = 0
+
+    for x in nums:
+        cur_sum = max(cur_sum, 0)  # reset if negative
+        cur_sum += x
+        max_sum = max(max_sum, cur_sum)
+
+    return max_sum
+```
+
+`cur_sum` always holds the best subarray sum ending at the current position. Initializing `max_sum` from `nums[0]` (not zero) handles the all-negative case correctly.
+
+## Returning the actual subarray
+
+To return the interval, track a left pointer and update the best bounds whenever a new maximum is found.
+
+```python
+def kadane_window(nums):
+    max_sum = nums[0]
+    cur_sum = 0
+    left = 0
+    best_l = best_r = 0
+
+    for right in range(len(nums)):
+        if cur_sum < 0:
+            cur_sum = 0
+            left = right
+
+        cur_sum += nums[right]
+
+        if cur_sum > max_sum:
+            max_sum = cur_sum
+            best_l, best_r = left, right
+
+    return max_sum, best_l, best_r
+```
+
+## Complexity
+
+| Metric | Value |
+|---|---|
+| Time | O(n) — single pass |
+| Space | O(1) — only a few variables |
+
+## Connection to sliding window
+
+The version that returns the subarray is essentially a variable-size sliding window. When the constraint (non-negative sum) is broken, the left pointer jumps to the current position. This pattern appears repeatedly in other sliding window problems.
+
+## Practice
 
 | # | Problem | Platform | Difficulty |
-|---|---------|----------|------------|
+|---|---|---|---|
 | 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | 🟡 Easy |
 | 2 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | 🟠 Medium |
 | 3 | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | 🟡 Easy |
+
+## Source notes
+
+- [Kadane's Algorithm Notes](https://drive.google.com/open?id=1x_W1epn7zn5XrAVJlgyh-1k2IvYaCP5ILcVTpFECeUY)

@@ -37,12 +37,6 @@ nav:
       - Intro to CP & Complexity: topics/basics/intro-to-cp.md
       - Arrays: topics/basics/arrays.md
       - Kadane's Algorithm: topics/basics/kadanes-algorithm.md
-    - Two Pointers:
-      - Two Pointers: topics/two-pointers/two-pointers.md
-    - Sliding Window:
-      - Sliding Window: topics/sliding-window/sliding-window.md
-    - Prefix Sums:
-      - Prefix Sums: topics/prefix-sums/prefix-sums.md
   - Resources: resources.md
 
 plugins:
