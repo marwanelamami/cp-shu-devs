@@ -45,6 +45,8 @@ nav:
       - Sliding Window:
         - Fixed Size: topics/basics/sliding-window/fixed-size.md
         - Variable Size: topics/basics/sliding-window/variable-size.md
+      - Two Pointers: topics/basics/two-pointers.md
+      - Prefix Sums: topics/basics/prefix-sums.md
   - Resources: resources.md
 
 plugins:
