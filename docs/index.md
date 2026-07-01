@@ -14,8 +14,8 @@ Here you'll find topic notes, Python templates, and curated problem lists.
 | 1 | [Intro to CP & Complexity](topics/basics/intro-to-cp.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
 | 2 | [Arrays](topics/basics/arrays.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
 | 3 | [Kadane's Algorithm](topics/basics/kadanes-algorithm.md) | Basics | 🟢 Easy | ✅ Full notes available |
-| 4 | Prefix Sums | Basics | 🟢 Easy | 🔒 Coming soon |
-| 5 | Two Pointers | Basics | 🟢 Easy | 🔒 Coming soon |
+| 4 | [Prefix Sums](topics/basics/prefix-sums/prefix-sums.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 5 | [Two Pointers](topics/basics/two-pointers/two-pointers.md) | Basics | 🟢 Easy | ✅ Full notes available |
 | 6 | [Sliding Window (Fixed)](topics/basics/sliding-window/fixed-size.md) | Basics | 🟢 Easy | ✅ Full notes available |
 | 7 | [Sliding Window (Variable)](topics/basics/sliding-window/variable-size.md) | Basics | 🟡 Medium | ✅ Full notes available |
 

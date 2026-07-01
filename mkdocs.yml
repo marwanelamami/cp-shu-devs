@@ -42,6 +42,8 @@ nav:
         - Static Arrays: topics/basics/static-arrays.md
         - Dynamic Arrays: topics/basics/dynamic-arrays.md
       - Kadane's Algorithm: topics/basics/kadanes-algorithm.md
+      - Prefix Sums: topics/basics/prefix-sums/prefix-sums.md
+      - Two Pointers: topics/basics/two-pointers/two-pointers.md
       - Sliding Window:
         - Fixed Size: topics/basics/sliding-window/fixed-size.md
         - Variable Size: topics/basics/sliding-window/variable-size.md
