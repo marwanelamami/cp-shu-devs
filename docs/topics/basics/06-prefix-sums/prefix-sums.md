@@ -15,6 +15,8 @@ So, given an array `[2, -1, 3, -3, 4]`, the prefix sum array would be `[2, 1, 4,
 
 First, let's build our prefix sum. We can do this in a class called `PrefixSum`, which will take the array `nums` that we want to build a prefix sum for. We can then add each of the numbers in `nums` to a variable called `total` and append the `total` to our `prefix` array at each iteration.
 
+![Building a Prefix Sum Animation](../images/prefix-sums/prefix-sums-anim.svg)
+
 After building this sum, we can calculate the sum of any subarray that starts at `left` and ends at `right` in $O(1)$ time.
 
 We can do this by `prefix[right] - prefix[left - 1]`. The `- 1` will ensure we exclude the running sum of all the numbers before `left`. However, if `left` points to `0`, to avoid an index out of bounds error, we can use a ternary operator to check if `left` is `0` in which case we will return `0` as a substitute for `prefix[left - 1]`.
