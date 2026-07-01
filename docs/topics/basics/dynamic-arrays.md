@@ -24,7 +24,7 @@ def pushback(self, n):
     self.length += 1
 ```
 
-![Dynamic array insertion](images/arrays/arrays-5.png)
+![Dynamic array insertion](images/arrays/arrays-5.svg)
 
 ## Resize
 
@@ -42,7 +42,7 @@ def resize(self):
     self.arr = newArr
 ```
 
-![Resize operation](images/arrays/arrays-6.png)
+![Resize operation](images/arrays/arrays-6.svg)
 
 When all elements from the first array have been copied over, the original static array is deallocated.
 
@@ -52,7 +52,7 @@ Adding elements to a dynamic array runs in \(O(1)\) **amortized** time. Amortize
 
 Imagine filling up an array of size `8` starting from a size `1` array. The capacity would grow as: `1 → 2 → 4 → 8`.
 
-![Why double capacity](images/arrays/arrays-7.png)
+![Why double capacity](images/arrays/arrays-7.svg)
 
 To analyze the time complexity we must account for the **sum of all operations** that occurred before the last one. To achieve an array of size `8`:
 

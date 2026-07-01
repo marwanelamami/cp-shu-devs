@@ -21,7 +21,7 @@ myArray = [1, 3, 5]
 myArray[i]
 ```
 
-![Reading from an array](images/arrays/arrays-1.png)
+![Reading from an array](images/arrays/arrays-1.svg)
 
 Accessing a single element in an array is always instant because each index of `myArray` is mapped to an address in RAM. Regardless of the size of the input array, the time taken to access a single element is the same — we refer to this as `O(1)` in terms of time complexity.
 
@@ -63,7 +63,7 @@ def removeEnd(arr, length):
         arr[length - 1] = 0
 ```
 
-![Deleting from end](images/arrays/arrays-2.png)
+![Deleting from end](images/arrays/arrays-2.svg)
 
 ### Deleting at an Arbitrary Index
 
@@ -84,7 +84,7 @@ def removeMiddle(arr, i, length):
     # No need to 'remove' arr[i], since we already shifted
 ```
 
-![Deleting from middle](images/arrays/arrays-3.png)
+![Deleting from middle](images/arrays/arrays-3.svg)
 
 The worst case is shifting all elements to the left, which occurs when the target is the first index. Therefore, the above is \(O(n)\).
 
@@ -106,7 +106,7 @@ def insertMiddle(arr, i, n, length):
     arr[i] = n
 ```
 
-![Inserting into middle](images/arrays/arrays-4.png)
+![Inserting into middle](images/arrays/arrays-4.svg)
 
 > The visual above demonstrates that shifting occurs prior to insertion to ensure values are not overwritten.
 
