@@ -11,13 +11,13 @@ Here you'll find topic notes, Python templates, and curated problem lists.
 
 | # | Topic | Category | Difficulty | Status |
 |---|---|---|---|---|
-| 1 | [Intro to CP & Complexity](topics/basics/intro-to-cp.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
-| 2 | [Arrays](topics/basics/arrays.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
-| 3 | [Kadane's Algorithm](topics/basics/kadanes-algorithm.md) | Basics | 🟢 Easy | ✅ Full notes available |
-| 4 | [Prefix Sums](topics/basics/prefix-sums/prefix-sums.md) | Basics | 🟢 Easy | ✅ Full notes available |
-| 5 | [Two Pointers](topics/basics/two-pointers/two-pointers.md) | Basics | 🟢 Easy | ✅ Full notes available |
-| 6 | [Sliding Window (Fixed)](topics/basics/sliding-window/fixed-size.md) | Basics | 🟢 Easy | ✅ Full notes available |
-| 7 | [Sliding Window (Variable)](topics/basics/sliding-window/variable-size.md) | Basics | 🟡 Medium | ✅ Full notes available |
+| 1 | [Intro to CP & Complexity](topics/basics/01-intro-to-cp/intro-to-cp.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
+| 2 | [Arrays](topics/basics/02-arrays/arrays.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
+| 3 | [Kadane's Algorithm](topics/basics/03-kadanes-algorithm/kadanes-algorithm.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 4 | [Prefix Sums](topics/basics/04-prefix-sums/prefix-sums.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 5 | [Two Pointers](topics/basics/05-two-pointers/two-pointers.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 6 | [Sliding Window (Fixed)](topics/basics/06-sliding-window/fixed-size.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 7 | [Sliding Window (Variable)](topics/basics/06-sliding-window/variable-size.md) | Basics | 🟡 Medium | ✅ Full notes available |
 
 ---
 

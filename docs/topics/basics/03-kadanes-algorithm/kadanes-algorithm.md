@@ -56,7 +56,7 @@ The pattern is that if we ever have a negative subarray sum, we should discard i
 
 It's possible that every element in the array is negative. In that case, the maximum sum would be the largest negative number.
 
-![Kadane's Algorithm visualization](images/kadanes/kadanes-1.svg)
+![Kadane's Algorithm visualization](../images/kadanes/kadanes-1.svg)
 
 ```python
 def kadanes(nums):
@@ -97,7 +97,7 @@ def slidingWindow(nums):
     return [maxL, maxR]
 ```
 
-![Sliding window visualization](images/kadanes/kadanes-2.svg)
+![Sliding window visualization](../images/kadanes/kadanes-2.svg)
 
 > \* *The elements in red represent the current window*
 
