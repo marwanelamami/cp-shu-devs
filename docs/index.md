@@ -13,10 +13,10 @@ Here you'll find topic notes, Python templates, and curated problem lists.
 |---|---|---|---|---|
 | 1 | [Intro to CP & Complexity](topics/basics/intro-to-cp.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
 | 2 | [Arrays](topics/basics/arrays.md) | Basics | 🟢 Very Easy | ✅ Full notes available |
-| 3 | [Kadane's Algorithm](topics/basics/kadanes-algorithm.md) | Basics | 🟡 Easy | ✅ Full notes available |
-| 4 | Prefix Sums | Basics | 🟡 Easy | 🔒 Coming soon |
-| 5 | Two Pointers | Basics | 🟡 Easy | 🔒 Coming soon |
-| 6 | Sliding Window | Basics | 🟠 Medium | 🔒 Coming soon |
+| 3 | [Kadane's Algorithm](topics/basics/kadanes-algorithm.md) | Basics | 🟢 Easy | ✅ Full notes available |
+| 4 | Prefix Sums | Basics | 🟢 Easy | 🔒 Coming soon |
+| 5 | Two Pointers | Basics | 🟢 Easy | 🔒 Coming soon |
+| 6 | Sliding Window | Basics | 🟡 Medium | 🔒 Coming soon |
 
 ---
 
