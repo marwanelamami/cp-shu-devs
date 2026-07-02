@@ -11,6 +11,15 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Insertion Sort Algorithm | Programiz](https://www.programiz.com/dsa/insertion-sort) ⭐
+  - [Insertion Sort Explained using Animations |  bvdl․io](https://www.youtube.com/watch?v=HzteMqc4Gjg) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Insertion Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,7 +29,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Insertion Sort](https://vjudge.net/problem/Aizu-ALDS1_1_A) (ID: `aizu_alds1_1_a` | Difficulty: Easy | Solves: 88 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

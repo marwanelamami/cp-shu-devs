@@ -11,6 +11,21 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Arithmetic, modulo, and floor division operators in Python.*
+  - [Operators in Python | GeeksforGeeks](https://www.geeksforgeeks.org/python-operators/)
+
+### 📘 C++ & General Resources
+- [Arithmetic Operators | Tech With Tim](https://www.youtube.com/watch?v=CWtiqVQp8uk&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=5) ⭐ 🎥
+  - [Comparison Operators | Tech With Tim](https://www.youtube.com/watch?v=taBgBbXRadc&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=6) ⭐ 🎥
+  - [Logical Operators (And, Or and Not) | Tech With Tim](https://www.youtube.com/watch?v=F__aAx-3HOY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=7) ⭐ 🎥
+  - [C++ Operators | Programiz](https://www.programiz.com/cpp-programming/operators) ⭐
+  - [C++ Relational and Logical Operators | Programiz](https://www.programiz.com/cpp-programming/relational-logical-operators) ⭐
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

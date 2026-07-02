@@ -11,6 +11,15 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [C++ Program to Display Factors of a Number | Programiz](https://www.programiz.com/cpp-programming/examples/factors-number) ⭐
+  - [L2. Print all Divisors of a Number | Maths Playlist |  take U forward](https://www.youtube.com/watch?v=Ae_Ag_saG9s) ⭐ 🎥 *(find divisors in O(sqrt(n)))*
+  - [Find all divisors of a natural number - Set 2 in C++ | tutorialspoint](https://www.tutorialspoint.com/find-all-divisors-of-a-natural-number-set-2-in-cplusplus) *(code for divisors in O(sqrt(n)))*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,11 +29,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [How Many Divisors? ](https://vjudge.net/problem/Aizu-ITP1_3_D) (ID: `aizu_itp1_3_d` | Difficulty: Easy | Solves: 766)
-- [Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C) (ID: `codeforces_1294c` | Difficulty: Medium | Solves: 2 ⭐)
-- [k-th divisor](https://vjudge.net/problem/CodeForces-762A) (ID: `codeforces_762a` | Difficulty: Easy | Solves: 897 ⭐)
-- [Counting Divisors](https://cses.fi/problemset/task/1713) (ID: `cses_1713` | Difficulty: Easy | Solves: 1260 ⭐)
-- [Divisors](https://vjudge.net/problem/Gym-405759K) (ID: `gym_405759k` | Difficulty: Easy | Solves: 856 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

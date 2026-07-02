@@ -11,6 +11,19 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Introduction to Greedy Algorithms | USACO Guide](https://usaco.guide/bronze/intro-greedy?lang=cpp) ⭐
+  - [Greedy Algorithms with Sorting | USACO Guide](https://usaco.guide/silver/greedy-sorting?lang=cpp) ⭐
+  - [Greedy Algoritm by Abdul Bari](https://www.youtube.com/playlist?list=PL8zDQ1C22qvvwdkPj1uXLpwzcYDJtjnze) 🎥
+  - [Greedy Algorithms - Topic Stream |  Repovive TV](https://www.youtube.com/watch?v=g9-sRYP9Lvg&pp=ygUPcmVwb3ZpdmUgZ3JlZWR52AbEFw%3D%3D)
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

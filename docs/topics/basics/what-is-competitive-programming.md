@@ -11,6 +11,26 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Competitive-Programming-A-Complete-Guideline | YouKn0wWho](https://github.com/ShahjalalShohag/Competitive-Programming-A-Complete-Guideline) ⭐
+  - [What is Competitive Programming? | William Lin](https://www.youtube.com/watch?v=ueNT-w7Oluw&t=85s) ⭐ 🎥
+  - [How to start Competitive Programming? For beginners! | Errichto Algorithms](https://www.youtube.com/watch?v=xAeiXy8-9Y8) ⭐ 🎥
+  - [How to Practice | USACO Guide](https://usaco.guide/general/practicing?lang=cpp) ⭐
+  - [Contest Strategy | USACO Guide](https://usaco.guide/general/contest-strategy?lang=cpp) ⭐
+  - [Resources: Competitive Programming | USACO Guide](https://usaco.guide/general/resources-cp?lang=cpp) ⭐
+  - [Contests | USACO Guide](https://usaco.guide/general/contests?lang=cpp) ⭐
+  - [How to Debug | USACO Guide](https://usaco.guide/general/debugging-checklist?lang=cpp) ⭐
+  - [Basic Debugging | USACO Guide](https://usaco.guide/general/basic-debugging?lang=cpp) ⭐
+  - [My Video Tutorials for all the practice problems below [in Bangla]](https://www.youtube.com/watch?v=DX3NnP16r3I) 🎥
+  - [Editorial, Codes and AI Help for all the practice problems below](https://youkn0wwho.academy/demo/progress_tracking) ⭐ *(check Class 1 Problems)*
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

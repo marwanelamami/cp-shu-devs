@@ -11,6 +11,15 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Bubble Sort | Programiz](https://www.programiz.com/dsa/bubble-sort) ⭐
+  - [Bubble Sort Visualization | Bubble Sort Animation Video | Log2Base2](https://www.youtube.com/watch?v=p6I7LIUqQnU) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Bubble Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,8 +29,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Bubble Sort](https://vjudge.net/problem/DMOJ-sort1) (ID: `dmoj_sort1` | Difficulty: Easy | Solves: 147)
-- [Sorting: Bubble Sort](https://vjudge.net/problem/HackerRank-ctci-bubble-sort) (ID: `hackerrank_ctci_bubble_sort` | Difficulty: Easy | Solves: 168 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

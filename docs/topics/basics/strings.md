@@ -11,6 +11,19 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Python strings are immutable. Operations like concatenations create new strings.*
+  - [Python Strings & Character Manipulation | Real Python](https://realpython.com/python-strings/)
+
+### 📘 C++ & General Resources
+- [Strings | Tech With Tim](https://www.youtube.com/watch?v=QtP0PdLEvFk&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=13) 🎥
+  - [C++ Strings | Programiz](https://www.programiz.com/cpp-programming/strings)
+  - [C++ String Class | Programiz](https://www.programiz.com/cpp-programming/string-class)
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

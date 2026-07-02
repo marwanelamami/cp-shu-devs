@@ -11,6 +11,15 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Selection Sort Algorithm | Programiz](https://www.programiz.com/dsa/selection-sort) ⭐
+  - [Selection Sort Animation | Ravindu Sachintha](https://www.youtube.com/watch?v=XeP1K3UZ35M) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Selection Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,7 +29,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Selection Sort ](https://vjudge.net/problem/Aizu-ALDS1_2_B) (ID: `aizu_alds1_2_b` | Difficulty: Easy | Solves: 120 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

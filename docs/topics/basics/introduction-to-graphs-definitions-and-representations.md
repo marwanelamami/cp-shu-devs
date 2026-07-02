@@ -11,6 +11,26 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [A Gentle Introduction To Graph Theory | Vaidehi Joshi](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) ⭐
+  - [Introduction to Graph Theory: A Computer Science Perspective |  Reducible](https://www.youtube.com/watch?v=LFKZLXVO-Dg) 🎥
+  - [Graph Theory Introduction  WilliamFiset](https://www.youtube.com/watch?v=eQA-m22wjTQ) ⭐ 🎥
+  - [Chapter 11 Basics of graphs | CPH](https://usaco.guide/CPH.pdf#page=119) ⭐
+  - [Introduction to graph theory | CSAcademy](https://csacademy.com/lesson/introduction_to_graphs)
+  - [Graph representation | CSAcademy](https://csacademy.com/lesson/graph_representation)
+  - [Graph Representation | HackerEarth](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
+  - [গ্রাফ থিওরিতে হাতেখড়ি – ১ | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=143)
+  - [গ্রাফ থিওরিতে হাতেখড়ি – ২ (ভ্যারিয়েবলে গ্রাফ স্টোর-১) | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=184)
+  - [গ্রাফ থিওরিতে হাতেখড়ি – ৩ (ভ্যারিয়েবলে গ্রাফ স্টোর-২) | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=211)
+  - [Introduction to Graphs | USACO Guide](https://usaco.guide/bronze/intro-graphs?lang=cpp)
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

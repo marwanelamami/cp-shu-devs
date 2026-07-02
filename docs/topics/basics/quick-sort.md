@@ -11,6 +11,16 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Quicksort Algorithm | Programiz](https://www.programiz.com/dsa/quick-sort) ⭐
+  - [Quick Sort [Visual Explanation] | Manim Animation [4K] | CuriousWalk](https://www.youtube.com/watch?v=WprjBK0p6rw) ⭐ 🎥
+  - [QUICK SORT | Sorting Algorithms | DSA | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc) 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Quick Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,7 +30,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Quick Sort](https://vjudge.net/problem/Aizu-ALDS1_6_C) (ID: `aizu_alds1_6_c` | Difficulty: Easy | Solves: 28 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

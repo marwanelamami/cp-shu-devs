@@ -11,6 +11,18 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Pigeonhole Principle | Geeks for Geeks](https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/) ⭐
+  - [What Is the Pigeonhole Principle?  | Spanning Tree](https://www.youtube.com/watch?v=B2A2pGrDG8I) 🎥
+  - [Pigeonhole Principle | Brilliant](https://brilliant.org/wiki/pigeonhole-principle-definition/)
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

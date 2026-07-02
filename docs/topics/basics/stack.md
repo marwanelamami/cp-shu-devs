@@ -11,6 +11,20 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Implement stacks using list.append() and list.pop() or collections.deque.*
+  - [How to Implement a Stack in Python | Real Python](https://realpython.com/how-to-implement-python-stack/)
+
+### 📘 C++ & General Resources
+- [C++ Stack | Programiz](https://www.programiz.com/cpp-programming/stack) ⭐
+  - [Stack | C++ STL (Standard Template Library) | std::stack  Knowledge Center](https://www.youtube.com/watch?v=WK97Pj0wa7A&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=9) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the stack section)*
+  - [Stack in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/stack-in-cpp-stl/)
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

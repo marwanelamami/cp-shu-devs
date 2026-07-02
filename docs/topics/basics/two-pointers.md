@@ -11,6 +11,18 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Two Pointers Method | CF EDU](https://codeforces.com/edu/course/2/lesson/9) ⭐ *(Complete steps 1 and 2)*
+  - [Two Pointers | USACO Guide](https://usaco.guide/silver/two-pointers?lang=cpp) ⭐
+  - [8.1 Two pointers method | CPH](https://usaco.guide/CPH.pdf#page=87)
+  - [Two Pointers Technique | Geeks for Geeks](https://www.geeksforgeeks.org/two-pointers-technique/)
+  - [Visual introduction Two Pointer Algorithm | Data Structure and Algorithm for Coding Interviews |  Josh's DevBox](https://www.youtube.com/watch?v=On03HWe2tZM) 🎥
+  - [Two Pointers in 7 minutes | AlgoMasterIO](https://www.youtube.com/watch?v=QzZ7nmouLTI&list=PLK63NuByH5o9odyBT7nfYkHZyvGQ5oVp2)
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,27 +32,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A) (ID: `cf_edu_307092a` | Difficulty: Easy | Solves: 377 ⭐)
-- [Segment with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A) (ID: `cf_edu_307093a` | Difficulty: Easy | Solves: 331 ⭐)
-- [Segment with Big Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B) (ID: `cf_edu_307093b` | Difficulty: Easy | Solves: 305 ⭐)
-- [Number of Segments with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C) (ID: `cf_edu_307093c` | Difficulty: Easy | Solves: 273 ⭐)
-- [Number of Segments with Big Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D) (ID: `cf_edu_307093d` | Difficulty: Easy | Solves: 228)
-- [Segments with Small Set](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E) (ID: `cf_edu_307093e` | Difficulty: Medium | Solves: 178 ⭐)
-- [Segments with Small Spread](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/F) (ID: `cf_edu_307093f` | Difficulty: Medium | Solves: 147 ⭐)
-- [Three Parts of the Array](https://codeforces.com/problemset/problem/1006/C) (ID: `codeforces_1006c` | Difficulty: Easy | Solves: 198 ⭐)
-- [Number of Pairs](https://codeforces.com/problemset/problem/1538/C) (ID: `codeforces_1538c` | Difficulty: Medium | Solves: 154)
-- [Eating Candies](https://codeforces.com/contest/1669/problem/F) (ID: `codeforces_1669f` | Difficulty: Easy | Solves: 174)
-- [Quiz Master](https://codeforces.com/contest/1777/problem/C) (ID: `codeforces_1777c` | Difficulty: Medium | Solves: 86)
-- [Split](https://codeforces.com/problemset/problem/2148/E) (ID: `codeforces_2148e` | Difficulty: Medium | Solves: 4 ⭐)
-- [Books](https://codeforces.com/contest/279/problem/B) (ID: `codeforces_279b` | Difficulty: Easy | Solves: 281)
-- [They Are Everywhere](https://codeforces.com/problemset/problem/701/C) (ID: `codeforces_701c` | Difficulty: Easy | Solves: 160)
-- [Cellular Network](https://codeforces.com/contest/702/problem/C) (ID: `codeforces_702c` | Difficulty: Easy | Solves: 188)
-- [Playlist](https://cses.fi/problemset/task/1141) (ID: `cses_1141` | Difficulty: Easy | Solves: 233 ⭐)
-- [Sum of Two Values](https://cses.fi/problemset/task/1640) (ID: `cses_1640` | Difficulty: Easy | Solves: 476 ⭐)
-- [Sum of Three Values](https://cses.fi/problemset/task/1641) (ID: `cses_1641` | Difficulty: Easy | Solves: 287 ⭐)
-- [Sum of Four Values](https://cses.fi/problemset/task/1642) (ID: `cses_1642` | Difficulty: Easy | Solves: 264 ⭐)
-- [Subarray Sums I](https://cses.fi/problemset/task/1660) (ID: `cses_1660` | Difficulty: Easy | Solves: 269)
-- [Subarray Distinct Values](https://cses.fi/problemset/task/2428) (ID: `cses_2428` | Difficulty: Easy | Solves: 183 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

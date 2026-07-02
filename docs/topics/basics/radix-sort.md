@@ -11,6 +11,15 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Radix Sort Algorithm | Programiz](https://www.programiz.com/dsa/radix-sort) ⭐
+  - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Radix Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,7 +29,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Radix Sort](https://vjudge.net/problem/CodeChef-RDX) (ID: `codechef_rdx` | Difficulty: Easy | Solves: 42 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

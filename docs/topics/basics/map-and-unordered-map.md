@@ -11,6 +11,26 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*dict is a hash map. Use sortedcontainers.SortedDict for ordered keys.*
+  - [Python Dictionaries & Hash Maps | Real Python](https://realpython.com/python-dicts/)
+  - [Using sortedcontainers.SortedDict in Python](http://www.grantjenks.com/docs/sortedcontainers/sorteddict.html)
+
+### 📘 C++ & General Resources
+- [Maps | Tech With Tim](https://www.youtube.com/watch?v=7mwgA9XFIEQ&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=17) ⭐ 🎥
+  - [C++ Map | Programiz](https://www.programiz.com/cpp-programming/map)
+  - [Map | C++ STL (Standard Template Library) | std::map  Knowledge Center](https://www.youtube.com/watch?v=w1vDg3iBbLA&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=16) 🎥
+  - [Map in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
+  - [C++ Unordered Map | Programiz](https://www.programiz.com/cpp-programming/unordered-map) ⭐
+  - [unordered_map in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check map and unordered map sections)*
+  - [Blowing up unordered_map, and how to stop getting hacked on it  By neal](https://codeforces.com/blog/entry/62393) ⭐ *(basically use custom hashing when using unordered map)*
+  - [[Hindi] CP Course by Luv - Maps ](https://youtu.be/gUrfXZ0hqoA?feature=shared) 🎥
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

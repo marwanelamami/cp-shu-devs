@@ -11,6 +11,22 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*For loops, while loops, and range() function in Python.*
+  - [Python Loops (For & While) | Real Python](https://realpython.com/python-for-loop/)
+
+### 📘 C++ & General Resources
+- [For Loops  | Tech With Tim](https://www.youtube.com/watch?v=gVmTVsAn6EI&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=10) ⭐ 🎥
+  - [C++ for Loop | Programiz](https://www.programiz.com/cpp-programming/for-loop)
+  - [While, Do While Loops & Break/Continue | Tech With Tim](https://www.youtube.com/watch?v=aOskrzlcBRY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=11) ⭐ 🎥
+  - [C++ while and do...while Loop | Programiz](https://www.programiz.com/cpp-programming/do-while-loop)
+  - [C++ break Statement | Programiz](https://www.programiz.com/cpp-programming/break-statement) ⭐
+  - [C++ continue Statement | Programiz](https://www.programiz.com/cpp-programming/continue-statement) ⭐
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

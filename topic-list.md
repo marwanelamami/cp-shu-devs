@@ -154,6 +154,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Why Programming Is Important? |  Bugra Kilic](https://www.youtube.com/watch?v=Dv7gLpW91DM) ⭐ 🎥
+  - [What is Coding?  | TeXplaiNIT](https://www.youtube.com/watch?v=N7ZmPYaXoic) ⭐ 🎥
+  - [What is Programming? | Code Academy](https://www.codecademy.com/article/what-is-programming)
+  - [What is Computer Programming? | freecodecamp](https://www.freecodecamp.org/news/what-is-programming/) ⭐
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - No practice problems mapped to this topic.
 
@@ -169,6 +178,23 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Introduction | W3 Schools](https://www.w3schools.com/cpp/cpp_intro.asp) ⭐ *(read just this page, nothing more)*
+  - [CodeBlocks IDE Installation on Windows 10/11 [2023 Update] MinGW GCC Compiler | C & C++ Programming | Geeky Script](https://www.youtube.com/watch?v=zIhhO2DcW2s) 🎥
+  - [How to install CodeBlocks on Mac #1 CProgramming | CSBHASHA](https://www.youtube.com/watch?v=5kgtA6vPJOs) 🎥
+  - [Install and setup CodeBlocks C/C++ IDE on Linux |  LinuxH2O](https://www.youtube.com/watch?v=KTrQyyVmHDc) 🎥
+  - [How to Compile and Run C++ Code | Tech With Tim](https://www.youtube.com/watch?v=lPd13fsU-CQ&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=1) ⭐ 🎥
+  - [Getting Started With C++ | Programiz](https://www.programiz.com/cpp-programming/getting-started) ⭐
+  - [Your First C++ Program | Programiz](https://www.programiz.com/cpp-programming/first-program) ⭐
+  - [Online IDE](https://www.programiz.com/cpp-programming/online-compiler/) ⭐ *(you can run your code here without setting up any local environment! So if you want to code in your smartphone, you can do here! )*
+  - [C++ Tutorial for Beginners - Full Course |  freeCodeCamp.org](https://www.youtube.com/watch?v=vLnPwxZdW4Y) ⭐ 🎥 *(this contains everything about C++, you can complete it if you want but not necessary to do it now as we will cover all of them later.)*
+  - [Virtual Judge](https://vjudge.net/) ⭐ *(Create an account here, we will practice some problems on this judge. You can submit your code and test if your code is right or wrong automatically.)*
+
+**Python Resources**:
+*Setting up Python 3 interpreter and IDEs (VS Code, PyCharm).*
+  - [Python 3 Installation & Setup Guide | Real Python](https://realpython.com/installing-python/)
+  - [Python official tutorial for beginners](https://docs.python.org/3/tutorial/index.html)
+
 **Practice Problems**:
 - [Hello World](https://vjudge.net/problem/Aizu-ITP1_1_A) (ID: `aizu_itp1_1_a` | Difficulty: Easy | Solves: 1247 ⭐)
 
@@ -181,6 +207,22 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Program Structure |  Tech With Tim](https://www.youtube.com/watch?v=ckbfOdMhZls&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=2) ⭐ 🎥
+  - [Data Types and Variables | Tech With Tim](https://www.youtube.com/watch?v=zgutFVxOlTY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=3) ⭐ 🎥
+  - [User Input and Constants | Tech With Tim](https://www.youtube.com/watch?v=OA28SYILJv8&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=4) ⭐ 🎥
+  - [C++ Variables, Literals and Constants | Programiz](https://www.programiz.com/cpp-programming/variables-literals)
+  - [C++ Comments | Programiz](https://www.programiz.com/cpp-programming/comments)
+  - [C++ Data Types | Programiz](https://www.programiz.com/cpp-programming/data-types)
+  - [C++ Constants | Programiz](https://www.programiz.com/cpp-programming/constants)
+  - [C++ Basic Input/Output | Programiz](https://www.programiz.com/cpp-programming/input-output)
+  - [Data Types | USACO Guide](https://usaco.guide/general/data-types?lang=cpp) ⭐
+
+**Python Resources**:
+*Python's dynamic data types (int, float, str, bool, list, dict, set, tuple).*
+  - [Python Variables and Basic Data Types | Real Python](https://realpython.com/python-variables/)
+  - [Python Input and Output (sys.stdin & print) | GeeksforGeeks](https://www.geeksforgeeks.org/python-input-methods-in-competitive-programming/)
+
 **Practice Problems**:
 - [Basic Data Types](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/B) (ID: `gym_287306b` | Difficulty: Easy | Solves: 1134 ⭐)
 
@@ -192,6 +234,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Arithmetic Operators | Tech With Tim](https://www.youtube.com/watch?v=CWtiqVQp8uk&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=5) ⭐ 🎥
+  - [Comparison Operators | Tech With Tim](https://www.youtube.com/watch?v=taBgBbXRadc&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=6) ⭐ 🎥
+  - [Logical Operators (And, Or and Not) | Tech With Tim](https://www.youtube.com/watch?v=F__aAx-3HOY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=7) ⭐ 🎥
+  - [C++ Operators | Programiz](https://www.programiz.com/cpp-programming/operators) ⭐
+  - [C++ Relational and Logical Operators | Programiz](https://www.programiz.com/cpp-programming/relational-logical-operators) ⭐
+
+**Python Resources**:
+*Arithmetic, modulo, and floor division operators in Python.*
+  - [Operators in Python | GeeksforGeeks](https://www.geeksforgeeks.org/python-operators/)
 
 **Practice Problems**:
 - [Simple Calculator](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/C) (ID: `gym_287306c` | Difficulty: Easy | Solves: 1039 ⭐)
@@ -209,6 +262,14 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [ If, Else & Else If  | Tech With Tim](https://www.youtube.com/watch?v=Zkr0aAdD1Ww&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=8) ⭐ 🎥
+  - [C++ if, if...else and Nested if...else | Programiz](https://www.programiz.com/cpp-programming/if-else) ⭐
+
+**Python Resources**:
+*If, elif, and else statements in Python.*
+  - [Python Conditional Statements | Real Python](https://realpython.com/python-conditional-statements/)
 
 **Practice Problems**:
 - [Welcome for you with Conditions ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I) (ID: `gym_287306h` | Difficulty: Easy | Solves: 846 ⭐)
@@ -231,6 +292,18 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [For Loops  | Tech With Tim](https://www.youtube.com/watch?v=gVmTVsAn6EI&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=10) ⭐ 🎥
+  - [C++ for Loop | Programiz](https://www.programiz.com/cpp-programming/for-loop)
+  - [While, Do While Loops & Break/Continue | Tech With Tim](https://www.youtube.com/watch?v=aOskrzlcBRY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=11) ⭐ 🎥
+  - [C++ while and do...while Loop | Programiz](https://www.programiz.com/cpp-programming/do-while-loop)
+  - [C++ break Statement | Programiz](https://www.programiz.com/cpp-programming/break-statement) ⭐
+  - [C++ continue Statement | Programiz](https://www.programiz.com/cpp-programming/continue-statement) ⭐
+
+**Python Resources**:
+*For loops, while loops, and range() function in Python.*
+  - [Python Loops (For & While) | Real Python](https://realpython.com/python-for-loop/)
 
 **Practice Problems**:
 - [Max](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E) (ID: `cf_group_219432e` | Difficulty: Easy | Solves: 25)
@@ -261,6 +334,19 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Functions | Tech With Tim](https://www.youtube.com/watch?v=C83tPpvxIJA&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=20) ⭐ 🎥
+  - [C++ Functions | Programiz](https://www.programiz.com/cpp-programming/function) ⭐
+  - [C++ User-defined Function Types | Programiz](https://www.programiz.com/cpp-programming/user-defined-function-types) ⭐
+  - [C++ Programming Default Arguments (Parameters) | Programiz](https://www.programiz.com/cpp-programming/default-argument)
+  - [C++ Function Overloading | Programiz](https://www.programiz.com/cpp-programming/function-overloading)
+  - [Top 10 Most Used Inbuilt C++ functions for Competitive Programming | Geeks for Geeks](https://www.geeksforgeeks.org/top-10-most-used-inbuilt-c-functions-for-competitive-programming/) ⭐
+
+**Python Resources**:
+*Def, arguments, scoping, and recursion depth limit (sys.setrecursionlimit).*
+  - [Defining Your Own Python Function | Real Python](https://realpython.com/defining-your-own-python-function/)
+  - [Recursion in Python & sys.setrecursionlimit | GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-setrecursionlimit-method/)
+
 **Practice Problems**:
 - [Add](https://codeforces.com/group/MWSDmqGsZm/contest/223205/problem/A) (ID: `cf_group_223205a` | Difficulty: Easy | Solves: 625)
 - [Wonderful Number](https://codeforces.com/group/MWSDmqGsZm/contest/223205/problem/C) (ID: `cf_group_223205c` | Difficulty: Easy | Solves: 488 ⭐)
@@ -281,6 +367,18 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Arrays  | Tech With Tim](https://www.youtube.com/watch?v=1FVBeLD_FdE&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=9) ⭐ 🎥
+  - [C++ Arrays | Programiz](https://www.programiz.com/cpp-programming/arrays) ⭐
+  - [Passing Array to a Function in C++ Programming | Programiz](https://www.programiz.com/cpp-programming/passing-arrays-function)
+  - [C++ Multidimensional Arrays | Programiz](https://www.programiz.com/cpp-programming/multidimensional-arrays)
+  - [C++ pass arrays to functions | Bro Code](https://youtu.be/VQSroKMqISE)
+
+**Python Resources**:
+*Python lists function as dynamic arrays. For fixed-size static arrays, pre-allocate list memory.*
+  - [Python Lists & Dynamic Arrays | Real Python](https://realpython.com/python-lists-tuples/)
+  - [Pre-allocating lists in Python for efficiency](https://stackoverflow.com/questions/10324831/how-to-preallocate-lists-in-python)
 
 **Practice Problems**:
 - [Max](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E) (ID: `gym_287309e` | Difficulty: Easy | Solves: 557)
@@ -314,6 +412,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Strings | Tech With Tim](https://www.youtube.com/watch?v=QtP0PdLEvFk&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=13) 🎥
+  - [C++ Strings | Programiz](https://www.programiz.com/cpp-programming/strings)
+  - [C++ String Class | Programiz](https://www.programiz.com/cpp-programming/string-class)
+
+**Python Resources**:
+*Python strings are immutable. Operations like concatenations create new strings.*
+  - [Python Strings & Character Manipulation | Real Python](https://realpython.com/python-strings/)
+
 **Practice Problems**:
 - [Say Hello With C++ ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/A) (ID: `gym_287306a` | Difficulty: Easy | Solves: 530 ⭐)
 - [The Brothers ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L) (ID: `gym_287306k` | Difficulty: Medium | Solves: 419)
@@ -341,6 +448,19 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Pointers (*) | Tech With Tim](https://www.youtube.com/watch?v=jUbOcBkdMF0&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=15) ⭐ 🎥
+  - [References (&) | Tech With Tim](https://www.youtube.com/watch?v=RGYGiLUAQ3c&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=14) ⭐ 🎥
+  - [Pointers in C/C++](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) ⭐ 🎥
+  - [C++ Pointers | Programiz](https://www.programiz.com/cpp-programming/pointers)
+  - [C++ Pointers and Arrays | Programiz](https://www.programiz.com/cpp-programming/pointers-arrays)
+  - [C++ References | Programiz](https://www.programiz.com/cpp-programming/references)
+  - [C++ Pass by Reference | Programiz](https://www.programiz.com/cpp-programming/pointers-function) ⭐
+
+**Python Resources**:
+*Python does not have pointers. Variables hold references to objects. Pass-by-object-reference.*
+  - [Pass by Reference or Value in Python? | Real Python](https://realpython.com/python-pass-by-reference/)
+
 **Practice Problems**:
 - [Pointer](https://vjudge.net/problem/HackerRank-c-tutorial-pointer) (ID: `hackerrank_c_tutorial_pointer` | Difficulty: Easy | Solves: 386 ⭐)
 
@@ -352,6 +472,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 0
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [C++ Structures | Programiz](https://www.programiz.com/cpp-programming/structure) ⭐
+  - [C++ Structure and Function | Programiz](https://www.programiz.com/cpp-programming/structure-function)
+  - [Structure In C++ | CppNuts](https://www.youtube.com/watch?v=_vmtpsNgD7o) 🎥
+
+**Python Resources**:
+*Representing structures using class, dict, or dataclasses.*
+  - [Python 3's f-Strings & Dataclasses Guide | Real Python](https://realpython.com/python-data-classes/)
 
 **Practice Problems**:
 - No practice problems mapped to this topic.
@@ -365,6 +494,22 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: No
+
+**C++ Resources**:
+- [Competitive-Programming-A-Complete-Guideline | YouKn0wWho](https://github.com/ShahjalalShohag/Competitive-Programming-A-Complete-Guideline) ⭐
+  - [What is Competitive Programming? | William Lin](https://www.youtube.com/watch?v=ueNT-w7Oluw&t=85s) ⭐ 🎥
+  - [How to start Competitive Programming? For beginners! | Errichto Algorithms](https://www.youtube.com/watch?v=xAeiXy8-9Y8) ⭐ 🎥
+  - [How to Practice | USACO Guide](https://usaco.guide/general/practicing?lang=cpp) ⭐
+  - [Contest Strategy | USACO Guide](https://usaco.guide/general/contest-strategy?lang=cpp) ⭐
+  - [Resources: Competitive Programming | USACO Guide](https://usaco.guide/general/resources-cp?lang=cpp) ⭐
+  - [Contests | USACO Guide](https://usaco.guide/general/contests?lang=cpp) ⭐
+  - [How to Debug | USACO Guide](https://usaco.guide/general/debugging-checklist?lang=cpp) ⭐
+  - [Basic Debugging | USACO Guide](https://usaco.guide/general/basic-debugging?lang=cpp) ⭐
+  - [My Video Tutorials for all the practice problems below [in Bangla]](https://www.youtube.com/watch?v=DX3NnP16r3I) 🎥
+  - [Editorial, Codes and AI Help for all the practice problems below](https://youkn0wwho.academy/demo/progress_tracking) ⭐ *(check Class 1 Problems)*
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b) (ID: `atcoder_abc051_b` | Difficulty: Medium | Solves: 489 ⭐)
@@ -396,6 +541,18 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Bitwise Operators | Programiz](https://www.programiz.com/cpp-programming/bitwise-operators) ⭐
+  - [Bitwise operations for beginners  By Errichto](https://codeforces.com/blog/entry/73490) ⭐ 🎥
+  - [Learn these 10 Bitwise Tricks Or Regret Later | Competitive Programming Tricks Part 2  | TLE Eliminators](https://youtu.be/LGrE0siZ-ZA?si=Ohjq6KG7pHqf8st0) 🎥
+  - [Bitwise Operators and Why we use them](https://www.youtube.com/watch?v=igIjGxF2J-w | Alex Hyett)
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Bitwise%20Operations.cpp)
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Bitmasks.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Many Formulas ](https://vjudge.net/problem/AtCoder-arc061_a) (ID: `atcoder_arc061_a` | Difficulty: Medium | Solves: 366)
 - [Knapsack](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/U) (ID: `cf_group_223339u` | Difficulty: Hard | Solves: 652 ⭐)
@@ -426,6 +583,20 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Mastering Big O Notation: Understanding Time and Space Complexity in Algorithms | Chinenye Okeke](https://medium.com/@DevChy/introduction-to-big-o-notation-time-and-space-complexity-f747ea5bca58) ⭐
+  - [Introduction to Big-O  WilliamFiset](https://www.youtube.com/watch?v=zUUkiEllHG0) ⭐ 🎥
+  - [Big O Notation & Time Complexity Analysis Tutorial  | Tech With Tim](https://www.youtube.com/watch?v=6aDHWSNKlVw) 🎥
+  - [Big-O Notation - For Coding Interviews | NeetCode](https://www.youtube.com/watch?v=BgLTDT03QtU) 🎥
+  - [Time Complexity | USACO Guide](https://usaco.guide/bronze/time-comp?lang=cpp) ⭐
+  - [Complete Guide On Complexity Analysis – Data Structure and Algorithms Tutorial | Geeks for Geeks](https://www.geeksforgeeks.org/complete-guide-on-complexity-analysis/)
+  - [A Time Complexity Guide  By UnexpectedValue](https://codeforces.com/blog/entry/104888)
+  - [How to determine the solution of a problem by looking at its constraints?  By eanacra](https://codeforces.com/blog/entry/21344) ⭐
+  - [Introduction to Big O Notation and Time Complexity |  CS Dojo](https://www.youtube.com/watch?v=D6xkbGLQesk) 🎥
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b) (ID: `atcoder_abc051_b` | Difficulty: Medium | Solves: 489 ⭐)
 - [Divisibility Problem](https://codeforces.com/problemset/problem/1328/A) (ID: `codeforces_1328a` | Difficulty: Easy | Solves: 492 ⭐)
@@ -443,6 +614,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: No
 
+**C++ Resources**:
+- [Fast Input/Output | G&G](https://www.youtube.com/watch?v=DhPMRStOU7o) ⭐ 🎥
+  - [Fast input output ](https://youtu.be/aNF4DEluWnI?si=hzmaGxIlAl1Pb3ue) 🎥
+  - [Fast Input & Output | USACO Guide](https://usaco.guide/general/fast-io?lang=cpp) ⭐
+
+**Python Resources**:
+*Avoiding TLE in Python by using sys.stdin.readline and sys.stdout.write.*
+  - [Fast I/O methods in Python for CP | GeeksforGeeks](https://www.geeksforgeeks.org/fast-i-o-for-competitive-programming-in-python/)
+
 **Practice Problems**:
 - [Enormous Input and Output Test ](https://vjudge.net/problem/SPOJ-INOUTEST) (ID: `spoj_inoutest` | Difficulty: Easy | Solves: 486 ⭐)
 
@@ -455,6 +635,18 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Recursion in C | Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjTO_UNGKuaaoxEqvSF0t5h) ⭐ 🎥 *(check the full playlist)*
+  - [C++ Recursion](https://www.programiz.com/cpp-programming/recursion) ⭐
+  - [5 Simple Steps for Solving Any Recursive Problem | Reducible](https://www.youtube.com/watch?v=ngCos392W4w) ⭐ 🎥
+  - [Towers of Hanoi: A Complete Recursive Visualization | Reducible](https://www.youtube.com/watch?v=rf6uf3jNjbo&list=PLpXOY-RxVRTM_-Lvss2ezy1lVl6VUrzW2&index=2) ⭐ 🎥
+  - [Introduction to Recursion – Data Structure and Algorithm Tutorials | Geeks for Geeks](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
+  - [[Bangla] An In-depth Analysis of Function and Recursion in Competitive Programming - YouKn0wWho Academy](https://www.youtube.com/watch?v=QwR1_GXnNkA) 🎥
+  - [Recursion Series | take U forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9) 🎥
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Print Recursion](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/A) (ID: `cf_group_223339a` | Difficulty: Easy | Solves: 876 ⭐)
@@ -482,6 +674,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Program to Display Factors of a Number | Programiz](https://www.programiz.com/cpp-programming/examples/factors-number) ⭐
+  - [L2. Print all Divisors of a Number | Maths Playlist |  take U forward](https://www.youtube.com/watch?v=Ae_Ag_saG9s) ⭐ 🎥 *(find divisors in O(sqrt(n)))*
+  - [Find all divisors of a natural number - Set 2 in C++ | tutorialspoint](https://www.tutorialspoint.com/find-all-divisors-of-a-natural-number-set-2-in-cplusplus) *(code for divisors in O(sqrt(n)))*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Divisors.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [How Many Divisors? ](https://vjudge.net/problem/Aizu-ITP1_3_D) (ID: `aizu_itp1_3_d` | Difficulty: Easy | Solves: 766)
 - [Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C) (ID: `codeforces_1294c` | Difficulty: Medium | Solves: 2 ⭐)
@@ -497,6 +699,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [GCD of Two Numbers in C++ | Geeks for Geeks](https://www.geeksforgeeks.org/gcd-in-cpp/) ⭐
+  - [C++ Program to Find LCM | Programiz](https://www.programiz.com/cpp-programming/examples/lcm) ⭐
+  - [Properties Of GCD function](https://codeforces.com/blog/entry/95694)
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/GCD%20and%20LCM.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Annoying String Problem](https://atcoder.jp/contests/arc181/tasks/arc181_b) (ID: `atcoder_arc181_b` | Difficulty: Hard | Solves: 36)
@@ -522,6 +734,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Harmonic number | Wiki](https://en.wikipedia.org/wiki/Harmonic_number) *(just check the definition)*
+  - [Proof: harmonic series diverges | Series | AP Calculus BC | Khan Academy](https://www.youtube.com/watch?v=4yyLfrsSXQQ) 🎥 *(understand the proof)*
+  - [what is the complexity of harmonic series](https://math.stackexchange.com/questions/2406498/what-is-the-complexity-of-harmonic-series) ⭐ *(understand why the time complexity is O(n logn). Then check the template code below.)*
+  - [[Slightly Hard] Investigating harmonic numbers By Proofy](https://codeforces.com/blog/entry/118001) *(Understand harmonic numbers and their application deeper.)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Harmonic%20Number%20Example.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Aliquot Sum](https://codeforces.com/gym/103373/problem/B) (ID: `cf_gym_103373b` | Difficulty: Easy | Solves: 467 ⭐)
 - [Super Hero](https://www.codechef.com/START159B/problems/SUPER_HERO) (ID: `codechef_super_hero` | Difficulty: Medium | Solves: 49)
@@ -543,6 +766,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Prefix Sums - Problems | Errichto Algorithms](https://www.youtube.com/watch?v=PhgtNY_-CiY) ⭐ 🎥
+  - [Introduction to Prefix Sums | USACO Guide](https://usaco.guide/silver/prefix-sums?lang=cpp) ⭐
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Prefix%20Sum.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Prefix Sum](https://www.geeksforgeeks.org/prefix-sum-in-python/)
 
 **Practice Problems**:
 - [Sum of Subarrays](https://atcoder.jp/contests/abc423/tasks/abc423_e) (ID: `atcoder_abc423_e` | Difficulty: Extreme | Solves: 2)
@@ -582,6 +815,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Prefix Xor Array | Geeks for Geeks](https://www.geeksforgeeks.org/prefix-xor-array/)
+  - [CSES - Range Xor Queries | USACO Guide](https://usaco.guide/problems/cses-1650-range-xor-queries/solution) ⭐
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Prefix%20Xor.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Range Xor Queries](https://cses.fi/problemset/task/1650) (ID: `cses_1650` | Difficulty: Easy | Solves: 514 ⭐)
 
@@ -595,6 +837,19 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Standard Template Library | Programiz](https://www.programiz.com/cpp-programming/standard-template-library) ⭐
+  - [Introduction | C++ STL (Standard Template Library) | Knowledge Center](https://www.youtube.com/watch?v=BKBXM7ypQG0&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=1) ⭐ 🎥
+  - [Containers C++ | C++ STL (Standard Template Library)  Knowledge Center](https://www.youtube.com/watch?v=1MmpefbNGeU&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=2) ⭐ 🎥
+  - [Iterators in C++ | C++ STL (Standard Template Library) | types of Iterators  Knowledge Center](https://www.youtube.com/watch?v=wjfb2kT6dtI&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=3) ⭐ 🎥
+  - [Iterators Functions | C++ STL (Standard Template Library) | 4 important iterator functions  Knowledge Center](https://www.youtube.com/watch?v=aATdPX_5T_Q&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=4) ⭐ 🎥
+  - [Iterator Invalidation | C++ STL (Standard Template Library)  Knowledge Center](https://www.youtube.com/watch?v=MW9Cs4cCyTI&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=5) 🎥
+  - [C++ Iterators | Programiz](https://www.programiz.com/cpp-programming/iterators) ⭐
+
+**Python Resources**:
+*Introduction to Python's built-in containers (list, tuple, dict, set, collections).*
+  - [Python Collections Module | GeeksforGeeks](https://www.geeksforgeeks.org/python-collections-module/)
+
 **Practice Problems**:
 - No practice problems mapped to this topic.
 
@@ -606,6 +861,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Pair in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/pair-in-cpp-stl/) ⭐
+  - [Tuples | Tech With Tim](https://www.youtube.com/watch?v=T9-agjKW4PQ) ⭐ 🎥
+  - [Tuples in C++ | Geeks for Geeks](https://www.geeksforgeeks.org/tuples-in-c/) ⭐
+
+**Python Resources**:
+*Tuples are immutable sequences, equivalent to std::pair and std::tuple.*
+  - [Python Tuples & Named Tuples | Real Python](https://realpython.com/python-lists-tuples/#python-tuples)
 
 **Practice Problems**:
 - [A1. Balanced Shuffle (Easy)](https://codeforces.com/problemset/problem/1970/A1) (ID: `codeforces_1970a1` | Difficulty: Easy | Solves: 288 ⭐)
@@ -619,6 +883,19 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Vectors | Tech With Tim](https://www.youtube.com/watch?v=RXzzE2wnnlo&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=18) ⭐ 🎥
+  - [C++ Vectors | Programiz](https://www.programiz.com/cpp-programming/vectors) ⭐
+  - [Vector | C++ STL (Standard Template Library) | std::vector  Knowledge Center](https://www.youtube.com/watch?v=0DNDvuHZDiQ&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=6) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the whole vector section)*
+  - [Vector in C++ STL | TUF](https://takeuforward.org/c/vector-in-c-stl/)
+  - [Vector in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+  - [[Hindi] Vector In C++ STL | CodeWithHarry](https://www.youtube.com/watch?v=wKDvMcJiEPM) 🎥
+
+**Python Resources**:
+*Python list is implemented as a dynamic array with amortized O(1) append.*
+  - [Python Lists - Under the Hood | GeeksforGeeks](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
 
 **Practice Problems**:
 - [Vector](https://vjudge.net/problem/Aizu-ITP2_1_A) (ID: `aizu_itp2_1_a` | Difficulty: Easy | Solves: 384 ⭐)
@@ -638,6 +915,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Stack | Programiz](https://www.programiz.com/cpp-programming/stack) ⭐
+  - [Stack | C++ STL (Standard Template Library) | std::stack  Knowledge Center](https://www.youtube.com/watch?v=WK97Pj0wa7A&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=9) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the stack section)*
+  - [Stack in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/stack-in-cpp-stl/)
+
+**Python Resources**:
+*Implement stacks using list.append() and list.pop() or collections.deque.*
+  - [How to Implement a Stack in Python | Real Python](https://realpython.com/how-to-implement-python-stack/)
+
 **Practice Problems**:
 - [Scope](https://atcoder.jp/contests/abc283/tasks/abc283_d) (ID: `atcoder_abc283_d` | Difficulty: Medium | Solves: 25)
 - [Even Positions](https://codeforces.com/problemset/problem/1997/C) (ID: `codeforces_1997c` | Difficulty: Easy | Solves: 43)
@@ -656,6 +943,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Queue | Programiz](https://www.programiz.com/cpp-programming/queue) ⭐
+  - [Queue | C++ STL (Standard Template Library) | std::queue  Knowledge Center](https://www.youtube.com/watch?v=M73wcfBwX7Y&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=10) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the queue section)*
+  - [Queue in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/queue-cpp-stl/)
+
+**Python Resources**:
+*Use collections.deque for O(1) double-ended queues. Do not use queue.Queue as it is thread-safe and slow.*
+  - [Python Queue & collections.deque | Real Python](https://realpython.com/python-queue/)
+
 **Practice Problems**:
 - [Queue](https://vjudge.net/problem/Aizu-ALDS1_3_B) (ID: `aizu_alds1_3_b` | Difficulty: Easy | Solves: 212 ⭐)
 - [Jzzhu and Children](https://codeforces.com/contest/450/problem/A) (ID: `codeforces_450a` | Difficulty: Medium | Solves: 104)
@@ -670,6 +967,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [C++ Priority Queue | Programiz](https://www.programiz.com/cpp-programming/priority-queue) ⭐
+  - [Priority Queue | C++ STL (Standard Template Library) | std::priority_queue  Knowledge Center](https://www.youtube.com/watch?v=WhIcVlkZ19s&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=11) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the priority queue section)*
+  - [Priority Queue in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
+
+**Python Resources**:
+*heapq module implements binary min-heaps. Multiply by -1 for max-heap.*
+  - [Python's heapq: Guide to Priority Queues | Real Python](https://realpython.com/python-heapq-module/)
 
 **Practice Problems**:
 - [Priority Queue](https://vjudge.net/problem/Aizu-ALDS1_9_C) (ID: `aizu_alds1_9_c` | Difficulty: Easy | Solves: 245 ⭐)
@@ -691,6 +998,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ Deque | Programiz](https://www.programiz.com/cpp-programming/deque) ⭐
+  - [Deque | C++ STL (Standard Template Library) | std::deque  Knowledge Center](https://www.youtube.com/watch?v=3U_Eg9WdGr0&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=8) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the deque section)*
+  - [Deque in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/deque-cpp-stl/)
+
+**Python Resources**:
+*Double ended queue with fast appends and pops on both ends.*
+  - [Python collections.deque: Double-Ended Queue | Real Python](https://realpython.com/python-deque/)
+
 **Practice Problems**:
 - [Deque](https://vjudge.net/problem/Aizu-ITP2_1_B) (ID: `aizu_itp2_1_b` | Difficulty: Easy | Solves: 130)
 - [Valeriy and Deque ](https://vjudge.net/problem/CodeForces-1179A) (ID: `codeforces_1179a` | Difficulty: Hard | Solves: 118 ⭐)
@@ -711,6 +1028,26 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Sets  | Tech With Tim](https://www.youtube.com/watch?v=682xT_TcKUg&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=19) ⭐ 🎥
+  - [C++ Set | Programiz](https://www.programiz.com/cpp-programming/set)
+  - [Set | C++ STL (Standard Template Library) | std::set 🔥  Knowledge Center](https://www.youtube.com/watch?v=2OEnAdl1eLc&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=12) 🎥
+  - [Set in C++ | TUF](https://takeuforward.org/c/set-in-c-stl/)
+  - [Set in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/set-in-cpp-stl/)
+  - [Unordered Set | C++ STL (Standard Template Library) | std::unordered_set 🔥  Knowledge Center](https://www.youtube.com/watch?v=g5RGA50LGCA&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=14) ⭐ 🎥
+  - [C++ Unordered Set | Programiz](https://www.programiz.com/cpp-programming/unordered-set)
+  - [Unordered-set in C++ STL | TUF](https://takeuforward.org/c/unordered-set-in-c-stl/)
+  - [Unordered Sets in C++ Standard Template Library | Geeks for Geeks](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)
+  - [Multi Set | C++ STL (Standard Template Library) | std::multiset 🔥  Knowledge Center](https://www.youtube.com/watch?v=iJCnqHrkPq8&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=13) ⭐ 🎥
+  - [C++ Multiset | Programiz](https://www.programiz.com/cpp-programming/multiset)
+  - [Multiset in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check set, multiset and unordered set sections)*
+
+**Python Resources**:
+*set is a hash-based set. Python lacks a built-in balanced BST-based ordered set. Use bisect or sortedcontainers.*
+  - [Python Sets & Hash Sets | Real Python](https://realpython.com/python-sets/)
+  - [Using sortedcontainers.SortedSet in Python](http://www.grantjenks.com/docs/sortedcontainers/sortedset.html)
+
 **Practice Problems**:
 - [Unexpressed](https://atcoder.jp/contests/abc193/tasks/abc193_c) (ID: `atcoder_abc193_c` | Difficulty: Easy | Solves: 95)
 - [Towers](https://cses.fi/problemset/task/1073) (ID: `cses_1073` | Difficulty: Medium | Solves: 386 ⭐)
@@ -728,6 +1065,22 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Maps | Tech With Tim](https://www.youtube.com/watch?v=7mwgA9XFIEQ&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=17) ⭐ 🎥
+  - [C++ Map | Programiz](https://www.programiz.com/cpp-programming/map)
+  - [Map | C++ STL (Standard Template Library) | std::map  Knowledge Center](https://www.youtube.com/watch?v=w1vDg3iBbLA&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=16) 🎥
+  - [Map in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
+  - [C++ Unordered Map | Programiz](https://www.programiz.com/cpp-programming/unordered-map) ⭐
+  - [unordered_map in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check map and unordered map sections)*
+  - [Blowing up unordered_map, and how to stop getting hacked on it  By neal](https://codeforces.com/blog/entry/62393) ⭐ *(basically use custom hashing when using unordered map)*
+  - [[Hindi] CP Course by Luv - Maps ](https://youtu.be/gUrfXZ0hqoA?feature=shared) 🎥
+
+**Python Resources**:
+*dict is a hash map. Use sortedcontainers.SortedDict for ordered keys.*
+  - [Python Dictionaries & Hash Maps | Real Python](https://realpython.com/python-dicts/)
+  - [Using sortedcontainers.SortedDict in Python](http://www.grantjenks.com/docs/sortedcontainers/sorteddict.html)
 
 **Practice Problems**:
 - [Chef of the Year](https://vjudge.net/problem/CodeChef-CVOTE) (ID: `codechef_cvote` | Difficulty: Medium | Solves: 88)
@@ -758,6 +1111,14 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [C++ bitset and its application | Geeks for Geeks](https://www.geeksforgeeks.org/cpp-bitset-and-its-application/) ⭐
+  - [bitset in competitive programing | Bitset](https://www.youtube.com/watch?v=jqJ5s077OKo) *(One of the best applications of bitset and optimizations, this video help me a lot)*
+
+**Python Resources**:
+*Python integers support arbitrary size, so integers function directly as bitsets via bitwise ops.*
+  - [Bitwise Operators in Python | Real Python](https://realpython.com/python-bitwise-operators/)
+
 **Practice Problems**:
 - [Oddly Similar](https://atcoder.jp/contests/abc348/tasks/abc348_f) (ID: `atcoder_abc348_f` | Difficulty: Hard | Solves: 50)
 - [Set Operation](https://vjudge.net/problem/POJ-2443) (ID: `poj_2443` | Difficulty: Easy | Solves: 110 ⭐)
@@ -772,6 +1133,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [List | C++ STL (Standard Template Library) | std::list  Knowledge Center](https://www.youtube.com/watch?v=je7zlYfJf7Q&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=7) ⭐ 🎥
+  - [C++ List | Programiz](https://www.programiz.com/cpp-programming/list)
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check list section)*
+  - [List in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/list-cpp-stl/)
+
+**Python Resources**:
+*collections.deque provides doubly linked list properties (fast appends/pops on ends).*
+  - [Python Deque (std::list equivalent) | Real Python](https://realpython.com/python-deque/)
+
 **Practice Problems**:
 - [Doubly Linked List](https://vjudge.net/problem/Aizu-ALDS1_3_C) (ID: `aizu_alds1_3_c` | Difficulty: Easy | Solves: 107 ⭐)
 - [Vector II](https://vjudge.net/problem/Aizu-ITP2_1_D) (ID: `aizu_itp2_1_d` | Difficulty: Easy | Solves: 314 ⭐)
@@ -785,6 +1156,26 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Binary Search tutorial |  Errichto Algorithms](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80&index=3) ⭐ 🎥
+  - [Binary Search | EDU](https://codeforces.com/edu/course/2/lesson/6) ⭐ *(Complete steps 1, 2, 3, 4 and 5)*
+  - [Binary Search | USACO Guide](https://usaco.guide/silver/binary-search?lang=cpp) ⭐
+  - [Binary Search | CSAcademy](https://csacademy.com/lesson/binary_search) ⭐
+  - [Binary Search | Programiz](https://www.programiz.com/dsa/binary-search)
+  - [Binary Search Algorithm in 100 Seconds | Fireship](https://www.youtube.com/watch?v=MFhxShGxHWc) 🎥
+  - [[Hindi] Binary Search In One Shot C++ |  College Wallah](https://youtu.be/FYBuOLKKqrw?si=TSRi_J0MB071-uyT) 🎥
+  - [Binary search and other "halving" methods | nor](https://nor-blog.codeberg.page/posts/2021-11-07-binary-search/)
+  - [[Hindi] Binary Search Algorithm |  Apna College](https://www.youtube.com/watch?v=TbbSJrY5GqQ&ab_channel=ApnaCollege) 🎥
+  - [Binary Search Beginner to Advanced by Striver | take U forward ](https://youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF&si=Qm9hjE9g8yIW09jX) 🎥 *(Binary Search on Answer began from 13 th video(BS - 13))*
+  - [Binary Search](https://youtu.be/EXG3rPwY1O8?si=fW6dPjvPc-cemcQv)
+  - [Binary search | cp-algorithms](https://cp-algorithms.com/num_methods/binary_search.html)
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Binary%20Search.cpp)
+
+**Python Resources**:
+*Use bisect.bisect_left and bisect.bisect_right to binary search sorted lists.*
+  - [Python bisect Module - Binary Search | Real Python](https://realpython.com/python-bisect/)
 
 **Practice Problems**:
 - [Project Planning](https://atcoder.jp/contests/abc227/tasks/abc227_d) (ID: `atcoder_abc227_d` | Difficulty: Medium | Solves: 49)
@@ -841,6 +1232,20 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Two Pointers Method | CF EDU](https://codeforces.com/edu/course/2/lesson/9) ⭐ *(Complete steps 1 and 2)*
+  - [Two Pointers | USACO Guide](https://usaco.guide/silver/two-pointers?lang=cpp) ⭐
+  - [8.1 Two pointers method | CPH](https://usaco.guide/CPH.pdf#page=87)
+  - [Two Pointers Technique | Geeks for Geeks](https://www.geeksforgeeks.org/two-pointers-technique/)
+  - [Visual introduction Two Pointer Algorithm | Data Structure and Algorithm for Coding Interviews |  Josh's DevBox](https://www.youtube.com/watch?v=On03HWe2tZM) 🎥
+  - [Two Pointers in 7 minutes | AlgoMasterIO](https://www.youtube.com/watch?v=QzZ7nmouLTI&list=PLK63NuByH5o9odyBT7nfYkHZyvGQ5oVp2)
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Two%20Pointers.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Two Pointers](https://www.geeksforgeeks.org/two-pointers-in-python/)
+
 **Practice Problems**:
 - [Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A) (ID: `cf_edu_307092a` | Difficulty: Easy | Solves: 377 ⭐)
 - [Segment with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A) (ID: `cf_edu_307093a` | Difficulty: Easy | Solves: 331 ⭐)
@@ -874,6 +1279,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Bubble Sort | Programiz](https://www.programiz.com/dsa/bubble-sort) ⭐
+  - [Bubble Sort Visualization | Bubble Sort Animation Video | Log2Base2](https://www.youtube.com/watch?v=p6I7LIUqQnU) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Bubble Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Bubble%20Sort.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Bubble Sort](https://www.geeksforgeeks.org/bubble-sort-in-python/)
+
 **Practice Problems**:
 - [Bubble Sort](https://vjudge.net/problem/DMOJ-sort1) (ID: `dmoj_sort1` | Difficulty: Easy | Solves: 147)
 - [Sorting: Bubble Sort](https://vjudge.net/problem/HackerRank-ctci-bubble-sort) (ID: `hackerrank_ctci_bubble_sort` | Difficulty: Easy | Solves: 168 ⭐)
@@ -887,6 +1303,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Selection Sort Algorithm | Programiz](https://www.programiz.com/dsa/selection-sort) ⭐
+  - [Selection Sort Animation | Ravindu Sachintha](https://www.youtube.com/watch?v=XeP1K3UZ35M) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Selection Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Selection%20Sort.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Selection Sort](https://www.geeksforgeeks.org/selection-sort-in-python/)
+
 **Practice Problems**:
 - [Selection Sort ](https://vjudge.net/problem/Aizu-ALDS1_2_B) (ID: `aizu_alds1_2_b` | Difficulty: Easy | Solves: 120 ⭐)
 
@@ -898,6 +1325,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Insertion Sort Algorithm | Programiz](https://www.programiz.com/dsa/insertion-sort) ⭐
+  - [Insertion Sort Explained using Animations |  bvdl․io](https://www.youtube.com/watch?v=HzteMqc4Gjg) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Insertion Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Insertion%20Sort.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Insertion Sort](https://www.geeksforgeeks.org/insertion-sort-in-python/)
 
 **Practice Problems**:
 - [Insertion Sort](https://vjudge.net/problem/Aizu-ALDS1_1_A) (ID: `aizu_alds1_1_a` | Difficulty: Easy | Solves: 88 ⭐)
@@ -911,6 +1349,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Counting Sort Algorithm | Programiz](https://www.programiz.com/dsa/counting-sort) ⭐
+  - [Counting Sort Animation | Intuition | Algorithm | Visualization | Shreyaans Jain](https://www.youtube.com/watch?v=lKMkuZO4wlY) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Counting Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Counting%20Sort.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Counting Sort](https://www.geeksforgeeks.org/counting-sort-in-python/)
+
 **Practice Problems**:
 - [Counting Sort 2](https://vjudge.net/problem/HackerRank-countingsort2) (ID: `hackerrank_countingsort2` | Difficulty: Easy | Solves: 84 ⭐)
 - [The Full Counting Sort](https://vjudge.net/problem/HackerRank-countingsort4) (ID: `hackerrank_countingsort4` | Difficulty: Easy | Solves: 46)
@@ -923,6 +1372,19 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Merge Sort Algorithm | Programiz](https://www.programiz.com/dsa/merge-sort) ⭐
+  - [Understanding Mergesort: Sorting Made Simple | Recursion Series  | WilliamFiset](https://www.youtube.com/watch?v=-3u1C1URNZY) ⭐ 🎥
+  - [Merge Sort | Manim Animation [4K] | CuriousWalk](https://www.youtube.com/watch?v=5Z9dn2WTg9o) ⭐ 🎥
+  - [MERGE SORT ALGORITHM | Sorting Algorithm | DSA | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw) 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Merge Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Merge%20Sort.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Merge Sort](https://www.geeksforgeeks.org/merge-sort-in-python/)
 
 **Practice Problems**:
 - [Merge Sort 2](https://vjudge.net/problem/Aizu-ALDS1_5_B) (ID: `aizu_alds1_5_b` | Difficulty: Medium | Solves: 63)
@@ -939,6 +1401,18 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Quicksort Algorithm | Programiz](https://www.programiz.com/dsa/quick-sort) ⭐
+  - [Quick Sort [Visual Explanation] | Manim Animation [4K] | CuriousWalk](https://www.youtube.com/watch?v=WprjBK0p6rw) ⭐ 🎥
+  - [QUICK SORT | Sorting Algorithms | DSA | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc) 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Quick Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://www.programiz.com/dsa/quick-sort)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Quick Sort](https://www.geeksforgeeks.org/quick-sort-in-python/)
+
 **Practice Problems**:
 - [Quick Sort](https://vjudge.net/problem/Aizu-ALDS1_6_C) (ID: `aizu_alds1_6_c` | Difficulty: Easy | Solves: 28 ⭐)
 
@@ -951,6 +1425,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Radix Sort Algorithm | Programiz](https://www.programiz.com/dsa/radix-sort) ⭐
+  - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Radix Sort)*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://www.programiz.com/dsa/radix-sort)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Radix Sort](https://www.geeksforgeeks.org/radix-sort-in-python/)
+
 **Practice Problems**:
 - [Radix Sort](https://vjudge.net/problem/CodeChef-RDX) (ID: `codechef_rdx` | Difficulty: Easy | Solves: 42 ⭐)
 
@@ -962,6 +1447,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Sort in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/) ⭐
+  - [Custom Comparators | USACO Guide](https://usaco.guide/silver/sorting-custom?lang=cpp) ⭐ *(check until "Coordinate Compression")*
+  - [All sorting algorithms at one place | Programiz](https://www.programiz.com/dsa/sorting-algorithm)
+
+**Python Resources**:
+*sorted() and list.sort() use Timsort. Use key=lambda or functools.cmp_to_key for custom sort logic.*
+  - [Sorting in Python | Python Official Docs](https://docs.python.org/3/howto/sorting.html)
+  - [Custom Sorting with cmp_to_key | GeeksforGeeks](https://www.geeksforgeeks.org/custom-sorting-in-python-using-cmp_to_key/)
 
 **Practice Problems**:
 - [Sorting Tuples](https://vjudge.net/problem/Aizu-ITP2_5_B) (ID: `aizu_itp2_5_b` | Difficulty: Easy | Solves: 68 ⭐)
@@ -994,6 +1489,13 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Divide and Conquer: The Art of Breaking Down Problems | Recursion Series |  WilliamFiset](https://www.youtube.com/watch?v=ib4BHvr5-Ao) ⭐ 🎥
+  - [Divide and Conquer Algorithm | Programiz](https://www.programiz.com/dsa/divide-and-conquer) *(check until "Divide and Conquer Vs Dynamic approach")*
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Merge Sort?](https://vjudge.net/problem/CodeForces-873D) (ID: `codeforces_873d` | Difficulty: Medium | Solves: 100 ⭐)
 - [Print The Pattern](https://vjudge.net/problem/SPOJ-ABACABA) (ID: `spoj_abacaba` | Difficulty: Easy | Solves: 249 ⭐)
@@ -1010,6 +1512,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 - **Description**: Basic problems on Greedy Algorithms.
+
+**C++ Resources**:
+- [Introduction to Greedy Algorithms | USACO Guide](https://usaco.guide/bronze/intro-greedy?lang=cpp) ⭐
+  - [Greedy Algorithms with Sorting | USACO Guide](https://usaco.guide/silver/greedy-sorting?lang=cpp) ⭐
+  - [Greedy Algoritm by Abdul Bari](https://www.youtube.com/playlist?list=PL8zDQ1C22qvvwdkPj1uXLpwzcYDJtjnze) 🎥
+  - [Greedy Algorithms - Topic Stream |  Repovive TV](https://www.youtube.com/watch?v=g9-sRYP9Lvg&pp=ygUPcmVwb3ZpdmUgZ3JlZWR52AbEFw%3D%3D)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [The Party and Sweets](https://codeforces.com/problemset/problem/1158/A) (ID: `codeforces_1158a` | Difficulty: Medium | Solves: 93)
@@ -1048,6 +1559,14 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Interview Topic**: No
 - **Description**: Basic problems on Constructive Algorithms.
 
+**C++ Resources**:
+- [Constructive Algorithms | Percy Wong](https://assets.hkoi.org/training2019/cast.pdf) ⭐
+  - [Tips on Constructive Algorithms  By ReaLNero](https://codeforces.com/blog/entry/80317)
+  - [Complete Constructive Problems Practice - Noob to Expert | Topic Stream 5 |  Colin Galen](https://www.youtube.com/watch?v=3D3XKJonua0) 🎥
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Unnatural Conditions](https://codeforces.com/contest/1028/problem/B) (ID: `codeforces_1028b` | Difficulty: Easy | Solves: 158 ⭐)
 - [EhAb AnD gCd](https://codeforces.com/problemset/problem/1325/A) (ID: `codeforces_1325a` | Difficulty: Easy | Solves: 216 ⭐)
@@ -1082,6 +1601,16 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [More on Prefix Sums | USACO Guide](https://usaco.guide/silver/more-prefix-sums?lang=cpp) ⭐
+  - [Prefix Sum of Matrix (Or 2D Array) | Geeks for Geeks](https://www.geeksforgeeks.org/prefix-sum-2d-array/)
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Prefix%20Sum%202D.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for 2D Prefix Sum](https://www.geeksforgeeks.org/2d-prefix-sum-in-python/)
+
 **Practice Problems**:
 - [range sum 2d](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/G) (ID: `cf_group_262795g` | Difficulty: Easy | Solves: 106 ⭐)
 - [Counting Test](https://codeforces.com/gym/101532/problem/D) (ID: `cf_gym_101532d` | Difficulty: Medium | Solves: 48 ⭐)
@@ -1104,6 +1633,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [An Introduction To Difference Arrays  By arujbansal](https://codeforces.com/blog/entry/78762) ⭐
+  - [Understanding Difference Array: The Underrated Constant Time Range Update Algorithm (Part 1) | Ishank Katiyar](https://medium.com/@ishankkatiyar162/understanding-difference-array-the-underrated-constant-time-range-update-algorithm-part-1-e432ada7f1f5)
+  - [Difference Array Technique | Tutorial | Range Updates | Competitive Programming Tricks Part 1](https://youtu.be/96RG7EBF8LI?si=oWJ5ZVhJ3u3XrzeK) 🎥
+  - [Prefix Sums and Difference Array: 20 minutes of EVERYTHING you need to know by Algorithms with Shayan](https://youtu.be/DSQyjutKbfk?si=2a86zTgYKZbriv8F) 🎥
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Substr Swap](https://atcoder.jp/contests/abc419/tasks/abc419_d) (ID: `atcoder_abc419_d` | Difficulty: Easy | Solves: 4)
@@ -1128,6 +1666,15 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Mastering Sliding Window Techniques | Ankit Singh ](https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7) ⭐
+  - [Sliding Window | USACO Guide](https://usaco.guide/gold/sliding-window?lang=cpp) ⭐
+  - [Sliding Window: Handling Non-Invertible Operators | Dhruv Pasricha](https://codeforces.com/blog/entry/143351) ⭐
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Sliding Window Technique](https://www.geeksforgeeks.org/sliding-window-technique-in-python/)
+
 **Practice Problems**:
 - [Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e) (ID: `atcoder_abc194_e` | Difficulty: Medium | Solves: 75 ⭐)
 - [Tactical Removal](https://www.codechef.com/problems/P6172) (ID: `codechef_p6172` | Difficulty: Hard | Solves: 4)
@@ -1145,6 +1692,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Bit manipulation | CP Algorithms](https://cp-algorithms.com/algebra/bit-manipulation.html) ⭐
+  - [Intro to Bitwise Operators | USACO Guide](https://usaco.guide/silver/intro-bitwise?lang=cpp) ⭐
+  - [Some equations using bitwise operators!  By srlabib](https://codeforces.com/blog/entry/94470)
+  - [Bit Manipulation Playlist by Striver](https://www.youtube.com/playlist?list=PLgUwDviBIf0rnqh8QsJaHyIX7KUiaPUv7) 🎥
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Bitwise%20Operations.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Xor Sum 4](https://vjudge.net/problem/AtCoder-abc147_d) (ID: `atcoder_abc147_d` | Difficulty: Medium | Solves: 146 ⭐)
@@ -1189,6 +1747,12 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [That XOR Trick | florian](https://florian.github.io//xor-trick/) ⭐
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Red Scarf ](https://vjudge.net/problem/AtCoder-abc171_e) (ID: `atcoder_abc171_e` | Difficulty: Medium | Solves: 186 ⭐)
 - [Data Structures Fan](https://codeforces.com/contest/1872/problem/E) (ID: `codeforces_1872e` | Difficulty: Medium | Solves: 162)
@@ -1204,6 +1768,20 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [Computations Modulo P in Competitive Programming | Errichto](https://www.youtube.com/watch?v=-OPohCQqi_E) ⭐ 🎥
+  - [Modular Arithmetic for Beginners  By Spheniscine](https://codeforces.com/blog/entry/72527) ⭐
+  - [Binary Exponentiation | CP Algorithms](https://cp-algorithms.com/algebra/binary-exp.html) ⭐
+  - [Modular Arithmetic | USACO Guide](https://usaco.guide/gold/modular?lang=cpp) *(check until "Modular Inverse")*
+  - [Binary Exponentiation : Iterative Method | Luv](https://youtu.be/K8mJ27S72v0?si=asFp_5Pa6B6PS2uX) 🎥
+  - [Binary Exponentiation : Recursive Method | Luv](https://youtu.be/J63JPxqmyzg?si=1WTwlaNdJfQM1GD_) 🎥
+  - [Why Print answer modulo 10^9+7 | Modular Arithmetic | Luv](https://youtu.be/RCq5TYMZEwg?si=kdQoSTh5ACH5jH_9) 🎥
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Binary%20Exponentiation.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Kaosar loves Polynomials](https://codeforces.com/gym/105767/problem/C) (ID: `cf_gym_105767c` | Difficulty: Easy | Solves: 30)
@@ -1230,6 +1808,14 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
 
+**C++ Resources**:
+- [Fermat's little theorem | Wiki](https://en.wikipedia.org/wiki/Fermat's_little_theorem) *(check the definiton)*
+  - [Proof of Fermat's Little Theorem By Chris Caldwell](https://t5k.org/notes/proofs/FermatsLittleTheorem.html) ⭐
+  - [Modular Multiplicative Inverse | forthright48](https://forthright48.com/modular-multiplicative-inverse/) ⭐ *(check until "Using Euler’s Theorem")*
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Exponentiation II](https://cses.fi/problemset/task/1712) (ID: `cses_1712` | Difficulty: Easy | Solves: 159 ⭐)
 - [Modular division](https://vjudge.net/problem/EOlymp-9606) (ID: `eolymp_9606` | Difficulty: Easy | Solves: 134 ⭐)
@@ -1243,6 +1829,17 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 1
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [14.2 Counting with Permutations and Combinations](https://flexbooks.ck12.org/cbook/ck-12-college-precalculus/section/14.2/primary/lesson/counting-with-permutations-and-combinations-c-precalc/) ⭐
+  - [Discrete Math II/Combinatorics (Entire course) | Playlist by Kimberly Brehm](https://www.youtube.com/playlist?list=PLl-gb0E4MII0sGLCJeqDB3y63HZ6lM5LJ) 🎥 *(complete the first 14 videos)*
+  - [Combinatorics | USACO Guide](https://usaco.guide/gold/combo?lang=cpp) *(check until "Derangements")*
+  - [Binomial Coefficients | CP Algorithms](https://cp-algorithms.com/combinatorics/binomial-coefficients.html) *(check until "Computing binomial coefficients modulo m")*
+#### 🛠️ Original C++ Templates:
+  - [C++ Template Link](https://github.com/ShahjalalShohag/code-library/blob/main/Basics/Binomial%20Coefficients.cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Number of Ways](https://www.codechef.com/LTIME24/problems/NWAYS/) (ID: `codechef_nways` | Difficulty: Easy | Solves: 29)
@@ -1275,6 +1872,13 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 2
 - **Interview Topic**: No
 
+**C++ Resources**:
+- [Stars and bars | CP Algorithms](https://cp-algorithms.com/combinatorics/stars_and_bars.html) ⭐
+  - [Stars and Bars (and bagels) | Numberphile](https://www.youtube.com/watch?v=UTCScjoPymA) 🎥
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) (ID: `atcoder_abc110_d` | Difficulty: Hard | Solves: 43 ⭐)
 - [Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e) (ID: `atcoder_abc156_e` | Difficulty: Hard | Solves: 36 ⭐)
@@ -1296,6 +1900,14 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Phase**: Phase 1
 - **Interview Topic**: No
 
+**C++ Resources**:
+- [Pigeonhole Principle | Geeks for Geeks](https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/) ⭐
+  - [What Is the Pigeonhole Principle?  | Spanning Tree](https://www.youtube.com/watch?v=B2A2pGrDG8I) 🎥
+  - [Pigeonhole Principle | Brilliant](https://brilliant.org/wiki/pigeonhole-principle-definition/)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
 **Practice Problems**:
 - [XOR This OR That](https://codeforces.com/gym/105884/problem/I) (ID: `cf_gym_105884i` | Difficulty: Medium | Solves: 5 ⭐)
 - [Kuroni and Impossible Calculation](https://codeforces.com/problemset/problem/1305/C) (ID: `codeforces_1305c` | Difficulty: Easy | Solves: 158 ⭐)
@@ -1315,6 +1927,22 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 - **Importance**: High
 - **Phase**: Phase 2
 - **Interview Topic**: Yes
+
+**C++ Resources**:
+- [A Gentle Introduction To Graph Theory | Vaidehi Joshi](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) ⭐
+  - [Introduction to Graph Theory: A Computer Science Perspective |  Reducible](https://www.youtube.com/watch?v=LFKZLXVO-Dg) 🎥
+  - [Graph Theory Introduction  WilliamFiset](https://www.youtube.com/watch?v=eQA-m22wjTQ) ⭐ 🎥
+  - [Chapter 11 Basics of graphs | CPH](https://usaco.guide/CPH.pdf#page=119) ⭐
+  - [Introduction to graph theory | CSAcademy](https://csacademy.com/lesson/introduction_to_graphs)
+  - [Graph representation | CSAcademy](https://csacademy.com/lesson/graph_representation)
+  - [Graph Representation | HackerEarth](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
+  - [গ্রাফ থিওরিতে হাতেখড়ি – ১ | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=143)
+  - [গ্রাফ থিওরিতে হাতেখড়ি – ২ (ভ্যারিয়েবলে গ্রাফ স্টোর-১) | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=184)
+  - [গ্রাফ থিওরিতে হাতেখড়ি – ৩ (ভ্যারিয়েবলে গ্রাফ স্টোর-২) | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=211)
+  - [Introduction to Graphs | USACO Guide](https://usaco.guide/bronze/intro-graphs?lang=cpp)
+
+**Python Resources**:
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 **Practice Problems**:
 - [Graph](https://vjudge.net/problem/Aizu-ALDS1_11_A) (ID: `aizu_alds1_11_a` | Difficulty: Easy | Solves: 241 ⭐)

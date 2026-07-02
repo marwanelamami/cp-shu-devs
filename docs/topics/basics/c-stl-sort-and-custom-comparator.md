@@ -11,6 +11,20 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*sorted() and list.sort() use Timsort. Use key=lambda or functools.cmp_to_key for custom sort logic.*
+  - [Sorting in Python | Python Official Docs](https://docs.python.org/3/howto/sorting.html)
+  - [Custom Sorting with cmp_to_key | GeeksforGeeks](https://www.geeksforgeeks.org/custom-sorting-in-python-using-cmp_to_key/)
+
+### 📘 C++ & General Resources
+- [Sort in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/) ⭐
+  - [Custom Comparators | USACO Guide](https://usaco.guide/silver/sorting-custom?lang=cpp) ⭐ *(check until "Coordinate Compression")*
+  - [All sorting algorithms at one place | Programiz](https://www.programiz.com/dsa/sorting-algorithm)
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

@@ -11,6 +11,15 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Counting Sort Algorithm | Programiz](https://www.programiz.com/dsa/counting-sort) ⭐
+  - [Counting Sort Animation | Intuition | Algorithm | Visualization | Shreyaans Jain](https://www.youtube.com/watch?v=lKMkuZO4wlY) ⭐ 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Counting Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,8 +29,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Counting Sort 2](https://vjudge.net/problem/HackerRank-countingsort2) (ID: `hackerrank_countingsort2` | Difficulty: Easy | Solves: 84 ⭐)
-- [The Full Counting Sort](https://vjudge.net/problem/HackerRank-countingsort4) (ID: `hackerrank_countingsort4` | Difficulty: Easy | Solves: 46)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

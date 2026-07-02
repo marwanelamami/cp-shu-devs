@@ -11,6 +11,18 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Python integers support arbitrary size, so integers function directly as bitsets via bitwise ops.*
+  - [Bitwise Operators in Python | Real Python](https://realpython.com/python-bitwise-operators/)
+
+### 📘 C++ & General Resources
+- [C++ bitset and its application | Geeks for Geeks](https://www.geeksforgeeks.org/cpp-bitset-and-its-application/) ⭐
+  - [bitset in competitive programing | Bitset](https://www.youtube.com/watch?v=jqJ5s077OKo) *(One of the best applications of bitset and optimizations, this video help me a lot)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

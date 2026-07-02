@@ -54,6 +54,7 @@ nav:
       - "What is Competitive Programming?": topics/basics/01-intro-to-cp/intro-to-cp.md
     - "Bitwise Thinking":
       - "Bitwise Operations and Bitmasks": topics/basics/bitwise-operations-and-bitmasks.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
     - "Complexity Analysis":
       - "Big O Notation and Time and Space Complexity Analysis": topics/basics/01-intro-to-cp/intro-to-cp.md
       - "Fast Input Output": topics/basics/fast-input-output.md
@@ -61,11 +62,16 @@ nav:
       - "Recursion": topics/basics/recursion.md
     - "Very Basic Math":
       - "Divisors": topics/basics/divisors.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "GCD and LCM": topics/basics/gcd-and-lcm.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Harmonic Number": topics/basics/harmonic-number.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
     - "Range Queries Without Updates":
       - "Prefix Sum": topics/basics/06-prefix-sums/prefix-sums.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Prefix XOR": topics/basics/prefix-xor.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
     - "Standard Template Library (STL)":
       - "Intro to STL, Containers and Iterators": topics/basics/intro-to-stl-containers-and-iterators.md
       - "Pairs and Tuples": topics/basics/pairs-and-tuples.md
@@ -80,15 +86,24 @@ nav:
       - "List / Linked List": topics/basics/list-linked-list.md
     - "Leveraging Monotonicity":
       - "Binary Search": topics/basics/binary-search.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Two Pointers": topics/basics/05-two-pointers/two-pointers.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
     - "Basic Sorting Algorithms":
       - "Bubble Sort": topics/basics/bubble-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Selection Sort": topics/basics/selection-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Insertion Sort": topics/basics/insertion-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Counting Sort": topics/basics/counting-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Merge Sort": topics/basics/merge-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Quick Sort": topics/basics/quick-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Radix Sort": topics/basics/radix-sort.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "C++ STL Sort and Custom Comparator": topics/basics/c-stl-sort-and-custom-comparator.md
     - "Divide and Conquer":
       - "Divide and Conquer": topics/basics/divide-and-conquer.md
@@ -97,17 +112,21 @@ nav:
       - "Basic Constructive Algorithms": topics/basics/basic-constructive-algorithms.md
     - "2D Prefix Sum":
       - "2D Prefix Sum": topics/basics/2d-prefix-sum.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
     - "More Techniques":
       - "Difference Array": topics/basics/difference-array.md
       - "Sliding Window Technique": topics/basics/sliding-window-technique.md
     - "Bit Manipulation":
       - "Bit Manipulation": topics/basics/bit-manipulation.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "The XOR Trick": topics/basics/the-xor-trick.md
     - "Basic Modular Arithmetic":
       - "Binary Exponentiation and Basic Modular Arithmetic": topics/basics/binary-exponentiation-and-basic-modular-arithmetic.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Fermat's Little Theorem and Modular Inverse": topics/basics/fermat-s-little-theorem-and-modular-inverse.md
     - "Basic Counting":
       - "Permutations, Combinations and Basic Counting Problems": topics/basics/permutations-combinations-and-basic-counting-problems.md
+      - "🛠️ Original C++ Templates:": topics/basics/original-c-templates.md
       - "Stars and Bars": topics/basics/stars-and-bars.md
       - "Pigeonhole Principle": topics/basics/pigeonhole-principle.md
     - "Very Basic Graphs":

@@ -11,6 +11,17 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Merge Sort Algorithm | Programiz](https://www.programiz.com/dsa/merge-sort) ⭐
+  - [Understanding Mergesort: Sorting Made Simple | Recursion Series  | WilliamFiset](https://www.youtube.com/watch?v=-3u1C1URNZY) ⭐ 🎥
+  - [Merge Sort | Manim Animation [4K] | CuriousWalk](https://www.youtube.com/watch?v=5Z9dn2WTg9o) ⭐ 🎥
+  - [MERGE SORT ALGORITHM | Sorting Algorithm | DSA | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw) 🎥
+  - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Merge Sort)*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,10 +31,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Merge Sort 2](https://vjudge.net/problem/Aizu-ALDS1_5_B) (ID: `aizu_alds1_5_b` | Difficulty: Medium | Solves: 63)
-- [Merge sort](https://vjudge.net/problem/Gym-324997D) (ID: `gym_324997d` | Difficulty: Easy | Solves: 91 ⭐)
-- [Bubble Sort?](https://vjudge.net/problem/SPOJ-BUBBLESORT) (ID: `spoj_bubblesort` | Difficulty: Medium | Solves: 40 ⭐)
-- [Inversion Count](https://vjudge.net/problem/SPOJ-INVCNT) (ID: `spoj_invcnt` | Difficulty: Easy | Solves: 228 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

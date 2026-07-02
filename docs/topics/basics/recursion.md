@@ -11,6 +11,22 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Recursion in C | Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjTO_UNGKuaaoxEqvSF0t5h) ⭐ 🎥 *(check the full playlist)*
+  - [C++ Recursion](https://www.programiz.com/cpp-programming/recursion) ⭐
+  - [5 Simple Steps for Solving Any Recursive Problem | Reducible](https://www.youtube.com/watch?v=ngCos392W4w) ⭐ 🎥
+  - [Towers of Hanoi: A Complete Recursive Visualization | Reducible](https://www.youtube.com/watch?v=rf6uf3jNjbo&list=PLpXOY-RxVRTM_-Lvss2ezy1lVl6VUrzW2&index=2) ⭐ 🎥
+  - [Introduction to Recursion – Data Structure and Algorithm Tutorials | Geeks for Geeks](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
+  - [[Bangla] An In-depth Analysis of Function and Recursion in Competitive Programming - YouKn0wWho Academy](https://www.youtube.com/watch?v=QwR1_GXnNkA) 🎥
+  - [Recursion Series | take U forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9) 🎥
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

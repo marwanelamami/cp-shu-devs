@@ -11,6 +11,23 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Python list is implemented as a dynamic array with amortized O(1) append.*
+  - [Python Lists - Under the Hood | GeeksforGeeks](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
+
+### 📘 C++ & General Resources
+- [Vectors | Tech With Tim](https://www.youtube.com/watch?v=RXzzE2wnnlo&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=18) ⭐ 🎥
+  - [C++ Vectors | Programiz](https://www.programiz.com/cpp-programming/vectors) ⭐
+  - [Vector | C++ STL (Standard Template Library) | std::vector  Knowledge Center](https://www.youtube.com/watch?v=0DNDvuHZDiQ&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=6) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the whole vector section)*
+  - [Vector in C++ STL | TUF](https://takeuforward.org/c/vector-in-c-stl/)
+  - [Vector in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+  - [[Hindi] Vector In C++ STL | CodeWithHarry](https://www.youtube.com/watch?v=wKDvMcJiEPM) 🎥
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

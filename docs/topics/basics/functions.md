@@ -11,6 +11,23 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Def, arguments, scoping, and recursion depth limit (sys.setrecursionlimit).*
+  - [Defining Your Own Python Function | Real Python](https://realpython.com/defining-your-own-python-function/)
+  - [Recursion in Python & sys.setrecursionlimit | GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-setrecursionlimit-method/)
+
+### 📘 C++ & General Resources
+- [Functions | Tech With Tim](https://www.youtube.com/watch?v=C83tPpvxIJA&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=20) ⭐ 🎥
+  - [C++ Functions | Programiz](https://www.programiz.com/cpp-programming/function) ⭐
+  - [C++ User-defined Function Types | Programiz](https://www.programiz.com/cpp-programming/user-defined-function-types) ⭐
+  - [C++ Programming Default Arguments (Parameters) | Programiz](https://www.programiz.com/cpp-programming/default-argument)
+  - [C++ Function Overloading | Programiz](https://www.programiz.com/cpp-programming/function-overloading)
+  - [Top 10 Most Used Inbuilt C++ functions for Competitive Programming | Geeks for Geeks](https://www.geeksforgeeks.org/top-10-most-used-inbuilt-c-functions-for-competitive-programming/) ⭐
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

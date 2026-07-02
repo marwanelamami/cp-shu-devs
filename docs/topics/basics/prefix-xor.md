@@ -11,6 +11,14 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Prefix Xor Array | Geeks for Geeks](https://www.geeksforgeeks.org/prefix-xor-array/)
+  - [CSES - Range Xor Queries | USACO Guide](https://usaco.guide/problems/cses-1650-range-xor-queries/solution) ⭐
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
@@ -20,7 +28,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 ---
 
 ## Curated Practice Problems
-- [Range Xor Queries](https://cses.fi/problemset/task/1650) (ID: `cses_1650` | Difficulty: Easy | Solves: 514 ⭐)
+*No practice problems mapped to this topic yet. Check back soon!*
 
 ---
 

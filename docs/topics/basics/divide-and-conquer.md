@@ -11,6 +11,17 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Divide and Conquer: The Art of Breaking Down Problems | Recursion Series |  WilliamFiset](https://www.youtube.com/watch?v=ib4BHvr5-Ao) ⭐ 🎥
+  - [Divide and Conquer Algorithm | Programiz](https://www.programiz.com/dsa/divide-and-conquer) *(check until "Divide and Conquer Vs Dynamic approach")*
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

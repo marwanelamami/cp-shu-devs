@@ -11,6 +11,19 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [An Introduction To Difference Arrays  By arujbansal](https://codeforces.com/blog/entry/78762) ⭐
+  - [Understanding Difference Array: The Underrated Constant Time Range Update Algorithm (Part 1) | Ishank Katiyar](https://medium.com/@ishankkatiyar162/understanding-difference-array-the-underrated-constant-time-range-update-algorithm-part-1-e432ada7f1f5)
+  - [Difference Array Technique | Tutorial | Range Updates | Competitive Programming Tricks Part 1](https://youtu.be/96RG7EBF8LI?si=oWJ5ZVhJ3u3XrzeK) 🎥
+  - [Prefix Sums and Difference Array: 20 minutes of EVERYTHING you need to know by Algorithms with Shayan](https://youtu.be/DSQyjutKbfk?si=2a86zTgYKZbriv8F) 🎥
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

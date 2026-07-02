@@ -11,6 +11,20 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*collections.deque provides doubly linked list properties (fast appends/pops on ends).*
+  - [Python Deque (std::list equivalent) | Real Python](https://realpython.com/python-deque/)
+
+### 📘 C++ & General Resources
+- [List | C++ STL (Standard Template Library) | std::list  Knowledge Center](https://www.youtube.com/watch?v=je7zlYfJf7Q&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=7) ⭐ 🎥
+  - [C++ List | Programiz](https://www.programiz.com/cpp-programming/list)
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check list section)*
+  - [List in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/list-cpp-stl/)
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

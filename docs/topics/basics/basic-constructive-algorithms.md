@@ -11,6 +11,18 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 📘 General & C++ Resources
+- [Constructive Algorithms | Percy Wong](https://assets.hkoi.org/training2019/cast.pdf) ⭐
+  - [Tips on Constructive Algorithms  By ReaLNero](https://codeforces.com/blog/entry/80317)
+  - [Complete Constructive Problems Practice - Noob to Expert | Topic Stream 5 |  Colin Galen](https://www.youtube.com/watch?v=3D3XKJonua0) 🎥
+
+### 🐍 Python Notes
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

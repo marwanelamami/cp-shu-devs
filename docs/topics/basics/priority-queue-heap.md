@@ -11,6 +11,20 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*heapq module implements binary min-heaps. Multiply by -1 for max-heap.*
+  - [Python's heapq: Guide to Priority Queues | Real Python](https://realpython.com/python-heapq-module/)
+
+### 📘 C++ & General Resources
+- [C++ Priority Queue | Programiz](https://www.programiz.com/cpp-programming/priority-queue) ⭐
+  - [Priority Queue | C++ STL (Standard Template Library) | std::priority_queue  Knowledge Center](https://www.youtube.com/watch?v=WhIcVlkZ19s&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=11) 🎥
+  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the priority queue section)*
+  - [Priority Queue in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

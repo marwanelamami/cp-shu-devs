@@ -11,6 +11,19 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*Tuples are immutable sequences, equivalent to std::pair and std::tuple.*
+  - [Python Tuples & Named Tuples | Real Python](https://realpython.com/python-lists-tuples/#python-tuples)
+
+### 📘 C++ & General Resources
+- [Pair in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/pair-in-cpp-stl/) ⭐
+  - [Tuples | Tech With Tim](https://www.youtube.com/watch?v=T9-agjKW4PQ) ⭐ 🎥
+  - [Tuples in C++ | Geeks for Geeks](https://www.geeksforgeeks.org/tuples-in-c/) ⭐
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified

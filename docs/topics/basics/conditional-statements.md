@@ -11,6 +11,18 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
 
 ---
 
+## Learning Resources
+### 🐍 Python Resources (Primary)
+*If, elif, and else statements in Python.*
+  - [Python Conditional Statements | Real Python](https://realpython.com/python-conditional-statements/)
+
+### 📘 C++ & General Resources
+- [ If, Else & Else If  | Tech With Tim](https://www.youtube.com/watch?v=Zkr0aAdD1Ww&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=8) ⭐ 🎥
+  - [C++ if, if...else and Nested if...else | Programiz](https://www.programiz.com/cpp-programming/if-else) ⭐
+
+
+---
+
 ## Topic Details
 - **Difficulty**: Not Specified
 - **Importance**: Not Specified
