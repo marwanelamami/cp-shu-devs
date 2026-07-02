@@ -1,0 +1,34 @@
+---
+title: Pigeonhole Principle
+---
+
+# Pigeonhole Principle
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [XOR This OR That](https://codeforces.com/gym/105884/problem/I) (ID: `cf_gym_105884i` | Difficulty: Medium | Solves: 5 ⭐)
+- [Kuroni and Impossible Calculation](https://codeforces.com/problemset/problem/1305/C) (ID: `codeforces_1305c` | Difficulty: Easy | Solves: 158 ⭐)
+- [Going Home](https://codeforces.com/problemset/problem/1501/C) (ID: `codeforces_1501c` | Difficulty: Medium | Solves: 64 ⭐)
+- [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) (ID: `codeforces_1536b` | Difficulty: Medium | Solves: 96)
+- [Funny Game](https://codeforces.com/contest/1994/problem/D) (ID: `codeforces_1994d` | Difficulty: Easy | Solves: 38 ⭐)
+- [Palindrome](https://codeforces.com/contest/335/problem/B) (ID: `codeforces_335b` | Difficulty: Medium | Solves: 4)
+- [Modulo Sum](https://codeforces.com/problemset/problem/577/B) (ID: `codeforces_577b` | Difficulty: Medium | Solves: 15 ⭐)
+- [Halloween treats](https://www.spoj.com/problems/HALLOW/) (ID: `spoj_hallow` | Difficulty: Medium | Solves: 53 ⭐)
+
+---
+
+[Return to Home](../../index.md)

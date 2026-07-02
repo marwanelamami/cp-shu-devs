@@ -1,0 +1,34 @@
+---
+title: Expression Parsing
+---
+
+# Expression Parsing
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Expression Parsing](https://www.codechef.com/problems/CDM01) (ID: `codechef_cdm01` | Difficulty: Easy | Solves: 7 ⭐)
+- [Vanya and Brackets](https://codeforces.com/problemset/problem/552/E) (ID: `codeforces_552e` | Difficulty: Medium | Solves: 4 ⭐)
+- [Children's Math](https://lightoj.com/problem/children-s-math) (ID: `lightoj_children_s_math` | Difficulty: Medium | Solves: 1 ⭐)
+- [Equivalent Boolean Expressions](https://lightoj.com/problem/equivalent-boolean-expression) (ID: `lightoj_equivalent_boolean_expression` | Difficulty: Medium | Solves: 1)
+- [Transform the Expression](https://www.spoj.com/problems/ONP/) (ID: `spoj_onp` | Difficulty: Easy | Solves: 5 ⭐)
+- [Evaluate simple RPN expression](https://www.spoj.com/problems/RPNEVAL/) (ID: `spoj_rpneval` | Difficulty: Easy | Solves: 5 ⭐)
+- [Tertiary Calculator](https://www.spoj.com/problems/SBE201A6/) (ID: `spoj_sbe201a6` | Difficulty: Easy | Solves: 3)
+- [Equation](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=668) (ID: `uva_668` | Difficulty: Easy | Solves: 5)
+
+---
+
+[Return to Home](../../index.md)

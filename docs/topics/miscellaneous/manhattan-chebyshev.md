@@ -1,0 +1,34 @@
+---
+title: Manhattan <> Chebyshev
+---
+
+# Manhattan <> Chebyshev
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Dist Max](https://atcoder.jp/contests/abc178/tasks/abc178_e) (ID: `atcoder_abc178_e` | Difficulty: Easy | Solves: 9 ⭐)
+- [Manhattan Christmas Tree](https://atcoder.jp/contests/abc233/tasks/abc233_h?lang=en) (ID: `atcoder_abc233_h?lang=en` | Difficulty: Hard | Solves: 3)
+- [Four Coloring ](https://atcoder.jp/contests/code-festival-2017-quala/tasks/code_festival_2017_quala_d) (ID: `atcoder_code_festival_2017_quala_d` | Difficulty: Medium | Solves: 1)
+- [Teleports](https://www.codechef.com/problems/TELEPORT) (ID: `codechef_teleport` | Difficulty: Medium)
+- [Game with Tokens](https://codeforces.com/contest/944/problem/F) (ID: `codeforces_944f` | Difficulty: Medium | Solves: 1)
+- [Pairs](https://oj.uz/problem/view/IOI07_pairs) (ID: `ioi07_pairs` | Difficulty: Extreme | Solves: 1 ⭐)
+- [Manhattan](https://www.spoj.com/problems/DISTANCE) (ID: `spoj_distance` | Difficulty: Easy | Solves: 5 ⭐)
+- [The Ultimate Bamboo Eater](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3226) (ID: `uva_3226` | Difficulty: Hard | Solves: 2 ⭐)
+
+---
+
+[Return to Home](../../index.md)

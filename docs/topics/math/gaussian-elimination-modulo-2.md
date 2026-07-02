@@ -1,0 +1,29 @@
+---
+title: Gaussian Elimination Modulo 2
+---
+
+# Gaussian Elimination Modulo 2
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Modifying SAT](https://codeforces.com/gym/101908/problem/M) (ID: `cf_gym_101908m` | Difficulty: Medium ⭐)
+- [Subsets Forming Perfect Squares](https://lightoj.com/problem/subsets-forming-perfect-squar) (ID: `lightoj_subsets_forming_perfect_squar` | Difficulty: Medium | Solves: 25 ⭐)
+- [Rank of Matrix (Mod 2)](https://judge.yosupo.jp/problem/matrix_rank_mod_2) (ID: `yosupo_matrix_rank_mod_2` | Difficulty: Medium ⭐)
+
+---
+
+[Return to Home](../../index.md)

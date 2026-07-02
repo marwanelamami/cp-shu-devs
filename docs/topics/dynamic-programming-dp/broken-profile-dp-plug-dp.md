@@ -1,0 +1,30 @@
+---
+title: Broken Profile DP / Plug DP
+---
+
+# Broken Profile DP / Plug DP
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Connect](https://oj.uz/problem/view/CEOI06_connect) (ID: `ceoi06_connect` | Difficulty: Medium | Solves: 1)
+- [Guards In The Storehouse](https://codeforces.com/problemset/problem/845/F) (ID: `codeforces_845f` | Difficulty: Medium | Solves: 5)
+- [Counting Tilings](https://cses.fi/problemset/task/2181) (ID: `cses_2181` | Difficulty: Easy | Solves: 12 ⭐)
+- [Compound Escape](https://usaco.org/index.php?page=viewproblem2&cpid=949) (ID: `usaco_949` | Difficulty: Extreme | Solves: 1)
+
+---
+
+[Return to Home](../../index.md)

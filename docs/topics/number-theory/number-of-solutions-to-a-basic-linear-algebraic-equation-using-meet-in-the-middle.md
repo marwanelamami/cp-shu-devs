@@ -1,0 +1,27 @@
+---
+title: Number of Solutions to a Basic Linear Algebraic Equation using Meet in the Middle
+---
+
+# Number of Solutions to a Basic Linear Algebraic Equation using Meet in the Middle
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Fireflies](https://codeforces.com/gym/102114/problem/F) (ID: `cf_gym_102114f` | Difficulty: Medium ⭐)
+
+---
+
+[Return to Home](../../index.md)

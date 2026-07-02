@@ -1,0 +1,30 @@
+---
+title: Persistent Segment Tree with Lazy Propagation
+---
+
+# Persistent Segment Tree with Lazy Propagation
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Fibonacci Numbers on Tree](https://www.codechef.com/problems/FIBTREE) (ID: `codechef_fibtree` | Difficulty: Extreme | Solves: 1)
+- [Observing the Tree](https://www.codechef.com/problems/QUERY) (ID: `codechef_query` | Difficulty: Medium | Solves: 6)
+- [SubInversing](https://www.codechef.com/problems/SUBINVER) (ID: `codechef_subinver` | Difficulty: Hard | Solves: 4)
+- [To the moon](https://www.spoj.com/problems/TTM/) (ID: `spoj_ttm` | Difficulty: Easy | Solves: 18 ⭐)
+
+---
+
+[Return to Home](../../index.md)

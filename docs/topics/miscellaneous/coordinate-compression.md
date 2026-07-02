@@ -1,0 +1,37 @@
+---
+title: Coordinate Compression
+---
+
+# Coordinate Compression
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Covered Points Count](https://codeforces.com/problemset/problem/1000/C) (ID: `codeforces_1000c` | Difficulty: Easy | Solves: 33 ⭐)
+- [Shuffling Songs](https://codeforces.com/contest/1950/problem/G) (ID: `codeforces_1950g` | Difficulty: Easy | Solves: 81)
+- [Infinite Inversions](https://codeforces.com/contest/540/problem/E) (ID: `codeforces_540e` | Difficulty: Medium | Solves: 36)
+- [Turn Off The TV](https://codeforces.com/contest/863/problem/E) (ID: `codeforces_863e` | Difficulty: Medium | Solves: 56)
+- [Salary Queries](https://cses.fi/problemset/task/1144/) (ID: `cses_1144` | Difficulty: Easy | Solves: 442 ⭐)
+- [Restaurant Customers](https://cses.fi/problemset/task/1619) (ID: `cses_1619` | Difficulty: Easy | Solves: 345 ⭐)
+- [Distinct Values Queries](https://cses.fi/problemset/task/1734) (ID: `cses_1734` | Difficulty: Medium | Solves: 325 ⭐)
+- [Increasing subsequence II ](https://cses.fi/problemset/task/1748) (ID: `cses_1748` | Difficulty: Medium | Solves: 113 ⭐)
+- [K-query](https://www.spoj.com/problems/KQUERY/) (ID: `spoj_kquery` | Difficulty: Easy | Solves: 328 ⭐)
+- [Rectangular Pasture](https://usaco.org/index.php?page=viewproblem2&cpid=1063) (ID: `usaco_1063` | Difficulty: Medium | Solves: 3 ⭐)
+- [Crazy Fences](https://usaco.org/index.php?cpid=207&page=viewproblem2) (ID: `usaco_viewproblem2` | Difficulty: Medium)
+
+---
+
+[Return to Home](../../index.md)

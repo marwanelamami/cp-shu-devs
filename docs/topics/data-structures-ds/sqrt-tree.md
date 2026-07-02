@@ -1,0 +1,29 @@
+---
+title: SQRT Tree
+---
+
+# SQRT Tree
+
+## Core Reference
+The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+
+👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Topic Details
+- **Difficulty**: Not Specified
+- **Importance**: Not Specified
+- **Phase**: Not Specified
+- **Interview Topic**: Not Specified
+
+---
+
+## Curated Practice Problems
+- [Count maxima on an interval](https://codeforces.com/group/1rv4rhCsHp/contest/102954/problem/A) (ID: `cf_group_102954a` | Difficulty: Easy | Solves: 13 ⭐)
+- [Product on the segment by modulo](https://www.codechef.com/problems/SEGPROD) (ID: `codechef_segprod` | Difficulty: Easy | Solves: 12 ⭐)
+- [Dynamic Range Minimum Queries](https://cses.fi/problemset/task/1649) (ID: `cses_1649` | Difficulty: Easy | Solves: 1 ⭐)
+
+---
+
+[Return to Home](../../index.md)
