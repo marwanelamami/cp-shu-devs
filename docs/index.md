@@ -148,6 +148,14 @@ Use the accordion menu below to explore the topics in sequence. Click on any act
     background: #eff6ff;
     color: #1d4ed8 !important;
   }
+  .rm-topic.inactive {
+    cursor: pointer;
+  }
+  .rm-topic.inactive:hover {
+    border-color: #d1d5db;
+    background: var(--md-default-bg-color, #ffffff);
+    color: var(--md-typeset-color, #1e293b) !important;
+  }
   
   .rm-badge {
     font-size: 0.65rem;
@@ -193,6 +201,11 @@ Use the accordion menu below to explore the topics in sequence. Click on any act
     background: #1e293b;
     color: #60a5fa !important;
   }
+  [data-md-color-scheme="slate"] .rm-topic.inactive:hover {
+    border-color: #334155;
+    background: #0f172a;
+    color: #cbd5e1 !important;
+  }
 </style>
 
 <div class="rm-container">
@@ -219,36 +232,124 @@ Use the accordion menu below to explore the topics in sequence. Click on any act
     </div>
     <div class="rm-category-content">
       
-      <!-- Subcategory: Intro to CP & Complexity -->
-      <div class="rm-subcategory open">
+      <!-- Subcategory: Intro to Programming -->
+      <div class="rm-subcategory">
         <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
-          <span>Intro to CP & Complexity</span>
-          <span class="rm-sub-toggle">−</span>
+          <span>Intro to Programming</span>
+          <span class="rm-sub-toggle">+</span>
         </div>
         <div class="rm-subcategory-content">
           <div class="rm-topics-grid">
-            <a href="topics/basics/01-intro-to-cp/intro-to-cp/" class="rm-topic">
-              <span>Intro to CP & Complexity</span>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>What is Programming?</span>
               <span class="rm-badge high">High</span>
             </a>
           </div>
         </div>
       </div>
 
-      <!-- Subcategory: Arrays -->
-      <div class="rm-subcategory open">
+      <!-- Subcategory: Learn a Language -->
+      <div class="rm-subcategory">
         <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
-          <span>Arrays</span>
-          <span class="rm-sub-toggle">−</span>
+          <span>Learn a Language</span>
+          <span class="rm-sub-toggle">+</span>
         </div>
         <div class="rm-subcategory-content">
           <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Intro to C++ & Environment</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Data Types, Variables & I/O</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Operators</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Conditional Statements</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Loops</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Functions</span>
+              <span class="rm-badge high">High</span>
+            </a>
             <a href="topics/basics/02-arrays/static-arrays/" class="rm-topic">
               <span>Static Arrays</span>
               <span class="rm-badge high">High</span>
             </a>
             <a href="topics/basics/02-arrays/dynamic-arrays/" class="rm-topic">
               <span>Dynamic Arrays</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Strings</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Pointers & References</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Structures</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Intro to Competitive Programming -->
+      <div class="rm-subcategory open">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Intro to Competitive Programming</span>
+          <span class="rm-sub-toggle">−</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="topics/basics/01-intro-to-cp/intro-to-cp/" class="rm-topic">
+              <span>What is Competitive Programming?</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Bitwise Thinking -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Bitwise Thinking</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Bitwise Operations & Bitmasks</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Complexity Analysis -->
+      <div class="rm-subcategory open">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Complexity Analysis</span>
+          <span class="rm-sub-toggle">−</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="topics/basics/01-intro-to-cp/intro-to-cp/" class="rm-topic">
+              <span>Big O & Complexity Analysis</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Fast Input Output</span>
               <span class="rm-badge high">High</span>
             </a>
           </div>
@@ -271,52 +372,336 @@ Use the accordion menu below to explore the topics in sequence. Click on any act
         </div>
       </div>
 
-      <!-- Subcategory: Sliding Window -->
-      <div class="rm-subcategory open">
+      <!-- Subcategory: Recursion -->
+      <div class="rm-subcategory">
         <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
-          <span>Sliding Window</span>
-          <span class="rm-sub-toggle">−</span>
+          <span>Recursion</span>
+          <span class="rm-sub-toggle">+</span>
         </div>
         <div class="rm-subcategory-content">
           <div class="rm-topics-grid">
-            <a href="topics/basics/04-sliding-window/fixed-size/" class="rm-topic">
-              <span>Fixed Size Window</span>
-              <span class="rm-badge high">High</span>
-            </a>
-            <a href="topics/basics/04-sliding-window/variable-size/" class="rm-topic">
-              <span>Variable Size Window</span>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Recursion Foundations</span>
               <span class="rm-badge high">High</span>
             </a>
           </div>
         </div>
       </div>
 
-      <!-- Subcategory: Two Pointers -->
-      <div class="rm-subcategory open">
+      <!-- Subcategory: Very Basic Math -->
+      <div class="rm-subcategory">
         <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
-          <span>Two Pointers</span>
-          <span class="rm-sub-toggle">−</span>
+          <span>Very Basic Math</span>
+          <span class="rm-sub-toggle">+</span>
         </div>
         <div class="rm-subcategory-content">
           <div class="rm-topics-grid">
-            <a href="topics/basics/05-two-pointers/two-pointers/" class="rm-topic">
-              <span>Two Pointers Technique</span>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Divisors</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>GCD & LCM</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Harmonic Series</span>
               <span class="rm-badge high">High</span>
             </a>
           </div>
         </div>
       </div>
 
-      <!-- Subcategory: Prefix Sums -->
+      <!-- Subcategory: Range Queries Without Updates -->
       <div class="rm-subcategory open">
         <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
-          <span>Prefix Sums</span>
+          <span>Range Queries Without Updates</span>
           <span class="rm-sub-toggle">−</span>
         </div>
         <div class="rm-subcategory-content">
           <div class="rm-topics-grid">
             <a href="topics/basics/06-prefix-sums/prefix-sums/" class="rm-topic">
               <span>Prefix Sums</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Prefix XOR</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Standard Template Library (STL) -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Standard Template Library (STL)</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Intro to STL & Iterators</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Pairs & Tuples</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Vector</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Stack</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Queue</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Priority Queue / Heap</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Deque</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Set & Multiset</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Map & Unordered Map</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Bitset</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>List / Linked List</span>
+              <span class="rm-badge medium">Med</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Leveraging Monotonicity -->
+      <div class="rm-subcategory open">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Leveraging Monotonicity</span>
+          <span class="rm-sub-toggle">−</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Binary Search</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="topics/basics/05-two-pointers/two-pointers/" class="rm-topic">
+              <span>Two Pointers</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Basic Sorting Algorithms -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Basic Sorting Algorithms</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Bubble Sort</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Selection Sort</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Insertion Sort</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Counting Sort</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Merge Sort</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Quick Sort</span>
+              <span class="rm-badge medium">Med</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Radix Sort</span>
+              <span class="rm-badge low">Low</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>STL Sort & Comparators</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Divide & Conquer -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Divide & Conquer</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Divide & Conquer</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Greedy & Constructive -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Greedy & Constructive</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Greedy Algorithms</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Constructive Algorithms</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: 2D Prefix Sum -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>2D Prefix Sum</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>2D Prefix Sum</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: More Techniques -->
+      <div class="rm-subcategory open">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>More Techniques</span>
+          <span class="rm-sub-toggle">−</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Difference Array</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="topics/basics/04-sliding-window/fixed-size/" class="rm-topic" style="margin-bottom:0.25rem;">
+              <span>Fixed Size Sliding Window</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="topics/basics/04-sliding-window/variable-size/" class="rm-topic">
+              <span>Variable Size Sliding Window</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Bit Manipulation -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Bit Manipulation</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Bit Manipulation</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>The XOR Trick</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Basic Modular Arithmetic -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Basic Modular Arithmetic</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Binary Exponentiation</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Fermat & Modular Inverse</span>
+              <span class="rm-badge high">High</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Basic Counting -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Basic Counting</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Combinatorics Basics (nCr)</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Stars & Bars</span>
+              <span class="rm-badge high">High</span>
+            </a>
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Pigeonhole Principle</span>
+              <span class="rm-badge medium">Med</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subcategory: Very Basic Graphs -->
+      <div class="rm-subcategory">
+        <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+          <span>Very Basic Graphs</span>
+          <span class="rm-sub-toggle">+</span>
+        </div>
+        <div class="rm-subcategory-content">
+          <div class="rm-topics-grid">
+            <a href="javascript:void(0)" onclick="alert('This topic is currently under development and will be published soon!')" class="rm-topic inactive">
+              <span>Introduction & Representation</span>
               <span class="rm-badge high">High</span>
             </a>
           </div>
