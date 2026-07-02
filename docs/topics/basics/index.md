@@ -29,7 +29,6 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### Bitwise Thinking
 - [Bitwise Operations and Bitmasks](bitwise-operations-and-bitmasks/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 
 ### Complexity Analysis
 - [Big O Notation and Time and Space Complexity Analysis](big-o-notation-and-time-and-space-complexity-analysis/) (Importance: Medium)
@@ -40,17 +39,12 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### Very Basic Math
 - [Divisors](divisors/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [GCD and LCM](gcd-and-lcm/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Harmonic Number](harmonic-number/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 
 ### Range Queries Without Updates
 - [Prefix Sum](prefix-sum/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Prefix XOR](prefix-xor/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 
 ### Standard Template Library (STL)
 - [Intro to STL, Containers and Iterators](intro-to-stl-containers-and-iterators/) (Importance: Medium)
@@ -67,25 +61,16 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### Leveraging Monotonicity
 - [Binary Search](binary-search/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Two Pointers](two-pointers/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 
 ### Basic Sorting Algorithms
 - [Bubble Sort](bubble-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Selection Sort](selection-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Insertion Sort](insertion-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Counting Sort](counting-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Merge Sort](merge-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Quick Sort](quick-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Radix Sort](radix-sort/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [C++ STL Sort and Custom Comparator](c-stl-sort-and-custom-comparator/) (Importance: Medium)
 
 ### Divide and Conquer
@@ -97,7 +82,6 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### 2D Prefix Sum
 - [2D Prefix Sum](2d-prefix-sum/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 
 ### More Techniques
 - [Difference Array](difference-array/) (Importance: Medium)
@@ -105,17 +89,14 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### Bit Manipulation
 - [Bit Manipulation](bit-manipulation/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [The XOR Trick](the-xor-trick/) (Importance: Medium)
 
 ### Basic Modular Arithmetic
 - [Binary Exponentiation and Basic Modular Arithmetic](binary-exponentiation-and-basic-modular-arithmetic/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Fermat's Little Theorem and Modular Inverse](fermat-s-little-theorem-and-modular-inverse/) (Importance: Medium)
 
 ### Basic Counting
 - [Permutations, Combinations and Basic Counting Problems](permutations-combinations-and-basic-counting-problems/) (Importance: Medium)
-- [🛠️ Original C++ Templates:](original-c-templates/) (Importance: Medium)
 - [Stars and Bars](stars-and-bars/) (Importance: Medium)
 - [Pigeonhole Principle](pigeonhole-principle/) (Importance: Medium)
 
