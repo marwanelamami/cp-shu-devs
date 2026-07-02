@@ -46,6 +46,16 @@ nav:
       - Variable Size: topics/basics/04-sliding-window/variable-size.md
     - Two Pointers: topics/basics/05-two-pointers/two-pointers.md
     - Prefix Sums: topics/basics/06-prefix-sums/prefix-sums.md
+  - Data Structures: topics/data-structures/index.md
+  - Graph Theory: topics/graph-theory/index.md
+  - Number Theory: topics/number-theory/index.md
+  - Combinatorics: topics/combinatorics/index.md
+  - Math: topics/math/index.md
+  - Strings: topics/strings/index.md
+  - Dynamic Programming: topics/dynamic-programming/index.md
+  - Game Theory: topics/game-theory/index.md
+  - Geometry: topics/geometry/index.md
+  - Miscellaneous: topics/miscellaneous/index.md
   - Useful Links: resources.md
 
 plugins:
