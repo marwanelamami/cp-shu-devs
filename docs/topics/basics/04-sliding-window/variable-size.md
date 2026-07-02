@@ -1,7 +1,7 @@
 # Sliding Window (Variable Size)
 
 **Category:** Basics  
-**Difficulty:** 🟡 Medium
+**Difficulty:** <span style="color: #d97706; font-weight: 600;">● Medium</span>
 
 ---
 

@@ -1,7 +1,7 @@
 # Static Arrays
 
 **Category:** Basics  
-**Difficulty:** 🟢 Very Easy
+**Difficulty:** <span style="color: #059669; font-weight: 600;">● Very Easy</span>
 
 ---
 
@@ -126,10 +126,10 @@ The operations discussed above are critical for solving many problems. In fact, 
 
 | # | Problem | Platform | Difficulty |
 |---|---|---|---|
-| 1 | [Watermelon](https://codeforces.com/problemset/problem/4/A) | Codeforces | 🟢 Very Easy |
-| 2 | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Codeforces | 🟢 Very Easy |
-| 3 | [Team](https://codeforces.com/problemset/problem/231/A) | Codeforces | 🟢 Very Easy |
-| 4 | [Missing Number](https://cses.fi/problemset/task/1083) | CSES | 🟢 Very Easy |
-| 5 | [Increasing Array](https://cses.fi/problemset/task/1094) | CSES | 🟢 Very Easy |
-| 6 | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Codeforces | 🟢 Very Easy |
-| 7 | [Permutations](https://cses.fi/problemset/task/1070) | CSES | 🟢 Easy |
+| 1 | [Watermelon](https://codeforces.com/problemset/problem/4/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
+| 2 | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
+| 3 | [Team](https://codeforces.com/problemset/problem/231/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
+| 4 | [Missing Number](https://cses.fi/problemset/task/1083) | CSES | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
+| 5 | [Increasing Array](https://cses.fi/problemset/task/1094) | CSES | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
+| 6 | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
+| 7 | [Permutations](https://cses.fi/problemset/task/1070) | CSES | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |

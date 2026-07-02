@@ -1,7 +1,7 @@
 # Kadane's Algorithm
 
 **Category:** Basics  
-**Difficulty:** 🟢 Easy
+**Difficulty:** <span style="color: #2563eb; font-weight: 600;">● Easy</span>
 
 ---
 
@@ -116,6 +116,6 @@ Next, we'll formally look at the sliding window technique. There are two variati
 
 | # | Problem | Platform | Difficulty |
 |---|---|---|---|
-| 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | 🟢 Easy |
-| 2 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | 🟡 Medium |
-| 3 | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | 🟢 Easy |
+| 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |
+| 2 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | <span style="color: #d97706; font-weight: 600;">● Medium</span> |
+| 3 | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |

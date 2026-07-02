@@ -1,7 +1,7 @@
 # Two Pointers
 
 **Category:** Basics  
-**Difficulty:** 🟢 Easy
+**Difficulty:** <span style="color: #2563eb; font-weight: 600;">● Easy</span>
 
 ---
 

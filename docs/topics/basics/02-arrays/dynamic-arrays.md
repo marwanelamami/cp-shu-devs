@@ -1,7 +1,7 @@
 # Dynamic Arrays
 
 **Category:** Basics  
-**Difficulty:** 🟢 Very Easy
+**Difficulty:** <span style="color: #059669; font-weight: 600;">● Very Easy</span>
 
 ---
 

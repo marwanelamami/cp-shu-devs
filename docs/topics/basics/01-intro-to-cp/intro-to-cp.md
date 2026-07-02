@@ -1,7 +1,7 @@
 # Intro to CP & Complexity
 
 **Category:** Basics  
-**Difficulty:** 🟢 Very Easy
+**Difficulty:** <span style="color: #059669; font-weight: 600;">● Very Easy</span>
 
 ---
 
@@ -95,12 +95,12 @@ In asymptotic analysis, we evaluate the growth rate of algorithms under differen
 
 ## Big-O Notation
 
-![Big-O Notation Graph](../images/intro-to-cp/intro-5.png)
-
 Big-O notation is the mathematical language we use to express the upper bound of an algorithm’s growth rate:
 
 - **Mathematical Definition**: We write \(T(n) = O(f(n))\) to indicate that, for large \(n\), your algorithm’s operations grow no faster than \(f(n)\).
 - **In Plain English**: It is an upper bound on how your algorithm scales — a worst-case guarantee that your algorithm will never perform worse than this.
+
+![Big-O Notation Graph](../images/intro-to-cp/intro-5.png)
 
 ### Example
 
