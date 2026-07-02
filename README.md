@@ -28,3 +28,5 @@ We welcome contributions to expand or improve the playbook.
 * **Fixes & Enhancements**: Open a pull request with a clear description of the changes made and the reason for them.
 * **Adding New Topics**: Ensure new topics follow the established format (concept, visualization placeholders, Python implementations, and complexity breakdown). Files must be placed inside their respective numbered directories under `docs/topics/basics/` (e.g., `04-sliding-window/`).
 
+
+
