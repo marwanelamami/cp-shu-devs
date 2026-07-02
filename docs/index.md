@@ -10,8 +10,8 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
 
 ## Topic Roadmap
 
-<div>
-<svg xmlns="http://www.w3.org/2000/svg" id="svg-root" viewBox="0 0 1000 800" width="100%" height="800">
+<div style="width:100%;overflow-x:auto;">
+<svg xmlns="http://www.w3.org/2000/svg" id="svg-root" viewBox="0 0 1000 800" width="100%" height="800" style="min-width:600px;display:block;">
   <defs>
     <!-- Drop Shadow Filter for nodes -->
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
@@ -21,13 +21,13 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
   <style>
     .node-text {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       fill: #111827;
       user-select: none;
     }
     .node-text-disabled {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       fill: #9ca3af;
       user-select: none;
     }
@@ -51,7 +51,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
     }
     .coming-soon-badge {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 11px;
+      font-size: 13px;
       font-weight: 500;
       fill: #9ca3af;
       text-anchor: end;
@@ -95,7 +95,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
     }
     .importance-badge {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 9px;
+      font-size: 11px;
       font-weight: bold;
       fill: #ffffff;
       text-anchor: middle;
@@ -103,7 +103,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
     }
     .legend-text {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 12px;
+      font-size: 14px;
       fill: #374151;
       font-weight: 500;
     }
@@ -161,7 +161,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
         const isCatExpanded = !!expandedStates[catKey];
         const isBasics = cat.title.toLowerCase() === "basics";
         const catY = y;
-        y += 45; // Category node height (35) + gap (10)
+        y += 62; // Category node height (50) + gap (12)
         let childYLines = [];
         if (isBasics && isCatExpanded) {
           cat.subcategories.forEach((subcat, subcatIdx) => {
@@ -169,14 +169,14 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
             const isSubcatExpanded = !!expandedStates[subcatKey];
             const subcatX = startX + 40;
             const subcatY = y;
-            childYLines.push(subcatY + 15); // Connect to middle of subcat card
-            y += 40; // Subcategory node height (30) + gap (10)
+            childYLines.push(subcatY + 22); // Connect to middle of subcat card
+            y += 56; // Subcategory node height (44) + gap (12)
             let topicYLines = [];
             if (isSubcatExpanded) {
               subcat.topics.forEach((topic) => {
                 const topicX = subcatX + 40;
                 const topicY = y;
-                topicYLines.push(topicY + 13); // Connect to middle of topic card
+                topicYLines.push(topicY + 19); // Connect to middle of topic card
                 // Render Topic Node
                 const topicGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
                 topicGroup.setAttribute("transform", `translate(${topicX}, ${topicY})`);
@@ -184,7 +184,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
                 // Topic Card
                 const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
                 card.setAttribute("width", "880");
-                card.setAttribute("height", "26");
+                card.setAttribute("height", "38");
                 card.setAttribute("class", "topic-card");
                 card.setAttribute("onclick", `onTopicClick('${topic.id}')`);
                 topicGroup.appendChild(card);
@@ -199,15 +199,15 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
                   impText = "Med";
                 }
                 const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-                dot.setAttribute("cx", "15");
-                dot.setAttribute("cy", "13");
-                dot.setAttribute("r", "5");
+                dot.setAttribute("cx", "16");
+                dot.setAttribute("cy", "19");
+                dot.setAttribute("r", "6");
                 dot.setAttribute("fill", impColor);
                 topicGroup.appendChild(dot);
                 // Topic Text
                 const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-                text.setAttribute("x", "30");
-                text.setAttribute("y", "17");
+                text.setAttribute("x", "34");
+                text.setAttribute("y", "24");
                 text.setAttribute("class", "node-text");
                 let titleText = topic.title;
                 if (titleText.length > 100) titleText = titleText.substring(0, 97) + "...";
@@ -215,23 +215,23 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
                 topicGroup.appendChild(text);
                 // Importance Pill Badge on Right
                 const badgeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                badgeGroup.setAttribute("transform", "translate(805, 6)");
+                badgeGroup.setAttribute("transform", "translate(800, 9)");
                 const badgeRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-                badgeRect.setAttribute("width", "35");
-                badgeRect.setAttribute("height", "14");
-                badgeRect.setAttribute("rx", "4");
+                badgeRect.setAttribute("width", "44");
+                badgeRect.setAttribute("height", "20");
+                badgeRect.setAttribute("rx", "5");
                 badgeRect.setAttribute("fill", impColor);
                 badgeGroup.appendChild(badgeRect);
                 const badgeText = document.createElementNS("http://www.w3.org/2000/svg", "text");
-                badgeText.setAttribute("x", "17.5");
-                badgeText.setAttribute("y", "7");
+                badgeText.setAttribute("x", "22");
+                badgeText.setAttribute("y", "10");
                 badgeText.setAttribute("class", "importance-badge");
                 badgeText.textContent = impText;
                 badgeGroup.appendChild(badgeText);
                 topicGroup.appendChild(badgeGroup);
                 // Link Placeholder Icon
                 const linkGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                linkGroup.setAttribute("transform", "translate(850, 5)");
+                linkGroup.setAttribute("transform", "translate(852, 11)");
                 linkGroup.setAttribute("class", "link-icon");
                 linkGroup.setAttribute("onclick", `onTopicClick('${topic.id}')`);
                 const linkPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -244,7 +244,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
                 linkGroup.appendChild(linkRect);
                 topicGroup.appendChild(linkGroup);
                 nodesContainer.appendChild(topicGroup);
-                y += 32; // Topic height (26) + gap (6)
+                y += 46; // Topic height (38) + gap (8)
               });
               // Draw branch lines for Topics
               if (topicYLines.length > 0) {
@@ -252,7 +252,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
                 // Vertical trunk
                 const trunk = document.createElementNS("http://www.w3.org/2000/svg", "path");
                 trunk.setAttribute("class", "line-branch");
-                trunk.setAttribute("d", `M ${branchX} ${subcatY + 30} L ${branchX} ${topicYLines[topicYLines.length - 1]}`);
+                trunk.setAttribute("d", `M ${branchX} ${subcatY + 44} L ${branchX} ${topicYLines[topicYLines.length - 1]}`);
                 linesContainer.appendChild(trunk);
                 // Horizontal branches
                 topicYLines.forEach((tY, tIdx) => {
@@ -270,21 +270,21 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
             // Card
             const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
             card.setAttribute("width", "920");
-            card.setAttribute("height", "30");
+            card.setAttribute("height", "44");
             card.setAttribute("class", "subcategory-card");
             card.setAttribute("onclick", `toggleNode('${subcatKey}')`);
             subcatGroup.appendChild(card);
             // Subcategory Text
             const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
             text.setAttribute("x", "15");
-            text.setAttribute("y", "19");
+            text.setAttribute("y", "27");
             text.setAttribute("class", "node-text node-title");
             text.textContent = subcat.title;
             subcatGroup.appendChild(text);
             // Expand/Collapse Toggle Indicator
             const toggle = document.createElementNS("http://www.w3.org/2000/svg", "text");
             toggle.setAttribute("x", "890");
-            toggle.setAttribute("y", "20");
+            toggle.setAttribute("y", "28");
             toggle.setAttribute("class", "toggle-icon node-title");
             toggle.textContent = isSubcatExpanded ? "−" : "+";
             subcatGroup.appendChild(toggle);
@@ -296,7 +296,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
             // Vertical trunk
             const trunk = document.createElementNS("http://www.w3.org/2000/svg", "path");
             trunk.setAttribute("class", "line-branch");
-            trunk.setAttribute("d", `M ${branchX} ${catY + 35} L ${branchX} ${childYLines[childYLines.length - 1]}`);
+            trunk.setAttribute("d", `M ${branchX} ${catY + 50} L ${branchX} ${childYLines[childYLines.length - 1]}`);
             linesContainer.appendChild(trunk);
             // Horizontal branches
             childYLines.forEach((sY) => {
@@ -314,7 +314,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
         // Card
         const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
         card.setAttribute("width", "960");
-        card.setAttribute("height", "35");
+        card.setAttribute("height", "50");
         if (isBasics) {
           card.setAttribute("class", "category-card");
           card.setAttribute("onclick", `toggleNode('${catKey}')`);
@@ -325,23 +325,23 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
         // Category Text
         const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
         text.setAttribute("x", "15");
-        text.setAttribute("y", "22");
+        text.setAttribute("y", "31");
         text.setAttribute("class", isBasics ? "node-text node-title" : "node-text-disabled node-title");
-        text.setAttribute("font-size", "15px");
+        text.setAttribute("font-size", "18px");
         text.textContent = cat.title;
         catGroup.appendChild(text);
         // Indicator on Right (Toggle for Basics, Coming Soon for others)
         if (isBasics) {
           const toggle = document.createElementNS("http://www.w3.org/2000/svg", "text");
           toggle.setAttribute("x", "930");
-          toggle.setAttribute("y", "23");
+          toggle.setAttribute("y", "32");
           toggle.setAttribute("class", "toggle-icon node-title");
           toggle.textContent = isCatExpanded ? "−" : "+";
           catGroup.appendChild(toggle);
         } else {
           const soonBadge = document.createElementNS("http://www.w3.org/2000/svg", "text");
           soonBadge.setAttribute("x", "945");
-          soonBadge.setAttribute("y", "22");
+          soonBadge.setAttribute("y", "31");
           soonBadge.setAttribute("class", "coming-soon-badge");
           soonBadge.textContent = "Coming Soon";
           catGroup.appendChild(soonBadge);
