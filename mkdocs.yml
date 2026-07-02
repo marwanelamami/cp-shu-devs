@@ -1,5 +1,5 @@
 site_name: CP Playbook
-site_description: SHU Developers Club — Competitive Programming Hub
+site_description: A competitive programming training resource created for LCPC preparation and broader CP growth, maintained by the SHU Developers Club community.
 site_url: https://marwanelamami.github.io/cp-shu-devs/
 
 theme:

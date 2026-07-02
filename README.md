@@ -1,6 +1,6 @@
 # CP Playbook
 
-The official competitive programming resource hub and learning roadmap for the SHU Developers Club.
+A competitive programming training resource created for LCPC preparation and broader CP growth, maintained by the SHU Developers Club community.
 
 [![Site Live](https://img.shields.io/badge/site-live-brightgreen?style=flat-square&logo=mkdocs)](https://marwanelamami.github.io/cp-shu-devs/)
 [![Built with MkDocs Material](https://img.shields.io/badge/built%20with-MkDocs%20Material-blue?style=flat-square&logo=materialdesign)](https://squidfunk.github.io/mkdocs-material/)
