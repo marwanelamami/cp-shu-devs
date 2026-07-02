@@ -11,7 +11,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
 ## Topic Roadmap
 
 <div style="width:100%;overflow-x:auto;">
-<svg xmlns="http://www.w3.org/2000/svg" id="svg-root" viewBox="0 0 1000 800" width="100%" height="800" style="min-width:600px;display:block;">
+<svg xmlns="http://www.w3.org/2000/svg" id="svg-root" viewBox="0 0 1000 800" width="100%" style="display:block;">
   <defs>
     <!-- Drop Shadow Filter for nodes -->
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
@@ -21,13 +21,13 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
   <style>
     .node-text {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       fill: #111827;
       user-select: none;
     }
     .node-text-disabled {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       fill: #9ca3af;
       user-select: none;
     }
@@ -51,7 +51,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
     }
     .coming-soon-badge {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 500;
       fill: #9ca3af;
       text-anchor: end;
@@ -95,7 +95,7 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
     }
     .importance-badge {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 11px;
+      font-size: 13px;
       font-weight: bold;
       fill: #ffffff;
       text-anchor: middle;
@@ -103,19 +103,19 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
     }
     .legend-text {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 14px;
+      font-size: 15px;
       fill: #374151;
       font-weight: 500;
     }
   </style>
-  <!-- Legend -->
-  <g transform="translate(620, 20)">
-    <circle cx="10" cy="20" r="5" fill="#ef4444" />
-    <text x="20" y="24" class="legend-text">High Importance</text>
-    <circle cx="130" cy="20" r="5" fill="#f59e0b" />
-    <text x="140" y="24" class="legend-text">Medium Importance</text>
-    <circle cx="260" cy="20" r="5" fill="#10b981" />
-    <text x="270" y="24" class="legend-text">Low Importance</text>
+  <!-- Legend: each item is circle then text, with enough gap between items -->
+  <g transform="translate(340, 18)">
+    <circle cx="6" cy="12" r="7" fill="#ef4444" />
+    <text x="20" y="17" class="legend-text">High Importance</text>
+    <circle cx="186" cy="12" r="7" fill="#f59e0b" />
+    <text x="200" y="17" class="legend-text">Medium Importance</text>
+    <circle cx="400" cy="12" r="7" fill="#10b981" />
+    <text x="414" y="17" class="legend-text">Low Importance</text>
   </g>
   <!-- Containers for dynamic rendering -->
   <g id="lines-container"></g>
@@ -147,217 +147,239 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
       expandedStates[nodeKey] = !expandedStates[nodeKey];
       renderRoadmap();
     }
+    const BASE_W = 900;
+    function getScale() {
+      const svg = document.getElementById('svg-root');
+      const w = svg.getBoundingClientRect().width || BASE_W;
+      return Math.min(Math.max(w / BASE_W, 0.55), 1.6);
+    }
     function renderRoadmap() {
-      const nodesContainer = document.getElementById("nodes-container");
-      const linesContainer = document.getElementById("lines-container");
-      // Clear current elements
-      nodesContainer.innerHTML = "";
-      linesContainer.innerHTML = "";
-      let y = 60; // Start y coordinate below legend
+      const s = getScale();
+      const CAT_H       = Math.round(58  * s);
+      const CAT_GAP     = Math.round(14  * s);
+      const SUB_H       = Math.round(52  * s);
+      const SUB_GAP     = Math.round(14  * s);
+      const TOPIC_H     = Math.round(46  * s);
+      const TOPIC_GAP   = Math.round(10  * s);
+      const LEGEND_H    = Math.round(70  * s);
+      const INDENT_SUB  = Math.round(40  * s);
+      const INDENT_TOP  = Math.round(40  * s);
+      const CAT_FS      = Math.round(20  * s);
+      const SUB_FS      = Math.round(18  * s);
+      const TOPIC_FS    = Math.round(18  * s);
+      const BADGE_FS    = Math.round(13  * s);
+      const LEGEND_FS   = Math.round(15  * s);
+      const DOT_R       = Math.round(7   * s);
+      const BADGE_W     = Math.round(50  * s);
+      const BADGE_H     = Math.round(24  * s);
+      const VB_W = 1000;
+      const nodesContainer = document.getElementById('nodes-container');
+      const linesContainer = document.getElementById('lines-container');
+      nodesContainer.innerHTML = '';
+      linesContainer.innerHTML = '';
+      let styleEl = document.getElementById('roadmap-dyn-style');
+      if (!styleEl) {
+        styleEl = document.createElementNS('http://www.w3.org/2000/svg', 'style');
+        styleEl.id = 'roadmap-dyn-style';
+        document.getElementById('svg-root').appendChild(styleEl);
+      }
+      styleEl.textContent = [
+        `.node-text { font-size: ${TOPIC_FS}px; }`,
+        `.node-text-disabled { font-size: ${TOPIC_FS}px; }`,
+        `.coming-soon-badge { font-size: ${Math.round(15*s)}px; }`,
+        `.importance-badge { font-size: ${BADGE_FS}px; }`,
+        `.legend-text { font-size: ${LEGEND_FS}px; }`,
+        `.toggle-icon { font-size: ${Math.round(18*s)}px; }`,
+      ].join(' ');
+      let y = LEGEND_H;
       const startX = 20;
-      // Render categories
       roadmapData.forEach((cat, catIdx) => {
         const catKey = `cat-${cat.id || catIdx}`;
         const isCatExpanded = !!expandedStates[catKey];
-        const isBasics = cat.title.toLowerCase() === "basics";
+        const isBasics = cat.title.toLowerCase() === 'basics';
         const catY = y;
-        y += 62; // Category node height (50) + gap (12)
+        y += CAT_H + CAT_GAP;
         let childYLines = [];
         if (isBasics && isCatExpanded) {
           cat.subcategories.forEach((subcat, subcatIdx) => {
             const subcatKey = `subcat-${cat.id || catIdx}-${subcat.id || subcatIdx}`;
             const isSubcatExpanded = !!expandedStates[subcatKey];
-            const subcatX = startX + 40;
+            const subcatX = startX + INDENT_SUB;
             const subcatY = y;
-            childYLines.push(subcatY + 22); // Connect to middle of subcat card
-            y += 56; // Subcategory node height (44) + gap (12)
+            childYLines.push(subcatY + Math.round(SUB_H / 2));
+            y += SUB_H + SUB_GAP;
             let topicYLines = [];
             if (isSubcatExpanded) {
               subcat.topics.forEach((topic) => {
-                const topicX = subcatX + 40;
+                const topicX = subcatX + INDENT_TOP;
                 const topicY = y;
-                topicYLines.push(topicY + 19); // Connect to middle of topic card
-                // Render Topic Node
-                const topicGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                topicGroup.setAttribute("transform", `translate(${topicX}, ${topicY})`);
-                topicGroup.setAttribute("filter", "url(#shadow)");
-                // Topic Card
-                const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-                card.setAttribute("width", "880");
-                card.setAttribute("height", "38");
-                card.setAttribute("class", "topic-card");
-                card.setAttribute("onclick", `onTopicClick('${topic.id}')`);
+                topicYLines.push(topicY + Math.round(TOPIC_H / 2));
+                const topicGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                topicGroup.setAttribute('transform', `translate(${topicX}, ${topicY})`);
+                topicGroup.setAttribute('filter', 'url(#shadow)');
+                const cardW = VB_W - topicX - startX;
+                const card = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                card.setAttribute('width', cardW);
+                card.setAttribute('height', TOPIC_H);
+                card.setAttribute('rx', Math.round(6 * s));
+                card.setAttribute('class', 'topic-card');
+                card.setAttribute('onclick', `onTopicClick('${topic.id}')`);
                 topicGroup.appendChild(card);
-                // Importance Dot
-                let impColor = "#10b981"; // Low (1)
-                let impText = "Low";
-                if (topic.importance === 3) {
-                  impColor = "#ef4444"; // High
-                  impText = "High";
-                } else if (topic.importance === 2) {
-                  impColor = "#f59e0b"; // Med
-                  impText = "Med";
-                }
-                const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-                dot.setAttribute("cx", "16");
-                dot.setAttribute("cy", "19");
-                dot.setAttribute("r", "6");
-                dot.setAttribute("fill", impColor);
+                let impColor = '#10b981', impText = 'Low';
+                if (topic.importance === 3) { impColor = '#ef4444'; impText = 'High'; }
+                else if (topic.importance === 2) { impColor = '#f59e0b'; impText = 'Med'; }
+                const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                dot.setAttribute('cx', Math.round(18 * s));
+                dot.setAttribute('cy', Math.round(TOPIC_H / 2));
+                dot.setAttribute('r', DOT_R);
+                dot.setAttribute('fill', impColor);
                 topicGroup.appendChild(dot);
-                // Topic Text
-                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-                text.setAttribute("x", "34");
-                text.setAttribute("y", "24");
-                text.setAttribute("class", "node-text");
+                const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                text.setAttribute('x', Math.round(36 * s));
+                text.setAttribute('y', Math.round(TOPIC_H / 2 + TOPIC_FS * 0.35));
+                text.setAttribute('class', 'node-text');
                 let titleText = topic.title;
-                if (titleText.length > 100) titleText = titleText.substring(0, 97) + "...";
+                if (titleText.length > 90) titleText = titleText.substring(0, 87) + '...';
                 text.textContent = titleText;
                 topicGroup.appendChild(text);
-                // Importance Pill Badge on Right
-                const badgeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                badgeGroup.setAttribute("transform", "translate(800, 9)");
-                const badgeRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-                badgeRect.setAttribute("width", "44");
-                badgeRect.setAttribute("height", "20");
-                badgeRect.setAttribute("rx", "5");
-                badgeRect.setAttribute("fill", impColor);
+                const badgeGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                const badgeX = cardW - BADGE_W - Math.round(52 * s);
+                const badgeY = Math.round((TOPIC_H - BADGE_H) / 2);
+                badgeGroup.setAttribute('transform', `translate(${badgeX}, ${badgeY})`);
+                const badgeRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                badgeRect.setAttribute('width', BADGE_W);
+                badgeRect.setAttribute('height', BADGE_H);
+                badgeRect.setAttribute('rx', Math.round(6 * s));
+                badgeRect.setAttribute('fill', impColor);
                 badgeGroup.appendChild(badgeRect);
-                const badgeText = document.createElementNS("http://www.w3.org/2000/svg", "text");
-                badgeText.setAttribute("x", "22");
-                badgeText.setAttribute("y", "10");
-                badgeText.setAttribute("class", "importance-badge");
+                const badgeText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                badgeText.setAttribute('x', Math.round(BADGE_W / 2));
+                badgeText.setAttribute('y', Math.round(BADGE_H / 2));
+                badgeText.setAttribute('class', 'importance-badge');
                 badgeText.textContent = impText;
                 badgeGroup.appendChild(badgeText);
                 topicGroup.appendChild(badgeGroup);
-                // Link Placeholder Icon
-                const linkGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                linkGroup.setAttribute("transform", "translate(852, 11)");
-                linkGroup.setAttribute("class", "link-icon");
-                linkGroup.setAttribute("onclick", `onTopicClick('${topic.id}')`);
-                const linkPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
-                linkPath.setAttribute("d", "M10.586 3L12 4.414 7.414 9H9v2H4V6h2v1.586L10.586 3z");
+                const linkGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                const iconX = cardW - Math.round(22 * s);
+                const iconY = Math.round((TOPIC_H - 16) / 2);
+                linkGroup.setAttribute('transform', `translate(${iconX}, ${iconY})`);
+                linkGroup.setAttribute('class', 'link-icon');
+                linkGroup.setAttribute('onclick', `onTopicClick('${topic.id}')`);
+                const linkPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                linkPath.setAttribute('d', 'M10.586 3L12 4.414 7.414 9H9v2H4V6h2v1.586L10.586 3z');
                 linkGroup.appendChild(linkPath);
-                const linkRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-                linkRect.setAttribute("width", "16");
-                linkRect.setAttribute("height", "16");
-                linkRect.setAttribute("fill", "transparent");
+                const linkRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                linkRect.setAttribute('width', 16); linkRect.setAttribute('height', 16);
+                linkRect.setAttribute('fill', 'transparent');
                 linkGroup.appendChild(linkRect);
                 topicGroup.appendChild(linkGroup);
                 nodesContainer.appendChild(topicGroup);
-                y += 46; // Topic height (38) + gap (8)
+                y += TOPIC_H + TOPIC_GAP;
               });
-              // Draw branch lines for Topics
               if (topicYLines.length > 0) {
-                const branchX = subcatX + 20;
-                // Vertical trunk
-                const trunk = document.createElementNS("http://www.w3.org/2000/svg", "path");
-                trunk.setAttribute("class", "line-branch");
-                trunk.setAttribute("d", `M ${branchX} ${subcatY + 44} L ${branchX} ${topicYLines[topicYLines.length - 1]}`);
+                const branchX = subcatX + Math.round(20 * s);
+                const trunk = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                trunk.setAttribute('class', 'line-branch');
+                trunk.setAttribute('d', `M ${branchX} ${subcatY + SUB_H} L ${branchX} ${topicYLines[topicYLines.length - 1]}`);
                 linesContainer.appendChild(trunk);
-                // Horizontal branches
-                topicYLines.forEach((tY, tIdx) => {
-                  const branch = document.createElementNS("http://www.w3.org/2000/svg", "path");
-                  branch.setAttribute("class", "line-branch");
-                  branch.setAttribute("d", `M ${branchX} ${tY} L ${subcatX + 40} ${tY}`);
+                topicYLines.forEach(tY => {
+                  const branch = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                  branch.setAttribute('class', 'line-branch');
+                  branch.setAttribute('d', `M ${branchX} ${tY} L ${subcatX + INDENT_TOP} ${tY}`);
                   linesContainer.appendChild(branch);
                 });
               }
             }
-            // Render Subcategory Node
-            const subcatGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-            subcatGroup.setAttribute("transform", `translate(${subcatX}, ${subcatY})`);
-            subcatGroup.setAttribute("filter", "url(#shadow)");
-            // Card
-            const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-            card.setAttribute("width", "920");
-            card.setAttribute("height", "44");
-            card.setAttribute("class", "subcategory-card");
-            card.setAttribute("onclick", `toggleNode('${subcatKey}')`);
-            subcatGroup.appendChild(card);
-            // Subcategory Text
-            const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-            text.setAttribute("x", "15");
-            text.setAttribute("y", "27");
-            text.setAttribute("class", "node-text node-title");
-            text.textContent = subcat.title;
-            subcatGroup.appendChild(text);
-            // Expand/Collapse Toggle Indicator
-            const toggle = document.createElementNS("http://www.w3.org/2000/svg", "text");
-            toggle.setAttribute("x", "890");
-            toggle.setAttribute("y", "28");
-            toggle.setAttribute("class", "toggle-icon node-title");
-            toggle.textContent = isSubcatExpanded ? "−" : "+";
-            subcatGroup.appendChild(toggle);
+            const subcatGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            subcatGroup.setAttribute('transform', `translate(${subcatX}, ${subcatY})`);
+            subcatGroup.setAttribute('filter', 'url(#shadow)');
+            const subCardW = VB_W - subcatX - startX;
+            const subCard = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            subCard.setAttribute('width', subCardW);
+            subCard.setAttribute('height', SUB_H);
+            subCard.setAttribute('rx', Math.round(6 * s));
+            subCard.setAttribute('class', 'subcategory-card');
+            subCard.setAttribute('onclick', `toggleNode('${subcatKey}')`);
+            subcatGroup.appendChild(subCard);
+            const subText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            subText.setAttribute('x', Math.round(15 * s));
+            subText.setAttribute('y', Math.round(SUB_H / 2 + SUB_FS * 0.35));
+            subText.setAttribute('class', 'node-text node-title');
+            subText.textContent = subcat.title;
+            subcatGroup.appendChild(subText);
+            const subToggle = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            subToggle.setAttribute('x', subCardW - Math.round(22 * s));
+            subToggle.setAttribute('y', Math.round(SUB_H / 2 + SUB_FS * 0.35));
+            subToggle.setAttribute('class', 'toggle-icon node-title');
+            subToggle.textContent = isSubcatExpanded ? '−' : '+';
+            subcatGroup.appendChild(subToggle);
             nodesContainer.appendChild(subcatGroup);
           });
-          // Draw branch lines for Subcategories
           if (childYLines.length > 0) {
-            const branchX = startX + 20;
-            // Vertical trunk
-            const trunk = document.createElementNS("http://www.w3.org/2000/svg", "path");
-            trunk.setAttribute("class", "line-branch");
-            trunk.setAttribute("d", `M ${branchX} ${catY + 50} L ${branchX} ${childYLines[childYLines.length - 1]}`);
+            const branchX = startX + Math.round(20 * s);
+            const trunk = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            trunk.setAttribute('class', 'line-branch');
+            trunk.setAttribute('d', `M ${branchX} ${catY + CAT_H} L ${branchX} ${childYLines[childYLines.length - 1]}`);
             linesContainer.appendChild(trunk);
-            // Horizontal branches
-            childYLines.forEach((sY) => {
-              const branch = document.createElementNS("http://www.w3.org/2000/svg", "path");
-              branch.setAttribute("class", "line-branch");
-              branch.setAttribute("d", `M ${branchX} ${sY} L ${startX + 40} ${sY}`);
+            childYLines.forEach(sY => {
+              const branch = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+              branch.setAttribute('class', 'line-branch');
+              branch.setAttribute('d', `M ${branchX} ${sY} L ${startX + INDENT_SUB} ${sY}`);
               linesContainer.appendChild(branch);
             });
           }
         }
-        // Render Category Node
-        const catGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-        catGroup.setAttribute("transform", `translate(${startX}, ${catY})`);
-        catGroup.setAttribute("filter", "url(#shadow)");
-        // Card
-        const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-        card.setAttribute("width", "960");
-        card.setAttribute("height", "50");
+        const catGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        catGroup.setAttribute('transform', `translate(${startX}, ${catY})`);
+        catGroup.setAttribute('filter', 'url(#shadow)');
+        const catCardW = VB_W - startX * 2;
+        const catCard = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        catCard.setAttribute('width', catCardW);
+        catCard.setAttribute('height', CAT_H);
+        catCard.setAttribute('rx', Math.round(6 * s));
         if (isBasics) {
-          card.setAttribute("class", "category-card");
-          card.setAttribute("onclick", `toggleNode('${catKey}')`);
+          catCard.setAttribute('class', 'category-card');
+          catCard.setAttribute('onclick', `toggleNode('${catKey}')`);
         } else {
-          card.setAttribute("class", "category-card-disabled");
+          catCard.setAttribute('class', 'category-card-disabled');
         }
-        catGroup.appendChild(card);
-        // Category Text
-        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        text.setAttribute("x", "15");
-        text.setAttribute("y", "31");
-        text.setAttribute("class", isBasics ? "node-text node-title" : "node-text-disabled node-title");
-        text.setAttribute("font-size", "18px");
-        text.textContent = cat.title;
-        catGroup.appendChild(text);
-        // Indicator on Right (Toggle for Basics, Coming Soon for others)
+        catGroup.appendChild(catCard);
+        const catText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        catText.setAttribute('x', Math.round(15 * s));
+        catText.setAttribute('y', Math.round(CAT_H / 2 + CAT_FS * 0.35));
+        catText.setAttribute('class', isBasics ? 'node-text node-title' : 'node-text-disabled node-title');
+        catText.setAttribute('font-size', `${CAT_FS}px`);
+        catText.textContent = cat.title;
+        catGroup.appendChild(catText);
         if (isBasics) {
-          const toggle = document.createElementNS("http://www.w3.org/2000/svg", "text");
-          toggle.setAttribute("x", "930");
-          toggle.setAttribute("y", "32");
-          toggle.setAttribute("class", "toggle-icon node-title");
-          toggle.textContent = isCatExpanded ? "−" : "+";
+          const toggle = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+          toggle.setAttribute('x', catCardW - Math.round(22 * s));
+          toggle.setAttribute('y', Math.round(CAT_H / 2 + CAT_FS * 0.35));
+          toggle.setAttribute('class', 'toggle-icon node-title');
+          toggle.textContent = isCatExpanded ? '−' : '+';
           catGroup.appendChild(toggle);
         } else {
-          const soonBadge = document.createElementNS("http://www.w3.org/2000/svg", "text");
-          soonBadge.setAttribute("x", "945");
-          soonBadge.setAttribute("y", "31");
-          soonBadge.setAttribute("class", "coming-soon-badge");
-          soonBadge.textContent = "Coming Soon";
-          catGroup.appendChild(soonBadge);
+          const badge = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+          badge.setAttribute('x', catCardW - Math.round(8 * s));
+          badge.setAttribute('y', Math.round(CAT_H / 2 + CAT_FS * 0.35));
+          badge.setAttribute('class', 'coming-soon-badge');
+          badge.textContent = 'Coming Soon';
+          catGroup.appendChild(badge);
         }
         nodesContainer.appendChild(catGroup);
       });
-      // Update SVG viewport height to dynamically fit content
-      const finalHeight = y + 40;
-      const svgRoot = document.getElementById("svg-root");
-      svgRoot.setAttribute("viewBox", `0 0 1000 ${finalHeight}`);
-      svgRoot.setAttribute("height", finalHeight);
+      const finalH = y + Math.round(40 * s);
+      const svgRoot = document.getElementById('svg-root');
+      svgRoot.setAttribute('viewBox', `0 0 ${VB_W} ${finalH}`);
     }
-    // Render immediately and on window load
     renderRoadmap();
-    document.addEventListener("DOMContentLoaded", renderRoadmap);
-    window.addEventListener("load", renderRoadmap);
+    document.addEventListener('DOMContentLoaded', renderRoadmap);
+    window.addEventListener('load', renderRoadmap);
+    if (typeof ResizeObserver !== 'undefined') {
+      new ResizeObserver(() => renderRoadmap()).observe(document.getElementById('svg-root'));
+    } else {
+      window.addEventListener('resize', renderRoadmap);
+    }
   </script>
 </svg>
 </div>
