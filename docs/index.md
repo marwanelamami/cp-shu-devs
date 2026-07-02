@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # CP Playbook
 
 Welcome to the CP Playbook, a structured curriculum and collection of training resources maintained by the SHU Developers Club. This handbook provides organized notes, optimized code implementations, complexity analysis, and curated practice tasks to help you prepare for competitive programming contests, including LCPC and ICPC.
