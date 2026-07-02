@@ -15,6 +15,5 @@
 |----------|-------------|------|
 | YouKn0wWho Academy | Topic-list reference and learning paths | [youkn0wwho.academy](https://youkn0wwho.academy/topic-list) |
 | USACO Guide | Structured guide for topic organization and explanations | [usaco.guide](https://usaco.guide/) |
-| NeetCode | Roadmap and topic explanations | [neetcode.io](https://neetcode.io/) |
 | CP-Algorithms | Formal algorithm explanations and implementations | [cp-algorithms.com](https://cp-algorithms.com/) |
 | Competitive Programmer's Handbook | Free textbook covering most CP topics | [Download PDF](https://cses.fi/book/book.pdf) |

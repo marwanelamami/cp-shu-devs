@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
   <defs>
     <style>
-      .label { font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold; fill: #ffffff; letter-spacing: 1px; }
-      .box { fill: #1e1e1e; stroke: #ffffff; stroke-width: 1.5px; rx: 2px; }
-      .val { font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: bold; fill: #ffffff; text-anchor: middle; dominant-baseline: middle; }
-      .arrow-path { fill: none; stroke: #ffffff; stroke-width: 1.5px; stroke-dasharray: 4,4; marker-end: url(#arrow); }
+      .label { font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold; fill: #1e293b; letter-spacing: 1px; }
+      .box { fill: #f8fafc; stroke: #475569; stroke-width: 1.5px; rx: 2px; }
+      .val { font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: bold; fill: #1e293b; text-anchor: middle; dominant-baseline: middle; }
+      .arrow-path { fill: none; stroke: #475569; stroke-width: 1.5px; stroke-dasharray: 4,4; marker-end: url(#arrow); }
 
       /* Animation Keyframes */
 
@@ -57,27 +57,27 @@
       /* Highlight borders of nums boxes */
       @keyframes border-nums-0 {
         0%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
-        83.34%, 100% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
       }
       @keyframes border-nums-1 {
-        0%, 16.66% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        0%, 16.66% { stroke: #475569; stroke-width: 1.5px; filter: none; }
         16.67%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
-        83.34%, 100% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
       }
       @keyframes border-nums-2 {
-        0%, 33.33% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        0%, 33.33% { stroke: #475569; stroke-width: 1.5px; filter: none; }
         33.34%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
-        83.34%, 100% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
       }
       @keyframes border-nums-3 {
-        0%, 50% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        0%, 50% { stroke: #475569; stroke-width: 1.5px; filter: none; }
         50.01%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
-        83.34%, 100% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
       }
       @keyframes border-nums-4 {
-        0%, 66.66% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        0%, 66.66% { stroke: #475569; stroke-width: 1.5px; filter: none; }
         66.67%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
-        83.34%, 100% { stroke: #ffffff; stroke-width: 1.5px; filter: none; }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
       }
 
       .nums-box-0 { animation: border-nums-0 12s infinite; }
@@ -100,7 +100,7 @@
     </style>
     
     <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#ffffff" />
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#475569" />
     </marker>
   </defs>
 
