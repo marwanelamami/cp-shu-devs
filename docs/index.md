@@ -1,14 +1,171 @@
-# CP Playbook
+# Welcome to CP Playbook
 
-A competitive programming training resource created for LCPC preparation and broader CP growth, maintained by the SHU Developers Club community.
+<style>
+  :root {
+    --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+    --bg-card: #ffffff;
+    --border-color: #e5e7eb;
+    --text-muted: #6b7280;
+  }
+  
+  [data-md-color-scheme="slate"] {
+    --bg-card: #1e293b;
+    --border-color: #334155;
+    --text-muted: #94a3b8;
+  }
 
----
+  .hp-hero {
+    background: var(--primary-gradient);
+    border-radius: 16px;
+    padding: 3.5rem 2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  .hp-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(255,255,255,0.15) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .hp-title {
+    font-size: 2.75rem !important;
+    font-weight: 800 !important;
+    color: white !important;
+    margin: 0 0 1rem 0 !important;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+  .hp-subtitle {
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+  .hp-cta-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hp-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+  }
+  .hp-btn-primary {
+    background: white;
+    color: #2563eb !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  }
+  .hp-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    background: #f8fafc;
+  }
+  .hp-btn-secondary {
+    background: rgba(255, 255, 255, 0.15);
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .hp-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+  }
 
-## Welcome
+  /* Grid features */
+  .hp-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .hp-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+  }
+  .hp-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px -3px rgba(0,0,0,0.08);
+  }
+  .hp-card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  .hp-card h3 {
+    margin: 0 0 0.5rem 0 !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+  }
+  .hp-card p {
+    margin: 0 !important;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 
-Welcome to the official CP Playbook. Here you will find structured topic notes, code implementations, complexity analysis, and curated practice problems designed to help you prepare for competitive programming contests.
+  /* Section Header */
+  .hp-section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .hp-section-header h2 {
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .hp-section-header p {
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto !important;
+  }
+</style>
 
-## Topic Roadmap
+<div class="hp-hero">
+  <h1 class="hp-title">CP Playbook</h1>
+  <p class="hp-subtitle">Structured algorithms, verified implementations, time complexity insights, and curated practice tasks to accelerate your competitive programming and LCPC/ICPC preparation.</p>
+  <div class="hp-cta-group">
+    <a href="topics/basics/01-intro-to-cp/intro-to-cp/" class="hp-btn hp-btn-primary">Get Started 🚀</a>
+    <a href="#syllabus-map" class="hp-btn hp-btn-secondary">Explore Syllabus 🗺️</a>
+  </div>
+</div>
+
+<div class="hp-features">
+  <div class="hp-card">
+    <span class="hp-card-icon">📚</span>
+    <h3>Structured Syllabus</h3>
+    <p>Follow a progressive curriculum path from programming language foundations to complex modular math, graph structures, and dynamics.</p>
+  </div>
+  <div class="hp-card">
+    <span class="hp-card-icon">⚡</span>
+    <h3>Verified Code templates</h3>
+    <p>Grab highly-optimized, copy-paste ready C++ and Python implementations to streamline your training and contest performance.</p>
+  </div>
+  <div class="hp-card">
+    <span class="hp-card-icon">🏆</span>
+    <h3>Curated Problems</h3>
+    <p>Challenge yourself with high-quality problems selected from Codeforces, CSES, and AtCoder to reinforce every concept you learn.</p>
+  </div>
+</div>
+
+<div class="hp-section-header" id="syllabus-map">
+  <h2>Interactive Topic Roadmap</h2>
+  <p>Toggle baselines and click on specific topics to jump directly to their playbook guides.</p>
+</div>
 
 <div style="width:100%;overflow-x:auto;">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg-root" viewBox="0 0 1000 800" width="100%" style="display:block;">
@@ -384,9 +541,25 @@ Welcome to the official CP Playbook. Here you will find structured topic notes, 
 </svg>
 </div>
 
-## Getting Started
+<div class="hp-section-header" style="margin-top: 4rem;">
+  <h2>How to Train</h2>
+  <p>Maximize your learning velocity by combining study, coding, and practice.</p>
+</div>
 
-To get the most out of this handbook:
-1. **Follow the Roadmap**: Topics are ordered sequentially, building on top of previous concepts.
-2. **Review Code Examples**: Check out the optimized Python templates for each topic.
-3. **Practice**: Solve the linked problems at the end of each topic on platforms like Codeforces and CSES.
+<div class="hp-features" style="margin-bottom: 4rem;">
+  <div class="hp-card">
+    <span class="hp-card-icon">🎯</span>
+    <h3>1. Follow the Roadmap</h3>
+    <p>Concepts build on top of each other. Master the basics, recursion, and prefix operations before diving into Segment Trees or Flow.</p>
+  </div>
+  <div class="hp-card">
+    <span class="hp-card-icon">💻</span>
+    <h3>2. Run Code Templates</h3>
+    <p>Read the notes, understand the time complexities, and study the provided templates. Write your own versions to lock in muscle memory.</p>
+  </div>
+  <div class="hp-card">
+    <span class="hp-card-icon">📈</span>
+    <h3>3. Practice & Upsolve</h3>
+    <p>Solving problems is the only way to improve. Target the practice problem list at the end of each topic until you can solve them independently.</p>
+  </div>
+</div>
