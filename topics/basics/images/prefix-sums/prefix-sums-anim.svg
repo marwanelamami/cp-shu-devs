@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
+  <defs>
+    <style>
+      .label { font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold; fill: #1e293b; letter-spacing: 1px; }
+      .box { fill: #f8fafc; stroke: #475569; stroke-width: 1.5px; rx: 2px; }
+      .val { font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: bold; fill: #1e293b; text-anchor: middle; dominant-baseline: middle; }
+      .arrow-path { fill: none; stroke: #475569; stroke-width: 1.5px; stroke-dasharray: 4,4; marker-end: url(#arrow); }
+
+      /* Animation Keyframes */
+
+      @keyframes active-step-0 {
+        0%, 16.66% { opacity: 1; }
+        16.67%, 100% { opacity: 0; }
+      }
+      @keyframes active-step-1 {
+        0%, 16.66% { opacity: 0; }
+        16.67%, 33.33% { opacity: 1; }
+        33.34%, 100% { opacity: 0; }
+      }
+      @keyframes active-step-2 {
+        0%, 33.33% { opacity: 0; }
+        33.34%, 50% { opacity: 1; }
+        50.01%, 100% { opacity: 0; }
+      }
+      @keyframes active-step-3 {
+        0%, 50% { opacity: 0; }
+        50.01%, 66.66% { opacity: 1; }
+        66.67%, 100% { opacity: 0; }
+      }
+      @keyframes active-step-4 {
+        0%, 66.66% { opacity: 0; }
+        66.67%, 83.33% { opacity: 1; }
+        83.34%, 100% { opacity: 0; }
+      }
+
+      /* Visibility keyframes for prefix values */
+      @keyframes show-val-0 {
+        0%, 100% { opacity: 1; }
+      }
+      @keyframes show-val-1 {
+        0%, 16.66% { opacity: 0; }
+        16.67%, 100% { opacity: 1; }
+      }
+      @keyframes show-val-2 {
+        0%, 33.33% { opacity: 0; }
+        33.34%, 100% { opacity: 1; }
+      }
+      @keyframes show-val-3 {
+        0%, 50% { opacity: 0; }
+        50.01%, 100% { opacity: 1; }
+      }
+      @keyframes show-val-4 {
+        0%, 66.66% { opacity: 0; }
+        66.67%, 100% { opacity: 1; }
+      }
+
+      /* Highlight borders of nums boxes */
+      @keyframes border-nums-0 {
+        0%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+      }
+      @keyframes border-nums-1 {
+        0%, 16.66% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+        16.67%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+      }
+      @keyframes border-nums-2 {
+        0%, 33.33% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+        33.34%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+      }
+      @keyframes border-nums-3 {
+        0%, 50% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+        50.01%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+      }
+      @keyframes border-nums-4 {
+        0%, 66.66% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+        66.67%, 83.33% { stroke: #ff3860; stroke-width: 3px; filter: drop-shadow(0 0 3px #ff3860); }
+        83.34%, 100% { stroke: #475569; stroke-width: 1.5px; filter: none; }
+      }
+
+      .nums-box-0 { animation: border-nums-0 12s infinite; }
+      .nums-box-1 { animation: border-nums-1 12s infinite; }
+      .nums-box-2 { animation: border-nums-2 12s infinite; }
+      .nums-box-3 { animation: border-nums-3 12s infinite; }
+      .nums-box-4 { animation: border-nums-4 12s infinite; }
+
+      .val-prefix-0 { animation: show-val-0 12s infinite; }
+      .val-prefix-1 { animation: show-val-1 12s infinite; }
+      .val-prefix-2 { animation: show-val-2 12s infinite; }
+      .val-prefix-3 { animation: show-val-3 12s infinite; }
+      .val-prefix-4 { animation: show-val-4 12s infinite; }
+
+      .step-0-group { animation: active-step-0 12s infinite; }
+      .step-1-group { animation: active-step-1 12s infinite; }
+      .step-2-group { animation: active-step-2 12s infinite; }
+      .step-3-group { animation: active-step-3 12s infinite; }
+      .step-4-group { animation: active-step-4 12s infinite; }
+    </style>
+    
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#475569" />
+    </marker>
+  </defs>
+
+  <!-- Labels -->
+  <text x="300" y="55" text-anchor="middle" class="label">nums</text>
+  <text x="300" y="265" text-anchor="middle" class="label">prefix</text>
+
+  <!-- Nums Array Boxes -->
+  <rect x="163" y="80" width="50" height="50" class="box nums-box-0" />
+  <rect x="219" y="80" width="50" height="50" class="box nums-box-1" />
+  <rect x="275" y="80" width="50" height="50" class="box nums-box-2" />
+  <rect x="331" y="80" width="50" height="50" class="box nums-box-3" />
+  <rect x="387" y="80" width="50" height="50" class="box nums-box-4" />
+
+  <!-- Nums Array Values -->
+  <text x="188" y="105" class="val">2</text>
+  <text x="244" y="105" class="val">-1</text>
+  <text x="300" y="105" class="val">3</text>
+  <text x="356" y="105" class="val">-3</text>
+  <text x="412" y="105" class="val">4</text>
+
+  <!-- Prefix Array Boxes -->
+  <rect x="163" y="190" width="50" height="50" class="box" />
+  <rect x="219" y="190" width="50" height="50" class="box" />
+  <rect x="275" y="190" width="50" height="50" class="box" />
+  <rect x="331" y="190" width="50" height="50" class="box" />
+  <rect x="387" y="190" width="50" height="50" class="box" />
+
+  <!-- Prefix Array Values -->
+  <text x="188" y="215" class="val val-prefix-0">2</text>
+  <text x="244" y="215" class="val val-prefix-1">1</text>
+  <text x="300" y="215" class="val val-prefix-2">4</text>
+  <text x="356" y="215" class="val val-prefix-3">1</text>
+  <text x="412" y="215" class="val val-prefix-4">5</text>
+
+  <!-- Step 0 Arrows (nums[0] -> prefix[0]) -->
+  <g class="step-0-group">
+    <path d="M 188,130 L 188,184" class="arrow-path" />
+  </g>
+
+  <!-- Step 1 Arrows (nums[0..1] -> prefix[1]) -->
+  <g class="step-1-group">
+    <path d="M 188,130 C 188,160 240,160 242,184" class="arrow-path" />
+    <path d="M 244,130 C 244,160 248,160 246,184" class="arrow-path" />
+  </g>
+
+  <!-- Step 2 Arrows (nums[0..2] -> prefix[2]) -->
+  <g class="step-2-group">
+    <path d="M 188,130 C 188,170 294,155 296,184" class="arrow-path" />
+    <path d="M 244,130 C 244,170 298,160 299,184" class="arrow-path" />
+    <path d="M 300,130 C 300,170 302,165 301,184" class="arrow-path" />
+  </g>
+
+  <!-- Step 3 Arrows (nums[0..3] -> prefix[3]) -->
+  <g class="step-3-group">
+    <path d="M 188,130 C 188,170 350,155 352,184" class="arrow-path" />
+    <path d="M 244,130 C 244,170 352,160 353,184" class="arrow-path" />
+    <path d="M 300,130 C 300,170 354,165 355,184" class="arrow-path" />
+    <path d="M 356,130 C 356,170 358,168 357,184" class="arrow-path" />
+  </g>
+
+  <!-- Step 4 Arrows (nums[0..4] -> prefix[4]) -->
+  <g class="step-4-group">
+    <path d="M 188,130 C 188,175 406,155 408,184" class="arrow-path" />
+    <path d="M 244,130 C 244,175 408,160 409,184" class="arrow-path" />
+    <path d="M 300,130 C 300,175 410,165 410,184" class="arrow-path" />
+    <path d="M 356,130 C 356,175 412,170 411,184" class="arrow-path" />
+    <path d="M 412,130 C 412,175 414,172 413,184" class="arrow-path" />
+  </g>
+</svg>
