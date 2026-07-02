@@ -14,17 +14,45 @@ Welcome to the CP Playbook, a structured curriculum and collection of training r
 
 Use the accordion menu below to explore the topics in sequence. Click on any active category or subcategory to expand it, and click on any topic to go directly to its guidebook notes.
 
-<iframe id="roadmap-iframe" src="roadmap.html" style="width:100%; height:650px; border:none; overflow:hidden; transition: height 0.2s ease-out;" scrolling="no"></iframe>
+<div id="roadmap-container"></div>
 
 <script>
-  window.addEventListener('message', function(e) {
-    if (e.data && e.data.type === 'resize-roadmap') {
-      const iframe = document.getElementById('roadmap-iframe');
-      if (iframe) {
-        iframe.style.height = e.data.height + 'px';
-      }
-    }
-  });
+  (function() {
+    var container = document.getElementById('roadmap-container');
+    if (!container) return;
+
+    fetch('roadmap.html')
+      .then(function(r) { return r.text(); })
+      .then(function(html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+
+        // Inject the <style> block from roadmap.html into document <head>
+        var styleEls = doc.querySelectorAll('style');
+        styleEls.forEach(function(s) {
+          var style = document.createElement('style');
+          style.textContent = s.textContent;
+          document.head.appendChild(style);
+        });
+
+        // Inject the body HTML (the rm-container div) into the placeholder
+        var body = doc.querySelector('body');
+        if (body) {
+          container.innerHTML = body.innerHTML;
+        }
+
+        // Re-execute any <script> tags that were inside roadmap.html body
+        var scripts = container.querySelectorAll('script');
+        scripts.forEach(function(oldScript) {
+          var newScript = document.createElement('script');
+          newScript.textContent = oldScript.textContent;
+          oldScript.parentNode.replaceChild(newScript, oldScript);
+        });
+      })
+      .catch(function(err) {
+        console.error('Failed to load roadmap:', err);
+      });
+  })();
 </script>
 
 ---

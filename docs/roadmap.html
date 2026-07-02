@@ -769,15 +769,6 @@
   </div>
 
   <script>
-    function sendHeight() {
-      const container = document.querySelector('.rm-container');
-      if (container) {
-        // Measure the container's exact bounding height and add a safe padding buffer
-        const height = Math.ceil(container.getBoundingClientRect().height) + 50;
-        window.parent.postMessage({ type: 'resize-roadmap', height: height }, '*');
-      }
-    }
-
     function toggleCategory(el) {
       const parent = el.parentElement;
       if (parent.classList.contains('disabled')) return;
@@ -786,7 +777,6 @@
       if (icon) {
         icon.textContent = parent.classList.contains('open') ? '−' : '+';
       }
-      setTimeout(sendHeight, 50);
     }
 
     function toggleSubcategory(el) {
@@ -796,15 +786,7 @@
       if (toggle) {
         toggle.textContent = parent.classList.contains('open') ? '−' : '+';
       }
-      setTimeout(sendHeight, 50);
     }
-
-    // Inform parent about height changes
-    window.addEventListener('load', sendHeight);
-    window.addEventListener('resize', sendHeight);
-    
-    // Periodical fallback
-    setInterval(sendHeight, 500);
   </script>
 </body>
 </html>
