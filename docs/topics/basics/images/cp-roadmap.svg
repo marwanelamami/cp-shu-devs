@@ -9,13 +9,13 @@
   <style>
     .node-text {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 13px;
+      font-size: 14px;
       fill: #111827;
       user-select: none;
     }
     .node-text-disabled {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 13px;
+      font-size: 14px;
       fill: #9ca3af;
       user-select: none;
     }
@@ -39,7 +39,7 @@
     }
     .coming-soon-badge {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 500;
       fill: #9ca3af;
       text-anchor: end;
@@ -91,14 +91,14 @@
     }
     .legend-text {
       font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 11px;
+      font-size: 12px;
       fill: #374151;
       font-weight: 500;
     }
   </style>
 
   <!-- Legend -->
-  <g transform="translate(680, 20)">
+  <g transform="translate(620, 20)">
     <circle cx="10" cy="20" r="5" fill="#ef4444" />
     <text x="20" y="24" class="legend-text">High Importance</text>
     
@@ -194,7 +194,7 @@
 
                 // Topic Card
                 const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-                card.setAttribute("width", "320");
+                card.setAttribute("width", "880");
                 card.setAttribute("height", "26");
                 card.setAttribute("class", "topic-card");
                 card.setAttribute("onclick", `onTopicClick('${topic.id}')`);
@@ -224,13 +224,13 @@
                 text.setAttribute("y", "17");
                 text.setAttribute("class", "node-text");
                 let titleText = topic.title;
-                if (titleText.length > 30) titleText = titleText.substring(0, 27) + "...";
+                if (titleText.length > 100) titleText = titleText.substring(0, 97) + "...";
                 text.textContent = titleText;
                 topicGroup.appendChild(text);
 
                 // Importance Pill Badge on Right
                 const badgeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                badgeGroup.setAttribute("transform", "translate(245, 6)");
+                badgeGroup.setAttribute("transform", "translate(805, 6)");
                 
                 const badgeRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
                 badgeRect.setAttribute("width", "35");
@@ -249,7 +249,7 @@
 
                 // Link Placeholder Icon
                 const linkGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-                linkGroup.setAttribute("transform", "translate(295, 5)");
+                linkGroup.setAttribute("transform", "translate(850, 5)");
                 linkGroup.setAttribute("class", "link-icon");
                 linkGroup.setAttribute("onclick", `onTopicClick('${topic.id}')`);
                 
@@ -295,7 +295,7 @@
 
             // Card
             const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-            card.setAttribute("width", "360");
+            card.setAttribute("width", "920");
             card.setAttribute("height", "30");
             card.setAttribute("class", "subcategory-card");
             card.setAttribute("onclick", `toggleNode('${subcatKey}')`);
@@ -311,7 +311,7 @@
 
             // Expand/Collapse Toggle Indicator
             const toggle = document.createElementNS("http://www.w3.org/2000/svg", "text");
-            toggle.setAttribute("x", "340");
+            toggle.setAttribute("x", "890");
             toggle.setAttribute("y", "20");
             toggle.setAttribute("class", "toggle-icon node-title");
             toggle.textContent = isSubcatExpanded ? "−" : "+";
@@ -346,7 +346,7 @@
 
         // Card
         const card = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-        card.setAttribute("width", "400");
+        card.setAttribute("width", "960");
         card.setAttribute("height", "35");
         
         if (isBasics) {
@@ -362,21 +362,21 @@
         text.setAttribute("x", "15");
         text.setAttribute("y", "22");
         text.setAttribute("class", isBasics ? "node-text node-title" : "node-text-disabled node-title");
-        text.setAttribute("font-size", "14px");
+        text.setAttribute("font-size", "15px");
         text.textContent = cat.title;
         catGroup.appendChild(text);
 
         // Indicator on Right (Toggle for Basics, Coming Soon for others)
         if (isBasics) {
           const toggle = document.createElementNS("http://www.w3.org/2000/svg", "text");
-          toggle.setAttribute("x", "380");
+          toggle.setAttribute("x", "930");
           toggle.setAttribute("y", "23");
           toggle.setAttribute("class", "toggle-icon node-title");
           toggle.textContent = isCatExpanded ? "−" : "+";
           catGroup.appendChild(toggle);
         } else {
           const soonBadge = document.createElementNS("http://www.w3.org/2000/svg", "text");
-          soonBadge.setAttribute("x", "385");
+          soonBadge.setAttribute("x", "945");
           soonBadge.setAttribute("y", "22");
           soonBadge.setAttribute("class", "coming-soon-badge");
           soonBadge.textContent = "Coming Soon";
