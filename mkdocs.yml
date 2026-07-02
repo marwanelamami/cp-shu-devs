@@ -36,26 +36,720 @@ repo_name: marwanelamami/cp-shu-devs
 nav:
   - Home: index.md
   - Basics:
-    - Intro to CP & Complexity: topics/basics/01-intro-to-cp/intro-to-cp.md
-    - Arrays:
+    - Intro to Programming:
+      - What is Programming?: topics/basics/what-is-programming.md
+    - Learn a Language:
+      - Intro to C++ and Setting up the Environment: topics/basics/intro-to-c-and-setting-up-the-environment.md
+      - Data Types, Variables and Input Output: topics/basics/data-types-variables-and-input-output.md
+      - Operators: topics/basics/operators.md
+      - Conditional Statements: topics/basics/conditional-statements.md
+      - Loops: topics/basics/loops.md
+      - Functions: topics/basics/functions.md
       - Static Arrays: topics/basics/02-arrays/static-arrays.md
       - Dynamic Arrays: topics/basics/02-arrays/dynamic-arrays.md
-    - Kadane's Algorithm: topics/basics/03-kadanes-algorithm/kadanes-algorithm.md
-    - Sliding Window:
-      - Fixed Size: topics/basics/04-sliding-window/fixed-size.md
-      - Variable Size: topics/basics/04-sliding-window/variable-size.md
-    - Two Pointers: topics/basics/05-two-pointers/two-pointers.md
-    - Prefix Sums: topics/basics/06-prefix-sums/prefix-sums.md
-  - Data Structures: topics/data-structures/index.md
-  - Graph Theory: topics/graph-theory/index.md
-  - Number Theory: topics/number-theory/index.md
-  - Combinatorics: topics/combinatorics/index.md
-  - Math: topics/math/index.md
-  - Strings: topics/strings/index.md
-  - Dynamic Programming: topics/dynamic-programming/index.md
-  - Game Theory: topics/game-theory/index.md
-  - Geometry: topics/geometry/index.md
-  - Miscellaneous: topics/miscellaneous/index.md
+      - Strings: topics/basics/strings.md
+      - Pointers and References: topics/basics/pointers-and-references.md
+      - Structures: topics/basics/structures.md
+    - Intro to Competitive Programming:
+      - What is Competitive Programming?: topics/basics/01-intro-to-cp/intro-to-cp.md
+    - Bitwise Thinking:
+      - Bitwise Operations and Bitmasks: topics/basics/bitwise-operations-and-bitmasks.md
+    - Complexity Analysis:
+      - Big O Notation and Time and Space Complexity Analysis: topics/basics/01-intro-to-cp/intro-to-cp.md
+      - Fast Input Output: topics/basics/fast-input-output.md
+    - Recursion:
+      - Recursion: topics/basics/recursion.md
+    - Very Basic Math:
+      - Divisors: topics/basics/divisors.md
+      - GCD and LCM: topics/basics/gcd-and-lcm.md
+      - Harmonic Number: topics/basics/harmonic-number.md
+    - Range Queries Without Updates:
+      - Prefix Sum: topics/basics/06-prefix-sums/prefix-sums.md
+      - Prefix XOR: topics/basics/prefix-xor.md
+    - Standard Template Library (STL):
+      - Intro to STL, Containers and Iterators: topics/basics/intro-to-stl-containers-and-iterators.md
+      - Pairs and Tuples: topics/basics/pairs-and-tuples.md
+      - Vector: topics/basics/vector.md
+      - Stack: topics/basics/stack.md
+      - Queue: topics/basics/queue.md
+      - Priority Queue / Heap: topics/basics/priority-queue-heap.md
+      - Deque: topics/basics/deque.md
+      - Set, Unordered Set and Multiset: topics/basics/set-unordered-set-and-multiset.md
+      - Map and Unordered Map: topics/basics/map-and-unordered-map.md
+      - Bitset: topics/basics/bitset.md
+      - List / Linked List: topics/basics/list-linked-list.md
+    - Leveraging Monotonicity:
+      - Binary Search: topics/basics/binary-search.md
+      - Two Pointers: topics/basics/05-two-pointers/two-pointers.md
+    - Basic Sorting Algorithms:
+      - Bubble Sort: topics/basics/bubble-sort.md
+      - Selection Sort: topics/basics/selection-sort.md
+      - Insertion Sort: topics/basics/insertion-sort.md
+      - Counting Sort: topics/basics/counting-sort.md
+      - Merge Sort: topics/basics/merge-sort.md
+      - Quick Sort: topics/basics/quick-sort.md
+      - Radix Sort: topics/basics/radix-sort.md
+      - C++ STL Sort and Custom Comparator: topics/basics/c-stl-sort-and-custom-comparator.md
+    - Divide and Conquer:
+      - Divide and Conquer: topics/basics/divide-and-conquer.md
+    - Greedy and Constructive:
+      - Basic Greedy Algorithms: topics/basics/basic-greedy-algorithms.md
+      - Basic Constructive Algorithms: topics/basics/basic-constructive-algorithms.md
+    - 2D Prefix Sum:
+      - 2D Prefix Sum: topics/basics/2d-prefix-sum.md
+    - More Techniques:
+      - Difference Array: topics/basics/difference-array.md
+      - Sliding Window Technique: topics/basics/sliding-window-technique.md
+    - Bit Manipulation:
+      - Bit Manipulation: topics/basics/bit-manipulation.md
+      - The XOR Trick: topics/basics/the-xor-trick.md
+    - Basic Modular Arithmetic:
+      - Binary Exponentiation and Basic Modular Arithmetic: topics/basics/binary-exponentiation-and-basic-modular-arithmetic.md
+      - Fermat's Little Theorem and Modular Inverse: topics/basics/fermat-s-little-theorem-and-modular-inverse.md
+    - Basic Counting:
+      - Permutations, Combinations and Basic Counting Problems: topics/basics/permutations-combinations-and-basic-counting-problems.md
+      - Stars and Bars: topics/basics/stars-and-bars.md
+      - Pigeonhole Principle: topics/basics/pigeonhole-principle.md
+    - Very Basic Graphs:
+      - Introduction to Graphs | Definitions and Representations: topics/basics/introduction-to-graphs-definitions-and-representations.md
+  - Data Structures:
+    - Segment Tree:
+      - Segment Tree (Point Update Range Query): topics/data-structures-ds/segment-tree-point-update-range-query.md
+      - Segment Tree with Lazy Propagation: topics/data-structures-ds/segment-tree-with-lazy-propagation.md
+      - Persistent Segment Tree: topics/data-structures-ds/persistent-segment-tree.md
+      - Persistent Segment Tree with Lazy Propagation: topics/data-structures-ds/persistent-segment-tree-with-lazy-propagation.md
+      - 2D Segment Tree: topics/data-structures-ds/2d-segment-tree.md
+      - Dynamic Segment Tree: topics/data-structures-ds/dynamic-segment-tree.md
+      - 2D Dynamic Segment Tree: topics/data-structures-ds/2d-dynamic-segment-tree.md
+      - Merge Sort Tree: topics/data-structures-ds/merge-sort-tree.md
+      - Iterative Segment Tree: topics/data-structures-ds/iterative-segment-tree.md
+      - Segment Tree Merging: topics/data-structures-ds/segment-tree-merging.md
+      - Segment Tree Beats: topics/data-structures-ds/segment-tree-beats.md
+      - XOR Segment Tree: topics/data-structures-ds/xor-segment-tree.md
+      - Historic Information on Segment Trees: topics/data-structures-ds/historic-information-on-segment-trees.md
+    - Binary Indexed Tree (BIT):
+      - BIT / Fenwick Tree: topics/data-structures-ds/bit-fenwick-tree.md
+      - Lower bound on BIT: topics/data-structures-ds/lower-bound-on-bit.md
+      - BIT with Range Update and Range Query: topics/data-structures-ds/bit-with-range-update-and-range-query.md
+      - 2D BIT: topics/data-structures-ds/2d-bit.md
+      - 2D BIT with Range Update and Range Query: topics/data-structures-ds/2d-bit-with-range-update-and-range-query.md
+    - Sparse Table:
+      - Sparse Table: topics/data-structures-ds/sparse-table.md
+      - Sparse Table 2D: topics/data-structures-ds/sparse-table-2d.md
+      - Disjoint Sparse Table: topics/data-structures-ds/disjoint-sparse-table.md
+    - Trie:
+      - Trie on Strings and Bits: topics/data-structures-ds/trie-on-strings-and-bits.md
+      - Persistent Trie: topics/data-structures-ds/persistent-trie.md
+    - Disjoint Set Union (DSU):
+      - DSU / Union Find: topics/data-structures-ds/dsu-union-find.md
+      - DSU with Rollbacks: topics/data-structures-ds/dsu-with-rollbacks.md
+      - Reachability Tree / DSU Tree / Kruskal Reconstruction Tree (KRT): topics/data-structures-ds/reachability-tree-dsu-tree-kruskal-reconstruction-tree-krt.md
+      - Partially Persistent DSU: topics/data-structures-ds/partially-persistent-dsu.md
+      - Persistent DSU: topics/data-structures-ds/persistent-dsu.md
+      - Augmented DSU / Weighted DSU: topics/data-structures-ds/augmented-dsu-weighted-dsu.md
+      - DSU on Tree and Small to Large Merging: topics/data-structures-ds/dsu-on-tree-and-small-to-large-merging.md
+      - [Trick] Maintaining Log N DSU / Range Parallel DSU: topics/data-structures-ds/trick-maintaining-log-n-dsu-range-parallel-dsu.md
+    - Square Root Decomposition:
+      - Basic SQRT Decomposition: topics/data-structures-ds/basic-sqrt-decomposition.md
+      - Splitting Objects into Light and Heavy / Case Processing: topics/data-structures-ds/splitting-objects-into-light-and-heavy-case-processing.md
+      - Batch Processing / SQRT Decomposition on Queries: topics/data-structures-ds/batch-processing-sqrt-decomposition-on-queries.md
+      - SQRT Decomposition Split and Build Technique: topics/data-structures-ds/sqrt-decomposition-split-and-build-technique.md
+      - SQRT Fragmented Tree / Block Tree / SQRT Decomposition on Trees: topics/data-structures-ds/sqrt-fragmented-tree-block-tree-sqrt-decomposition-on-trees.md
+      - Mo's Algorithm: topics/data-structures-ds/mo-s-algorithm.md
+      - Rollback Mo and Mo's with DSU: topics/data-structures-ds/rollback-mo-and-mo-s-with-dsu.md
+      - Mo's on Tree: topics/data-structures-ds/mo-s-on-tree.md
+      - Sweepline Mo: topics/data-structures-ds/sweepline-mo.md
+      - Mo's with Update / 3D Mo (Offline): topics/data-structures-ds/mo-s-with-update-3d-mo-offline.md
+      - Mo's with Update / 3D Mo (Online): topics/data-structures-ds/mo-s-with-update-3d-mo-online.md
+      - 4D Mo: topics/data-structures-ds/4d-mo.md
+    - Heavy Light Decomposition (HLD):
+      - Heavy Light Decomposition (HLD) ft Subtrees and Path Query: topics/data-structures-ds/heavy-light-decomposition-hld-ft-subtrees-and-path-query.md
+    - Centroid Decomposition:
+      - Centroid Decomposition: topics/data-structures-ds/centroid-decomposition.md
+      - Persistent Centroid Decomposition: topics/data-structures-ds/persistent-centroid-decomposition.md
+    - Long Path Decomposition:
+      - Long Path Decomposition: topics/data-structures-ds/long-path-decomposition.md
+    - BST:
+      - Binary Search Tree (BST): topics/data-structures-ds/binary-search-tree-bst.md
+    - Balanced Binary Search Tree (BBST):
+      - Treap: topics/data-structures-ds/treap.md
+      - Implicit Treap: topics/data-structures-ds/implicit-treap.md
+      - Persistent Treap: topics/data-structures-ds/persistent-treap.md
+      - Rope: topics/data-structures-ds/rope.md
+      - Splay Tree: topics/data-structures-ds/splay-tree.md
+    - Link Cut Tree (LCT):
+      - Link Cut Tree (LCT): topics/data-structures-ds/link-cut-tree-lct.md
+      - Euler Tour Tree (ETT): topics/data-structures-ds/euler-tour-tree-ett.md
+      - Top Tree / AAA Tree: topics/data-structures-ds/top-tree-aaa-tree.md
+      - Link Cut Cactus: topics/data-structures-ds/link-cut-cactus.md
+    - Policy Based Data Structures:
+      - Ordered Set: topics/data-structures-ds/ordered-set.md
+      - GP Hash Table: topics/data-structures-ds/gp-hash-table.md
+    - More Tree Data Structures:
+      - Wavelet Tree: topics/data-structures-ds/wavelet-tree.md
+      - Cartesian Tree: topics/data-structures-ds/cartesian-tree.md
+      - K-Dimensional Tree (KD Tree): topics/data-structures-ds/k-dimensional-tree-kd-tree.md
+      - SQRT Tree: topics/data-structures-ds/sqrt-tree.md
+      - Permutation Tree: topics/data-structures-ds/permutation-tree.md
+      - PQ Tree: topics/data-structures-ds/pq-tree.md
+    - Dynamic Connectivity:
+      - Dynamic Connectivity Problem (Offline): topics/data-structures-ds/dynamic-connectivity-problem-offline.md
+      - Dynamic Connectivity Problem (Online) / HDLT Algorithm: topics/data-structures-ds/dynamic-connectivity-problem-online-hdlt-algorithm.md
+    - Monotonic Data Structures:
+      - Monotonic Stack: All Nearest Smaller Values and All Subarray Maximum/Minimum: topics/data-structures-ds/monotonic-stack-all-nearest-smaller-values-and-all-subarray-maximum-minimum.md
+      - Monotonic Queue: topics/data-structures-ds/monotonic-queue.md
+      - Monotonic Queue 2D: topics/data-structures-ds/monotonic-queue-2d.md
+      - Monotonic Deque: topics/data-structures-ds/monotonic-deque.md
+    - Miscellaneous:
+      - Interval Set: topics/data-structures-ds/interval-set.md
+      - Persistent Array: topics/data-structures-ds/persistent-array.md
+      - Persistent Queue: topics/data-structures-ds/persistent-queue.md
+      - Persistent Meldable Heap / Leftist Heap: topics/data-structures-ds/persistent-meldable-heap-leftist-heap.md
+    - Techniques:
+      - Venice Technique: topics/data-structures-ds/venice-technique.md
+      - Offline Queries: topics/data-structures-ds/offline-queries.md
+      - Static to Dynamic Trick / Log Decomposition: topics/data-structures-ds/static-to-dynamic-trick-log-decomposition.md
+      - Divide and Conquer on Queries: topics/data-structures-ds/divide-and-conquer-on-queries.md
+      - CDQ Divide and Conquer: topics/data-structures-ds/cdq-divide-and-conquer.md
+      - Queue Undo Trick: topics/data-structures-ds/queue-undo-trick.md
+      - Priority Queue Undo Trick: topics/data-structures-ds/priority-queue-undo-trick.md
+  - Graph Theory:
+    - Graph Traversal:
+      - Depth First Search (DFS): topics/graph-theory/depth-first-search-dfs.md
+      - Breadth First Search (BFS): topics/graph-theory/breadth-first-search-bfs.md
+      - DFS Tree: topics/graph-theory/dfs-tree.md
+      - Topological Sorting: topics/graph-theory/topological-sorting.md
+      - Tree Diameter: topics/graph-theory/tree-diameter.md
+      - Euler Tour Technique: topics/graph-theory/euler-tour-technique.md
+      - Inverse Graph: topics/graph-theory/inverse-graph.md
+    - Lowest Common Ancestor (LCA):
+      - Binary Lifting and LCA: topics/graph-theory/binary-lifting-and-lca.md
+      - LCA in O(1): topics/graph-theory/lca-in-o-1.md
+    - Graph Connectivity:
+      - Strongly Connected Components (SCC): topics/graph-theory/strongly-connected-components-scc.md
+      - Incremental SCC: topics/graph-theory/incremental-scc.md
+      - Articulation Bridges and Bridge Tree: topics/graph-theory/articulation-bridges-and-bridge-tree.md
+      - Online Articulation Bridges: topics/graph-theory/online-articulation-bridges.md
+      - Articulation Points and Block Cut Tree: topics/graph-theory/articulation-points-and-block-cut-tree.md
+      - Three Edge Connectivity: topics/graph-theory/three-edge-connectivity.md
+      - Four Edge Connectivity: topics/graph-theory/four-edge-connectivity.md
+      - Dynamic K-Connectivity: topics/graph-theory/dynamic-k-connectivity.md
+      - Ear Decomposition: topics/graph-theory/ear-decomposition.md
+    - Orientation:
+      - Strong Orientation: topics/graph-theory/strong-orientation.md
+      - ST-numbering / Bipolar Orientation: topics/graph-theory/st-numbering-bipolar-orientation.md
+    - Minimum Spanning Tree (MST):
+      - Minimum Spanning Tree (MST) - Prim's and Kruskal's: topics/graph-theory/minimum-spanning-tree-mst-prim-s-and-kruskal-s.md
+      - Steiner Tree Problem: topics/graph-theory/steiner-tree-problem.md
+      - Boruvka's Algorithm: topics/graph-theory/boruvka-s-algorithm.md
+      - Minimum Diameter Spanning Tree: topics/graph-theory/minimum-diameter-spanning-tree.md
+      - Manhattan MST: topics/graph-theory/manhattan-mst.md
+      - Euclidean MST: topics/graph-theory/euclidean-mst.md
+      - Directed MST: topics/graph-theory/directed-mst.md
+      - Dynamic MST: topics/graph-theory/dynamic-mst.md
+      - Kirchoffs Theorem ft Number of MSTs: topics/graph-theory/kirchoffs-theorem-ft-number-of-msts.md
+    - Shortest Paths:
+      - Dijkstra's Algorithm: topics/graph-theory/dijkstra-s-algorithm.md
+      - [Trick] Dijkstra on Segment Tree: topics/graph-theory/trick-dijkstra-on-segment-tree.md
+      - Floyd Warshall: topics/graph-theory/floyd-warshall.md
+      - Bellman Ford: topics/graph-theory/bellman-ford.md
+      - Shortest Path Faster Algorithm (SPFA): topics/graph-theory/shortest-path-faster-algorithm-spfa.md
+      - Johnson's Alogrithm: topics/graph-theory/johnson-s-alogrithm.md
+      - 0/1 BFS: topics/graph-theory/0-1-bfs.md
+      - Dial's algorithm: topics/graph-theory/dial-s-algorithm.md
+      - Eppsteins Algorithm: topics/graph-theory/eppsteins-algorithm.md
+      - Suurballe's Algorithm: topics/graph-theory/suurballe-s-algorithm.md
+      - A* Algorithm: topics/graph-theory/a-algorithm.md
+    - Cycles:
+      - Cycle Detection: topics/graph-theory/cycle-detection.md
+      - [Problem] Minimum Weight Cycle For Each Vertex: topics/graph-theory/problem-minimum-weight-cycle-for-each-vertex.md
+      - [Problem] Minimum Weight Cycle For Each Edge: topics/graph-theory/problem-minimum-weight-cycle-for-each-edge.md
+      - Minimum Mean Weight Cycle: topics/graph-theory/minimum-mean-weight-cycle.md
+      - Number of 3 and 4 length Cycles: topics/graph-theory/number-of-3-and-4-length-cycles.md
+    - More Tree Stuff:
+      - Virtual Tree / Auxiliary Tree: topics/graph-theory/virtual-tree-auxiliary-tree.md
+      - Rerooting Technique: topics/graph-theory/rerooting-technique.md
+      - Union of Two Paths on a Tree: topics/graph-theory/union-of-two-paths-on-a-tree.md
+      - Intersection of Two Paths on a Tree: topics/graph-theory/intersection-of-two-paths-on-a-tree.md
+      - [Problem] Number of Paths of Each Length in a Tree: topics/graph-theory/problem-number-of-paths-of-each-length-in-a-tree.md
+      - Dynamic Online Tree Diameter: topics/graph-theory/dynamic-online-tree-diameter.md
+      - [Problem] Tree Orientation to Maximize Pairs of Reachable Nodes: topics/graph-theory/problem-tree-orientation-to-maximize-pairs-of-reachable-nodes.md
+    - Satisfiability:
+      - 2 SAT: topics/graph-theory/2-sat.md
+      - 3 SAT: topics/graph-theory/3-sat.md
+      - System Of Difference Constraints: topics/graph-theory/system-of-difference-constraints.md
+    - Eulerian Path:
+      - Eulerian Path and Cycle: topics/graph-theory/eulerian-path-and-cycle.md
+    - Hamiltonian Path:
+      - Hamiltonian Path and Cycle: topics/graph-theory/hamiltonian-path-and-cycle.md
+      - Hamiltonian Path Heuristic Algorithm: topics/graph-theory/hamiltonian-path-heuristic-algorithm.md
+    - Cliques and Independent Sets:
+      - Maximum Clique: topics/graph-theory/maximum-clique.md
+      - Maximum Independent Set (MIS): topics/graph-theory/maximum-independent-set-mis.md
+    - Graph Coloring:
+      - Chromatic Number: topics/graph-theory/chromatic-number.md
+      - Welsh-Powell Algorithm: topics/graph-theory/welsh-powell-algorithm.md
+      - Chromatic Polynomial ft Number of DAGs: topics/graph-theory/chromatic-polynomial-ft-number-of-dags.md
+      - Edge Coloring of Simple Graph: topics/graph-theory/edge-coloring-of-simple-graph.md
+      - Edge Coloring of Bipartite Graph: topics/graph-theory/edge-coloring-of-bipartite-graph.md
+    - Graph Counting:
+      - Counting Labeled Graphs: topics/graph-theory/counting-labeled-graphs.md
+      - Prufer Code: topics/graph-theory/prufer-code.md
+      - [Problem] Number of Arborescences with n Nodes: topics/graph-theory/problem-number-of-arborescences-with-n-nodes.md
+      - Tuttes Theorem ft Arborescences in a Graph: topics/graph-theory/tuttes-theorem-ft-arborescences-in-a-graph.md
+      - BEST Theorem: topics/graph-theory/best-theorem.md
+    - Dynamic Acyclic Graphs (DAG):
+      - DAG Reachability: topics/graph-theory/dag-reachability.md
+      - Incremental DAG Reachability: topics/graph-theory/incremental-dag-reachability.md
+    - Dominators:
+      - Dominator Tree: topics/graph-theory/dominator-tree.md
+    - Special Graphs:
+      - Cactus Graph: topics/graph-theory/cactus-graph.md
+      - Tournament Graph: topics/graph-theory/tournament-graph.md
+      - Chordal Graph: topics/graph-theory/chordal-graph.md
+    - Flow and Min Cut:
+      - Maximum Flow / Minimum Cut: topics/graph-theory/maximum-flow-minimum-cut.md
+      - Min Cost Max Flow (MCMF): topics/graph-theory/min-cost-max-flow-mcmf.md
+      - Min Cost Max Flow with Negative Cycles: topics/graph-theory/min-cost-max-flow-with-negative-cycles.md
+      - Maximum Closure Problem: topics/graph-theory/maximum-closure-problem.md
+      - L-R Flow: topics/graph-theory/l-r-flow.md
+      - Gomory-Hu Tree: topics/graph-theory/gomory-hu-tree.md
+      - Gomory-Hu Tree of a Planar Graph: topics/graph-theory/gomory-hu-tree-of-a-planar-graph.md
+      - Stoer Wagner Algorithm: topics/graph-theory/stoer-wagner-algorithm.md
+      - Chinese Postman Problem: topics/graph-theory/chinese-postman-problem.md
+      - Uniqueness of Min Cut: topics/graph-theory/uniqueness-of-min-cut.md
+      - Maximum Density Subgraph: topics/graph-theory/maximum-density-subgraph.md
+      - Min Cut in a Planar Graph: topics/graph-theory/min-cut-in-a-planar-graph.md
+      - Max Cut in a Planar Graph: topics/graph-theory/max-cut-in-a-planar-graph.md
+    - Matching:
+      - Bipartite Matching (HopCroft Karp Algorithm and Kuhn's Algorithm): topics/graph-theory/bipartite-matching-hopcroft-karp-algorithm-and-kuhn-s-algorithm.md
+      - Hungarian Algorithm / Bipartite Weighted Matching: topics/graph-theory/hungarian-algorithm-bipartite-weighted-matching.md
+      - Blossom Algorithm Unweighted / General Matching / Randomized General Matching: topics/graph-theory/blossom-algorithm-unweighted-general-matching-randomized-general-matching.md
+      - Blossom Algorithm Weighted / General Weighted Matching: topics/graph-theory/blossom-algorithm-weighted-general-weighted-matching.md
+      - Stable Marriage Problem: topics/graph-theory/stable-marriage-problem.md
+      - Konig's Theorem and Maximum Independent Set in Bipartite Graphs: topics/graph-theory/konig-s-theorem-and-maximum-independent-set-in-bipartite-graphs.md
+      - Halls Theorem: topics/graph-theory/halls-theorem.md
+      - Matching using Determinants: topics/graph-theory/matching-using-determinants.md
+    - Partially Ordered Set (POSET):
+      - POSET ft Dilworth's and Mirsky's Theorem: topics/graph-theory/poset-ft-dilworth-s-and-mirsky-s-theorem.md
+    - Miscellaneous:
+      - Functional Graphs: topics/graph-theory/functional-graphs.md
+      - Degree Sequences, Erdos-Gallai Theorem, Gale-Ryser Theorem and Havel–Hakimi Algorithm: topics/graph-theory/degree-sequences-erdos-gallai-theorem-gale-ryser-theorem-and-havel-hakimi-algorithm.md
+      - Tree Isomorphism: topics/graph-theory/tree-isomorphism.md
+      - Binarizing a Tree: topics/graph-theory/binarizing-a-tree.md
+      - Planarity Check: topics/graph-theory/planarity-check.md
+  - Number Theory:
+    - Primes and Divisors:
+      - Sieve, Prime Factorization and Divisors: topics/number-theory/sieve-prime-factorization-and-divisors.md
+      - Linear Sieve: topics/number-theory/linear-sieve.md
+      - Segmented Sieve: topics/number-theory/segmented-sieve.md
+      - Sieve upto 1e9: topics/number-theory/sieve-upto-1e9.md
+      - Miller-Rabin Primality Test: topics/number-theory/miller-rabin-primality-test.md
+      - Pollard Rho: topics/number-theory/pollard-rho.md
+      - Prime Counting Function: topics/number-theory/prime-counting-function.md
+      - Prime Gap: topics/number-theory/prime-gap.md
+      - [Problem] Counting Numbers Having Exactly K Divisors: topics/number-theory/problem-counting-numbers-having-exactly-k-divisors.md
+      - [Problem] Smallest Number Having Exactly K Divisors: topics/number-theory/problem-smallest-number-having-exactly-k-divisors.md
+      - Sum of The Number of Divisors in cbrt(n): topics/number-theory/sum-of-the-number-of-divisors-in-cbrt-n.md
+      - Wilson's Theorem: topics/number-theory/wilson-s-theorem.md
+      - Implicit Prime Factorization: topics/number-theory/implicit-prime-factorization.md
+    - Multiplicative Functions:
+      - Number of Divisors / Sum of Divisors / Sigma Function: topics/number-theory/number-of-divisors-sum-of-divisors-sigma-function.md
+      - Euler's Totient Function / Phi Function: topics/number-theory/euler-s-totient-function-phi-function.md
+      - Power Tower /  Generalized Euler theorem: topics/number-theory/power-tower-generalized-euler-theorem.md
+      - Mobius Function and Mobius Inversion: topics/number-theory/mobius-function-and-mobius-inversion.md
+      - Dirichlet convolution: topics/number-theory/dirichlet-convolution.md
+      - Min_25 Sieve: topics/number-theory/min-25-sieve.md
+      - Powerful Number Sieve / PN Sieve: topics/number-theory/powerful-number-sieve-pn-sieve.md
+    - Euclidean Algorithm:
+      - Euclidean Algorithm: topics/number-theory/euclidean-algorithm.md
+      - Extended Euclid: topics/number-theory/extended-euclid.md
+      - Bezout's Identity: topics/number-theory/bezout-s-identity.md
+      - Chicken McNugget Theorem: topics/number-theory/chicken-mcnugget-theorem.md
+    - Modular Arithmetic:
+      - Linear Congruence Equation: topics/number-theory/linear-congruence-equation.md
+      - Chinese Remainder Theorem (CRT): topics/number-theory/chinese-remainder-theorem-crt.md
+      - Primitive Root: topics/number-theory/primitive-root.md
+      - Multiplicative Order and Carmichael's Lambda Function: topics/number-theory/multiplicative-order-and-carmichael-s-lambda-function.md
+      - Discrete Log / Baby Step Giant Step: topics/number-theory/discrete-log-baby-step-giant-step.md
+      - Discrete Root: topics/number-theory/discrete-root.md
+      - Discrete Root in O(P^(1/4)): topics/number-theory/discrete-root-in-o-p-1-4.md
+      - Discrete Square Root, Tonelli Shanks Algorithm, Cipolla's Algorithm: topics/number-theory/discrete-square-root-tonelli-shanks-algorithm-cipolla-s-algorithm.md
+      - Number of Distinct Kth Powers Modulo N: topics/number-theory/number-of-distinct-kth-powers-modulo-n.md
+      - Number of Solutions to X^2 = 1 mod M: topics/number-theory/number-of-solutions-to-x-2-1-mod-m.md
+    - Linear Diophantine Equations:
+      - Linear Diophantine Equation with Two Variables: topics/number-theory/linear-diophantine-equation-with-two-variables.md
+      - Linear Diophantine Equation with N Variables: topics/number-theory/linear-diophantine-equation-with-n-variables.md
+      - Trivariable Linear Diophantine Equation with Nonnegative Solutions: topics/number-theory/trivariable-linear-diophantine-equation-with-nonnegative-solutions.md
+      - Multivariable Linear Diophantine Equation with Nonnegative Solutions: topics/number-theory/multivariable-linear-diophantine-equation-with-nonnegative-solutions.md
+      - Linear Diophantine With N Unknowns and Two Equations: topics/number-theory/linear-diophantine-with-n-unknowns-and-two-equations.md
+    - Solutions to Equations:
+      - Number of Solutions to a Basic Linear Algebraic Equation: topics/number-theory/number-of-solutions-to-a-basic-linear-algebraic-equation.md
+      - Number of Solutions to a Basic Linear Algebraic Equation using Meet in the Middle: topics/number-theory/number-of-solutions-to-a-basic-linear-algebraic-equation-using-meet-in-the-middle.md
+      - Number of Nonnegative Integer Solutions to ax + by ≤ c: topics/number-theory/number-of-nonnegative-integer-solutions-to-ax-by-c.md
+      - Number of Integer Solutions to 1/x + 1/y = 1/k: topics/number-theory/number-of-integer-solutions-to-1-x-1-y-1-k.md
+      - Two / Three / Four Squares Theorem: topics/number-theory/two-three-four-squares-theorem.md
+      - Pell's Equation: topics/number-theory/pell-s-equation.md
+    - Floor Sum:
+      - Sum of Floors: topics/number-theory/sum-of-floors.md
+      - Floor Sum and Mod Sum of Arithmetic Progression: topics/number-theory/floor-sum-and-mod-sum-of-arithmetic-progression.md
+      - Generalized Floor Sum of Arithmetic Progression: topics/number-theory/generalized-floor-sum-of-arithmetic-progression.md
+    - Fibonacci Numbers:
+      - Fibonacci Numbers: topics/number-theory/fibonacci-numbers.md
+      - [Problem] LCM of Fibonacci Numbers: topics/number-theory/problem-lcm-of-fibonacci-numbers.md
+      - Pisano Period: topics/number-theory/pisano-period.md
+      - Phi Field: topics/number-theory/phi-field.md
+    - Miscellaneous:
+      - Pythagorean Triplets: topics/number-theory/pythagorean-triplets.md
+      - [Problem] Min of Mod of Arithmetic Progression: topics/number-theory/problem-min-of-mod-of-arithmetic-progression.md
+      - Sqrt Decomposition of Mod of Arithmetic Progression: topics/number-theory/sqrt-decomposition-of-mod-of-arithmetic-progression.md
+      - Factorial Number System: topics/number-theory/factorial-number-system.md
+      - Stern-Brocot Tree and Rational Approximation: topics/number-theory/stern-brocot-tree-and-rational-approximation.md
+      - [Problem] Number of a * x mod p in a Range: topics/number-theory/problem-number-of-a-x-mod-p-in-a-range.md
+      - [Problem] Smallest Nonnegative Integer x s.t. l ≤ a * x mod p ≤ r: topics/number-theory/problem-smallest-nonnegative-integer-x-s-t-l-a-x-mod-p-r.md
+  - Combinatorics:
+    - Techniques:
+      - Contribution Technique: topics/combinatorics/contribution-technique.md
+      - Product Trick: topics/combinatorics/product-trick.md
+    - Catalan:
+      - Catalan Numbers: topics/combinatorics/catalan-numbers.md
+      - Catalan Convolution: topics/combinatorics/catalan-convolution.md
+    - Inclusion Exclusion:
+      - Principle of Inclusion and Exclusion (PIE): topics/combinatorics/principle-of-inclusion-and-exclusion-pie.md
+      - Derangements: topics/combinatorics/derangements.md
+      - Inclusion Exclusion on Multiples: topics/combinatorics/inclusion-exclusion-on-multiples.md
+    - Factorials and Binomial Coefficients (nCr):
+      - Lucas Theorem: topics/combinatorics/lucas-theorem.md
+      - nCr Modulo Any Mod: topics/combinatorics/ncr-modulo-any-mod.md
+      - Large Factorials and Binomial Coefficients: topics/combinatorics/large-factorials-and-binomial-coefficients.md
+      - Legendre's Formula: topics/combinatorics/legendre-s-formula.md
+      - Prefix Sum Queries of Binomial Coefficients: topics/combinatorics/prefix-sum-queries-of-binomial-coefficients.md
+      - Prefix Sum of Binomial Coefficients for a Fixed Large N: topics/combinatorics/prefix-sum-of-binomial-coefficients-for-a-fixed-large-n.md
+      - Sum of nCr Over a Fixed Congruence Class: topics/combinatorics/sum-of-ncr-over-a-fixed-congruence-class.md
+      - [Problem] Sum of nCr(a[i], K) for each K from 1 to N: topics/combinatorics/problem-sum-of-ncr-a-i-k-for-each-k-from-1-to-n.md
+    - Stirling Numbers:
+      - Stirling Numbers (Basic): topics/combinatorics/stirling-numbers-basic.md
+      - Stirling Number of the First Kind for Fixed N: topics/combinatorics/stirling-number-of-the-first-kind-for-fixed-n.md
+      - Stirling Number of the First Kind for Fixed K: topics/combinatorics/stirling-number-of-the-first-kind-for-fixed-k.md
+      - Stirling Number of the Second Kind for Fixed N: topics/combinatorics/stirling-number-of-the-second-kind-for-fixed-n.md
+      - Stirling Number of the Second Kind for Fixed K: topics/combinatorics/stirling-number-of-the-second-kind-for-fixed-k.md
+    - Partitions:
+      - Partitions of an Integer, Partition Function and Pentagonal Number Theorem: topics/combinatorics/partitions-of-an-integer-partition-function-and-pentagonal-number-theorem.md
+      - Partitions of a Set / Bell Number: topics/combinatorics/partitions-of-a-set-bell-number.md
+    - Miscellaneous:
+      - Burnside's Lemma / Polya Enumeration Theorem: topics/combinatorics/burnside-s-lemma-polya-enumeration-theorem.md
+      - Bertrand's Ballot Theorem: topics/combinatorics/bertrand-s-ballot-theorem.md
+      - Young Tableaus and the Hook Length Formula: topics/combinatorics/young-tableaus-and-the-hook-length-formula.md
+  - Math:
+    - Convolution:
+      - Fast Fourier Transform (FFT): topics/math/fast-fourier-transform-fft.md
+      - Number Theoretic Transform (NTT): topics/math/number-theoretic-transform-ntt.md
+      - 2D FFT / NTT: topics/math/2d-fft-ntt.md
+      - Online FFT / NTT: topics/math/online-fft-ntt.md
+      - Fast Walsh Hadamard Transform (FWHT) and its Variations: topics/math/fast-walsh-hadamard-transform-fwht-and-its-variations.md
+      - GCD Convolution: topics/math/gcd-convolution.md
+      - LCM Convolution: topics/math/lcm-convolution.md
+    - Polynomial:
+      - Generating Functions: topics/math/generating-functions.md
+      - Polynomial Inverse: topics/math/polynomial-inverse.md
+      - Polynomial Exp: topics/math/polynomial-exp.md
+      - Polynomial Log: topics/math/polynomial-log.md
+      - Polynomial Pow: topics/math/polynomial-pow.md
+      - Polynomial Sqrt: topics/math/polynomial-sqrt.md
+      - Polynomial Composition: topics/math/polynomial-composition.md
+      - Multipoint Evaluation: topics/math/multipoint-evaluation.md
+      - Chirp Z Transform: topics/math/chirp-z-transform.md
+      - Polynomial Interpolation: topics/math/polynomial-interpolation.md
+      - Polynomial Shift: topics/math/polynomial-shift.md
+      - Shift of Sampling Points of Polynomial: topics/math/shift-of-sampling-points-of-polynomial.md
+      - Polyomial Division and Remainder: topics/math/polyomial-division-and-remainder.md
+      - Polynomial Roots Under a Modulo: topics/math/polynomial-roots-under-a-modulo.md
+      - Resultant of Two Polynomials and Half-GCD Algorithm: topics/math/resultant-of-two-polynomials-and-half-gcd-algorithm.md
+      - Lagrange Interpolation: topics/math/lagrange-interpolation.md
+      - [Problem] Sum of r^i * poly(i): topics/math/problem-sum-of-r-i-poly-i.md
+      - Polynomial with Binomial Coefficients: topics/math/polynomial-with-binomial-coefficients.md
+      - Subset Sum Problem using Generating Functions: topics/math/subset-sum-problem-using-generating-functions.md
+      - Polynomial Factorization of (x^n - 1) and Cyclotomic Polynomials: topics/math/polynomial-factorization-of-x-n-1-and-cyclotomic-polynomials.md
+      - Schwartz–Zippel Lemma: topics/math/schwartz-zippel-lemma.md
+      - Lagrange Inversion Theorem: topics/math/lagrange-inversion-theorem.md
+    - Matrices:
+      - Matrix Exponentiation: topics/math/matrix-exponentiation.md
+      - Permanent of a Matrix: topics/math/permanent-of-a-matrix.md
+      - Freivald's Algorithm: topics/math/freivald-s-algorithm.md
+      - Vandermonde Matrix: topics/math/vandermonde-matrix.md
+      - Hafnian of a Matrix / Number of Perfect Matchings in a Graph: topics/math/hafnian-of-a-matrix-number-of-perfect-matchings-in-a-graph.md
+      - Frobenius Form of a Matrix and Fast Matrix Power: topics/math/frobenius-form-of-a-matrix-and-fast-matrix-power.md
+    - Linear Recurrence:
+      - Linear Recurrence Relations: topics/math/linear-recurrence-relations.md
+      - Linear Recurrence using Cayley-Hamilton Theorem in O(N^2 log K): topics/math/linear-recurrence-using-cayley-hamilton-theorem-in-o-n-2-log-k.md
+      - Linear Recurrence using Generating Functions in O(N log N log K): topics/math/linear-recurrence-using-generating-functions-in-o-n-log-n-log-k.md
+      - Linear Recurrence with Polynomial Coefficients: topics/math/linear-recurrence-with-polynomial-coefficients.md
+      - Linear Recurrence on Matrices: topics/math/linear-recurrence-on-matrices.md
+      - Generating Function of a Linear Recurrence: topics/math/generating-function-of-a-linear-recurrence.md
+      - Berlekamp Massey: topics/math/berlekamp-massey.md
+      - Reeds-Sloane Algorithm: topics/math/reeds-sloane-algorithm.md
+    - Linear Algebra:
+      - Gaussian Elimination: topics/math/gaussian-elimination.md
+      - Gaussian Elimination Modulo 2: topics/math/gaussian-elimination-modulo-2.md
+      - Determinant of a Matrix: topics/math/determinant-of-a-matrix.md
+      - Determinant under Composite Modulo: topics/math/determinant-under-composite-modulo.md
+      - Characteristic Polynomial and Hesserberg Matrix: topics/math/characteristic-polynomial-and-hesserberg-matrix.md
+      - [Problem] Determinant of Product Matrix: topics/math/problem-determinant-of-product-matrix.md
+      - Determinant of Sparse Matrix and Black Box Linear Algebra: topics/math/determinant-of-sparse-matrix-and-black-box-linear-algebra.md
+      - [Problem] Determinant of Permutant and Circulant Matrix: topics/math/problem-determinant-of-permutant-and-circulant-matrix.md
+      - GCD Determinant / Smith's Determinant: topics/math/gcd-determinant-smith-s-determinant.md
+      - Cauchy–Binet formula: topics/math/cauchy-binet-formula.md
+      - Inverse of a Matrix: topics/math/inverse-of-a-matrix.md
+      - Inverse of a Matrix modulo 2: topics/math/inverse-of-a-matrix-modulo-2.md
+      - Thomas Algorithm: topics/math/thomas-algorithm.md
+      - Vector Space and XOR Basis: topics/math/vector-space-and-xor-basis.md
+      - [Technique] XOR Basis ft Reduced Row Echelon Form: topics/math/technique-xor-basis-ft-reduced-row-echelon-form.md
+      - [Technique] XOR Basis ft Lexicographically Largest Basis: topics/math/technique-xor-basis-ft-lexicographically-largest-basis.md
+      - XOR Basis with Deletions (Online): topics/math/xor-basis-with-deletions-online.md
+      - q Binomial: topics/math/q-binomial.md
+    - Formulas:
+      - Gauss's Eureka Theorem: topics/math/gauss-s-eureka-theorem.md
+      - Titu's Lemma: topics/math/titu-s-lemma.md
+      - Lifting-the-exponent(LTE) Lemma: topics/math/lifting-the-exponent-lte-lemma.md
+      - Faulhaber's Formula and Bernoulli Numbers: topics/math/faulhaber-s-formula-and-bernoulli-numbers.md
+    - Calculus:
+      - Differentiation and Integration: topics/math/differentiation-and-integration.md
+      - Line Integral: topics/math/line-integral.md
+    - Probabilities and Expected Values:
+      - Probabilities and Expected Values: topics/math/probabilities-and-expected-values.md
+      - Expected Value Powers Technique: topics/math/expected-value-powers-technique.md
+      - The Slime Trick: topics/math/the-slime-trick.md
+      - Expected Occurrence Time as Substring: topics/math/expected-occurrence-time-as-substring.md
+      - Gambler's Ruin: topics/math/gambler-s-ruin.md
+      - Martingale: topics/math/martingale.md
+    - Mathematical Optimization:
+      - Lagrange Multiplier: topics/math/lagrange-multiplier.md
+      - Linear Programming / Simplex Algorithm: topics/math/linear-programming-simplex-algorithm.md
+      - Duality in Linear Programming (LP <> Flow): topics/math/duality-in-linear-programming-lp-flow.md
+      - Dinkelbach Algorithm: topics/math/dinkelbach-algorithm.md
+    - Miscellaneous:
+      - Continued Fractions: topics/math/continued-fractions.md
+      - Polynomial Real Roots: topics/math/polynomial-real-roots.md
+      - Finite Field Arithmetic Binary: topics/math/finite-field-arithmetic-binary.md
+  - Strings:
+    - String Matching:
+      - Knuth Morris Pratt (KMP) and Prefix Automaton: topics/strings/knuth-morris-pratt-kmp-and-prefix-automaton.md
+      - Z Algorithm: topics/strings/z-algorithm.md
+      - String Matching using Bitsets: topics/strings/string-matching-using-bitsets.md
+      - String Matching with FFT ft Wildcard Matching: topics/strings/string-matching-with-fft-ft-wildcard-matching.md
+    - Hashing:
+      - String Hashing: topics/strings/string-hashing.md
+      - 2D String Hashing: topics/strings/2d-string-hashing.md
+      - XOR Hashing: topics/strings/xor-hashing.md
+      - Multiset Hashing: topics/strings/multiset-hashing.md
+    - Aho Corasick:
+      - Aho Corasick: topics/strings/aho-corasick.md
+      - Dynamic Aho Corasick: topics/strings/dynamic-aho-corasick.md
+    - Suffix Structures:
+      - Suffix Array: topics/strings/suffix-array.md
+      - Isomorphic Suffix Array: topics/strings/isomorphic-suffix-array.md
+      - Dynamic Suffix Array: topics/strings/dynamic-suffix-array.md
+      - Suffix Automaton: topics/strings/suffix-automaton.md
+      - [Problem] Distinct Substring Queries in Range: topics/strings/problem-distinct-substring-queries-in-range.md
+      - Suffix Tree: topics/strings/suffix-tree.md
+    - Palindromes:
+      - Palindromic Tree / Eertree: topics/strings/palindromic-tree-eertree.md
+      - Persistent Palindromic Tree: topics/strings/persistent-palindromic-tree.md
+      - Manachers Algorithm: topics/strings/manachers-algorithm.md
+      - [Problem] Minimum Palindrome Factorization: topics/strings/problem-minimum-palindrome-factorization.md
+      - [Problem] Number of Palindromes in Range: topics/strings/problem-number-of-palindromes-in-range.md
+    - Longest Common Subsequence (LCS):
+      - Longest Common Subsequence (LCS): topics/strings/longest-common-subsequence-lcs.md
+      - All Substring Longest Common Subsequence: topics/strings/all-substring-longest-common-subsequence.md
+      - Bit LCS: topics/strings/bit-lcs.md
+      - Cyclic LCS: topics/strings/cyclic-lcs.md
+      - LCS on RLE compressed string: topics/strings/lcs-on-rle-compressed-string.md
+    - Miscellaneous:
+      - Balanced Brackets: topics/strings/balanced-brackets.md
+      - Expression Parsing: topics/strings/expression-parsing.md
+      - Lyndon Factorization / Duval Algorithm: topics/strings/lyndon-factorization-duval-algorithm.md
+      - Finding Repetitions / Main-Lorentz Algorithm: topics/strings/finding-repetitions-main-lorentz-algorithm.md
+      - De Bruijn Sequence: topics/strings/de-bruijn-sequence.md
+  - Dynamic Programming:
+    - Intro to DP:
+      - Knapsack and Basic Dynamic Programming: topics/dynamic-programming-dp/knapsack-and-basic-dynamic-programming.md
+      - Knapsack and Subset Sum Optimizations: topics/dynamic-programming-dp/knapsack-and-subset-sum-optimizations.md
+    - Digit DP:
+      - Digit DP: topics/dynamic-programming-dp/digit-dp.md
+    - DP Optimizations:
+      - Divide and Conquer Optimization: topics/dynamic-programming-dp/divide-and-conquer-optimization.md
+      - Knuth Optimization: topics/dynamic-programming-dp/knuth-optimization.md
+      - Aliens Trick / WQS Binary Search: topics/dynamic-programming-dp/aliens-trick-wqs-binary-search.md
+      - 1D1D DP Optimization: topics/dynamic-programming-dp/1d1d-dp-optimization.md
+      - DP Optimization using Data Structures [Some Practice Problems]: topics/dynamic-programming-dp/dp-optimization-using-data-structures-some-practice-problems.md
+    - Convex Hull Trick (CHT):
+      - Convex Hull Trick (CHT) and Dynamic CHT: topics/dynamic-programming-dp/convex-hull-trick-cht-and-dynamic-cht.md
+      - Persistent CHT: topics/dynamic-programming-dp/persistent-cht.md
+    - Li Chao Tree:
+      - Li Chao Tree: topics/dynamic-programming-dp/li-chao-tree.md
+      - Persistent Li Chao Tree: topics/dynamic-programming-dp/persistent-li-chao-tree.md
+      - Extended Li Chao tree: topics/dynamic-programming-dp/extended-li-chao-tree.md
+    - Bit Related DP:
+      - Bitmask DP: topics/dynamic-programming-dp/bitmask-dp.md
+      - Sum Over Subsets DP (SOS DP): topics/dynamic-programming-dp/sum-over-subsets-dp-sos-dp.md
+      - [Problem] Subset Union of Bitsets: topics/dynamic-programming-dp/problem-subset-union-of-bitsets.md
+      - Subset Convolution: topics/dynamic-programming-dp/subset-convolution.md
+      - [Trick] Dynamic Submask Count: topics/dynamic-programming-dp/trick-dynamic-submask-count.md
+      - [Problem] XOR Equation: topics/dynamic-programming-dp/problem-xor-equation.md
+    - More Tricks:
+      - Open and Close Interval Trick: topics/dynamic-programming-dp/open-and-close-interval-trick.md
+      - Slope Trick: topics/dynamic-programming-dp/slope-trick.md
+      - x2 +1 Trick: topics/dynamic-programming-dp/x2-1-trick.md
+      - Combining Subtrees Technique: topics/dynamic-programming-dp/combining-subtrees-technique.md
+    - Classic DP:
+      - Longest Increasing Subsequence (LIS): topics/dynamic-programming-dp/longest-increasing-subsequence-lis.md
+      - Interval DP / Range DP / Matrix Chain Multiplication (MCM): topics/dynamic-programming-dp/interval-dp-range-dp-matrix-chain-multiplication-mcm.md
+      - Edit Distance: topics/dynamic-programming-dp/edit-distance.md
+    - Dp on Different Structures:
+      - DP on Trees and DAGs: topics/dynamic-programming-dp/dp-on-trees-and-dags.md
+      - DP over Divisors: topics/dynamic-programming-dp/dp-over-divisors.md
+      - Substring DP: topics/dynamic-programming-dp/substring-dp.md
+      - DP on Convex Hulls: topics/dynamic-programming-dp/dp-on-convex-hulls.md
+    - Miscellaneous:
+      - Connected Component DP: topics/dynamic-programming-dp/connected-component-dp.md
+      - Broken Profile DP / Plug DP: topics/dynamic-programming-dp/broken-profile-dp-plug-dp.md
+      - Hirschberg's Algorithm: topics/dynamic-programming-dp/hirschberg-s-algorithm.md
+      - [Problem] Number of Subsequences Having Product at least K: topics/dynamic-programming-dp/problem-number-of-subsequences-having-product-at-least-k.md
+      - [Problem] Range LIS Query: topics/dynamic-programming-dp/problem-range-lis-query.md
+  - Game Theory:
+    - Grundy Number / Nim:
+      - Grundy Number and Basic Game Theory: topics/game-theory/grundy-number-and-basic-game-theory.md
+      - Nimber: topics/game-theory/nimber.md
+    - Hackenbush:
+      - Green Hackenbush on Trees and Graphs: topics/game-theory/green-hackenbush-on-trees-and-graphs.md
+      - Blue Red HackenBush: topics/game-theory/blue-red-hackenbush.md
+    - Graph Games:
+      - Games on Arbitrary Graphs: topics/game-theory/games-on-arbitrary-graphs.md
+      - [Problem] Matching Game On A Graph: topics/game-theory/problem-matching-game-on-a-graph.md
+    - Miscellaneous:
+      - Alpha Beta Pruning: topics/game-theory/alpha-beta-pruning.md
+  - Geometry:
+    - Euclidean Geometry:
+      - Euclidean Geometry: topics/geometry/euclidean-geometry.md
+    - Geometry 2D:
+      - Points, Vectors, Transformations, Dot Products, Cross Products, Precision Issues and Polar Sort(2D): topics/geometry/points-vectors-transformations-dot-products-cross-products-precision-issues-and-polar-sort-2d.md
+      - Lines, Segments, Rays, Distance and Relation Between Two Structures, Projections and Reflections(2D): topics/geometry/lines-segments-rays-distance-and-relation-between-two-structures-projections-and-reflections-2d.md
+      - Circles, Circle Relations, Intersections, Inscribed Circles and Circumcircles(2D): topics/geometry/circles-circle-relations-intersections-inscribed-circles-and-circumcircles-2d.md
+      - Tangents(2D): topics/geometry/tangents-2d.md
+      - Circles of Apollonius(2D): topics/geometry/circles-of-apollonius-2d.md
+      - Circle Union(2D): topics/geometry/circle-union-2d.md
+      - Polygons(2D): topics/geometry/polygons-2d.md
+      - Centroid of a Polygon(2D): topics/geometry/centroid-of-a-polygon-2d.md
+      - Geometric Median(2D): topics/geometry/geometric-median-2d.md
+      - Convex Hull(2D): topics/geometry/convex-hull-2d.md
+      - Point in Convex Polygon in log(N)(2D): topics/geometry/point-in-convex-polygon-in-log-n-2d.md
+      - Winding Number and Point in Simple Polygon(2D): topics/geometry/winding-number-and-point-in-simple-polygon-2d.md
+      - Extreme Vertex(2D): topics/geometry/extreme-vertex-2d.md
+      - Rotating Calipers ft Diameter and Width of a Convex Polygon and Minimum Enclosing Rectangle(2D): topics/geometry/rotating-calipers-ft-diameter-and-width-of-a-convex-polygon-and-minimum-enclosing-rectangle-2d.md
+      - Minimum Enclosing Circle(2D): topics/geometry/minimum-enclosing-circle-2d.md
+      - Polygon Line and Convex Line Intersection, and Polygon Cutting(2D): topics/geometry/polygon-line-and-convex-line-intersection-and-polygon-cutting-2d.md
+      - Tangents from Point to Convex and Convex to Convex(2D): topics/geometry/tangents-from-point-to-convex-and-convex-to-convex-2d.md
+      - Distance from Point to Convex, Convex to Line and Convex to Convex(2D): topics/geometry/distance-from-point-to-convex-convex-to-line-and-convex-to-convex-2d.md
+      - Maximum Distance from Convex to Convex(2D): topics/geometry/maximum-distance-from-convex-to-convex-2d.md
+      - Polygon Union(2D): topics/geometry/polygon-union-2d.md
+      - Polygon Triangulation(2D): topics/geometry/polygon-triangulation-2d.md
+      - Maximum Circle Cover(2D): topics/geometry/maximum-circle-cover-2d.md
+      - Maximum Inscribed Circle in a Convex(2D): topics/geometry/maximum-inscribed-circle-in-a-convex-2d.md
+      - Triangle Circle and Polygon Circle Intersection(2D): topics/geometry/triangle-circle-and-polygon-circle-intersection-2d.md
+    - Geometry 3D:
+      - Points, Vectors, Dot Products, Cross Products and Mixed Products(3D): topics/geometry/points-vectors-dot-products-cross-products-and-mixed-products-3d.md
+      - Planes(3D): topics/geometry/planes-3d.md
+      - Plane Based Coordinate System(3D): topics/geometry/plane-based-coordinate-system-3d.md
+      - Lines, Segments, and Distances, Angles and Intersections Between Lines and Planes(3D): topics/geometry/lines-segments-and-distances-angles-and-intersections-between-lines-and-planes-3d.md
+      - Triangles and Distance from Triangle to Triangle(3D): topics/geometry/triangles-and-distance-from-triangle-to-triangle-3d.md
+      - Spherical Geometry and Winding Number(3D): topics/geometry/spherical-geometry-and-winding-number-3d.md
+      - Minimum Enclosing Sphere(3D): topics/geometry/minimum-enclosing-sphere-3d.md
+      - Polyhedron, Pyramid, Cone and Cylinder(3D): topics/geometry/polyhedron-pyramid-cone-and-cylinder-3d.md
+      - Convex Hull(3D): topics/geometry/convex-hull-3d.md
+    - Delaunay:
+      - Delaunay Triangulation and Voronoi Diagram: topics/geometry/delaunay-triangulation-and-voronoi-diagram.md
+    - Half Plane:
+      - Half Plane Intersection: topics/geometry/half-plane-intersection.md
+      - Dynamic Half Plane Intersection: topics/geometry/dynamic-half-plane-intersection.md
+    - Convex Polygon:
+      - Minkowski Sum: topics/geometry/minkowski-sum.md
+      - Dynamic Convex Hull: topics/geometry/dynamic-convex-hull.md
+      - Onion Decomposition / Convex Layers: topics/geometry/onion-decomposition-convex-layers.md
+    - Lattice Points:
+      - Picks Theorem: topics/geometry/picks-theorem.md
+      - Lattice Points inside a Non-Lattice Polygon: topics/geometry/lattice-points-inside-a-non-lattice-polygon.md
+    - Sweep Line:
+      - Sweep Line Algorithm and Radial Sweep: topics/geometry/sweep-line-algorithm-and-radial-sweep.md
+      - Closest Pair of Points: topics/geometry/closest-pair-of-points.md
+      - Rectangle Union: topics/geometry/rectangle-union.md
+      - All Pair Segment Intersection.: topics/geometry/all-pair-segment-intersection.md
+      - Vertical decomposition: topics/geometry/vertical-decomposition.md
+    - Planar Geometry:
+      - Faces in Planar Graph: topics/geometry/faces-in-planar-graph.md
+      - Point Location: topics/geometry/point-location.md
+    - Miscellaneous:
+      - Hill Climbing and Simulated Annealing: topics/geometry/hill-climbing-and-simulated-annealing.md
+      - [Trick] Linear Combination of Vectors: topics/geometry/trick-linear-combination-of-vectors.md
+      - Reflections on a Rectangle: topics/geometry/reflections-on-a-rectangle.md
+      - [Problem] Maximum Area of a Triangle from Given Lengths: topics/geometry/problem-maximum-area-of-a-triangle-from-given-lengths.md
+      - [Problem] Maximum Area of a Polygon using Given Lengths in CCW Order: topics/geometry/problem-maximum-area-of-a-polygon-using-given-lengths-in-ccw-order.md
+      - [Problem] Circle/Polygon Inclusion Tree: topics/geometry/problem-circle-polygon-inclusion-tree.md
+  - Miscellaneous:
+    - Greedy Algorithms:
+      - Activity Selection Problem: topics/miscellaneous/activity-selection-problem.md
+      - Fractional Knapsack Problem: topics/miscellaneous/fractional-knapsack-problem.md
+      - Huffman Coding: topics/miscellaneous/huffman-coding.md
+      - Exchange Arguments: topics/miscellaneous/exchange-arguments.md
+    - Search Techniques:
+      - Ternary Search: topics/miscellaneous/ternary-search.md
+      - Parallel Binary Search: topics/miscellaneous/parallel-binary-search.md
+      - Fraction Binary Search: topics/miscellaneous/fraction-binary-search.md
+      - Fracturing Search: topics/miscellaneous/fracturing-search.md
+    - Interactive Problems:
+      - Interactive Problems: topics/miscellaneous/interactive-problems.md
+      - Interactive Problems on Centroids: topics/miscellaneous/interactive-problems-on-centroids.md
+    - Communication / Run-Twice Problems:
+      - Communication / Run-Twice Problems: topics/miscellaneous/communication-run-twice-problems.md
+    - Permutations:
+      - Permutations and Permutation Cycles: topics/miscellaneous/permutations-and-permutation-cycles.md
+      - [Problem] K-th Root of a Permutation: topics/miscellaneous/problem-k-th-root-of-a-permutation.md
+      - Schreier–Sims Algorithm: topics/miscellaneous/schreier-sims-algorithm.md
+    - Matroids:
+      - Matroid Intersection: topics/miscellaneous/matroid-intersection.md
+    - Chess:
+      - [Problem] Knight Moves in Infinity Grid: topics/miscellaneous/problem-knight-moves-in-infinity-grid.md
+      - [Problem] Knight's Tour Problem: topics/miscellaneous/problem-knight-s-tour-problem.md
+      - [Problem] Bishop Placement: topics/miscellaneous/problem-bishop-placement.md
+    - Techniques:
+      - Coordinate Compression: topics/miscellaneous/coordinate-compression.md
+      - Direction Array: topics/miscellaneous/direction-array.md
+      - Meet in the Middle: topics/miscellaneous/meet-in-the-middle.md
+      - Invariants and Monovariants: topics/miscellaneous/invariants-and-monovariants.md
+      - Manhattan <> Chebyshev: topics/miscellaneous/manhattan-chebyshev.md
+      - LCM OR Technique: topics/miscellaneous/lcm-or-technique.md
+      - [Trick] Logarithmic Subarray Aggregator (LSA Trick): topics/miscellaneous/trick-logarithmic-subarray-aggregator-lsa-trick.md
+      - Bitwise Disjoint Partitioning: topics/miscellaneous/bitwise-disjoint-partitioning.md
+      - [Trick] Efficient Non-Increasing Sequence Recovery of Length n with a[i] <= n/i: topics/miscellaneous/trick-efficient-non-increasing-sequence-recovery-of-length-n-with-a-i-n-i.md
+    - Min Plus Convolution:
+      - Min Plus Convolution (Convex and Convex): topics/miscellaneous/min-plus-convolution-convex-and-convex.md
+      - SMAWK Algorithm and Min Plus Convolution (Convex and Arbitrary): topics/miscellaneous/smawk-algorithm-and-min-plus-convolution-convex-and-arbitrary.md
+    - Randomized:
+      - Randomized Algorithms: topics/miscellaneous/randomized-algorithms.md
+      - Birthday Paradox: topics/miscellaneous/birthday-paradox.md
+    - Bigint:
+      - Big Integers: topics/miscellaneous/big-integers.md
+      - Trygub Numbers: topics/miscellaneous/trygub-numbers.md
+    - Miscellaneous:
+      - Inversions: topics/miscellaneous/inversions.md
+      - Josephus Problem: topics/miscellaneous/josephus-problem.md
+      - Gray Code: topics/miscellaneous/gray-code.md
+      - Backtracking: topics/miscellaneous/backtracking.md
+      - [Problem] MEX of all Subarrays: topics/miscellaneous/problem-mex-of-all-subarrays.md
+      - Lindstrom Gessel Viennot(LGV) Lemma: topics/miscellaneous/lindstrom-gessel-viennot-lgv-lemma.md
+      - Dynamic Bitsets: topics/miscellaneous/dynamic-bitsets.md
+      - Pragmas: topics/miscellaneous/pragmas.md
+      - Boyer–Moore Majority Voting Algorithm and Misra–Gries Algorithm: topics/miscellaneous/boyer-moore-majority-voting-algorithm-and-misra-gries-algorithm.md
+      - Heavy Implementation Problems: topics/miscellaneous/heavy-implementation-problems.md
   - Useful Links: resources.md
 
 plugins:
