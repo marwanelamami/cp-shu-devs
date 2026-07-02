@@ -770,8 +770,12 @@
 
   <script>
     function sendHeight() {
-      const height = document.body.scrollHeight || document.documentElement.scrollHeight;
-      window.parent.postMessage({ type: 'resize-roadmap', height: height }, '*');
+      const container = document.querySelector('.rm-container');
+      if (container) {
+        // Measure the container's exact bounding height and add a safe padding buffer
+        const height = Math.ceil(container.getBoundingClientRect().height) + 50;
+        window.parent.postMessage({ type: 'resize-roadmap', height: height }, '*');
+      }
     }
 
     function toggleCategory(el) {

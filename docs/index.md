@@ -14,7 +14,7 @@ Welcome to the CP Playbook, a structured curriculum and collection of training r
 
 Use the accordion menu below to explore the topics in sequence. Click on any active category or subcategory to expand it, and click on any topic to go directly to its guidebook notes.
 
-<iframe id="roadmap-iframe" src="roadmap.html" style="width:100%; border:none; overflow:hidden; transition: height 0.15s ease;" scrolling="no"></iframe>
+<iframe id="roadmap-iframe" src="roadmap.html" style="width:100%; height:650px; border:none; overflow:hidden; transition: height 0.2s ease-out;" scrolling="no"></iframe>
 
 <script>
   window.addEventListener('message', function(e) {
