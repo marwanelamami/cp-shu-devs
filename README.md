@@ -1,54 +1,30 @@
-<div align="center">
-
 # CP Playbook
 
-**The competitive programming knowledge base for SHU Developers Club members.**
+The official competitive programming resource hub and learning roadmap for the SHU Developers Club.
 
-[![Site](https://img.shields.io/badge/site-live-brightgreen?style=flat-square&logo=mkdocs)](https://marwanelamami.github.io/cp-shu-devs/)
+[![Site Live](https://img.shields.io/badge/site-live-brightgreen?style=flat-square&logo=mkdocs)](https://marwanelamami.github.io/cp-shu-devs/)
 [![Built with MkDocs Material](https://img.shields.io/badge/built%20with-MkDocs%20Material-blue?style=flat-square&logo=materialdesign)](https://squidfunk.github.io/mkdocs-material/)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)](LICENSE)
-
-</div>
 
 ---
 
-This repo is the source for the CP-SHU-Devs documentation site. It covers core data structures and algorithms used in competitive programming, written to be clear, practical, and beginner-friendly — without the noise.
+This repository contains the source documentation for the [CP Playbook](https://marwanelamami.github.io/cp-shu-devs/). It serves as a structured reference for club members learning algorithms and data structures, offering clear explanations, visual guides, and Python implementations.
 
-## What's Inside
+## Curriculum & Roadmap
 
-Topics are organized by category and difficulty, each with explanations, code examples, complexity tables, and practice problems.
+The topics are organized sequentially to build up competitive programming fundamentals:
 
-**Basics**
-- Intro to CP & Complexity
-- Static Arrays · Dynamic Arrays
-- Kadane's Algorithm
-- Sliding Window (Fixed · Variable)
-- Two Pointers
-- Prefix Sums
-
-More topics are added as the club progresses through its curriculum.
-
-## Running Locally
-
-```bash
-pip install mkdocs-material
-mkdocs serve
-```
-
-Then open [http://localhost:8000](http://localhost:8000).
+* **Basics**
+  * Intro to CP & Complexity
+  * Arrays (Static & Dynamic)
+  * Kadane's Algorithm
+  * Sliding Window (Fixed & Variable Sized)
+  * Two Pointers
+  * Prefix Sums
 
 ## Contributing
 
-All contributions go through pull requests. If you're adding a new topic, follow the structure of an existing one — frontmatter, explanation, code, complexity table, practice problems. Keep it consistent.
+We welcome contributions to expand or improve the playbook.
 
-For fixes or improvements to existing pages, open a PR with a clear description of what changed and why.
+* **Fixes & Enhancements**: Open a pull request with a clear description of the changes made and the reason for them.
+* **Adding New Topics**: Ensure new topics follow the established format (concept, visualization placeholders, Python implementations, and complexity breakdown). Files must be placed inside their respective numbered directories under `docs/topics/basics/` (e.g., `04-sliding-window/`).
 
-## Deployment
-
-The site deploys to GitHub Pages via the `deploy.yml` workflow. Deployment is manual — trigger it from the **Actions** tab when ready.
-
----
-
-<div align="center">
-  <sub>Built by SHU Developers Club</sub>
-</div>
