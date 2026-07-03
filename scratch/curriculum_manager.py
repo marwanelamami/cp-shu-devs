@@ -570,23 +570,34 @@ def cmd_update_navigation():
             if not topics:
                 continue
             has_content = True
-            sub_name_clean = sub_name.replace('"', "'")
-            sub_items_str += f"    - \"{sub_name_clean}\":\n"
             
+            # Gather all navigation items for this subcategory
+            sub_items = []
             for topic in topics:
                 topic_clean = topic.replace('"', "'")
                 # Handle splits
                 if topic == "Arrays":
-                    sub_items_str += "      - \"Static Arrays\": topics/basics/02-arrays/static-arrays.md\n"
-                    sub_items_str += "      - \"Dynamic Arrays\": topics/basics/02-arrays/dynamic-arrays.md\n"
+                    sub_items.append(("Static Arrays", "topics/basics/02-arrays/static-arrays.md"))
+                    sub_items.append(("Dynamic Arrays", "topics/basics/02-arrays/dynamic-arrays.md"))
                 elif topic == "Sliding Window":
-                    sub_items_str += "      - \"Fixed Size\": topics/basics/04-sliding-window/fixed-size.md\n"
-                    sub_items_str += "      - \"Variable Size\": topics/basics/04-sliding-window/variable-size.md\n"
+                    sub_items.append(("Fixed Size", "topics/basics/04-sliding-window/fixed-size.md"))
+                    sub_items.append(("Variable Size", "topics/basics/04-sliding-window/variable-size.md"))
                 elif slugify(topic) in overrides:
-                    sub_items_str += f"      - \"{topic_clean}\": {overrides[slugify(topic)]}\n"
+                    sub_items.append((topic_clean, overrides[slugify(topic)]))
                 else:
                     topic_slug = slugify(topic)
-                    sub_items_str += f"      - \"{topic_clean}\": topics/{cat_slug}/{topic_slug}.md\n"
+                    sub_items.append((topic_clean, f"topics/{cat_slug}/{topic_slug}.md"))
+            
+            sub_name_clean = sub_name.replace('"', "'")
+            # If the subcategory has exactly one item, flatten it to a single navigation link
+            if len(sub_items) == 1:
+                item_title, item_path = sub_items[0]
+                sub_items_str += f"    - \"{sub_name_clean}\": {item_path}\n"
+            else:
+                # Multiple items: keep as expandable group
+                sub_items_str += f"    - \"{sub_name_clean}\":\n"
+                for item_title, item_path in sub_items:
+                    sub_items_str += f"      - \"{item_title}\": {item_path}\n"
                     
         if has_content:
             nav_str += f"  - \"{tab_name_clean}\":\n" + sub_items_str
@@ -611,6 +622,7 @@ def cmd_update_navigation():
         print("Successfully updated 'mkdocs.yml' navigation tree.")
     else:
         print("Error: Could not locate nav: or plugins: in mkdocs.yml")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Playbook Curriculum Manager CLI")

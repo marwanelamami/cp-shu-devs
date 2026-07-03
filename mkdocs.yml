@@ -35,8 +35,7 @@ repo_name: marwanelamami/cp-shu-devs
 nav:
   - Home: index.md
   - "Basics":
-    - "Intro to Programming":
-      - "What is Programming?": topics/basics/what-is-programming.md
+    - "Intro to Programming": topics/basics/what-is-programming.md
     - "Learn a Language":
       - "Intro to C++ and Setting up the Environment": topics/basics/intro-to-c-and-setting-up-the-environment.md
       - "Data Types, Variables and Input Output": topics/basics/data-types-variables-and-input-output.md
@@ -49,15 +48,12 @@ nav:
       - "Strings": topics/basics/strings.md
       - "Pointers and References": topics/basics/pointers-and-references.md
       - "Structures": topics/basics/structures.md
-    - "Intro to Competitive Programming":
-      - "What is Competitive Programming?": topics/basics/what-is-competitive-programming.md
-    - "Bitwise Thinking":
-      - "Bitwise Operations and Bitmasks": topics/basics/bitwise-operations-and-bitmasks.md
+    - "Intro to Competitive Programming": topics/basics/what-is-competitive-programming.md
+    - "Bitwise Thinking": topics/basics/bitwise-operations-and-bitmasks.md
     - "Complexity Analysis":
       - "Big O Notation and Time and Space Complexity Analysis": topics/basics/big-o-notation-and-time-and-space-complexity-analysis.md
       - "Fast Input Output": topics/basics/fast-input-output.md
-    - "Recursion":
-      - "Recursion": topics/basics/recursion.md
+    - "Recursion": topics/basics/recursion.md
     - "Very Basic Math":
       - "Divisors": topics/basics/divisors.md
       - "GCD and LCM": topics/basics/gcd-and-lcm.md
@@ -89,13 +85,11 @@ nav:
       - "Quick Sort": topics/basics/quick-sort.md
       - "Radix Sort": topics/basics/radix-sort.md
       - "C++ STL Sort and Custom Comparator": topics/basics/c-stl-sort-and-custom-comparator.md
-    - "Divide and Conquer":
-      - "Divide and Conquer": topics/basics/divide-and-conquer.md
+    - "Divide and Conquer": topics/basics/divide-and-conquer.md
     - "Greedy and Constructive":
       - "Basic Greedy Algorithms": topics/basics/basic-greedy-algorithms.md
       - "Basic Constructive Algorithms": topics/basics/basic-constructive-algorithms.md
-    - "2D Prefix Sum":
-      - "2D Prefix Sum": topics/basics/2d-prefix-sum.md
+    - "2D Prefix Sum": topics/basics/2d-prefix-sum.md
     - "More Techniques":
       - "Difference Array": topics/basics/difference-array.md
       - "Sliding Window Technique": topics/basics/sliding-window-technique.md
@@ -109,8 +103,7 @@ nav:
       - "Permutations, Combinations and Basic Counting Problems": topics/basics/permutations-combinations-and-basic-counting-problems.md
       - "Stars and Bars": topics/basics/stars-and-bars.md
       - "Pigeonhole Principle": topics/basics/pigeonhole-principle.md
-    - "Very Basic Graphs":
-      - "Introduction to Graphs | Definitions and Representations": topics/basics/introduction-to-graphs-definitions-and-representations.md
+    - "Very Basic Graphs": topics/basics/introduction-to-graphs-definitions-and-representations.md
   - "Data Structures":
     - "Segment Tree":
       - "Segment Tree (Point Update Range Query)": topics/data-structures-ds/segment-tree-point-update-range-query.md
@@ -161,15 +154,12 @@ nav:
       - "Mo's with Update / 3D Mo (Offline)": topics/data-structures-ds/mo-s-with-update-3d-mo-offline.md
       - "Mo's with Update / 3D Mo (Online)": topics/data-structures-ds/mo-s-with-update-3d-mo-online.md
       - "4D Mo": topics/data-structures-ds/4d-mo.md
-    - "Heavy Light Decomposition (HLD)":
-      - "Heavy Light Decomposition (HLD) ft Subtrees and Path Query": topics/data-structures-ds/heavy-light-decomposition-hld-ft-subtrees-and-path-query.md
+    - "Heavy Light Decomposition (HLD)": topics/data-structures-ds/heavy-light-decomposition-hld-ft-subtrees-and-path-query.md
     - "Centroid Decomposition":
       - "Centroid Decomposition": topics/data-structures-ds/centroid-decomposition.md
       - "Persistent Centroid Decomposition": topics/data-structures-ds/persistent-centroid-decomposition.md
-    - "Long Path Decomposition":
-      - "Long Path Decomposition": topics/data-structures-ds/long-path-decomposition.md
-    - "BST":
-      - "Binary Search Tree (BST)": topics/data-structures-ds/binary-search-tree-bst.md
+    - "Long Path Decomposition": topics/data-structures-ds/long-path-decomposition.md
+    - "BST": topics/data-structures-ds/binary-search-tree-bst.md
     - "Balanced Binary Search Tree (BBST)":
       - "Treap": topics/data-structures-ds/treap.md
       - "Implicit Treap": topics/data-structures-ds/implicit-treap.md
@@ -277,8 +267,7 @@ nav:
       - "2 SAT": topics/graph-theory/2-sat.md
       - "3 SAT": topics/graph-theory/3-sat.md
       - "System Of Difference Constraints": topics/graph-theory/system-of-difference-constraints.md
-    - "Eulerian Path":
-      - "Eulerian Path and Cycle": topics/graph-theory/eulerian-path-and-cycle.md
+    - "Eulerian Path": topics/graph-theory/eulerian-path-and-cycle.md
     - "Hamiltonian Path":
       - "Hamiltonian Path and Cycle": topics/graph-theory/hamiltonian-path-and-cycle.md
       - "Hamiltonian Path Heuristic Algorithm": topics/graph-theory/hamiltonian-path-heuristic-algorithm.md
@@ -300,8 +289,7 @@ nav:
     - "Dynamic Acyclic Graphs (DAG)":
       - "DAG Reachability": topics/graph-theory/dag-reachability.md
       - "Incremental DAG Reachability": topics/graph-theory/incremental-dag-reachability.md
-    - "Dominators":
-      - "Dominator Tree": topics/graph-theory/dominator-tree.md
+    - "Dominators": topics/graph-theory/dominator-tree.md
     - "Special Graphs":
       - "Cactus Graph": topics/graph-theory/cactus-graph.md
       - "Tournament Graph": topics/graph-theory/tournament-graph.md
@@ -329,8 +317,7 @@ nav:
       - "Konig's Theorem and Maximum Independent Set in Bipartite Graphs": topics/graph-theory/konig-s-theorem-and-maximum-independent-set-in-bipartite-graphs.md
       - "Halls Theorem": topics/graph-theory/halls-theorem.md
       - "Matching using Determinants": topics/graph-theory/matching-using-determinants.md
-    - "Partially Ordered Set (POSET)":
-      - "POSET ft Dilworth's and Mirsky's Theorem": topics/graph-theory/poset-ft-dilworth-s-and-mirsky-s-theorem.md
+    - "Partially Ordered Set (POSET)": topics/graph-theory/poset-ft-dilworth-s-and-mirsky-s-theorem.md
     - "Miscellaneous":
       - "Functional Graphs": topics/graph-theory/functional-graphs.md
       - "Degree Sequences, Erdos-Gallai Theorem, Gale-Ryser Theorem and Havel–Hakimi Algorithm": topics/graph-theory/degree-sequences-erdos-gallai-theorem-gale-ryser-theorem-and-havel-hakimi-algorithm.md
@@ -573,8 +560,7 @@ nav:
     - "Intro to DP":
       - "Knapsack and Basic Dynamic Programming": topics/dynamic-programming-dp/knapsack-and-basic-dynamic-programming.md
       - "Knapsack and Subset Sum Optimizations": topics/dynamic-programming-dp/knapsack-and-subset-sum-optimizations.md
-    - "Digit DP":
-      - "Digit DP": topics/dynamic-programming-dp/digit-dp.md
+    - "Digit DP": topics/dynamic-programming-dp/digit-dp.md
     - "DP Optimizations":
       - "Divide and Conquer Optimization": topics/dynamic-programming-dp/divide-and-conquer-optimization.md
       - "Knuth Optimization": topics/dynamic-programming-dp/knuth-optimization.md
@@ -625,11 +611,9 @@ nav:
     - "Graph Games":
       - "Games on Arbitrary Graphs": topics/game-theory/games-on-arbitrary-graphs.md
       - "[Problem] Matching Game On A Graph": topics/game-theory/problem-matching-game-on-a-graph.md
-    - "Miscellaneous":
-      - "Alpha Beta Pruning": topics/game-theory/alpha-beta-pruning.md
+    - "Miscellaneous": topics/game-theory/alpha-beta-pruning.md
   - "Geometry":
-    - "Euclidean Geometry":
-      - "Euclidean Geometry": topics/geometry/euclidean-geometry.md
+    - "Euclidean Geometry": topics/geometry/euclidean-geometry.md
     - "Geometry 2D":
       - "Points, Vectors, Transformations, Dot Products, Cross Products, Precision Issues and Polar Sort(2D)": topics/geometry/points-vectors-transformations-dot-products-cross-products-precision-issues-and-polar-sort-2d.md
       - "Lines, Segments, Rays, Distance and Relation Between Two Structures, Projections and Reflections(2D)": topics/geometry/lines-segments-rays-distance-and-relation-between-two-structures-projections-and-reflections-2d.md
@@ -665,8 +649,7 @@ nav:
       - "Minimum Enclosing Sphere(3D)": topics/geometry/minimum-enclosing-sphere-3d.md
       - "Polyhedron, Pyramid, Cone and Cylinder(3D)": topics/geometry/polyhedron-pyramid-cone-and-cylinder-3d.md
       - "Convex Hull(3D)": topics/geometry/convex-hull-3d.md
-    - "Delaunay":
-      - "Delaunay Triangulation and Voronoi Diagram": topics/geometry/delaunay-triangulation-and-voronoi-diagram.md
+    - "Delaunay": topics/geometry/delaunay-triangulation-and-voronoi-diagram.md
     - "Half Plane":
       - "Half Plane Intersection": topics/geometry/half-plane-intersection.md
       - "Dynamic Half Plane Intersection": topics/geometry/dynamic-half-plane-intersection.md
@@ -707,14 +690,12 @@ nav:
     - "Interactive Problems":
       - "Interactive Problems": topics/miscellaneous/interactive-problems.md
       - "Interactive Problems on Centroids": topics/miscellaneous/interactive-problems-on-centroids.md
-    - "Communication / Run-Twice Problems":
-      - "Communication / Run-Twice Problems": topics/miscellaneous/communication-run-twice-problems.md
+    - "Communication / Run-Twice Problems": topics/miscellaneous/communication-run-twice-problems.md
     - "Permutations":
       - "Permutations and Permutation Cycles": topics/miscellaneous/permutations-and-permutation-cycles.md
       - "[Problem] K-th Root of a Permutation": topics/miscellaneous/problem-k-th-root-of-a-permutation.md
       - "Schreier–Sims Algorithm": topics/miscellaneous/schreier-sims-algorithm.md
-    - "Matroids":
-      - "Matroid Intersection": topics/miscellaneous/matroid-intersection.md
+    - "Matroids": topics/miscellaneous/matroid-intersection.md
     - "Chess":
       - "[Problem] Knight Moves in Infinity Grid": topics/miscellaneous/problem-knight-moves-in-infinity-grid.md
       - "[Problem] Knight's Tour Problem": topics/miscellaneous/problem-knight-s-tour-problem.md
