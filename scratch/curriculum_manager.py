@@ -555,6 +555,8 @@ def cmd_update_navigation():
     nav_str = "nav:\n  - Home: index.md\n"
     
     for cat_name, subs in parsed_tree.items():
+        if cat_name != "Basics":
+            continue
         cat_slug = slugify(cat_name)
         tab_name = cat_name
         if cat_name == "Data Structures (DS)":
