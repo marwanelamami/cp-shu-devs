@@ -77,6 +77,23 @@ Use this workflow to update the sidebar menu navigation in `mkdocs.yml` whenever
 
 ---
 
+## Sub-Skill 4: Generate Interactive Roadmap
+
+Use this workflow to rebuild the `roadmap.html` file whenever new topics are added to the syllabus or when routing priorities change.
+
+### Steps
+1. Run the generate roadmap command:
+   ```bash
+   python scratch/curriculum_manager.py generate-roadmap
+   ```
+
+### Routing & Display Specifications
+- **Basics Category**: Routes locally (e.g., `topics/basics/...`) inside the same window (`target="_parent"`).
+- **Non-Basics Categories**: Routes directly to YouKn0wWho Academy's specific topic page on their website, opening in a new tab (`target="_blank"`).
+- **Construction Notice**: Renders a styled alert box at the top of each non-Basics category accordion to explain that content is currently under development.
+
+---
+
 ## Formatting & Design Rules
 
 ### 1. Professional Tone and Aesthetics

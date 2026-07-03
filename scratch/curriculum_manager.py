@@ -629,6 +629,374 @@ def cmd_update_navigation():
         print("Error: Could not locate nav: or plugins: in mkdocs.yml")
 
 
+def cmd_generate_roadmap():
+    data = load_cache()
+    if not data:
+        return
+        
+    parsed_tree = {}
+    unique_topics = {}
+    for key, topic in data.items():
+        unique_topics[topic["name"]] = topic
+        
+    for topic_name, topic in unique_topics.items():
+        cat_name = topic["category"]
+        if cat_name not in parsed_tree:
+            parsed_tree[cat_name] = {}
+        sub_name = topic["subcategory"]
+        if sub_name not in parsed_tree[cat_name]:
+            parsed_tree[cat_name][sub_name] = []
+        parsed_tree[cat_name][sub_name].append(topic)
+        
+    roadmap_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CP Playbook Roadmap</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .rm-container {
+      margin: 1.5rem 0;
+      max-width: 100%;
+    }
+    .rm-legend {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+      align-items: center;
+    }
+    .rm-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .rm-legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    
+    .rm-category {
+      border: 1px solid var(--md-typeset-color, #e2e8f0);
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
+      background: var(--md-card-background, #ffffff);
+      overflow: hidden;
+    }
+    .rm-category-header {
+      padding: 0.85rem 1.25rem;
+      background: var(--md-default-bg-color, #f8fafc);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-weight: 600;
+      user-select: none;
+      transition: background 0.15s ease;
+    }
+    .rm-category-header:hover {
+      background: var(--md-default-bg-color-hover, #f1f5f9);
+    }
+    .rm-category.open .rm-category-header {
+      border-bottom: 1px solid var(--md-typeset-color, #e2e8f0);
+    }
+    .rm-category-title {
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .rm-category-badge {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 9999px;
+      background: #e0e7ff;
+      color: #4f46e5;
+      font-weight: 500;
+    }
+    .rm-category-content {
+      display: none;
+      padding: 1rem 1.25rem;
+    }
+    .rm-category.open .rm-category-content {
+      display: block;
+    }
+    .rm-toggle-icon {
+      font-size: 1.1rem;
+      color: #64748b;
+      font-weight: bold;
+    }
+
+    .rm-subcategory {
+      margin-bottom: 1.25rem;
+      border-left: 2px solid #cbd5e1;
+      padding-left: 1rem;
+    }
+    .rm-subcategory:last-child {
+      margin-bottom: 0.5rem;
+    }
+    .rm-subcategory-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      color: var(--md-typeset-color, #334155);
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+    }
+    .rm-subcategory-content {
+      display: none;
+    }
+    .rm-subcategory.open .rm-subcategory-content {
+      display: block;
+    }
+    
+    .rm-topics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .rm-topic {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--md-typeset-color, #e2e8f0);
+      border-radius: 4px;
+      background: var(--md-default-bg-color, #ffffff);
+      text-decoration: none !important;
+      color: var(--md-typeset-color, #1e293b) !important;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.15s ease;
+    }
+    .rm-topic:hover {
+      border-color: #3b82f6;
+      background: #eff6ff;
+      color: #1d4ed8 !important;
+    }
+    
+    .rm-badge {
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.025em;
+    }
+    .rm-badge.high { background: #ef4444; }
+    .rm-badge.medium { background: #f59e0b; }
+    .rm-badge.low { background: #10b981; }
+
+    .rm-construction-notice {
+      padding: 0.85rem 1.25rem;
+      background: rgba(37, 99, 235, 0.08); /* 8% indigo/blue tint */
+      border: 1px solid rgba(37, 99, 235, 0.2);
+      border-radius: 6px;
+      margin-top: 0.25rem;
+      margin-bottom: 1.25rem;
+      font-size: 0.85rem;
+      color: var(--md-typeset-color, #1e293b);
+      line-height: 1.5;
+    }
+
+    /* Dark mode overrides */
+    [data-md-color-scheme="slate"] .rm-category {
+      background: #1e293b;
+      border-color: #334155;
+    }
+    [data-md-color-scheme="slate"] .rm-category-header {
+      background: #0f172a;
+    }
+    [data-md-color-scheme="slate"] .rm-category-header:hover {
+      background: #1e293b;
+    }
+    [data-md-color-scheme="slate"] .rm-category.open .rm-category-header {
+      border-bottom-color: #334155;
+    }
+    [data-md-color-scheme="slate"] .rm-subcategory {
+      border-left-color: #475569;
+    }
+    [data-md-color-scheme="slate"] .rm-topic {
+      background: #0f172a;
+      border-color: #334155;
+      color: #cbd5e1 !important;
+    }
+    [data-md-color-scheme="slate"] .rm-topic:hover {
+      border-color: #3b82f6;
+      background: #1e293b;
+      color: #60a5fa !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="rm-container">
+    <div class="rm-legend">
+      <div class="rm-legend-item">
+        <span class="rm-legend-dot" style="background:#ef4444;"></span>
+        <span>High Importance</span>
+      </div>
+      <div class="rm-legend-item">
+        <span class="rm-legend-dot" style="background:#f59e0b;"></span>
+        <span>Medium Importance</span>
+      </div>
+      <div class="rm-legend-item">
+        <span class="rm-legend-dot" style="background:#10b981;"></span>
+        <span>Low Importance</span>
+      </div>
+    </div>
+"""
+
+    for cat_name, subs in parsed_tree.items():
+        cat_slug = slugify(cat_name)
+        badge_style = "background: #e0e7ff; color: #4f46e5;"
+        badge_text = "Active" if cat_name == "Basics" else "Soon"
+        
+        cat_html = f"""
+    <!-- Category: {cat_name} -->
+    <div class="rm-category" id="cat-{cat_slug}">
+      <div class="rm-category-header" onclick="toggleCategory(this)">
+        <span class="rm-category-title">{cat_name} <span class="rm-category-badge" style="{badge_style}">{badge_text}</span></span>
+        <span class="rm-toggle-icon">+</span>
+      </div>
+      <div class="rm-category-content">
+"""
+        # If not Basics, add construction notice
+        if cat_name != "Basics":
+            cat_html += """        <div class="rm-construction-notice">
+          The content for this milestone is currently under development. We are actively writing explanations and selecting practice problems for these topics, which will be released soon!
+        </div>
+"""
+            
+        has_cat_content = False
+        for sub_name, topics in subs.items():
+            if not topics:
+                continue
+            has_cat_content = True
+            cat_html += f"""
+        <!-- Subcategory: {sub_name} -->
+        <div class="rm-subcategory">
+          <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
+            <span>{sub_name}</span>
+            <span class="rm-sub-toggle">+</span>
+          </div>
+          <div class="rm-subcategory-content">
+            <div class="rm-topics-grid">
+"""
+            for topic in topics:
+                topic_id = topic["id"]
+                if not topic_id:
+                    topic_id = slugify(topic["name"])
+                    
+                # Importance badge
+                imp = (topic.get("importance") or "Medium").lower()
+                imp_badge = "medium"
+                if "high" in imp:
+                    imp_badge = "high"
+                elif "low" in imp:
+                    imp_badge = "low"
+                badge_label = imp.capitalize()
+                
+                # Routing check
+                if cat_name != "Basics":
+                    # External route to YouKn0wWho Academy
+                    link = f"https://youkn0wwho.academy/topic-list/{topic_id.replace('_', '-')}"
+                    target_attr = 'target="_blank"'
+                else:
+                    # Local route
+                    target_attr = 'target="_parent"'
+                    if topic_id in overrides:
+                        link = overrides[topic_id]
+                    elif topic["name"] == "Arrays":
+                        # Specials
+                        cat_html += f"""
+              <a href="topics/basics/02-arrays/static-arrays/" {target_attr} class="rm-topic">
+                <span>Static Arrays</span>
+                <span class="rm-badge high">High</span>
+              </a>
+              <a href="topics/basics/02-arrays/dynamic-arrays/" {target_attr} class="rm-topic">
+                <span>Dynamic Arrays</span>
+                <span class="rm-badge high">High</span>
+              </a>
+"""
+                        continue
+                    elif topic["name"] == "Sliding Window":
+                        # Specials
+                        cat_html += f"""
+              <a href="topics/basics/04-sliding-window/fixed-size/" {target_attr} class="rm-topic">
+                <span>Fixed Size Sliding Window</span>
+                <span class="rm-badge high">High</span>
+              </a>
+              <a href="topics/basics/04-sliding-window/variable-size/" {target_attr} class="rm-topic">
+                <span>Variable Size Sliding Window</span>
+                <span class="rm-badge high">High</span>
+              </a>
+"""
+                        continue
+                    else:
+                        topic_slug = slugify(topic["name"])
+                        link = f"topics/{cat_slug}/{topic_slug}/"
+                        
+                cat_html += f"""
+              <a href="{link}" {target_attr} class="rm-topic">
+                <span>{topic['name']}</span>
+                <span class="rm-badge {imp_badge}">{badge_label}</span>
+              </a>
+"""
+                
+            cat_html += """
+            </div>
+          </div>
+        </div>
+"""
+        cat_html += """
+      </div>
+    </div>
+"""
+        if has_cat_content:
+            roadmap_html += cat_html
+            
+    roadmap_html += """
+  </div>
+
+  <script>
+    function toggleCategory(el) {
+      const parent = el.parentElement;
+      parent.classList.toggle('open');
+      const icon = el.querySelector('.rm-toggle-icon');
+      if (icon) {
+        icon.textContent = parent.classList.contains('open') ? '−' : '+';
+      }
+    }
+
+    function toggleSubcategory(el) {
+      const parent = el.parentElement;
+      parent.classList.toggle('open');
+      const toggle = el.querySelector('.rm-sub-toggle');
+      if (toggle) {
+        toggle.textContent = parent.classList.contains('open') ? '−' : '+';
+      }
+    }
+  </script>
+</body>
+</html>
+"""
+    with open(roadmap_path, "w", encoding="utf-8") as f:
+        f.write(roadmap_html)
+        
+    print(f"Successfully generated new 'roadmap.html' at: {roadmap_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Playbook Curriculum Manager CLI")
     subparsers = parser.add_subparsers(dest="command", help="Available subcommands")
@@ -637,6 +1005,7 @@ def main():
     subparsers.add_parser("generate-placeholders", help="Generate under-construction placeholder files")
     subparsers.add_parser("format-handwritten", help="Format handwritten guidebooks with metadata headers and merged tables")
     subparsers.add_parser("update-navigation", help="Update navigation settings in mkdocs.yml")
+    subparsers.add_parser("generate-roadmap", help="Generate interactive syllabus roadmap.html")
     
     args = parser.parse_args()
     
@@ -648,6 +1017,8 @@ def main():
         cmd_format_handwritten()
     elif args.command == "update-navigation":
         cmd_update_navigation()
+    elif args.command == "generate-roadmap":
+        cmd_generate_roadmap()
     else:
         parser.print_help()
 
