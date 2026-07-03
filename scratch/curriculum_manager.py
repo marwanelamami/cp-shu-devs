@@ -582,11 +582,14 @@ def cmd_update_navigation():
                 elif topic == "Sliding Window":
                     sub_items.append(("Fixed Size", "topics/basics/04-sliding-window/fixed-size.md"))
                     sub_items.append(("Variable Size", "topics/basics/04-sliding-window/variable-size.md"))
-                elif slugify(topic) in overrides:
-                    sub_items.append((topic_clean, overrides[slugify(topic)]))
                 else:
-                    topic_slug = slugify(topic)
-                    sub_items.append((topic_clean, f"topics/{cat_slug}/{topic_slug}.md"))
+                    topic_dict = unique_topics.get(topic, {})
+                    topic_id = topic_dict.get("id") if topic_dict.get("id") else slugify(topic)
+                    if topic_id in overrides:
+                        sub_items.append((topic_clean, overrides[topic_id]))
+                    else:
+                        topic_slug = slugify(topic)
+                        sub_items.append((topic_clean, f"topics/{cat_slug}/{topic_slug}.md"))
             
             sub_name_clean = sub_name.replace('"', "'")
             # If the subcategory has exactly one item, flatten it to a single navigation link

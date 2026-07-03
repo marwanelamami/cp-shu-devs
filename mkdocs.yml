@@ -48,10 +48,10 @@ nav:
       - "Strings": topics/basics/strings.md
       - "Pointers and References": topics/basics/pointers-and-references.md
       - "Structures": topics/basics/structures.md
-    - "Intro to Competitive Programming": topics/basics/what-is-competitive-programming.md
+    - "Intro to Competitive Programming": topics/basics/01-intro-to-cp/intro-to-cp.md
     - "Bitwise Thinking": topics/basics/bitwise-operations-and-bitmasks.md
     - "Complexity Analysis":
-      - "Big O Notation and Time and Space Complexity Analysis": topics/basics/big-o-notation-and-time-and-space-complexity-analysis.md
+      - "Big O Notation and Time and Space Complexity Analysis": topics/basics/01-intro-to-cp/complexity-analysis.md
       - "Fast Input Output": topics/basics/fast-input-output.md
     - "Recursion": topics/basics/recursion.md
     - "Very Basic Math":
@@ -59,7 +59,7 @@ nav:
       - "GCD and LCM": topics/basics/gcd-and-lcm.md
       - "Harmonic Number": topics/basics/harmonic-number.md
     - "Range Queries Without Updates":
-      - "Prefix Sum": topics/basics/prefix-sum.md
+      - "Prefix Sum": topics/basics/06-prefix-sums/prefix-sums.md
       - "Prefix XOR": topics/basics/prefix-xor.md
     - "Standard Template Library (STL)":
       - "Intro to STL, Containers and Iterators": topics/basics/intro-to-stl-containers-and-iterators.md
@@ -75,7 +75,7 @@ nav:
       - "List / Linked List": topics/basics/list-linked-list.md
     - "Leveraging Monotonicity":
       - "Binary Search": topics/basics/binary-search.md
-      - "Two Pointers": topics/basics/two-pointers.md
+      - "Two Pointers": topics/basics/05-two-pointers/two-pointers.md
     - "Basic Sorting Algorithms":
       - "Bubble Sort": topics/basics/bubble-sort.md
       - "Selection Sort": topics/basics/selection-sort.md
@@ -92,7 +92,7 @@ nav:
     - "2D Prefix Sum": topics/basics/2d-prefix-sum.md
     - "More Techniques":
       - "Difference Array": topics/basics/difference-array.md
-      - "Sliding Window Technique": topics/basics/sliding-window-technique.md
+      - "Sliding Window Technique": topics/basics/04-sliding-window/variable-size.md
     - "Bit Manipulation":
       - "Bit Manipulation": topics/basics/bit-manipulation.md
       - "The XOR Trick": topics/basics/the-xor-trick.md
