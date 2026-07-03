@@ -723,7 +723,7 @@ def cmd_generate_roadmap():
     }
     .rm-category-content {
       display: none;
-      padding: 1rem 1.25rem;
+      padding: 1.25rem;
     }
     .rm-category.open .rm-category-content {
       display: block;
@@ -734,55 +734,88 @@ def cmd_generate_roadmap():
       font-weight: bold;
     }
 
-    .rm-subcategory {
-      margin-bottom: 1.25rem;
-      border-left: 2px solid #cbd5e1;
-      padding-left: 1rem;
-    }
-    .rm-subcategory:last-child {
-      margin-bottom: 0.5rem;
-    }
-    .rm-subcategory-title {
-      font-weight: 600;
-      font-size: 0.9rem;
-      margin-bottom: 0.5rem;
-      color: var(--md-typeset-color, #334155);
+    /* Flowchart layout */
+    .rm-flow-container {
       display: flex;
-      justify-content: space-between;
-      cursor: pointer;
-      user-select: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+      width: 100%;
+      box-sizing: border-box;
     }
-    .rm-subcategory-content {
-      display: none;
-    }
-    .rm-subcategory.open .rm-subcategory-content {
-      display: block;
+    .rm-flow-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      width: 100%;
     }
     
-    .rm-topics-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 0.5rem;
-      margin-top: 0.5rem;
-    }
     .rm-topic {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.5rem 0.75rem;
+      padding: 0.6rem 0.9rem;
       border: 1px solid var(--md-typeset-color, #e2e8f0);
-      border-radius: 4px;
+      border-radius: 6px;
       background: var(--md-default-bg-color, #ffffff);
       text-decoration: none !important;
       color: var(--md-typeset-color, #1e293b) !important;
       font-size: 0.85rem;
       font-weight: 500;
       transition: all 0.15s ease;
+      min-width: 220px;
+      max-width: 320px;
+      box-sizing: border-box;
     }
     .rm-topic:hover {
       border-color: #3b82f6;
       background: #eff6ff;
       color: #1d4ed8 !important;
+    }
+    
+    .rm-group-container {
+      border: 1px dashed rgba(79, 70, 229, 0.4);
+      border-radius: 8px;
+      padding: 1.25rem;
+      background: rgba(79, 70, 229, 0.02);
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .rm-group-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #4f46e5;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .rm-arrow-down {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94a3b8;
+      margin: 0.25rem 0;
+    }
+    .rm-arrow-down svg {
+      width: 24px;
+      height: 24px;
+    }
+    .rm-arrow-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94a3b8;
+    }
+    .rm-arrow-right svg {
+      width: 18px;
+      height: 18px;
     }
     
     .rm-badge {
@@ -808,6 +841,8 @@ def cmd_generate_roadmap():
       font-size: 0.85rem;
       color: var(--md-typeset-color, #1e293b);
       line-height: 1.5;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     /* Dark mode overrides */
@@ -824,9 +859,6 @@ def cmd_generate_roadmap():
     [data-md-color-scheme="slate"] .rm-category.open .rm-category-header {
       border-bottom-color: #334155;
     }
-    [data-md-color-scheme="slate"] .rm-subcategory {
-      border-left-color: #475569;
-    }
     [data-md-color-scheme="slate"] .rm-topic {
       background: #0f172a;
       border-color: #334155;
@@ -836,6 +868,24 @@ def cmd_generate_roadmap():
       border-color: #3b82f6;
       background: #1e293b;
       color: #60a5fa !important;
+    }
+    [data-md-color-scheme="slate"] .rm-group-container {
+      background: rgba(129, 140, 248, 0.02);
+      border-color: rgba(129, 140, 248, 0.3);
+    }
+    [data-md-color-scheme="slate"] .rm-group-title {
+      color: #818cf8;
+    }
+    
+    /* Responsive overrides */
+    @media (max-width: 768px) {
+      .rm-flow-row {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .rm-arrow-right {
+        display: none; /* Hide horizontal arrows on wrap */
+      }
     }
   </style>
 </head>
@@ -855,6 +905,18 @@ def cmd_generate_roadmap():
         <span>Low Importance</span>
       </div>
     </div>
+"""
+
+    arrow_down_html = """
+        <div class="rm-arrow-down">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </div>
+"""
+
+    arrow_right_html = """
+                  <div class="rm-arrow-right">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </div>
 """
 
     for cat_name, subs in parsed_tree.items():
@@ -878,21 +940,15 @@ def cmd_generate_roadmap():
         </div>
 """
             
-        has_cat_content = False
+        cat_html += """        <div class="rm-flow-container">
+"""
+        
+        milestones = []
         for sub_name, topics in subs.items():
             if not topics:
                 continue
-            has_cat_content = True
-            cat_html += f"""
-        <!-- Subcategory: {sub_name} -->
-        <div class="rm-subcategory">
-          <div class="rm-subcategory-title" onclick="toggleSubcategory(this)">
-            <span>{sub_name}</span>
-            <span class="rm-sub-toggle">+</span>
-          </div>
-          <div class="rm-subcategory-content">
-            <div class="rm-topics-grid">
-"""
+                
+            sub_items = []
             for topic in topics:
                 topic_id = topic["id"]
                 if not topic_id:
@@ -909,62 +965,74 @@ def cmd_generate_roadmap():
                 
                 # Routing check
                 if cat_name != "Basics":
-                    # External route to YouKn0wWho Academy
                     link = f"https://youkn0wwho.academy/topic-list/{topic_id.replace('_', '-')}"
                     target_attr = 'target="_blank"'
                 else:
-                    # Local route
                     target_attr = 'target="_parent"'
                     if topic_id in overrides:
                         link = overrides[topic_id]
-                    elif topic["name"] == "Arrays":
-                        # Specials
-                        cat_html += f"""
-              <a href="topics/basics/02-arrays/static-arrays/" {target_attr} class="rm-topic">
-                <span>Static Arrays</span>
-                <span class="rm-badge high">High</span>
-              </a>
-              <a href="topics/basics/02-arrays/dynamic-arrays/" {target_attr} class="rm-topic">
-                <span>Dynamic Arrays</span>
-                <span class="rm-badge high">High</span>
-              </a>
-"""
-                        continue
-                    elif topic["name"] == "Sliding Window":
-                        # Specials
-                        cat_html += f"""
-              <a href="topics/basics/04-sliding-window/fixed-size/" {target_attr} class="rm-topic">
-                <span>Fixed Size Sliding Window</span>
-                <span class="rm-badge high">High</span>
-              </a>
-              <a href="topics/basics/04-sliding-window/variable-size/" {target_attr} class="rm-topic">
-                <span>Variable Size Sliding Window</span>
-                <span class="rm-badge high">High</span>
-              </a>
-"""
-                        continue
                     else:
                         topic_slug = slugify(topic["name"])
                         link = f"topics/{cat_slug}/{topic_slug}/"
                         
-                cat_html += f"""
-              <a href="{link}" {target_attr} class="rm-topic">
-                <span>{topic['name']}</span>
+                # Specials
+                if cat_name == "Basics" and topic["name"] == "Arrays":
+                    sub_items.append(("Static Arrays", "topics/basics/02-arrays/static-arrays/", target_attr, "high", "High"))
+                    sub_items.append(("Dynamic Arrays", "topics/basics/02-arrays/dynamic-arrays/", target_attr, "high", "High"))
+                elif cat_name == "Basics" and topic["name"] == "Sliding Window":
+                    sub_items.append(("Fixed Size Sliding Window", "topics/basics/04-sliding-window/fixed-size/", target_attr, "high", "High"))
+                    sub_items.append(("Variable Size Sliding Window", "topics/basics/04-sliding-window/variable-size/", target_attr, "high", "High"))
+                else:
+                    sub_items.append((topic["name"], link, target_attr, imp_badge, badge_label))
+            
+            # Construct milestone HTML
+            milestone_html = ""
+            if len(sub_items) == 1:
+                name, link, target_attr, imp_badge, badge_label = sub_items[0]
+                milestone_html = f"""          <a href="{link}" {target_attr} class="rm-topic">
+            <span>{name}</span>
+            <span class="rm-badge {imp_badge}">{badge_label}</span>
+          </a>"""
+            else:
+                # Group container
+                milestone_html = f"""          <div class="rm-group-container">
+            <div class="rm-group-title">{sub_name}</div>
+"""
+                # Chunk into rows of size 3
+                chunked_rows = [sub_items[j:j + 3] for j in range(0, len(sub_items), 3)]
+                for r_idx, row in enumerate(chunked_rows):
+                    milestone_html += """            <div class="rm-flow-row">
+"""
+                    for t_idx, item in enumerate(row):
+                        name, link, target_attr, imp_badge, badge_label = item
+                        milestone_html += f"""              <a href="{link}" {target_attr} class="rm-topic">
+                <span>{name}</span>
                 <span class="rm-badge {imp_badge}">{badge_label}</span>
               </a>
 """
-                
-            cat_html += """
-            </div>
-          </div>
-        </div>
+                        # Add right arrow if not the last item in the row
+                        if t_idx < len(row) - 1:
+                            milestone_html += arrow_right_html
+                            
+                    milestone_html += """            </div>
 """
+                    # Add down arrow between rows
+                    if r_idx < len(chunked_rows) - 1:
+                        milestone_html += arrow_down_html
+                        
+                milestone_html += """          </div>"""
+                
+            milestones.append(milestone_html)
+            
+        # Join milestones with down arrows
+        cat_html += (arrow_down_html).join(milestones)
+        
         cat_html += """
+        </div>
       </div>
     </div>
 """
-        if has_cat_content:
-            roadmap_html += cat_html
+        roadmap_html += cat_html
             
     roadmap_html += """
   </div>
@@ -976,15 +1044,6 @@ def cmd_generate_roadmap():
       const icon = el.querySelector('.rm-toggle-icon');
       if (icon) {
         icon.textContent = parent.classList.contains('open') ? '−' : '+';
-      }
-    }
-
-    function toggleSubcategory(el) {
-      const parent = el.parentElement;
-      parent.classList.toggle('open');
-      const toggle = el.querySelector('.rm-sub-toggle');
-      if (toggle) {
-        toggle.textContent = parent.classList.contains('open') ? '−' : '+';
       }
     }
   </script>
