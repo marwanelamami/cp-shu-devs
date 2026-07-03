@@ -4,19 +4,24 @@ title: Queue
 
 # Queue
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Use collections.deque for O(1) double-ended queues. Do not use queue.Queue as it is thread-safe and slow.*
   - [Python Queue & collections.deque | Real Python](https://realpython.com/python-queue/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [C++ Queue | Programiz](https://www.programiz.com/cpp-programming/queue) ⭐
   - [Queue | C++ STL (Standard Template Library) | std::queue  Knowledge Center](https://www.youtube.com/watch?v=M73wcfBwX7Y&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=10) 🎥
   - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the queue section)*

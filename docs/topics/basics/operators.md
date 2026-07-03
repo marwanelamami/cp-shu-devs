@@ -4,19 +4,24 @@ title: Operators
 
 # Operators
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Arithmetic, modulo, and floor division operators in Python.*
   - [Operators in Python | GeeksforGeeks](https://www.geeksforgeeks.org/python-operators/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Arithmetic Operators | Tech With Tim](https://www.youtube.com/watch?v=CWtiqVQp8uk&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=5) ⭐ 🎥
   - [Comparison Operators | Tech With Tim](https://www.youtube.com/watch?v=taBgBbXRadc&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=6) ⭐ 🎥
   - [Logical Operators (And, Or and Not) | Tech With Tim](https://www.youtube.com/watch?v=F__aAx-3HOY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=7) ⭐ 🎥

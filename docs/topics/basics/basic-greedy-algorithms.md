@@ -4,21 +4,26 @@ title: Basic Greedy Algorithms
 
 # Basic Greedy Algorithms
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Introduction to Greedy Algorithms | USACO Guide](https://usaco.guide/bronze/intro-greedy?lang=cpp) ⭐
   - [Greedy Algorithms with Sorting | USACO Guide](https://usaco.guide/silver/greedy-sorting?lang=cpp) ⭐
   - [Greedy Algoritm by Abdul Bari](https://www.youtube.com/playlist?list=PL8zDQ1C22qvvwdkPj1uXLpwzcYDJtjnze) 🎥
   - [Greedy Algorithms - Topic Stream |  Repovive TV](https://www.youtube.com/watch?v=g9-sRYP9Lvg&pp=ygUPcmVwb3ZpdmUgZ3JlZWR52AbEFw%3D%3D)
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

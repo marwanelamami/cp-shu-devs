@@ -4,19 +4,24 @@ title: Conditional Statements
 
 # Conditional Statements
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *If, elif, and else statements in Python.*
   - [Python Conditional Statements | Real Python](https://realpython.com/python-conditional-statements/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [ If, Else & Else If  | Tech With Tim](https://www.youtube.com/watch?v=Zkr0aAdD1Ww&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=8) ⭐ 🎥
   - [C++ if, if...else and Nested if...else | Programiz](https://www.programiz.com/cpp-programming/if-else) ⭐
 

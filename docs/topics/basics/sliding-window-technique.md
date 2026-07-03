@@ -4,19 +4,24 @@ title: Sliding Window Technique
 
 # Sliding Window Technique
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
   - [Python implementation guide for Sliding Window Technique](https://www.geeksforgeeks.org/sliding-window-technique-in-python/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Mastering Sliding Window Techniques | Ankit Singh ](https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7) ⭐
   - [Sliding Window | USACO Guide](https://usaco.guide/gold/sliding-window?lang=cpp) ⭐
   - [Sliding Window: Handling Non-Invertible Operators | Dhruv Pasricha](https://codeforces.com/blog/entry/143351) ⭐

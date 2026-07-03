@@ -4,19 +4,24 @@ title: Stack
 
 # Stack
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Implement stacks using list.append() and list.pop() or collections.deque.*
   - [How to Implement a Stack in Python | Real Python](https://realpython.com/how-to-implement-python-stack/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [C++ Stack | Programiz](https://www.programiz.com/cpp-programming/stack) ⭐
   - [Stack | C++ STL (Standard Template Library) | std::stack  Knowledge Center](https://www.youtube.com/watch?v=WK97Pj0wa7A&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=9) 🎥
   - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the stack section)*

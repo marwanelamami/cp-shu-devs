@@ -4,19 +4,24 @@ title: Divide and Conquer
 
 # Divide and Conquer
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Divide and Conquer: The Art of Breaking Down Problems | Recursion Series |  WilliamFiset](https://www.youtube.com/watch?v=ib4BHvr5-Ao) ⭐ 🎥
   - [Divide and Conquer Algorithm | Programiz](https://www.programiz.com/dsa/divide-and-conquer) *(check until "Divide and Conquer Vs Dynamic approach")*
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

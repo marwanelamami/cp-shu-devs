@@ -4,19 +4,24 @@ title: Deque
 
 # Deque
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Double ended queue with fast appends and pops on both ends.*
   - [Python collections.deque: Double-Ended Queue | Real Python](https://realpython.com/python-deque/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [C++ Deque | Programiz](https://www.programiz.com/cpp-programming/deque) ⭐
   - [Deque | C++ STL (Standard Template Library) | std::deque  Knowledge Center](https://www.youtube.com/watch?v=3U_Eg9WdGr0&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=8) 🎥
   - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the deque section)*

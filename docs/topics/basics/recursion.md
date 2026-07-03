@@ -4,15 +4,20 @@ title: Recursion
 
 # Recursion
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Recursion in C | Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjTO_UNGKuaaoxEqvSF0t5h) ⭐ 🎥 *(check the full playlist)*
   - [C++ Recursion](https://www.programiz.com/cpp-programming/recursion) ⭐
   - [5 Simple Steps for Solving Any Recursive Problem | Reducible](https://www.youtube.com/watch?v=ngCos392W4w) ⭐ 🎥
@@ -21,7 +26,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
   - [[Bangla] An In-depth Analysis of Function and Recursion in Competitive Programming - YouKn0wWho Academy](https://www.youtube.com/watch?v=QwR1_GXnNkA) 🎥
   - [Recursion Series | take U forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9) 🎥
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

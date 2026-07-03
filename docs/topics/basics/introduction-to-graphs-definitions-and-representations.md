@@ -4,15 +4,20 @@ title: Introduction to Graphs | Definitions and Representations
 
 # Introduction to Graphs | Definitions and Representations
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [A Gentle Introduction To Graph Theory | Vaidehi Joshi](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) ⭐
   - [Introduction to Graph Theory: A Computer Science Perspective |  Reducible](https://www.youtube.com/watch?v=LFKZLXVO-Dg) 🎥
   - [Graph Theory Introduction  WilliamFiset](https://www.youtube.com/watch?v=eQA-m22wjTQ) ⭐ 🎥
@@ -25,7 +30,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
   - [গ্রাফ থিওরিতে হাতেখড়ি – ৩ (ভ্যারিয়েবলে গ্রাফ স্টোর-২) | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=211)
   - [Introduction to Graphs | USACO Guide](https://usaco.guide/bronze/intro-graphs?lang=cpp)
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

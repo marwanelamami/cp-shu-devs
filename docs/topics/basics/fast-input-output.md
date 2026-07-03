@@ -4,19 +4,24 @@ title: Fast Input Output
 
 # Fast Input Output
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Avoiding TLE in Python by using sys.stdin.readline and sys.stdout.write.*
   - [Fast I/O methods in Python for CP | GeeksforGeeks](https://www.geeksforgeeks.org/fast-i-o-for-competitive-programming-in-python/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Fast Input/Output | G&G](https://www.youtube.com/watch?v=DhPMRStOU7o) ⭐ 🎥
   - [Fast input output ](https://youtu.be/aNF4DEluWnI?si=hzmaGxIlAl1Pb3ue) 🎥
   - [Fast Input & Output | USACO Guide](https://usaco.guide/general/fast-io?lang=cpp) ⭐

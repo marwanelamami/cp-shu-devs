@@ -4,20 +4,25 @@ title: Data Types, Variables and Input Output
 
 # Data Types, Variables and Input Output
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Python's dynamic data types (int, float, str, bool, list, dict, set, tuple).*
   - [Python Variables and Basic Data Types | Real Python](https://realpython.com/python-variables/)
   - [Python Input and Output (sys.stdin & print) | GeeksforGeeks](https://www.geeksforgeeks.org/python-input-methods-in-competitive-programming/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [C++ Program Structure |  Tech With Tim](https://www.youtube.com/watch?v=ckbfOdMhZls&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=2) ⭐ 🎥
   - [Data Types and Variables | Tech With Tim](https://www.youtube.com/watch?v=zgutFVxOlTY&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=3) ⭐ 🎥
   - [User Input and Constants | Tech With Tim](https://www.youtube.com/watch?v=OA28SYILJv8&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=4) ⭐ 🎥

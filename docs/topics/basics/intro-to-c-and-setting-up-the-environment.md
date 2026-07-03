@@ -4,20 +4,25 @@ title: Intro to C++ and Setting up the Environment
 
 # Intro to C++ and Setting up the Environment
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Setting up Python 3 interpreter and IDEs (VS Code, PyCharm).*
   - [Python 3 Installation & Setup Guide | Real Python](https://realpython.com/installing-python/)
   - [Python official tutorial for beginners](https://docs.python.org/3/tutorial/index.html)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [C++ Introduction | W3 Schools](https://www.w3schools.com/cpp/cpp_intro.asp) ⭐ *(read just this page, nothing more)*
   - [CodeBlocks IDE Installation on Windows 10/11 [2023 Update] MinGW GCC Compiler | C & C++ Programming | Geeky Script](https://www.youtube.com/watch?v=zIhhO2DcW2s) 🎥
   - [How to install CodeBlocks on Mac #1 CProgramming | CSBHASHA](https://www.youtube.com/watch?v=5kgtA6vPJOs) 🎥

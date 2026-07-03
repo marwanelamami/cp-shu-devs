@@ -4,15 +4,20 @@ title: Bitwise Operations and Bitmasks
 
 # Bitwise Operations and Bitmasks
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [C++ Bitwise Operators | Programiz](https://www.programiz.com/cpp-programming/bitwise-operators) ⭐
   - [Bitwise operations for beginners  By Errichto](https://codeforces.com/blog/entry/73490) ⭐ 🎥
   - [Learn these 10 Bitwise Tricks Or Regret Later | Competitive Programming Tricks Part 2  | TLE Eliminators](https://youtu.be/LGrE0siZ-ZA?si=Ohjq6KG7pHqf8st0) 🎥

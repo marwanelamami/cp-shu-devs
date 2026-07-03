@@ -4,19 +4,24 @@ title: List / Linked List
 
 # List / Linked List
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *collections.deque provides doubly linked list properties (fast appends/pops on ends).*
   - [Python Deque (std::list equivalent) | Real Python](https://realpython.com/python-deque/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [List | C++ STL (Standard Template Library) | std::list  Knowledge Center](https://www.youtube.com/watch?v=je7zlYfJf7Q&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=7) ⭐ 🎥
   - [C++ List | Programiz](https://www.programiz.com/cpp-programming/list)
   - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check list section)*

@@ -4,15 +4,20 @@ title: Binary Search
 
 # Binary Search
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Binary Search tutorial |  Errichto Algorithms](https://www.youtube.com/watch?v=GU7DpgHINWQ&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80&index=3) ⭐ 🎥
   - [Binary Search | EDU](https://codeforces.com/edu/course/2/lesson/6) ⭐ *(Complete steps 1, 2, 3, 4 and 5)*
   - [Binary Search | USACO Guide](https://usaco.guide/silver/binary-search?lang=cpp) ⭐

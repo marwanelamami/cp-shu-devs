@@ -4,20 +4,25 @@ title: Basic Constructive Algorithms
 
 # Basic Constructive Algorithms
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Constructive Algorithms | Percy Wong](https://assets.hkoi.org/training2019/cast.pdf) ⭐
   - [Tips on Constructive Algorithms  By ReaLNero](https://codeforces.com/blog/entry/80317)
   - [Complete Constructive Problems Practice - Noob to Expert | Topic Stream 5 |  Colin Galen](https://www.youtube.com/watch?v=3D3XKJonua0) 🎥
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

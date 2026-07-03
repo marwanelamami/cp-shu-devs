@@ -4,15 +4,20 @@ title: Quick Sort
 
 # Quick Sort
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Quicksort Algorithm | Programiz](https://www.programiz.com/dsa/quick-sort) ⭐
   - [Quick Sort [Visual Explanation] | Manim Animation [4K] | CuriousWalk](https://www.youtube.com/watch?v=WprjBK0p6rw) ⭐ 🎥
   - [QUICK SORT | Sorting Algorithms | DSA | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc) 🎥

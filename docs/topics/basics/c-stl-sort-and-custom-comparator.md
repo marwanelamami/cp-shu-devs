@@ -4,20 +4,25 @@ title: C++ STL Sort and Custom Comparator
 
 # C++ STL Sort and Custom Comparator
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *sorted() and list.sort() use Timsort. Use key=lambda or functools.cmp_to_key for custom sort logic.*
   - [Sorting in Python | Python Official Docs](https://docs.python.org/3/howto/sorting.html)
   - [Custom Sorting with cmp_to_key | GeeksforGeeks](https://www.geeksforgeeks.org/custom-sorting-in-python-using-cmp_to_key/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Sort in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/) ⭐
   - [Custom Comparators | USACO Guide](https://usaco.guide/silver/sorting-custom?lang=cpp) ⭐ *(check until "Coordinate Compression")*
   - [All sorting algorithms at one place | Programiz](https://www.programiz.com/dsa/sorting-algorithm)

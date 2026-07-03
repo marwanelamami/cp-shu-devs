@@ -4,19 +4,24 @@ title: Pointers and References
 
 # Pointers and References
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Python does not have pointers. Variables hold references to objects. Pass-by-object-reference.*
   - [Pass by Reference or Value in Python? | Real Python](https://realpython.com/python-pass-by-reference/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Pointers (*) | Tech With Tim](https://www.youtube.com/watch?v=jUbOcBkdMF0&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=15) ⭐ 🎥
   - [References (&) | Tech With Tim](https://www.youtube.com/watch?v=RGYGiLUAQ3c&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=14) ⭐ 🎥
   - [Pointers in C/C++](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) ⭐ 🎥

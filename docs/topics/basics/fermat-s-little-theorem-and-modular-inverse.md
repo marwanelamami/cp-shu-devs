@@ -4,20 +4,25 @@ title: Fermat's Little Theorem and Modular Inverse
 
 # Fermat's Little Theorem and Modular Inverse
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Fermat's little theorem | Wiki](https://en.wikipedia.org/wiki/Fermat's_little_theorem) *(check the definiton)*
   - [Proof of Fermat's Little Theorem By Chris Caldwell](https://t5k.org/notes/proofs/FermatsLittleTheorem.html) ⭐
   - [Modular Multiplicative Inverse | forthright48](https://forthright48.com/modular-multiplicative-inverse/) ⭐ *(check until "Using Euler’s Theorem")*
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

@@ -4,15 +4,20 @@ title: Big O Notation and Time and Space Complexity Analysis
 
 # Big O Notation and Time and Space Complexity Analysis
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Mastering Big O Notation: Understanding Time and Space Complexity in Algorithms | Chinenye Okeke](https://medium.com/@DevChy/introduction-to-big-o-notation-time-and-space-complexity-f747ea5bca58) ⭐
   - [Introduction to Big-O  WilliamFiset](https://www.youtube.com/watch?v=zUUkiEllHG0) ⭐ 🎥
   - [Big O Notation & Time Complexity Analysis Tutorial  | Tech With Tim](https://www.youtube.com/watch?v=6aDHWSNKlVw) 🎥
@@ -23,7 +28,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
   - [How to determine the solution of a problem by looking at its constraints?  By eanacra](https://codeforces.com/blog/entry/21344) ⭐
   - [Introduction to Big O Notation and Time Complexity |  CS Dojo](https://www.youtube.com/watch?v=D6xkbGLQesk) 🎥
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

@@ -4,19 +4,24 @@ title: Strings
 
 # Strings
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Python strings are immutable. Operations like concatenations create new strings.*
   - [Python Strings & Character Manipulation | Real Python](https://realpython.com/python-strings/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Strings | Tech With Tim](https://www.youtube.com/watch?v=QtP0PdLEvFk&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=13) 🎥
   - [C++ Strings | Programiz](https://www.programiz.com/cpp-programming/strings)
   - [C++ String Class | Programiz](https://www.programiz.com/cpp-programming/string-class)

@@ -4,15 +4,20 @@ title: What is Competitive Programming?
 
 # What is Competitive Programming?
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Competitive-Programming-A-Complete-Guideline | YouKn0wWho](https://github.com/ShahjalalShohag/Competitive-Programming-A-Complete-Guideline) ⭐
   - [What is Competitive Programming? | William Lin](https://www.youtube.com/watch?v=ueNT-w7Oluw&t=85s) ⭐ 🎥
   - [How to start Competitive Programming? For beginners! | Errichto Algorithms](https://www.youtube.com/watch?v=xAeiXy8-9Y8) ⭐ 🎥
@@ -25,7 +30,7 @@ The primary recommended resource for learning this topic is the **YouKn0wWho Aca
   - [My Video Tutorials for all the practice problems below [in Bangla]](https://www.youtube.com/watch?v=DX3NnP16r3I) 🎥
   - [Editorial, Codes and AI Help for all the practice problems below](https://youkn0wwho.academy/demo/progress_tracking) ⭐ *(check Class 1 Problems)*
 
-### 🐍 Python Notes
+#### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

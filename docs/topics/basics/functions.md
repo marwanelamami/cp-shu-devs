@@ -4,20 +4,25 @@ title: Functions
 
 # Functions
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Def, arguments, scoping, and recursion depth limit (sys.setrecursionlimit).*
   - [Defining Your Own Python Function | Real Python](https://realpython.com/defining-your-own-python-function/)
   - [Recursion in Python & sys.setrecursionlimit | GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-setrecursionlimit-method/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [Functions | Tech With Tim](https://www.youtube.com/watch?v=C83tPpvxIJA&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=20) ⭐ 🎥
   - [C++ Functions | Programiz](https://www.programiz.com/cpp-programming/function) ⭐
   - [C++ User-defined Function Types | Programiz](https://www.programiz.com/cpp-programming/user-defined-function-types) ⭐

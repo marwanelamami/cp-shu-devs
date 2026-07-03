@@ -4,15 +4,20 @@ title: Two Pointers
 
 # Two Pointers
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 📘 General & C++ Resources
+## Additional Resources
+#### 📘 General & C++ Resources
 - [Two Pointers Method | CF EDU](https://codeforces.com/edu/course/2/lesson/9) ⭐ *(Complete steps 1 and 2)*
   - [Two Pointers | USACO Guide](https://usaco.guide/silver/two-pointers?lang=cpp) ⭐
   - [8.1 Two pointers method | CPH](https://usaco.guide/CPH.pdf#page=87)

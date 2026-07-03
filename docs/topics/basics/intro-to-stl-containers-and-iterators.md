@@ -4,19 +4,24 @@ title: Intro to STL, Containers and Iterators
 
 # Intro to STL, Containers and Iterators
 
-## Core Reference
-The primary recommended resource for learning this topic is the **YouKn0wWho Academy**:
+!!! info "Content Under Development"
+    No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
+
+---
+
+## Core Resource
+The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
 
 👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
 
 ---
 
-## Learning Resources
-### 🐍 Python Resources (Primary)
+## Additional Resources
+#### 🐍 Python Resources (Prioritized)
 *Introduction to Python's built-in containers (list, tuple, dict, set, collections).*
   - [Python Collections Module | GeeksforGeeks](https://www.geeksforgeeks.org/python-collections-module/)
 
-### 📘 C++ & General Resources
+#### 📘 C++ & General Resources
 - [C++ Standard Template Library | Programiz](https://www.programiz.com/cpp-programming/standard-template-library) ⭐
   - [Introduction | C++ STL (Standard Template Library) | Knowledge Center](https://www.youtube.com/watch?v=BKBXM7ypQG0&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=1) ⭐ 🎥
   - [Containers C++ | C++ STL (Standard Template Library)  Knowledge Center](https://www.youtube.com/watch?v=1MmpefbNGeU&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=2) ⭐ 🎥
