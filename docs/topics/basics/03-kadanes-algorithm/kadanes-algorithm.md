@@ -114,32 +114,18 @@ Next, we'll formally look at the sliding window technique. There are two variati
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Basic
-- **Importance**: High
-- **Phase**: Phase 1
-- **Interview Topic**: Yes
+## Practice
 
----
-
-## Curated Practice Problems
-- [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) (ID: `cses_1643` | Difficulty: Medium | Solves: 281 ⭐)
-- [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) (ID: `cses_1644` | Difficulty: Hard | Solves: 5)
-- [Lamps](https://codeforces.com/problemset/problem/363/B) (ID: `codeforces_363b` | Difficulty: Easy | Solves: 120 ⭐)
+| # | Problem | Platform | Difficulty |
+|---|---|---|---|
+| 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |
+| 2 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | <span style="color: #d97706; font-weight: 600;">● Medium</span> |
+| 3 | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |
 
 ---
 

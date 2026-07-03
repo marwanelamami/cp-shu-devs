@@ -59,31 +59,13 @@ We can also do the opposite and get a **postfix sum**, which would be a running 
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### 📘 General & C++ Resources
-- [Prefix Sums - Problems | Errichto Algorithms](https://www.youtube.com/watch?v=PhgtNY_-CiY) ⭐ 🎥
-  - [Introduction to Prefix Sums | USACO Guide](https://usaco.guide/silver/prefix-sums?lang=cpp) ⭐
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Basic
-- **Importance**: High
-- **Phase**: Phase 1
-- **Interview Topic**: Yes
-
----
-
-## Curated Practice Problems
-*No practice problems mapped to this topic. Check back soon!*
+## Practice Problems
+This topic contains no problems.
 
 ---
 
