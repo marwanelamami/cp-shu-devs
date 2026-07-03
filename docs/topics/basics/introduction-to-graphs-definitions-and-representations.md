@@ -4,20 +4,20 @@ title: Introduction to Graphs | Definitions and Representations
 
 # Introduction to Graphs | Definitions and Representations
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 📘 General & C++ Resources
+### 📘 General & C++ Resources
 - [A Gentle Introduction To Graph Theory | Vaidehi Joshi](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) ⭐
   - [Introduction to Graph Theory: A Computer Science Perspective |  Reducible](https://www.youtube.com/watch?v=LFKZLXVO-Dg) 🎥
   - [Graph Theory Introduction  WilliamFiset](https://www.youtube.com/watch?v=eQA-m22wjTQ) ⭐ 🎥
@@ -30,7 +30,7 @@ Access the core lessons, interactive syllabus, and progress tracker on our acade
   - [গ্রাফ থিওরিতে হাতেখড়ি – ৩ (ভ্যারিয়েবলে গ্রাফ স্টোর-২) | শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/?p=211)
   - [Introduction to Graphs | USACO Guide](https://usaco.guide/bronze/intro-graphs?lang=cpp)
 
-#### 🐍 Python Notes
+### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

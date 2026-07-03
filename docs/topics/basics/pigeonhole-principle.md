@@ -4,25 +4,25 @@ title: Pigeonhole Principle
 
 # Pigeonhole Principle
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 📘 General & C++ Resources
+### 📘 General & C++ Resources
 - [Pigeonhole Principle | Geeks for Geeks](https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/) ⭐
   - [What Is the Pigeonhole Principle?  | Spanning Tree](https://www.youtube.com/watch?v=B2A2pGrDG8I) 🎥
   - [Pigeonhole Principle | Brilliant](https://brilliant.org/wiki/pigeonhole-principle-definition/)
 
-#### 🐍 Python Notes
+### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

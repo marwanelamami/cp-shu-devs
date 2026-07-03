@@ -4,24 +4,24 @@ title: Pairs and Tuples
 
 # Pairs and Tuples
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 🐍 Python Resources (Prioritized)
+### 🐍 Recommended Python Resources (First Priority)
 *Tuples are immutable sequences, equivalent to std::pair and std::tuple.*
   - [Python Tuples & Named Tuples | Real Python](https://realpython.com/python-lists-tuples/#python-tuples)
 
-#### 📘 C++ & General Resources
+### 📘 Additional General & C++ Resources (Second Priority)
 - [Pair in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/pair-in-cpp-stl/) ⭐
   - [Tuples | Tech With Tim](https://www.youtube.com/watch?v=T9-agjKW4PQ) ⭐ 🎥
   - [Tuples in C++ | Geeks for Geeks](https://www.geeksforgeeks.org/tuples-in-c/) ⭐

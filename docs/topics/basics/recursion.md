@@ -4,20 +4,20 @@ title: Recursion
 
 # Recursion
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 📘 General & C++ Resources
+### 📘 General & C++ Resources
 - [Recursion in C | Neso Academy](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjTO_UNGKuaaoxEqvSF0t5h) ⭐ 🎥 *(check the full playlist)*
   - [C++ Recursion](https://www.programiz.com/cpp-programming/recursion) ⭐
   - [5 Simple Steps for Solving Any Recursive Problem | Reducible](https://www.youtube.com/watch?v=ngCos392W4w) ⭐ 🎥
@@ -26,7 +26,7 @@ Access the core lessons, interactive syllabus, and progress tracker on our acade
   - [[Bangla] An In-depth Analysis of Function and Recursion in Competitive Programming - YouKn0wWho Academy](https://www.youtube.com/watch?v=QwR1_GXnNkA) 🎥
   - [Recursion Series | take U forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9) 🎥
 
-#### 🐍 Python Notes
+### 🐍 Python Notes
 *The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
 
 

@@ -4,25 +4,25 @@ title: C++ STL Sort and Custom Comparator
 
 # C++ STL Sort and Custom Comparator
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 🐍 Python Resources (Prioritized)
+### 🐍 Recommended Python Resources (First Priority)
 *sorted() and list.sort() use Timsort. Use key=lambda or functools.cmp_to_key for custom sort logic.*
   - [Sorting in Python | Python Official Docs](https://docs.python.org/3/howto/sorting.html)
   - [Custom Sorting with cmp_to_key | GeeksforGeeks](https://www.geeksforgeeks.org/custom-sorting-in-python-using-cmp_to_key/)
 
-#### 📘 C++ & General Resources
+### 📘 Additional General & C++ Resources (Second Priority)
 - [Sort in C++ Standard Template Library (STL) | Geeks for Geeks](https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/) ⭐
   - [Custom Comparators | USACO Guide](https://usaco.guide/silver/sorting-custom?lang=cpp) ⭐ *(check until "Coordinate Compression")*
   - [All sorting algorithms at one place | Programiz](https://www.programiz.com/dsa/sorting-algorithm)

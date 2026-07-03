@@ -4,20 +4,20 @@ title: Selection Sort
 
 # Selection Sort
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 📘 General & C++ Resources
+### 📘 General & C++ Resources
 - [Selection Sort Algorithm | Programiz](https://www.programiz.com/dsa/selection-sort) ⭐
   - [Selection Sort Animation | Ravindu Sachintha](https://www.youtube.com/watch?v=XeP1K3UZ35M) ⭐ 🎥
   - [Sorting Algorithm Visualizer | VisuAlgo](https://visualgo.net/en/sorting) ⭐ *(select Selection Sort)*
@@ -34,7 +34,7 @@ Access the core lessons, interactive syllabus, and progress tracker on our acade
 ---
 
 ## Curated Practice Problems
-*No practice problems mapped to this topic yet. Check back soon!*
+*No practice problems mapped to this topic. Check back soon!*
 
 ---
 

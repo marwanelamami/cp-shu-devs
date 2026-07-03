@@ -4,25 +4,25 @@ title: Functions
 
 # Functions
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 🐍 Python Resources (Prioritized)
+### 🐍 Recommended Python Resources (First Priority)
 *Def, arguments, scoping, and recursion depth limit (sys.setrecursionlimit).*
   - [Defining Your Own Python Function | Real Python](https://realpython.com/defining-your-own-python-function/)
   - [Recursion in Python & sys.setrecursionlimit | GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-setrecursionlimit-method/)
 
-#### 📘 C++ & General Resources
+### 📘 Additional General & C++ Resources (Second Priority)
 - [Functions | Tech With Tim](https://www.youtube.com/watch?v=C83tPpvxIJA&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=20) ⭐ 🎥
   - [C++ Functions | Programiz](https://www.programiz.com/cpp-programming/function) ⭐
   - [C++ User-defined Function Types | Programiz](https://www.programiz.com/cpp-programming/user-defined-function-types) ⭐

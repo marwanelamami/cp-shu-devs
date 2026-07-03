@@ -4,24 +4,24 @@ title: Bitset
 
 # Bitset
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 🐍 Python Resources (Prioritized)
+### 🐍 Recommended Python Resources (First Priority)
 *Python integers support arbitrary size, so integers function directly as bitsets via bitwise ops.*
   - [Bitwise Operators in Python | Real Python](https://realpython.com/python-bitwise-operators/)
 
-#### 📘 C++ & General Resources
+### 📘 Additional General & C++ Resources (Second Priority)
 - [C++ bitset and its application | Geeks for Geeks](https://www.geeksforgeeks.org/cpp-bitset-and-its-application/) ⭐
   - [bitset in competitive programing | Bitset](https://www.youtube.com/watch?v=jqJ5s077OKo) *(One of the best applications of bitset and optimizations, this video help me a lot)*
 

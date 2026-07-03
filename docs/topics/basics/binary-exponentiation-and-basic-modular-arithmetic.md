@@ -4,20 +4,20 @@ title: Binary Exponentiation and Basic Modular Arithmetic
 
 # Binary Exponentiation and Basic Modular Arithmetic
 
-!!! info "Content Under Development"
+!!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
 ---
 
-## Core Resource
-Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-#### 📘 General & C++ Resources
+### 📘 General & C++ Resources
 - [Computations Modulo P in Competitive Programming | Errichto](https://www.youtube.com/watch?v=-OPohCQqi_E) ⭐ 🎥
   - [Modular Arithmetic for Beginners  By Spheniscine](https://codeforces.com/blog/entry/72527) ⭐
   - [Binary Exponentiation | CP Algorithms](https://cp-algorithms.com/algebra/binary-exp.html) ⭐
@@ -38,7 +38,7 @@ Access the core lessons, interactive syllabus, and progress tracker on our acade
 ---
 
 ## Curated Practice Problems
-*No practice problems mapped to this topic yet. Check back soon!*
+*No practice problems mapped to this topic. Check back soon!*
 
 ---
 
