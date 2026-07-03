@@ -4,6 +4,10 @@ title: Sparse Table 2D
 
 # Sparse Table 2D
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,30 +16,23 @@ title: Sparse Table 2D
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codechef_cens20b | [Cherry and Squares](https://www.codechef.com/problems/CENS20B) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_chsqarr | [Chef and Rectangle Array](https://www.codechef.com/JUNE16/problems/CHSQARR/) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_15d | [Map](https://codeforces.com/contest/15/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_713d | [Animals and Puzzle](https://codeforces.com/contest/713/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Cherry and Squares](https://www.codechef.com/problems/CENS20B) (ID: `codechef_cens20b` | Difficulty: Medium | Solves: 5)
-- [Chef and Rectangle Array](https://www.codechef.com/JUNE16/problems/CHSQARR/) (ID: `codechef_chsqarr` | Difficulty: Medium | Solves: 5)
-- [Map](https://codeforces.com/contest/15/problem/D) (ID: `codeforces_15d` | Difficulty: Medium | Solves: 12 ⭐)
-- [Animals and Puzzle](https://codeforces.com/contest/713/problem/D) (ID: `codeforces_713d` | Difficulty: Medium | Solves: 7 ⭐)
 
 ---
 

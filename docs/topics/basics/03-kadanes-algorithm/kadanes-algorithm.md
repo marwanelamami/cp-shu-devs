@@ -1,7 +1,6 @@
 # Kadane's Algorithm
 
-**Category:** Basics  
-**Difficulty:** <span style="color: #2563eb; font-weight: 600;">● Easy</span>
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
 ---
 
@@ -119,13 +118,13 @@ No other additional resources were added to this topic.
 
 ---
 
-## Practice
-
-| # | Problem | Platform | Difficulty |
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
 |---|---|---|---|
-| 1 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |
-| 2 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | <span style="color: #d97706; font-weight: 600;">● Medium</span> |
-| 3 | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |
+| cses_1643 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1644 | [Maximum Subarray Sum II](https://cses.fi/problemset/task/1644) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_363b | [Lamps](https://codeforces.com/problemset/problem/363/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+
 
 ---
 

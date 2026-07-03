@@ -4,6 +4,10 @@ title: Divide and Conquer on Queries
 
 # Divide and Conquer on Queries
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,39 +16,32 @@ title: Divide and Conquer on Queries
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| boi17_toll | [Toll](https://oj.uz/problem/view/BOI17_toll) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cf_group_102954a | [Count maxima on an interval](https://codeforces.com/group/1rv4rhCsHp/contest/102954/problem/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_gym_101741j | [Subsequence Sum Queries](https://codeforces.com/gym/101741/problem/J) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cf_gym_101991g | [Greatest Chicken Dish](https://codeforces.com/gym/101991/problem/G) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codebreaker_supperbox | [Estelle’s Supper Box](https://codebreaker.xyz/problem/supperbox) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_segprod | [Product on the segment by modulo](https://www.codechef.com/problems/SEGPROD) | CodeChef | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1100f | [Ivan and Burgers](https://codeforces.com/problemset/problem/1100/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_232e | [Quick Tortoise](https://codeforces.com/contest/232/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cses_1647 | [Static Range Minimum Queries](https://cses.fi/problemset/task/1647) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| dmoj_dmopc19c7p4 | [Bob and Continued Fractions](https://dmoj.ca/problem/dmopc19c7p4) | Other | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| joi14_secret | [Secret](https://oj.uz/problem/view/JOI14_secret) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| usaco_997 | [Non-Decreasing Subsequences](https://usaco.org/index.php?page=viewproblem2&cpid=997) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| vnoi_mofkcup_r1_e | [XORSHIFT](https://oj.vnoi.info/problem/mofkcup_r1_e) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Toll](https://oj.uz/problem/view/BOI17_toll) (ID: `boi17_toll` | Difficulty: Medium | Solves: 3)
-- [Count maxima on an interval](https://codeforces.com/group/1rv4rhCsHp/contest/102954/problem/A) (ID: `cf_group_102954a` | Difficulty: Easy | Solves: 13 ⭐)
-- [Subsequence Sum Queries ](https://codeforces.com/gym/101741/problem/J) (ID: `cf_gym_101741j` | Difficulty: Hard | Solves: 4 ⭐)
-- [Greatest Chicken Dish](https://codeforces.com/gym/101991/problem/G) (ID: `cf_gym_101991g` | Difficulty: Hard | Solves: 1 ⭐)
-- [Estelle’s Supper Box](https://codebreaker.xyz/problem/supperbox) (ID: `codebreaker_supperbox` | Difficulty: Medium | Solves: 2)
-- [Product on the segment by modulo](https://www.codechef.com/problems/SEGPROD) (ID: `codechef_segprod` | Difficulty: Easy | Solves: 12 ⭐)
-- [Ivan and Burgers](https://codeforces.com/problemset/problem/1100/F) (ID: `codeforces_1100f` | Difficulty: Medium | Solves: 39 ⭐)
-- [Quick Tortoise](https://codeforces.com/contest/232/problem/E) (ID: `codeforces_232e` | Difficulty: Hard | Solves: 1 ⭐)
-- [Static Range Minimum Queries](https://cses.fi/problemset/task/1647) (ID: `cses_1647` | Difficulty: Easy | Solves: 241 ⭐)
-- [Bob and Continued Fractions](https://dmoj.ca/problem/dmopc19c7p4) (ID: `dmoj_dmopc19c7p4` | Difficulty: Medium ⭐)
-- [Secret](https://oj.uz/problem/view/JOI14_secret) (ID: `joi14_secret` | Difficulty: Medium | Solves: 5 ⭐)
-- [Non-Decreasing Subsequences](https://usaco.org/index.php?page=viewproblem2&cpid=997) (ID: `usaco_997` | Difficulty: Hard | Solves: 2 ⭐)
-- [XORSHIFT](https://oj.vnoi.info/problem/mofkcup_r1_e) (ID: `vnoi_mofkcup_r1_e` | Difficulty: Medium)
 
 ---
 

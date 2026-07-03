@@ -4,6 +4,10 @@ title: Chinese Postman Problem
 
 # Chinese Postman Problem
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: Chinese Postman Problem
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_21d | [Traveling Graph](https://codeforces.com/problemset/problem/21/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_10296 | [Jogging Trails](https://vjudge.net/problem/UVA-10296) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
 
----
-
-## Curated Practice Problems
-- [Traveling Graph](https://codeforces.com/problemset/problem/21/D) (ID: `codeforces_21d` | Difficulty: Medium | Solves: 31 ⭐)
-- [Jogging Trails](https://vjudge.net/problem/UVA-10296) (ID: `uva_10296` | Difficulty: Medium ⭐)
 
 ---
 

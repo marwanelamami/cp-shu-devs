@@ -4,6 +4,10 @@ title: Extended Li Chao tree
 
 # Extended Li Chao tree
 
+**Category:** Dynamic Programming (DP) &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,33 +16,26 @@ title: Extended Li Chao tree
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc177_f | [I hate Shortest Path Problem](https://atcoder.jp/contests/abc177/tasks/abc177_f) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1137e | [Train Car Selection](https://codeforces.com/contest/1137/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| dmoj_ioi05p3 | [Mean Sequence](https://dmoj.ca/problem/ioi05p3) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| ioi18_meetings | [Meetings](https://oj.uz/problem/view/IOI18_meetings) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| noi20_progression | [Progression](https://oj.uz/problem/view/NOI20_progression) | Other | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| tlx_troc_13_div_1d | [Mall and Transportation](https://tlx.toki.id/contests/troc-13-div-1/problems/D) | Other | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| training_statement | [Reazione a candela](https://training.olinfo.it/#/task/oii_candele/statement) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [I hate Shortest Path Problem](https://atcoder.jp/contests/abc177/tasks/abc177_f) (ID: `atcoder_abc177_f` | Difficulty: Medium | Solves: 1 ⭐)
-- [Train Car Selection](https://codeforces.com/contest/1137/problem/E) (ID: `codeforces_1137e` | Difficulty: Hard)
-- [Mean Sequence](https://dmoj.ca/problem/ioi05p3) (ID: `dmoj_ioi05p3` | Difficulty: Hard | Solves: 1)
-- [Meetings](https://oj.uz/problem/view/IOI18_meetings) (ID: `ioi18_meetings` | Difficulty: Extreme | Solves: 1)
-- [Progression](https://oj.uz/problem/view/NOI20_progression) (ID: `noi20_progression` | Difficulty: Medium ⭐)
-- [Mall and Transportation](https://tlx.toki.id/contests/troc-13-div-1/problems/D) (ID: `tlx_troc_13_div_1d` | Difficulty: Hard ⭐)
-- [Reazione a candela](https://training.olinfo.it/#/task/oii_candele/statement) (ID: `training_statement` | Difficulty: Medium)
 
 ---
 

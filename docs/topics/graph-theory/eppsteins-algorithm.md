@@ -4,6 +4,10 @@ title: Eppsteins Algorithm
 
 # Eppsteins Algorithm
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Extreme</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,32 +16,25 @@ title: Eppsteins Algorithm
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Extreme
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| acmsguru_99999314 | [Shortest Paths](https://codeforces.com/problemsets/acmsguru/problem/99999/314) | Codeforces | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| baekjoon_14166 | [Robotic Cow Herd](https://www.acmicpc.net/problem/14166) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| baekjoon_19133 | [Subset Sum](https://www.acmicpc.net/problem/19133) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| baekjoon_19616 | [Shopping Plans](https://www.acmicpc.net/problem/19616) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| cf_gym_102979l | [Lights On The Road](https://codeforces.com/gym/102979/problem/L) | Codeforces | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| yosupo_k_shortest_walk | [K-th Shortest Walk](https://judge.yosupo.jp/problem/k_shortest_walk) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
 
----
-
-## Curated Practice Problems
-- [Shortest Paths](https://codeforces.com/problemsets/acmsguru/problem/99999/314) (ID: `acmsguru_99999314` | Difficulty: Extreme | Solves: 2)
-- [Robotic Cow Herd](https://www.acmicpc.net/problem/14166) (ID: `baekjoon_14166` | Difficulty: Extreme | Solves: 3)
-- [Subset Sum](https://www.acmicpc.net/problem/19133) (ID: `baekjoon_19133` | Difficulty: Extreme | Solves: 1)
-- [Shopping Plans](https://www.acmicpc.net/problem/19616) (ID: `baekjoon_19616` | Difficulty: Extreme | Solves: 1)
-- [Lights On The Road](https://codeforces.com/gym/102979/problem/L) (ID: `cf_gym_102979l` | Difficulty: Extreme | Solves: 1)
-- [K-th Shortest Walk](https://judge.yosupo.jp/problem/k_shortest_walk) (ID: `yosupo_k_shortest_walk` | Difficulty: Extreme | Solves: 3 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Reachability Tree / DSU Tree / Kruskal Reconstruction Tree (KRT)
 
 # Reachability Tree / DSU Tree / Kruskal Reconstruction Tree (KRT)
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,37 +16,30 @@ title: Reachability Tree / DSU Tree / Kruskal Reconstruction Tree (KRT)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_asaporo2_e | [Black Cats Deployment](https://atcoder.jp/contests/cf17-tournament-round3-open/tasks/asaporo2_e) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| coci18_pictionary | [Pictionary](https://oj.uz/problem/view/COCI18_pictionary) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_chefcomp | [Chefina and Strange Tree](https://www.codechef.com/problems/CHEFCOMP) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_tulips | [Tiptoe through the tulips](https://www.codechef.com/problems/TULIPS) | CodeChef | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1416d | [Graph and Queries](https://codeforces.com/contest/1416/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1628e | [Groceries in Meteor Town](https://codeforces.com/contest/1628/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1706e | [Qpwoeirut and Vertices](https://codeforces.com/contest/1706/problem/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1920f2 | [Smooth Sailing (Hard Version)](https://codeforces.com/problemset/problem/1920/F2) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_2021e3 | [Digital Village (Extreme Version)](https://codeforces.com/contest/2021/problem/E3) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| tlx_apio2020_b | [Swapping Cities](https://tlx.toki.id/problems/apio-2020/B) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| usaco_384 | [Ski Course Rating](https://usaco.org/index.php?page=viewproblem2&cpid=384) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
 
----
-
-## Curated Practice Problems
-- [Black Cats Deployment](https://atcoder.jp/contests/cf17-tournament-round3-open/tasks/asaporo2_e) (ID: `atcoder_asaporo2_e` | Difficulty: Medium | Solves: 3)
-- [Pictionary](https://oj.uz/problem/view/COCI18_pictionary) (ID: `coci18_pictionary` | Difficulty: Medium | Solves: 18 ⭐)
-- [Chefina and Strange Tree](https://www.codechef.com/problems/CHEFCOMP) (ID: `codechef_chefcomp` | Difficulty: Medium | Solves: 2)
-- [Tiptoe through the tulips](https://www.codechef.com/problems/TULIPS) (ID: `codechef_tulips` | Difficulty: Hard | Solves: 4 ⭐)
-- [Graph and Queries](https://codeforces.com/contest/1416/problem/D) (ID: `codeforces_1416d` | Difficulty: Medium | Solves: 16 ⭐)
-- [Groceries in Meteor Town](https://codeforces.com/contest/1628/problem/E) (ID: `codeforces_1628e` | Difficulty: Hard | Solves: 11 ⭐)
-- [Qpwoeirut and Vertices](https://codeforces.com/contest/1706/problem/E) (ID: `codeforces_1706e` | Difficulty: Easy | Solves: 15 ⭐)
-- [Smooth Sailing (Hard Version)](https://codeforces.com/problemset/problem/1920/F2) (ID: `codeforces_1920f2` | Difficulty: Hard | Solves: 3)
-- [Digital Village (Extreme Version)](https://codeforces.com/contest/2021/problem/E3) (ID: `codeforces_2021e3` | Difficulty: Hard | Solves: 2)
-- [Swapping Cities](https://tlx.toki.id/problems/apio-2020/B) (ID: `tlx_apio2020_b` | Difficulty: Hard | Solves: 1)
-- [Ski Course Rating](https://usaco.org/index.php?page=viewproblem2&cpid=384) (ID: `usaco_384` | Difficulty: Hard | Solves: 1)
 
 ---
 

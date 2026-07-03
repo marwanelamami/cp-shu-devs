@@ -4,6 +4,10 @@ title: POSET ft Dilworth's and Mirsky's Theorem
 
 # POSET ft Dilworth's and Mirsky's Theorem
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,36 +16,29 @@ title: POSET ft Dilworth's and Mirsky's Theorem
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc354_g | [Select Strings](https://atcoder.jp/contests/abc354/tasks/abc354_g) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_polcon | [Polygon Containment](https://www.codechef.com/AM19MOS/problems/POLCON) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1765a | [Access Levels](https://codeforces.com/contest/1765/problem/A) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1977e | [Tensor](https://codeforces.com/contest/1977/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_566f | [Clique in the Divisibility Graph](https://codeforces.com/problemset/problem/566/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_590e | [Birthday](https://codeforces.com/contest/590/problem/E) | Codeforces | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| kattis_thewrathofkahn | [The Wrath of Kahn](https://open.kattis.com/problems/thewrathofkahn) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| spoj_divrel | [Divisibility Relation](https://www.spoj.com/problems/DIVREL/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_mdolls | [Nested Dolls](https://www.spoj.com/problems/MDOLLS/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| usaco_496 | [Cow Jog](https://usaco.org/index.php?page=viewproblem2&cpid=496) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Select Strings](https://atcoder.jp/contests/abc354/tasks/abc354_g) (ID: `atcoder_abc354_g` | Difficulty: Medium | Solves: 6 ⭐)
-- [Polygon Containment](https://www.codechef.com/AM19MOS/problems/POLCON) (ID: `codechef_polcon` | Difficulty: Medium)
-- [Access Levels](https://codeforces.com/contest/1765/problem/A) (ID: `codeforces_1765a` | Difficulty: Medium | Solves: 4)
-- [Tensor](https://codeforces.com/contest/1977/problem/E) (ID: `codeforces_1977e` | Difficulty: Medium | Solves: 3 ⭐)
-- [Clique in the Divisibility Graph](https://codeforces.com/problemset/problem/566/F) (ID: `codeforces_566f` | Difficulty: Medium | Solves: 13 ⭐)
-- [Birthday](https://codeforces.com/contest/590/problem/E) (ID: `codeforces_590e` | Difficulty: Extreme | Solves: 5 ⭐)
-- [The Wrath of Kahn](https://open.kattis.com/problems/thewrathofkahn) (ID: `kattis_thewrathofkahn` | Difficulty: Hard | Solves: 6)
-- [Divisibility Relation](https://www.spoj.com/problems/DIVREL/) (ID: `spoj_divrel` | Difficulty: Medium | Solves: 3 ⭐)
-- [Nested Dolls](https://www.spoj.com/problems/MDOLLS/) (ID: `spoj_mdolls` | Difficulty: Easy | Solves: 4)
-- [Cow Jog](https://usaco.org/index.php?page=viewproblem2&cpid=496) (ID: `usaco_496` | Difficulty: Easy | Solves: 6 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: [Problem] Minimum Palindrome Factorization
 
 # [Problem] Minimum Palindrome Factorization
 
+**Category:** Strings &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: [Problem] Minimum Palindrome Factorization
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_906e | [Reverses](https://codeforces.com/problemset/problem/906/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| ural_2058 | [100500 palidnromes](https://vjudge.net/problem/URAL-2058) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy ⭐</span> |
 
----
-
-## Curated Practice Problems
-- [Reverses](https://codeforces.com/problemset/problem/906/E) (ID: `codeforces_906e` | Difficulty: Medium ⭐)
-- [100500 palidnromes](https://vjudge.net/problem/URAL-2058) (ID: `ural_2058` | Difficulty: Easy ⭐)
 
 ---
 

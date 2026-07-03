@@ -4,6 +4,10 @@ title: Minkowski Sum
 
 # Minkowski Sum
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,34 +16,27 @@ title: Minkowski Sum
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_104252g | [Gravitational Wave Detector](https://codeforces.com/gym/104252/problem/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1195f | [Geometers Anonymous Club](https://codeforces.com/contest/1195/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_497d | [Gears](https://codeforces.com/contest/497/problem/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_87e | [Mogohu-Rea Idol](https://codeforces.com/problemset/problem/87/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| openj_bailian_3851 | [Bridge Across Islands](https://vjudge.net/problem/OpenJ_Bailian-3851) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| timus_1894 | [Non-Flying Weather](https://acm.timus.ru/problem.aspx?space=1&num=1894) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_consephull | [CONSEPHULL](https://toph.co/p/consephull) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_rotation_dilemma | [Rotation Dilemma](https://toph.co/p/rotation-dilemma) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Gravitational Wave Detector](https://codeforces.com/gym/104252/problem/G) (ID: `cf_gym_104252g` | Difficulty: Medium | Solves: 9 ⭐)
-- [Geometers Anonymous Club](https://codeforces.com/contest/1195/problem/F) (ID: `codeforces_1195f` | Difficulty: Medium | Solves: 4 ⭐)
-- [Gears](https://codeforces.com/contest/497/problem/D) (ID: `codeforces_497d` | Difficulty: Hard | Solves: 2 ⭐)
-- [Mogohu-Rea Idol](https://codeforces.com/problemset/problem/87/E) (ID: `codeforces_87e` | Difficulty: Medium | Solves: 10 ⭐)
-- [Bridge Across Islands](https://vjudge.net/problem/OpenJ_Bailian-3851) (ID: `openj_bailian_3851` | Difficulty: Easy | Solves: 5)
-- [Non-Flying Weather](https://acm.timus.ru/problem.aspx?space=1&num=1894) (ID: `timus_1894` | Difficulty: Medium | Solves: 5 ⭐)
-- [CONSEPHULL](https://toph.co/p/consephull) (ID: `toph_consephull` | Difficulty: Medium | Solves: 9 ⭐)
-- [Rotation Dilemma](https://toph.co/p/rotation-dilemma) (ID: `toph_rotation_dilemma` | Difficulty: Medium | Solves: 2 ⭐)
 
 ---
 

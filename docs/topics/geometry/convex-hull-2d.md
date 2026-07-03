@@ -4,6 +4,10 @@ title: Convex Hull(2D)
 
 # Convex Hull(2D)
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,48 +16,41 @@ title: Convex Hull(2D)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_105884c | [Triangle Trap](https://codeforces.com/gym/105884/problem/C) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codechef_dartsegm | [Darts](https://vjudge.net/problem/CodeChef-DARTSEGM) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codedrills_palindromic_polygon | [Palindromic Polygon](https://vjudge.net/problem/QOJ-9417) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1143f | [U2](https://codeforces.com/problemset/problem/1143/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1299c | [Water Balance](https://codeforces.com/problemset/problem/1299/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_2195 | [Convex Hull](https://cses.fi/problemset/task/2195) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_100517k | [Kingdom Division 2](https://vjudge.net/problem/Gym-100517K) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| kattis_convexhull | [Convex Hull](https://open.kattis.com/problems/convexhull) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| kattis_kingdomofkittens | [Kingdom Of Kittens](https://vjudge.net/problem/Kattis-kingdomofkittens) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| kattis_parade | [Keep the Parade Safe](https://open.kattis.com/problems/parade) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_1203 | [Guarding Bananas](https://vjudge.net/problem/LightOJ-1203) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_1239 | [Convex Fence](https://vjudge.net/problem/LightOJ-1239) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_protect_the_mines | [Protect the Mines](https://lightoj.com/problem/protect-the-mines) | Other | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| poj_2079 | [Triangle](https://vjudge.net/problem/POJ-2079) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| timus_1185 | [Wall](https://acm.timus.ru/problem.aspx?space=1&num=1185) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_chop_chop | [Chop Chop](https://toph.co/p/chop-chop) | Other | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| toph_consephull | [CONSEPHULL](https://toph.co/p/consephull) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_towers_of_wadia | [Towers of Wadia](https://toph.co/p/towers-of-wadia) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| usaco_382 | [Cow Curling](https://usaco.org/index.php?page=viewproblem2&cpid=382) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_10065 | [Useless Tile Packers](https://vjudge.net/problem/UVA-10065) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_109 | [SCUD Busters](https://vjudge.net/problem/UVA-109) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| yosupo_static_convex_hull | [Static Convex Hull](https://judge.yosupo.jp/problem/static_convex_hull) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Triangle Trap](https://codeforces.com/gym/105884/problem/C) (ID: `cf_gym_105884c` | Difficulty: Easy | Solves: 18 ⭐)
-- [Darts](https://vjudge.net/problem/CodeChef-DARTSEGM) (ID: `codechef_dartsegm` | Difficulty: Medium | Solves: 7 ⭐)
-- [Palindromic Polygon](https://vjudge.net/problem/QOJ-9417) (ID: `codedrills_palindromic_polygon` | Difficulty: Easy)
-- [U2](https://codeforces.com/problemset/problem/1143/F) (ID: `codeforces_1143f` | Difficulty: Medium | Solves: 10 ⭐)
-- [Water Balance](https://codeforces.com/problemset/problem/1299/C) (ID: `codeforces_1299c` | Difficulty: Medium | Solves: 13 ⭐)
-- [Convex Hull](https://cses.fi/problemset/task/2195) (ID: `cses_2195` | Difficulty: Easy | Solves: 53 ⭐)
-- [ Kingdom Division 2](https://vjudge.net/problem/Gym-100517K) (ID: `gym_100517k` | Difficulty: Medium | Solves: 9 ⭐)
-- [Convex Hull](https://open.kattis.com/problems/convexhull) (ID: `kattis_convexhull` | Difficulty: Easy | Solves: 21)
-- [Kingdom Of Kittens](https://vjudge.net/problem/Kattis-kingdomofkittens) (ID: `kattis_kingdomofkittens` | Difficulty: Hard)
-- [Keep the Parade Safe](https://open.kattis.com/problems/parade) (ID: `kattis_parade` | Difficulty: Medium | Solves: 1)
-- [Guarding Bananas ](https://vjudge.net/problem/LightOJ-1203) (ID: `lightoj_1203` | Difficulty: Easy | Solves: 20 ⭐)
-- [Convex Fence](https://vjudge.net/problem/LightOJ-1239) (ID: `lightoj_1239` | Difficulty: Medium | Solves: 17 ⭐)
-- [Protect the Mines](https://lightoj.com/problem/protect-the-mines) (ID: `lightoj_protect_the_mines` | Difficulty: Hard ⭐)
-- [Triangle](https://vjudge.net/problem/POJ-2079) (ID: `poj_2079` | Difficulty: Medium | Solves: 4 ⭐)
-- [Wall](https://acm.timus.ru/problem.aspx?space=1&num=1185) (ID: `timus_1185` | Difficulty: Medium | Solves: 9 ⭐)
-- [Chop Chop](https://toph.co/p/chop-chop) (ID: `toph_chop_chop` | Difficulty: Hard ⭐)
-- [CONSEPHULL](https://toph.co/p/consephull) (ID: `toph_consephull` | Difficulty: Medium | Solves: 9 ⭐)
-- [Towers of Wadia](https://toph.co/p/towers-of-wadia) (ID: `toph_towers_of_wadia` | Difficulty: Hard | Solves: 2 ⭐)
-- [Cow Curling](https://usaco.org/index.php?page=viewproblem2&cpid=382) (ID: `usaco_382` | Difficulty: Medium | Solves: 2)
-- [Useless Tile Packers](https://vjudge.net/problem/UVA-10065) (ID: `uva_10065` | Difficulty: Easy | Solves: 5)
-- [SCUD Busters](https://vjudge.net/problem/UVA-109) (ID: `uva_109` | Difficulty: Easy | Solves: 2)
-- [Static Convex Hull](https://judge.yosupo.jp/problem/static_convex_hull) (ID: `yosupo_static_convex_hull` | Difficulty: Easy | Solves: 18 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Randomized Algorithms
 
 # Randomized Algorithms
 
+**Category:** Miscellaneous &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,40 +16,33 @@ title: Randomized Algorithms
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_100502b | [Basin City Surveillance](https://codeforces.com/gym/100502/problem/B) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cf_gym_100851j | [Jump](https://codeforces.com/gym/100851/problem/J) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_gym_101341i | [Matrix God](https://codeforces.com/gym/101341/problem/I) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_gym_101741f | [GCD](https://codeforces.com/gym/101741/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cf_gym_104283c | [Johnny English Strikes Again](https://codeforces.com/gym/104283/problem/C) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codechef_nopi | [Node Picking](https://www.codechef.com/IPC15P2B/problems/NOPI) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1061f | [Lost Root](https://codeforces.com/problemset/problem/1061/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1305f | [Kuroni and the Punishment](https://codeforces.com/contest/1305/problem/F) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_2003f | [Turtle and Three Sequences](https://codeforces.com/contest/2003/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_2149g | [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_364d | [Ghd](https://codeforces.com/contest/364/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_753c | [Interactive Bulls and Cows (Hard)](https://codeforces.com/contest/753/problem/C) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_840d | [Destiny](https://codeforces.com/contest/840/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| kattis_findinglines | [Finding Lines](https://vjudge.net/problem/Kattis-findinglines) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Basin City Surveillance](https://codeforces.com/gym/100502/problem/B) (ID: `cf_gym_100502b` | Difficulty: Hard | Solves: 1)
-- [Jump](https://codeforces.com/gym/100851/problem/J) (ID: `cf_gym_100851j` | Difficulty: Easy | Solves: 10 ⭐)
-- [Matrix God](https://codeforces.com/gym/101341/problem/I) (ID: `cf_gym_101341i` | Difficulty: Easy | Solves: 10 ⭐)
-- [GCD](https://codeforces.com/gym/101741/problem/F) (ID: `cf_gym_101741f` | Difficulty: Medium | Solves: 1 ⭐)
-- [Johnny English Strikes Again](https://codeforces.com/gym/104283/problem/C) (ID: `cf_gym_104283c` | Difficulty: Easy | Solves: 7 ⭐)
-- [Node Picking](https://www.codechef.com/IPC15P2B/problems/NOPI) (ID: `codechef_nopi` | Difficulty: Medium | Solves: 1)
-- [Lost Root](https://codeforces.com/problemset/problem/1061/F) (ID: `codeforces_1061f` | Difficulty: Hard | Solves: 4 ⭐)
-- [Kuroni and the Punishment](https://codeforces.com/contest/1305/problem/F) (ID: `codeforces_1305f` | Difficulty: Easy | Solves: 12 ⭐)
-- [Turtle and Three Sequences](https://codeforces.com/contest/2003/problem/F) (ID: `codeforces_2003f` | Difficulty: Medium | Solves: 3 ⭐)
-- [Buratsuta 3](https://codeforces.com/contest/2149/problem/G) (ID: `codeforces_2149g` | Difficulty: Easy | Solves: 2 ⭐)
-- [Ghd](https://codeforces.com/contest/364/problem/D) (ID: `codeforces_364d` | Difficulty: Medium | Solves: 11 ⭐)
-- [Interactive Bulls and Cows (Hard)](https://codeforces.com/contest/753/problem/C) (ID: `codeforces_753c` | Difficulty: Hard | Solves: 2)
-- [Destiny](https://codeforces.com/contest/840/problem/D) (ID: `codeforces_840d` | Difficulty: Medium | Solves: 54 ⭐)
-- [Finding Lines](https://vjudge.net/problem/Kattis-findinglines) (ID: `kattis_findinglines` | Difficulty: Medium | Solves: 1 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Tournament Graph
 
 # Tournament Graph
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,35 +16,28 @@ title: Tournament Graph
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_arc163_d | [Sum of SCC](https://atcoder.jp/contests/arc163/tasks/arc163_d) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_rankfrad | [Rank Fraud](https://www.codechef.com/IARCSJUD/problems/RANKFRAD) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_117c | [Cycle](https://codeforces.com/problemset/problem/117/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| codeforces_1268d | [Invertation in Tournament](https://codeforces.com/problemset/problem/1268/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1779e | [Anya's Simultaneous Exhibition](https://codeforces.com/problemset/problem/1779/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_323b | [Tournament-graph](https://codeforces.com/contest/323/problem/B) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_850d | [Tournament Construction](https://codeforces.com/problemset/problem/850/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_878c | [Tournament](https://codeforces.com/problemset/problem/878/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_cyclerun | [Riding in cycles](https://www.spoj.com/problems/CYCLERUN/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Sum of SCC](https://atcoder.jp/contests/arc163/tasks/arc163_d) (ID: `atcoder_arc163_d` | Difficulty: Medium)
-- [Rank Fraud](https://www.codechef.com/IARCSJUD/problems/RANKFRAD) (ID: `codechef_rankfrad` | Difficulty: Medium)
-- [Cycle](https://codeforces.com/problemset/problem/117/C) (ID: `codeforces_117c` | Difficulty: Medium ⭐)
-- [Invertation in Tournament](https://codeforces.com/problemset/problem/1268/D) (ID: `codeforces_1268d` | Difficulty: Hard | Solves: 1 ⭐)
-- [Anya's Simultaneous Exhibition](https://codeforces.com/problemset/problem/1779/E) (ID: `codeforces_1779e` | Difficulty: Easy | Solves: 2 ⭐)
-- [Tournament-graph](https://codeforces.com/contest/323/problem/B) (ID: `codeforces_323b` | Difficulty: Medium | Solves: 1)
-- [Tournament Construction](https://codeforces.com/problemset/problem/850/D) (ID: `codeforces_850d` | Difficulty: Hard)
-- [Tournament](https://codeforces.com/problemset/problem/878/C) (ID: `codeforces_878c` | Difficulty: Medium | Solves: 1 ⭐)
-- [Riding in cycles](https://www.spoj.com/problems/CYCLERUN/) (ID: `spoj_cyclerun` | Difficulty: Medium)
 
 ---
 

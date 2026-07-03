@@ -1,7 +1,6 @@
 # Prefix Sums
 
-**Category:** Basics  
-**Difficulty:** <span style="color: #2563eb; font-weight: 600;">● Easy</span>
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
 ---
 

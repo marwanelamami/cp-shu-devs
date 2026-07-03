@@ -4,6 +4,10 @@ title: Activity Selection Problem
 
 # Activity Selection Problem
 
+**Category:** Miscellaneous &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,30 +16,23 @@ title: Activity Selection Problem
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Phase 2
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cses_1140 | [Projects](https://cses.fi/problemset/task/1140) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1632 | [Movie Festival II](https://cses.fi/problemset/task/1632) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_101242l | [Swap Space](https://vjudge.net/problem/Gym-101242L) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| spoj_busyman | [I AM VERY BUSY](https://www.spoj.com/problems/BUSYMAN/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Projects](https://cses.fi/problemset/task/1140) (ID: `cses_1140` | Difficulty: Easy | Solves: 105 ⭐)
-- [Movie Festival II](https://cses.fi/problemset/task/1632) (ID: `cses_1632` | Difficulty: Easy | Solves: 80 ⭐)
-- [Swap Space](https://vjudge.net/problem/Gym-101242L) (ID: `gym_101242l` | Difficulty: Hard | Solves: 40 ⭐)
-- [I AM VERY BUSY](https://www.spoj.com/problems/BUSYMAN/) (ID: `spoj_busyman` | Difficulty: Easy | Solves: 73 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Aho Corasick
 
 # Aho Corasick
 
+**Category:** Strings &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,46 +16,39 @@ title: Aho Corasick
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_101174e | [Passwords](https://codeforces.com/gym/101174/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_twostrs | [Buying a New String](https://www.codechef.com/MAY20A/problems/TWOSTRS) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1207g | [Indie Album](https://codeforces.com/contest/1207/problem/G) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1400f | [x-prime Substrings](https://codeforces.com/problemset/problem/1400/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_163e | [e-Government](https://codeforces.com/contest/163/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1801g | [A task for substrings](https://codeforces.com/contest/1801/problem/G) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_2144f | [Bracket Groups](https://codeforces.com/contest/2144/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_590e | [Birthday](https://codeforces.com/contest/590/problem/E) | Codeforces | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| codeforces_963d | [Frequency of String](https://codeforces.com/problemset/problem/963/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1731 | [Word Combinations](https://cses.fi/problemset/task/1731) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_2102 | [Finding Patterns](https://cses.fi/problemset/task/2102) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_2103 | [Counting Patterns](https://cses.fi/problemset/task/2103) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerearth_abcd_strings | [ABCD Strings](https://www.hackerearth.com/problem/algorithm/abcd-strings/) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| kattis_stringmultimatching | [String Multimatching](https://open.kattis.com/problems/stringmultimatching) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_substring_frequency_ii | [Substring Frequency (II)](https://lightoj.com/problem/substring-frequency-ii) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| timus_1158 | [Censored!](https://acm.timus.ru/problem.aspx?space=1&num=1158) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| timus_1269 | [Obscene Words Filter](https://acm.timus.ru/problem.aspx?space=1&num=1269) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_1620 | [I Love Strings!!](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1620) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_2112 | [SMS](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2112) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_2637 | [Prefix Lookup](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2637) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Passwords](https://codeforces.com/gym/101174/problem/E) (ID: `cf_gym_101174e` | Difficulty: Medium | Solves: 14)
-- [Buying a New String](https://www.codechef.com/MAY20A/problems/TWOSTRS) (ID: `codechef_twostrs` | Difficulty: Medium | Solves: 6)
-- [Indie Album](https://codeforces.com/contest/1207/problem/G) (ID: `codeforces_1207g` | Difficulty: Hard)
-- [x-prime Substrings](https://codeforces.com/problemset/problem/1400/F) (ID: `codeforces_1400f` | Difficulty: Medium | Solves: 21)
-- [e-Government](https://codeforces.com/contest/163/problem/E) (ID: `codeforces_163e` | Difficulty: Medium | Solves: 17 ⭐)
-- [A task for substrings](https://codeforces.com/contest/1801/problem/G) (ID: `codeforces_1801g` | Difficulty: Hard)
-- [Bracket Groups](https://codeforces.com/contest/2144/problem/F) (ID: `codeforces_2144f` | Difficulty: Medium | Solves: 1 ⭐)
-- [Birthday](https://codeforces.com/contest/590/problem/E) (ID: `codeforces_590e` | Difficulty: Extreme | Solves: 5 ⭐)
-- [Frequency of String](https://codeforces.com/problemset/problem/963/D) (ID: `codeforces_963d` | Difficulty: Medium | Solves: 66 ⭐)
-- [Word Combinations](https://cses.fi/problemset/task/1731) (ID: `cses_1731` | Difficulty: Medium | Solves: 105 ⭐)
-- [Finding Patterns](https://cses.fi/problemset/task/2102) (ID: `cses_2102` | Difficulty: Easy | Solves: 86 ⭐)
-- [Counting Patterns](https://cses.fi/problemset/task/2103) (ID: `cses_2103` | Difficulty: Easy | Solves: 133 ⭐)
-- [ABCD Strings](https://www.hackerearth.com/problem/algorithm/abcd-strings/) (ID: `hackerearth_abcd_strings` | Difficulty: Medium | Solves: 12 ⭐)
-- [String Multimatching](https://open.kattis.com/problems/stringmultimatching) (ID: `kattis_stringmultimatching` | Difficulty: Easy | Solves: 25 ⭐)
-- [Substring Frequency (II)](https://lightoj.com/problem/substring-frequency-ii) (ID: `lightoj_substring_frequency_ii` | Difficulty: Easy | Solves: 22)
-- [Censored!](https://acm.timus.ru/problem.aspx?space=1&num=1158) (ID: `timus_1158` | Difficulty: Easy | Solves: 4)
-- [Obscene Words Filter](https://acm.timus.ru/problem.aspx?space=1&num=1269) (ID: `timus_1269` | Difficulty: Easy | Solves: 2)
-- [ I Love Strings!!](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1620) (ID: `uva_1620` | Difficulty: Easy | Solves: 13)
-- [SMS](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2112) (ID: `uva_2112` | Difficulty: Easy | Solves: 3)
-- [Prefix Lookup](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2637) (ID: `uva_2637` | Difficulty: Easy | Solves: 6)
 
 ---
 

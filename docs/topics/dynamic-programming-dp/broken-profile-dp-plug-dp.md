@@ -4,6 +4,10 @@ title: Broken Profile DP / Plug DP
 
 # Broken Profile DP / Plug DP
 
+**Category:** Dynamic Programming (DP) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,30 +16,23 @@ title: Broken Profile DP / Plug DP
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| ceoi06_connect | [Connect](https://oj.uz/problem/view/CEOI06_connect) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_845f | [Guards In The Storehouse](https://codeforces.com/problemset/problem/845/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_2181 | [Counting Tilings](https://cses.fi/problemset/task/2181) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| usaco_949 | [Compound Escape](https://usaco.org/index.php?page=viewproblem2&cpid=949) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
 
----
-
-## Curated Practice Problems
-- [Connect](https://oj.uz/problem/view/CEOI06_connect) (ID: `ceoi06_connect` | Difficulty: Medium | Solves: 1)
-- [Guards In The Storehouse](https://codeforces.com/problemset/problem/845/F) (ID: `codeforces_845f` | Difficulty: Medium | Solves: 5)
-- [Counting Tilings](https://cses.fi/problemset/task/2181) (ID: `cses_2181` | Difficulty: Easy | Solves: 12 ⭐)
-- [Compound Escape](https://usaco.org/index.php?page=viewproblem2&cpid=949) (ID: `usaco_949` | Difficulty: Extreme | Solves: 1)
 
 ---
 

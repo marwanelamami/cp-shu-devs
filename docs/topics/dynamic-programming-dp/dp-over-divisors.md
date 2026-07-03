@@ -4,6 +4,10 @@ title: DP over Divisors
 
 # DP over Divisors
 
+**Category:** Dynamic Programming (DP) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,29 +16,22 @@ title: DP over Divisors
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc335_g | [Discrete Logarithm Problems](https://atcoder.jp/contests/abc335/tasks/abc335_g) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1900d | [Small GCD](https://codeforces.com/contest/1900/problem/D) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1973f | [Maximum GCD Sum Queries](https://codeforces.com/contest/1973/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
 
----
-
-## Curated Practice Problems
-- [Discrete Logarithm Problems](https://atcoder.jp/contests/abc335/tasks/abc335_g) (ID: `atcoder_abc335_g` | Difficulty: Hard | Solves: 2 ⭐)
-- [Small GCD](https://codeforces.com/contest/1900/problem/D) (ID: `codeforces_1900d` | Difficulty: Easy | Solves: 34)
-- [Maximum GCD Sum Queries](https://codeforces.com/contest/1973/problem/F) (ID: `codeforces_1973f` | Difficulty: Hard ⭐)
 
 ---
 

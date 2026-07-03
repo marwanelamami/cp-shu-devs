@@ -4,6 +4,10 @@ title: Linear Recurrence using Generating Functions in O(N log N log K)
 
 # Linear Recurrence using Generating Functions in O(N log N log K)
 
+**Category:** Math &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,29 +16,22 @@ title: Linear Recurrence using Generating Functions in O(N log N log K)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_typical90_cl | [Tenkei90's Last Problem](https://atcoder.jp/contests/typical90/tasks/typical90_cl) | AtCoder | <span style="color: #334155; font-weight: 600;">Extreme ⭐</span> |
+| codechef_rng | [Random Number Generator](https://www.codechef.com/problems/RNG) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| yosupo_kth_term_of_linearly_recurrent_sequence | [Kth term of Linearly Recurrent Sequence](https://judge.yosupo.jp/problem/kth_term_of_linearly_recurrent_sequence) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Tenkei90's Last Problem](https://atcoder.jp/contests/typical90/tasks/typical90_cl) (ID: `atcoder_typical90_cl` | Difficulty: Extreme ⭐)
-- [Random Number Generator](https://www.codechef.com/problems/RNG) (ID: `codechef_rng` | Difficulty: Medium | Solves: 1 ⭐)
-- [Kth term of Linearly Recurrent Sequence](https://judge.yosupo.jp/problem/kth_term_of_linearly_recurrent_sequence) (ID: `yosupo_kth_term_of_linearly_recurrent_sequence` | Difficulty: Easy | Solves: 2 ⭐)
 
 ---
 

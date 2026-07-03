@@ -1,7 +1,6 @@
 # Intro to CP & Complexity
 
-**Category:** Basics  
-**Difficulty:** <span style="color: #059669; font-weight: 600;">● Very Easy</span>
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
 ---
 
@@ -72,7 +71,27 @@ No other additional resources were added to this topic.
 ---
 
 ## Practice Problems
-This topic contains no problems.
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc051_b | [Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_abc124_a | [Buttons](https://vjudge.net/problem/AtCoder-abc124_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc125_a | [Biscuit Generator](https://vjudge.net/problem/AtCoder-abc125_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc152_a | [AC or WA](https://vjudge.net/problem/AtCoder-abc152_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc169_a | [Multiplication 1](https://vjudge.net/problem/AtCoder-abc169_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc193_a | [Discount](https://vjudge.net/problem/AtCoder-abc193_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc199_a | [Square Inequality](https://vjudge.net/problem/AtCoder-abc199_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc209_a | [Counting](https://vjudge.net/problem/AtCoder-abc209_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc214_b | [How many?](https://vjudge.net/problem/AtCoder-abc214_b) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_abc220_a | [Find Multiple](https://vjudge.net/problem/AtCoder-abc220_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc222_a | [Four Digits](https://vjudge.net/problem/AtCoder-abc222_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc226_a | [Round decimals](https://vjudge.net/problem/AtCoder-abc226_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_102b | [Sum of Digits](https://vjudge.net/problem/CodeForces-102B) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_26a | [Almost Prime](https://vjudge.net/problem/CodeForces-26A) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_271a | [Beautiful Year](https://vjudge.net/problem/CodeForces-271A) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_598a | [Tricky Sum](https://codeforces.com/problemset/problem/598/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_630a | [Again Twenty Five!](https://codeforces.com/problemset/problem/630/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_633a | [Ebony and Ivory](https://vjudge.net/problem/CodeForces-633A) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+
 
 ---
 

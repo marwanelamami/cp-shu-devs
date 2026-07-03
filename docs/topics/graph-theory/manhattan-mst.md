@@ -4,6 +4,10 @@ title: Manhattan MST
 
 # Manhattan MST
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,30 +16,23 @@ title: Manhattan MST
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codechef_dragonst | [Dragonstone](https://www.codechef.com/problems/DRAGONST) | CodeChef | <span style="color: #2563eb; font-weight: 600;">Easy ⭐</span> |
+| csacademy_the_sprawl | [The Sprawl](https://csacademy.com/contest/archive/task/the-sprawl) | Other | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| kattis_gridmst | [Grid MST](https://open.kattis.com/problems/gridmst) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| yosupo_manhattanmst | [Manhattan MST](https://judge.yosupo.jp/problem/manhattanmst) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Dragonstone](https://www.codechef.com/problems/DRAGONST) (ID: `codechef_dragonst` | Difficulty: Easy ⭐)
-- [The Sprawl](https://csacademy.com/contest/archive/task/the-sprawl) (ID: `csacademy_the_sprawl` | Difficulty: Hard ⭐)
-- [Grid MST](https://open.kattis.com/problems/gridmst) (ID: `kattis_gridmst` | Difficulty: Easy | Solves: 4 ⭐)
-- [Manhattan MST](https://judge.yosupo.jp/problem/manhattanmst) (ID: `yosupo_manhattanmst` | Difficulty: Easy | Solves: 2 ⭐)
 
 ---
 

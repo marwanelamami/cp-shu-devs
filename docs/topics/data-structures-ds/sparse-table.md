@@ -4,6 +4,10 @@ title: Sparse Table
 
 # Sparse Table
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,38 +16,31 @@ title: Sparse Table
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Phase 4
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codechef_lgseg | [Longest Good Segment](https://www.codechef.com/problems/LGSEG) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_sead | [Sereja and D](https://www.codechef.com/problems/SEAD) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1547f | [Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_2050f | [Maximum modulo equality](https://codeforces.com/contest/2050/problem/F) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_474f | [Ant colony](https://codeforces.com/contest/474/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_475d | [CGCDSSQ](https://codeforces.com/contest/475/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_514d | [R2D2 and Droid Army](https://codeforces.com/problemset/problem/514/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_675e | [Trains and Statistic](https://codeforces.com/contest/675/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1647 | [Static Range Minimum Queries](https://cses.fi/problemset/task/1647) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| dmoj_pacnw16j | [Shopping](https://dmoj.ca/problem/pacnw16j) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| dmoj_year2016p7 | [Old Christmas Lights](https://dmoj.ca/problem/year2016p7) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_thrbl | [Catapult that ball](https://www.spoj.com/problems/THRBL/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Longest Good Segment](https://www.codechef.com/problems/LGSEG) (ID: `codechef_lgseg` | Difficulty: Medium | Solves: 31 ⭐)
-- [Sereja and D](https://www.codechef.com/problems/SEAD) (ID: `codechef_sead` | Difficulty: Medium | Solves: 23)
-- [Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F) (ID: `codeforces_1547f` | Difficulty: Medium | Solves: 74 ⭐)
-- [Maximum modulo equality](https://codeforces.com/contest/2050/problem/F) (ID: `codeforces_2050f` | Difficulty: Easy | Solves: 105 ⭐)
-- [Ant colony](https://codeforces.com/contest/474/problem/F) (ID: `codeforces_474f` | Difficulty: Medium | Solves: 299 ⭐)
-- [CGCDSSQ](https://codeforces.com/contest/475/problem/D) (ID: `codeforces_475d` | Difficulty: Medium | Solves: 113 ⭐)
-- [R2D2 and Droid Army](https://codeforces.com/problemset/problem/514/D) (ID: `codeforces_514d` | Difficulty: Medium | Solves: 36)
-- [Trains and Statistic](https://codeforces.com/contest/675/problem/E) (ID: `codeforces_675e` | Difficulty: Medium | Solves: 23)
-- [Static Range Minimum Queries](https://cses.fi/problemset/task/1647) (ID: `cses_1647` | Difficulty: Easy | Solves: 241 ⭐)
-- [Shopping](https://dmoj.ca/problem/pacnw16j) (ID: `dmoj_pacnw16j` | Difficulty: Medium | Solves: 3)
-- [Old Christmas Lights](https://dmoj.ca/problem/year2016p7) (ID: `dmoj_year2016p7` | Difficulty: Medium)
-- [Catapult that ball](https://www.spoj.com/problems/THRBL/) (ID: `spoj_thrbl` | Difficulty: Easy | Solves: 93)
 
 ---
 

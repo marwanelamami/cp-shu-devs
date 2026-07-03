@@ -4,6 +4,10 @@ title: Lagrange Multiplier
 
 # Lagrange Multiplier
 
+**Category:** Math &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,33 +16,26 @@ title: Lagrange Multiplier
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_186d | [Mushroom Scientists](https://codeforces.com/contest/186/problem/D) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_coprime_power_sum | [Coprime Power Sum](https://www.hackerrank.com/challenges/coprime-power-sum/problem) | HackerRank | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| hackerrank_random_number_generator_1 | [Random Number Generator](https://www.hackerrank.com/contests/infinitum14/challenges/random-number-generator-1) | HackerRank | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| hackerrank_samantha_and_portfolio_management | [Samantha and Portfolio Management](https://www.hackerrank.com/contests/morgan-stanley-2016/challenges/samantha-and-portfolio-management) | HackerRank | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_betting_business | [Betting Business](https://toph.co/p/betting-business) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_3838 | [Speed Zones](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3838) | Other | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| wcipeg_noi12p2 | [Highway Cycling](https://wcipeg.com/problem/noi12p2) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Mushroom Scientists](https://codeforces.com/contest/186/problem/D) (ID: `codeforces_186d` | Difficulty: Easy | Solves: 4)
-- [Coprime Power Sum](https://www.hackerrank.com/challenges/coprime-power-sum/problem) (ID: `hackerrank_coprime_power_sum` | Difficulty: Hard ⭐)
-- [Random Number Generator](https://www.hackerrank.com/contests/infinitum14/challenges/random-number-generator-1) (ID: `hackerrank_random_number_generator_1` | Difficulty: Hard | Solves: 1 ⭐)
-- [Samantha and Portfolio Management](https://www.hackerrank.com/contests/morgan-stanley-2016/challenges/samantha-and-portfolio-management) (ID: `hackerrank_samantha_and_portfolio_management` | Difficulty: Medium | Solves: 3)
-- [Betting Business](https://toph.co/p/betting-business) (ID: `toph_betting_business` | Difficulty: Easy | Solves: 4 ⭐)
-- [Speed Zones](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3838) (ID: `uva_3838` | Difficulty: Medium ⭐)
-- [Highway Cycling](https://wcipeg.com/problem/noi12p2) (ID: `wcipeg_noi12p2` | Difficulty: Medium | Solves: 1 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Historic Information on Segment Trees
 
 # Historic Information on Segment Trees
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: Historic Information on Segment Trees
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_103470e | [Paimon Segment Tree](https://codeforces.com/gym/103470/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| uoj_164 | [Tsinghua Training Camp 2015V](https://uoj.ac/problem/164) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
 
----
-
-## Curated Practice Problems
-- [Paimon Segment Tree](https://codeforces.com/gym/103470/problem/E) (ID: `cf_gym_103470e` | Difficulty: Hard | Solves: 4)
-- [Tsinghua Training Camp 2015V](https://uoj.ac/problem/164) (ID: `uoj_164` | Difficulty: Extreme)
 
 ---
 

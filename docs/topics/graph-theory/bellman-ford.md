@@ -4,6 +4,10 @@ title: Bellman Ford
 
 # Bellman Ford
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,38 +16,31 @@ title: Bellman Ford
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Phase 4
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc404_g | [Specified Range Sums](https://atcoder.jp/contests/abc404/tasks/abc404_g) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cses_1197 | [Cycle Finding](https://cses.fi/problemset/task/1197/) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1673 | [High Score](https://cses.fi/problemset/task/1673) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| eolymp_1453 | [Ford-Bellman](https://www.eolymp.com/en/problems/1453) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| kattis_shortestpath3 | [Single source shortest path, negative weights](https://open.kattis.com/problems/shortestpath3) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_extended_traffic | [Extended Traffic](https://lightoj.com/problem/extended-traffic) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_travel_company | [Travel Company](https://lightoj.com/problem/travel-company) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_segments | [Segments](https://www.spoj.com/problems/SEGMENTS/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_10099 | [The Tourist Guide](https://vjudge.net/problem/UVA-10099) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_11671 | [Sign of Matrix](https://vjudge.net/problem/UVA-11671) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_423 | [MPI Maelstrom](https://vjudge.net/problem/UVA-423) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_515 | [King](https://vjudge.net/problem/UVA-515) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Specified Range Sums](https://atcoder.jp/contests/abc404/tasks/abc404_g) (ID: `atcoder_abc404_g` | Difficulty: Hard | Solves: 2 ⭐)
-- [Cycle Finding](https://cses.fi/problemset/task/1197/) (ID: `cses_1197` | Difficulty: Easy | Solves: 79 ⭐)
-- [High Score](https://cses.fi/problemset/task/1673) (ID: `cses_1673` | Difficulty: Easy | Solves: 73 ⭐)
-- [Ford-Bellman](https://www.eolymp.com/en/problems/1453) (ID: `eolymp_1453` | Difficulty: Easy | Solves: 12)
-- [Single source shortest path, negative weights](https://open.kattis.com/problems/shortestpath3) (ID: `kattis_shortestpath3` | Difficulty: Easy | Solves: 31 ⭐)
-- [Extended Traffic](https://lightoj.com/problem/extended-traffic) (ID: `lightoj_extended_traffic` | Difficulty: Medium)
-- [Travel Company](https://lightoj.com/problem/travel-company) (ID: `lightoj_travel_company` | Difficulty: Easy | Solves: 4 ⭐)
-- [Segments](https://www.spoj.com/problems/SEGMENTS/) (ID: `spoj_segments` | Difficulty: Easy)
-- [The Tourist Guide](https://vjudge.net/problem/UVA-10099) (ID: `uva_10099` | Difficulty: Easy | Solves: 5)
-- [Sign of Matrix](https://vjudge.net/problem/UVA-11671) (ID: `uva_11671` | Difficulty: Medium | Solves: 3 ⭐)
-- [MPI Maelstrom](https://vjudge.net/problem/UVA-423) (ID: `uva_423` | Difficulty: Easy | Solves: 6)
-- [King](https://vjudge.net/problem/UVA-515) (ID: `uva_515` | Difficulty: Easy | Solves: 1)
 
 ---
 

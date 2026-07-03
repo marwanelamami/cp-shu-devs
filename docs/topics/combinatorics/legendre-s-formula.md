@@ -4,6 +4,10 @@ title: Legendre's Formula
 
 # Legendre's Formula
 
+**Category:** Combinatorics &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: Legendre's Formula
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cses_1618 | [Trailing Zeros](https://cses.fi/problemset/task/1618) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_trailing_zeroes_iii | [Trailing Zeroes (III)](https://lightoj.com/problem/trailing-zeroes-iii) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Trailing Zeros](https://cses.fi/problemset/task/1618) (ID: `cses_1618` | Difficulty: Easy | Solves: 32 ⭐)
-- [Trailing Zeroes (III)](https://lightoj.com/problem/trailing-zeroes-iii) (ID: `lightoj_trailing_zeroes_iii` | Difficulty: Easy | Solves: 17 ⭐)
 
 ---
 

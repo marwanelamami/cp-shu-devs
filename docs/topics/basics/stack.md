@@ -4,6 +4,10 @@ title: Stack
 
 # Stack
 
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,40 +16,28 @@ title: Stack
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 🐍 Recommended Python Resources (First Priority)
+### Recommended Python Resources
 *Implement stacks using list.append() and list.pop() or collections.deque.*
   - [How to Implement a Stack in Python | Real Python](https://realpython.com/how-to-implement-python-stack/)
 
-### 📘 Additional General & C++ Resources (Second Priority)
-- [C++ Stack | Programiz](https://www.programiz.com/cpp-programming/stack) ⭐
-  - [Stack | C++ STL (Standard Template Library) | std::stack  Knowledge Center](https://www.youtube.com/watch?v=WK97Pj0wa7A&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=9) 🎥
-  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the stack section)*
-  - [Stack in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/stack-in-cpp-stl/)
-
-
 ---
 
-## Topic Details
-- **Difficulty**: Basic
-- **Importance**: High
-- **Phase**: Phase 1
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc283_d | [Scope](https://atcoder.jp/contests/abc283/tasks/abc283_d) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1997c | [Even Positions](https://codeforces.com/problemset/problem/1997/C) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_5c | [Longest Regular Bracket Sequence](https://codeforces.com/problemset/problem/5/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1645 | [Nearest Smaller Values](https://cses.fi/problemset/task/1645) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| eolymp_6122 | [Simple Stack](https://vjudge.net/problem/EOlymp-6122) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_ctci_balanced_brackets | [Stacks: Balanced Brackets](https://vjudge.net/problem/HackerRank-ctci-balanced-brackets) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| leetcode_valid_parentheses | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | LeetCode | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Scope](https://atcoder.jp/contests/abc283/tasks/abc283_d) (ID: `atcoder_abc283_d` | Difficulty: Medium | Solves: 25)
-- [Even Positions](https://codeforces.com/problemset/problem/1997/C) (ID: `codeforces_1997c` | Difficulty: Easy | Solves: 43)
-- [Longest Regular Bracket Sequence](https://codeforces.com/problemset/problem/5/C) (ID: `codeforces_5c` | Difficulty: Medium | Solves: 191 ⭐)
-- [Nearest Smaller Values](https://cses.fi/problemset/task/1645) (ID: `cses_1645` | Difficulty: Easy | Solves: 440 ⭐)
-- [Simple Stack](https://vjudge.net/problem/EOlymp-6122) (ID: `eolymp_6122` | Difficulty: Easy | Solves: 137 ⭐)
-- [Stacks: Balanced Brackets](https://vjudge.net/problem/HackerRank-ctci-balanced-brackets) (ID: `hackerrank_ctci_balanced_brackets` | Difficulty: Easy | Solves: 323 ⭐)
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) (ID: `leetcode_valid_parentheses` | Difficulty: Easy | Solves: 422 ⭐)
 
 ---
 

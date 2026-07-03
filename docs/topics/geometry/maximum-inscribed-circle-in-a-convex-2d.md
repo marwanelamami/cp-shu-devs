@@ -4,6 +4,10 @@ title: Maximum Inscribed Circle in a Convex(2D)
 
 # Maximum Inscribed Circle in a Convex(2D)
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: Maximum Inscribed Circle in a Convex(2D)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| baekjoon_3903 | [제주도](https://www.acmicpc.net/problem/3903) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| poj_3525 | [Most Distant Point from the Sea](https://vjudge.net/problem/POJ-3525) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [제주도](https://www.acmicpc.net/problem/3903) (ID: `baekjoon_3903` | Difficulty: Easy | Solves: 1)
-- [Most Distant Point from the Sea](https://vjudge.net/problem/POJ-3525) (ID: `poj_3525` | Difficulty: Easy | Solves: 3)
 
 ---
 

@@ -4,6 +4,10 @@ title: Tree Isomorphism
 
 # Tree Isomorphism
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,40 +16,33 @@ title: Tree Isomorphism
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_102354j | [Tree Automorphisms](https://codeforces.com/gym/102354/problem/J) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cf_gym_103640g | [Generator Tree](https://codeforces.com/gym/103640/problem/G) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codechef_twotrees | [A tale of two trees](https://www.codechef.com/problems/TWOTREES) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1252f | [Regular Forestation](https://codeforces.com/contest/1252/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1800g | [Symmetree](https://codeforces.com/contest/1800/problem/G) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_763d | [Timofey and a flat tree](https://codeforces.com/problemset/problem/763/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| csacademy_binary_isomorphism | [Binary Isomorphism](https://csacademy.com/contest/round-73/task/binary-isomorphism/) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1700 | [Tree Isomorphism I](https://cses.fi/problemset/task/1700) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1701 | [Tree Isomorphism II](https://cses.fi/problemset/task/1701) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| kattis_twochartsbecomeone | [Two Charts Become One](https://open.kattis.com/problems/twochartsbecomeone) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| qoj_10097 | [Vortex](https://qoj.ac/contest/1917/problem/10097) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_treeiso | [Tree Isomorphism](https://www.spoj.com/problems/TREEISO/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| toph_isomorphic_graph | [Isomorphic Graph](https://toph.co/p/isomorphic-graph) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| yosupo_rooted_tree_isomorphism_classification | [Rooted Tree Isomorphism Classification](https://judge.yosupo.jp/problem/rooted_tree_isomorphism_classification) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Tree Automorphisms](https://codeforces.com/gym/102354/problem/J) (ID: `cf_gym_102354j` | Difficulty: Medium)
-- [Generator Tree](https://codeforces.com/gym/103640/problem/G) (ID: `cf_gym_103640g` | Difficulty: Hard | Solves: 1 ⭐)
-- [A tale of two trees](https://www.codechef.com/problems/TWOTREES) (ID: `codechef_twotrees` | Difficulty: Medium)
-- [Regular Forestation](https://codeforces.com/contest/1252/problem/F) (ID: `codeforces_1252f` | Difficulty: Medium | Solves: 3)
-- [Symmetree](https://codeforces.com/contest/1800/problem/G) (ID: `codeforces_1800g` | Difficulty: Easy | Solves: 7 ⭐)
-- [Timofey and a flat tree](https://codeforces.com/problemset/problem/763/D) (ID: `codeforces_763d` | Difficulty: Hard ⭐)
-- [Binary Isomorphism](https://csacademy.com/contest/round-73/task/binary-isomorphism/) (ID: `csacademy_binary_isomorphism` | Difficulty: Easy)
-- [Tree Isomorphism I](https://cses.fi/problemset/task/1700) (ID: `cses_1700` | Difficulty: Easy | Solves: 10 ⭐)
-- [Tree Isomorphism II](https://cses.fi/problemset/task/1701) (ID: `cses_1701` | Difficulty: Easy | Solves: 8 ⭐)
-- [Two Charts Become One](https://open.kattis.com/problems/twochartsbecomeone) (ID: `kattis_twochartsbecomeone` | Difficulty: Medium)
-- [Vortex](https://qoj.ac/contest/1917/problem/10097) (ID: `qoj_10097` | Difficulty: Easy)
-- [Tree Isomorphism](https://www.spoj.com/problems/TREEISO/) (ID: `spoj_treeiso` | Difficulty: Easy | Solves: 2)
-- [Isomorphic Graph](https://toph.co/p/isomorphic-graph) (ID: `toph_isomorphic_graph` | Difficulty: Medium | Solves: 2 ⭐)
-- [Rooted Tree Isomorphism Classification](https://judge.yosupo.jp/problem/rooted_tree_isomorphism_classification) (ID: `yosupo_rooted_tree_isomorphism_classification` | Difficulty: Easy | Solves: 4 ⭐)
 
 ---
 

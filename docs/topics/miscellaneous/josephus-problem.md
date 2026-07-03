@@ -4,6 +4,10 @@ title: Josephus Problem
 
 # Josephus Problem
 
+**Category:** Miscellaneous &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,31 +16,24 @@ title: Josephus Problem
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codechef_ignus15b | [Lucky Number](https://www.codechef.com/IGNU2015/problems/IGNUS15B) | CodeChef | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codechef_josephus | [Josephus Again](https://www.codechef.com/problems/JOSEPHUS) | CodeChef | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_2162 | [Josephus Problem I](https://cses.fi/problemset/task/2162) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_2163 | [Josephus Problem II](https://cses.fi/problemset/task/2163) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_2164 | [Josephus Queries](https://cses.fi/problemset/task/2164) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Lucky Number](https://www.codechef.com/IGNU2015/problems/IGNUS15B) (ID: `codechef_ignus15b` | Difficulty: Easy | Solves: 3)
-- [Josephus Again](https://www.codechef.com/problems/JOSEPHUS) (ID: `codechef_josephus` | Difficulty: Easy | Solves: 2 ⭐)
-- [Josephus Problem I](https://cses.fi/problemset/task/2162) (ID: `cses_2162` | Difficulty: Easy | Solves: 17 ⭐)
-- [Josephus Problem II](https://cses.fi/problemset/task/2163) (ID: `cses_2163` | Difficulty: Easy | Solves: 15 ⭐)
-- [Josephus Queries](https://cses.fi/problemset/task/2164) (ID: `cses_2164` | Difficulty: Easy | Solves: 11 ⭐)
 
 ---
 

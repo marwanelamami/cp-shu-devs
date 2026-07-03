@@ -4,6 +4,10 @@ title: Minimum Enclosing Circle(2D)
 
 # Minimum Enclosing Circle(2D)
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,32 +16,25 @@ title: Minimum Enclosing Circle(2D)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc151_f | [Enclose All](https://atcoder.jp/contests/abc151/tasks/abc151_f) | AtCoder | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_102006i | [Rise of the Robots](https://vjudge.net/problem/Gym-102006I) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| kattis_weirdflecksbutok | [Weird Flecks, But OK](https://open.kattis.com/problems/weirdflecksbutok) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_aliens | [Aliens](https://www.spoj.com/problems/ALIENS/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_qcj4 | [Minimum Diameter Circle](https://www.spoj.com/problems/QCJ4/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| toph_n_ta_gon_has_a_problem | [N-Ta-Gon Has a Problem](https://toph.co/p/n-ta-gon-has-a-problem) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Enclose All](https://atcoder.jp/contests/abc151/tasks/abc151_f) (ID: `atcoder_abc151_f` | Difficulty: Easy | Solves: 11 ⭐)
-- [Rise of the Robots](https://vjudge.net/problem/Gym-102006I) (ID: `gym_102006i` | Difficulty: Easy | Solves: 4 ⭐)
-- [Weird Flecks, But OK](https://open.kattis.com/problems/weirdflecksbutok) (ID: `kattis_weirdflecksbutok` | Difficulty: Easy | Solves: 2)
-- [Aliens](https://www.spoj.com/problems/ALIENS/) (ID: `spoj_aliens` | Difficulty: Easy | Solves: 5)
-- [Minimum Diameter Circle](https://www.spoj.com/problems/QCJ4/) (ID: `spoj_qcj4` | Difficulty: Easy | Solves: 6 ⭐)
-- [N-Ta-Gon Has a Problem](https://toph.co/p/n-ta-gon-has-a-problem) (ID: `toph_n_ta_gon_has_a_problem` | Difficulty: Medium | Solves: 3)
 
 ---
 

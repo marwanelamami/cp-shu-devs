@@ -4,6 +4,10 @@ title: Linear Programming / Simplex Algorithm
 
 # Linear Programming / Simplex Algorithm
 
+**Category:** Math &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,29 +16,22 @@ title: Linear Programming / Simplex Algorithm
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_375e | [Red and Black Tree](https://codeforces.com/problemset/problem/375/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_605c | [Freelancer's Dreams](https://codeforces.com/problemset/problem/605/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_seq1 | [01 Sequence](https://www.spoj.com/problems/SEQ1/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Red and Black Tree](https://codeforces.com/problemset/problem/375/E) (ID: `codeforces_375e` | Difficulty: Hard | Solves: 2 ⭐)
-- [Freelancer's Dreams](https://codeforces.com/problemset/problem/605/C) (ID: `codeforces_605c` | Difficulty: Medium | Solves: 3 ⭐)
-- [01 Sequence](https://www.spoj.com/problems/SEQ1/) (ID: `spoj_seq1` | Difficulty: Medium)
 
 ---
 

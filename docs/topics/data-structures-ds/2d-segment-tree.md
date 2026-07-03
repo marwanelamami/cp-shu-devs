@@ -4,6 +4,10 @@ title: 2D Segment Tree
 
 # 2D Segment Tree
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,35 +16,28 @@ title: 2D Segment Tree
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_15d | [Map](https://codeforces.com/contest/15/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_677d | [Vanya and Treasure](https://codeforces.com/contest/677/problem/D) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_869e | [The Untended Antiquity](https://codeforces.com/problemset/problem/869/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cses_1739 | [Forest Queries II](https://cses.fi/problemset/task/1739) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| ioi13_game | [Games](https://oj.uz/problem/view/IOI13_game) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| uva_3226 | [The Ultimate Bamboo Eater](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3226) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| wcipeg_ioi0722 | [Pairs](https://oj.uz/problem/view/IOI07_pairs) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| yosupo_point_add_rectangle_sum | [Point Add Rectangle Sum](https://judge.yosupo.jp/problem/point_add_rectangle_sum) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| yosupo_rectangle_sum | [Rectangle Sum](https://judge.yosupo.jp/problem/rectangle_sum) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Map](https://codeforces.com/contest/15/problem/D) (ID: `codeforces_15d` | Difficulty: Medium | Solves: 12 ⭐)
-- [Vanya and Treasure](https://codeforces.com/contest/677/problem/D) (ID: `codeforces_677d` | Difficulty: Easy | Solves: 30 ⭐)
-- [The Untended Antiquity](https://codeforces.com/problemset/problem/869/E) (ID: `codeforces_869e` | Difficulty: Hard | Solves: 16 ⭐)
-- [Forest Queries II](https://cses.fi/problemset/task/1739) (ID: `cses_1739` | Difficulty: Easy | Solves: 37 ⭐)
-- [Games](https://oj.uz/problem/view/IOI13_game) (ID: `ioi13_game` | Difficulty: Hard | Solves: 4 ⭐)
-- [The Ultimate Bamboo Eater](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3226) (ID: `uva_3226` | Difficulty: Hard | Solves: 2 ⭐)
-- [Pairs](https://oj.uz/problem/view/IOI07_pairs) (ID: `wcipeg_ioi0722` | Difficulty: Extreme | Solves: 2)
-- [Point Add Rectangle Sum](https://judge.yosupo.jp/problem/point_add_rectangle_sum) (ID: `yosupo_point_add_rectangle_sum` | Difficulty: Easy | Solves: 4 ⭐)
-- [Rectangle Sum](https://judge.yosupo.jp/problem/rectangle_sum) (ID: `yosupo_rectangle_sum` | Difficulty: Easy | Solves: 5 ⭐)
 
 ---
 

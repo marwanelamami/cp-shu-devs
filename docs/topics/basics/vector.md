@@ -4,6 +4,10 @@ title: Vector
 
 # Vector
 
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,43 +16,28 @@ title: Vector
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 🐍 Recommended Python Resources (First Priority)
+### Recommended Python Resources
 *Python list is implemented as a dynamic array with amortized O(1) append.*
   - [Python Lists - Under the Hood | GeeksforGeeks](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
 
-### 📘 Additional General & C++ Resources (Second Priority)
-- [Vectors | Tech With Tim](https://www.youtube.com/watch?v=RXzzE2wnnlo&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=18) ⭐ 🎥
-  - [C++ Vectors | Programiz](https://www.programiz.com/cpp-programming/vectors) ⭐
-  - [Vector | C++ STL (Standard Template Library) | std::vector  Knowledge Center](https://www.youtube.com/watch?v=0DNDvuHZDiQ&list=PL1w8k37X_6L9NXrP1D31hDTKcdAPIL0cG&index=6) 🎥
-  - [Complete C++ STL in 1 Video | Time Complexity and Notes |  take U forward](https://www.youtube.com/watch?v=RRVYpIET_RU) 🎥 *(check the whole vector section)*
-  - [Vector in C++ STL | TUF](https://takeuforward.org/c/vector-in-c-stl/)
-  - [Vector in C++ STL | Geeks for Geeks](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
-  - [[Hindi] Vector In C++ STL | CodeWithHarry](https://www.youtube.com/watch?v=wKDvMcJiEPM) 🎥
-
-
 ---
 
-## Topic Details
-- **Difficulty**: Basic
-- **Importance**: High
-- **Phase**: Phase 1
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| aizu_itp2_1_a | [Vector](https://vjudge.net/problem/Aizu-ITP2_1_A) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| aizu_itp2_1_d | [Vector II](https://vjudge.net/problem/Aizu-ITP2_1_D) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_arc087_a | [Good Sequence](https://vjudge.net/problem/AtCoder-arc087_a) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_704a | [Thor](https://vjudge.net/problem/CodeForces-704A) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| hackerrank_cpp_lower_bound | [Lower Bound-STL](https://vjudge.net/problem/HackerRank-cpp-lower-bound) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| hackerrank_vector_erase | [Vector-Erase](https://vjudge.net/problem/HackerRank-vector-erase) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_vector_sort | [Vector-Sort](https://vjudge.net/problem/HackerRank-vector-sort) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Vector](https://vjudge.net/problem/Aizu-ITP2_1_A) (ID: `aizu_itp2_1_a` | Difficulty: Easy | Solves: 384 ⭐)
-- [Vector II](https://vjudge.net/problem/Aizu-ITP2_1_D) (ID: `aizu_itp2_1_d` | Difficulty: Easy | Solves: 314 ⭐)
-- [Good Sequence](https://vjudge.net/problem/AtCoder-arc087_a) (ID: `atcoder_arc087_a` | Difficulty: Easy | Solves: 257)
-- [Thor](https://vjudge.net/problem/CodeForces-704A) (ID: `codeforces_704a` | Difficulty: Medium | Solves: 119)
-- [Lower Bound-STL](https://vjudge.net/problem/HackerRank-cpp-lower-bound) (ID: `hackerrank_cpp_lower_bound` | Difficulty: Medium | Solves: 262 ⭐)
-- [Vector-Erase](https://vjudge.net/problem/HackerRank-vector-erase) (ID: `hackerrank_vector_erase` | Difficulty: Easy | Solves: 356 ⭐)
-- [Vector-Sort ](https://vjudge.net/problem/HackerRank-vector-sort) (ID: `hackerrank_vector_sort` | Difficulty: Easy | Solves: 395 ⭐)
 
 ---
 

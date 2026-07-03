@@ -4,6 +4,10 @@ title: Pointers and References
 
 # Pointers and References
 
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,37 +16,22 @@ title: Pointers and References
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 🐍 Recommended Python Resources (First Priority)
+### Recommended Python Resources
 *Python does not have pointers. Variables hold references to objects. Pass-by-object-reference.*
   - [Pass by Reference or Value in Python? | Real Python](https://realpython.com/python-pass-by-reference/)
 
-### 📘 Additional General & C++ Resources (Second Priority)
-- [Pointers (*) | Tech With Tim](https://www.youtube.com/watch?v=jUbOcBkdMF0&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=15) ⭐ 🎥
-  - [References (&) | Tech With Tim](https://www.youtube.com/watch?v=RGYGiLUAQ3c&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=14) ⭐ 🎥
-  - [Pointers in C/C++](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) ⭐ 🎥
-  - [C++ Pointers | Programiz](https://www.programiz.com/cpp-programming/pointers)
-  - [C++ Pointers and Arrays | Programiz](https://www.programiz.com/cpp-programming/pointers-arrays)
-  - [C++ References | Programiz](https://www.programiz.com/cpp-programming/references)
-  - [C++ Pass by Reference | Programiz](https://www.programiz.com/cpp-programming/pointers-function) ⭐
-
-
 ---
 
-## Topic Details
-- **Difficulty**: Basic
-- **Importance**: High
-- **Phase**: Phase 0
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| hackerrank_c_tutorial_pointer | [Pointer](https://vjudge.net/problem/HackerRank-c-tutorial-pointer) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Pointer](https://vjudge.net/problem/HackerRank-c-tutorial-pointer) (ID: `hackerrank_c_tutorial_pointer` | Difficulty: Easy | Solves: 386 ⭐)
 
 ---
 

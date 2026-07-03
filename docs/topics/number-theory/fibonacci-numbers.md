@@ -4,6 +4,10 @@ title: Fibonacci Numbers
 
 # Fibonacci Numbers
 
+**Category:** Number Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,35 +16,28 @@ title: Fibonacci Numbers
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_1853b | [Fibonaccharsis](https://codeforces.com/contest/1853/problem/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1722 | [Fibonacci Numbers](https://cses.fi/problemset/task/1722) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| dmoj_fibonacci2 | [Fibonacci Sequence (Harder)](https://dmoj.ca/problem/fibonacci2) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| hackerrank_euler002 | [Even Fibonacci numbers](https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem) | HackerRank | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_is_fibo | [Is Fibo](https://www.hackerrank.com/challenges/is-fibo/problem) | HackerRank | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_number_sequence | [Number Sequence](https://lightoj.com/problem/number-sequence) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_fibez | [Easy Fibonacci](https://www.spoj.com/problems/FIBEZ/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_fibosum | [Fibonacci Sum](https://www.spoj.com/problems/FIBOSUM/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_main74 | [Euclids algorithm revisited](https://www.spoj.com/problems/MAIN74/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Fibonaccharsis](https://codeforces.com/contest/1853/problem/B) (ID: `codeforces_1853b` | Difficulty: Easy | Solves: 39 ⭐)
-- [Fibonacci Numbers](https://cses.fi/problemset/task/1722) (ID: `cses_1722` | Difficulty: Medium | Solves: 164 ⭐)
-- [Fibonacci Sequence (Harder)](https://dmoj.ca/problem/fibonacci2) (ID: `dmoj_fibonacci2` | Difficulty: Hard | Solves: 7)
-- [Even Fibonacci numbers](https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem) (ID: `hackerrank_euler002` | Difficulty: Easy | Solves: 12)
-- [Is Fibo](https://www.hackerrank.com/challenges/is-fibo/problem) (ID: `hackerrank_is_fibo` | Difficulty: Easy | Solves: 27 ⭐)
-- [Number Sequence](https://lightoj.com/problem/number-sequence) (ID: `lightoj_number_sequence` | Difficulty: Medium | Solves: 12)
-- [Easy Fibonacci](https://www.spoj.com/problems/FIBEZ/) (ID: `spoj_fibez` | Difficulty: Easy | Solves: 36 ⭐)
-- [Fibonacci Sum](https://www.spoj.com/problems/FIBOSUM/) (ID: `spoj_fibosum` | Difficulty: Medium | Solves: 25 ⭐)
-- [Euclids algorithm revisited](https://www.spoj.com/problems/MAIN74/) (ID: `spoj_main74` | Difficulty: Medium | Solves: 25 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Persistent Segment Tree
 
 # Persistent Segment Tree
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,50 +16,43 @@ title: Persistent Segment Tree
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc339_g | [Smaller Sum](https://atcoder.jp/contests/abc339/tasks/abc339_g) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_cloneme | [Cloning](https://www.codechef.com/problems/CLONEME) | CodeChef | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codechef_frbsum | [Forbidden Sum](https://www.codechef.com/problems/FRBSUM) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_prmq | [Chef and Prime Queries](https://www.codechef.com/problems/PRMQ) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1000f | [One Occurrence](https://codeforces.com/contest/1000/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1422f | [Boring Queries](https://codeforces.com/contest/1422/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1479d | [Odd Mineral Resource](https://codeforces.com/contest/1479/problem/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1771f | [Hossam and Range Minimum Query](https://codeforces.com/contest/1771/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1957f2 | [Frequency Mismatch (Hard Version)](https://codeforces.com/contest/1957/problem/F2) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_2126g2 | [G2. Big Wins! (hard version)](https://codeforces.com/contest/2126/problem/G2) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_226e | [Noble Knight's Path](https://codeforces.com/contest/226/problem/E) | Codeforces | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| codeforces_464e | [The Classic Problem](https://codeforces.com/contest/464/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_484e | [Sign on Fence](https://codeforces.com/contest/484/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_786c | [Till I Collapse](https://codeforces.com/contest/786/problem/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_813e | [Army Creation](https://codeforces.com/contest/813/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_837g | [Functions On The Segments](https://codeforces.com/problemset/problem/837/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1734 | [Distinct Values Queries](https://cses.fi/problemset/task/1734) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1737 | [Range Queries and Copies](https://cses.fi/problemset/task/1737) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_wet_shark_and_kth_largest_number | [Kth Number](https://www.hackerrank.com/contests/morgan-stanley-2015/challenges/wet-shark-and-kth-largest-number) | HackerRank | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_function_not_again | [Function! Not Again!!](https://lightoj.com/problem/function-not-again) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| spoj_cot | [Count on a tree](https://www.spoj.com/problems/COT/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_kqueryo | [K-Query Online](https://www.spoj.com/problems/KQUERYO/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_mkthnum | [K-th Number](https://www.spoj.com/problems/MKTHNUM/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_ttm | [To the moon](https://www.spoj.com/problems/TTM/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Smaller Sum](https://atcoder.jp/contests/abc339/tasks/abc339_g) (ID: `atcoder_abc339_g` | Difficulty: Medium | Solves: 66 ⭐)
-- [Cloning](https://www.codechef.com/problems/CLONEME) (ID: `codechef_cloneme` | Difficulty: Hard | Solves: 5 ⭐)
-- [Forbidden Sum](https://www.codechef.com/problems/FRBSUM) (ID: `codechef_frbsum` | Difficulty: Medium | Solves: 1)
-- [Chef and Prime Queries](https://www.codechef.com/problems/PRMQ) (ID: `codechef_prmq` | Difficulty: Medium | Solves: 7)
-- [One Occurrence](https://codeforces.com/contest/1000/problem/F) (ID: `codeforces_1000f` | Difficulty: Medium | Solves: 10 ⭐)
-- [Boring Queries](https://codeforces.com/contest/1422/problem/F) (ID: `codeforces_1422f` | Difficulty: Hard | Solves: 9 ⭐)
-- [Odd Mineral Resource](https://codeforces.com/contest/1479/problem/D) (ID: `codeforces_1479d` | Difficulty: Hard | Solves: 5)
-- [Hossam and Range Minimum Query](https://codeforces.com/contest/1771/problem/F) (ID: `codeforces_1771f` | Difficulty: Medium | Solves: 41 ⭐)
-- [Frequency Mismatch (Hard Version)](https://codeforces.com/contest/1957/problem/F2) (ID: `codeforces_1957f2` | Difficulty: Hard | Solves: 10 ⭐)
-- [G2. Big Wins! (hard version)](https://codeforces.com/contest/2126/problem/G2) (ID: `codeforces_2126g2` | Difficulty: Medium | Solves: 3)
-- [Noble Knight's Path](https://codeforces.com/contest/226/problem/E) (ID: `codeforces_226e` | Difficulty: Extreme | Solves: 2)
-- [The Classic Problem](https://codeforces.com/contest/464/problem/E) (ID: `codeforces_464e` | Difficulty: Hard | Solves: 5 ⭐)
-- [Sign on Fence](https://codeforces.com/contest/484/problem/E) (ID: `codeforces_484e` | Difficulty: Medium | Solves: 39 ⭐)
-- [Till I Collapse](https://codeforces.com/contest/786/problem/C) (ID: `codeforces_786c` | Difficulty: Medium | Solves: 52 ⭐)
-- [Army Creation](https://codeforces.com/contest/813/problem/E) (ID: `codeforces_813e` | Difficulty: Medium | Solves: 17)
-- [Functions On The Segments](https://codeforces.com/problemset/problem/837/G) (ID: `codeforces_837g` | Difficulty: Medium | Solves: 18)
-- [Distinct Values Queries](https://cses.fi/problemset/task/1734) (ID: `cses_1734` | Difficulty: Medium | Solves: 325 ⭐)
-- [Range Queries and Copies](https://cses.fi/problemset/task/1737) (ID: `cses_1737` | Difficulty: Easy | Solves: 130 ⭐)
-- [Kth Number](https://www.hackerrank.com/contests/morgan-stanley-2015/challenges/wet-shark-and-kth-largest-number) (ID: `hackerrank_wet_shark_and_kth_largest_number` | Difficulty: Easy | Solves: 28)
-- [Function! Not Again!!](https://lightoj.com/problem/function-not-again) (ID: `lightoj_function_not_again` | Difficulty: Hard | Solves: 2 ⭐)
-- [Count on a tree](https://www.spoj.com/problems/COT/) (ID: `spoj_cot` | Difficulty: Medium | Solves: 28 ⭐)
-- [K-Query Online](https://www.spoj.com/problems/KQUERYO/) (ID: `spoj_kqueryo` | Difficulty: Easy | Solves: 78 ⭐)
-- [K-th Number](https://www.spoj.com/problems/MKTHNUM/) (ID: `spoj_mkthnum` | Difficulty: Easy | Solves: 91 ⭐)
-- [To the moon](https://www.spoj.com/problems/TTM/) (ID: `spoj_ttm` | Difficulty: Easy | Solves: 18 ⭐)
 
 ---
 

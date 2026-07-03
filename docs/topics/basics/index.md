@@ -19,19 +19,14 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 - [Conditional Statements](conditional-statements/) (Importance: High)
 - [Loops](loops/) (Importance: High)
 - [Functions](functions/) (Importance: High)
-- [Arrays](../../topics/basics/02-arrays/static-arrays/) (Importance: High)
 - [Strings](strings/) (Importance: High)
 - [Pointers and References](pointers-and-references/) (Importance: High)
 - [Structures](structures/) (Importance: High)
-
-### Intro to Competitive Programming
-- [What is Competitive Programming?](../../topics/basics/01-intro-to-cp/intro-to-cp.md) (Importance: High)
 
 ### Bitwise Thinking
 - [Bitwise Operations and Bitmasks](bitwise-operations-and-bitmasks/) (Importance: High)
 
 ### Complexity Analysis
-- [Big O Notation and Time and Space Complexity Analysis](../../topics/basics/01-intro-to-cp/complexity-analysis.md) (Importance: High)
 - [Fast Input Output](fast-input-output/) (Importance: High)
 
 ### Recursion
@@ -43,7 +38,6 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 - [Harmonic Number](harmonic-number/) (Importance: High)
 
 ### Range Queries Without Updates
-- [Prefix Sum](prefix-sum/) (Importance: High)
 - [Prefix XOR](prefix-xor/) (Importance: High)
 
 ### Standard Template Library (STL)
@@ -61,7 +55,6 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### Leveraging Monotonicity
 - [Binary Search](binary-search/) (Importance: High)
-- [Two Pointers](../../topics/basics/05-two-pointers/two-pointers.md) (Importance: High)
 
 ### Basic Sorting Algorithms
 - [Bubble Sort](bubble-sort/) (Importance: High)
@@ -85,7 +78,6 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 ### More Techniques
 - [Difference Array](difference-array/) (Importance: High)
-- [Sliding Window Technique](sliding-window-technique/) (Importance: High)
 
 ### Bit Manipulation
 - [Bit Manipulation](bit-manipulation/) (Importance: High)

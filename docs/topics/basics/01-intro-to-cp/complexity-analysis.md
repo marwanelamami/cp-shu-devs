@@ -1,13 +1,10 @@
 # Big O & Complexity Analysis
 
-**Category:** Basics  
-**Difficulty:** <span style="color: #059669; font-weight: 600;">● Very Easy</span>
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
 ---
 
 This guidebook details how we measure algorithm efficiency, evaluate time and space complexity, and use Big-O notation.
-
----
 
 ## Measuring Algorithm Efficiency
 
@@ -141,7 +138,15 @@ No other additional resources were added to this topic.
 ---
 
 ## Practice Problems
-This topic contains no problems.
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc051_b | [Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1328a | [Divisibility Problem](https://codeforces.com/problemset/problem/1328/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_486a | [Calculating Function](https://codeforces.com/problemset/problem/486/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_598a | [Tricky Sum](https://codeforces.com/problemset/problem/598/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_630a | [Again Twenty Five!](https://codeforces.com/problemset/problem/630/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1069 | [Repetitions](https://cses.fi/problemset/task/1069) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+
 
 ---
 

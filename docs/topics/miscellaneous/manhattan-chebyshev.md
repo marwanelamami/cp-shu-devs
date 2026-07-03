@@ -4,6 +4,10 @@ title: Manhattan <> Chebyshev
 
 # Manhattan <> Chebyshev
 
+**Category:** Miscellaneous &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,34 +16,27 @@ title: Manhattan <> Chebyshev
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc178_e | [Dist Max](https://atcoder.jp/contests/abc178/tasks/abc178_e) | AtCoder | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc233_h?lang=en | [Manhattan Christmas Tree](https://atcoder.jp/contests/abc233/tasks/abc233_h?lang=en) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| atcoder_code_festival_2017_quala_d | [Four Coloring](https://atcoder.jp/contests/code-festival-2017-quala/tasks/code_festival_2017_quala_d) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_teleport | [Teleports](https://www.codechef.com/problems/TELEPORT) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_944f | [Game with Tokens](https://codeforces.com/contest/944/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| ioi07_pairs | [Pairs](https://oj.uz/problem/view/IOI07_pairs) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| spoj_distance | [Manhattan](https://www.spoj.com/problems/DISTANCE) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_3226 | [The Ultimate Bamboo Eater](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3226) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
 
----
-
-## Curated Practice Problems
-- [Dist Max](https://atcoder.jp/contests/abc178/tasks/abc178_e) (ID: `atcoder_abc178_e` | Difficulty: Easy | Solves: 9 ⭐)
-- [Manhattan Christmas Tree](https://atcoder.jp/contests/abc233/tasks/abc233_h?lang=en) (ID: `atcoder_abc233_h?lang=en` | Difficulty: Hard | Solves: 3)
-- [Four Coloring ](https://atcoder.jp/contests/code-festival-2017-quala/tasks/code_festival_2017_quala_d) (ID: `atcoder_code_festival_2017_quala_d` | Difficulty: Medium | Solves: 1)
-- [Teleports](https://www.codechef.com/problems/TELEPORT) (ID: `codechef_teleport` | Difficulty: Medium)
-- [Game with Tokens](https://codeforces.com/contest/944/problem/F) (ID: `codeforces_944f` | Difficulty: Medium | Solves: 1)
-- [Pairs](https://oj.uz/problem/view/IOI07_pairs) (ID: `ioi07_pairs` | Difficulty: Extreme | Solves: 1 ⭐)
-- [Manhattan](https://www.spoj.com/problems/DISTANCE) (ID: `spoj_distance` | Difficulty: Easy | Solves: 5 ⭐)
-- [The Ultimate Bamboo Eater](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3226) (ID: `uva_3226` | Difficulty: Hard | Solves: 2 ⭐)
 
 ---
 

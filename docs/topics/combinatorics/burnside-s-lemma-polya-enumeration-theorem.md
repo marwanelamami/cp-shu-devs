@@ -4,6 +4,10 @@ title: Burnside's Lemma / Polya Enumeration Theorem
 
 # Burnside's Lemma / Polya Enumeration Theorem
 
+**Category:** Combinatorics &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,42 +16,35 @@ title: Burnside's Lemma / Polya Enumeration Theorem
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc198_f | [Cube](https://atcoder.jp/contests/abc198/tasks/abc198_f) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cf_gym_101873b | [Buildings](https://codeforces.com/gym/101873/problem/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codechef_decorate | [Lucy and the Flowers](https://www.codechef.com/problems/DECORATE) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_icpc16e | [Colorful Grids](https://www.codechef.com/problems/ICPC16E) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1065e | [Side Transmutations](https://codeforces.com/contest/1065/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1954f | [Unique Strings](https://codeforces.com/contest/1954/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_2040f | [Number of Cubes](https://codeforces.com/contest/2040/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| csacademy_cube_coloring | [Cube Coloring](https://csacademy.com/contest/beta-round-8/task/cube-coloring/) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_2209 | [Counting Necklaces](https://cses.fi/problemset/task/2209) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_2210 | [Counting Grids](https://cses.fi/problemset/task/2210) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_count_the_necklaces | [Count the Necklaces](https://www.hackerrank.com/contests/infinitum12/challenges/count-the-necklaces) | HackerRank | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_necklace | [Necklace](https://lightoj.com/problem/necklace) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| poj_1286 | [Necklace of Beads](http://poj.org/problem?id=1286) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| poj_2888 | [Magic Bracelet](http://poj.org/problem?id=2888) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_srtmach | [Sorting Machine](https://www.spoj.com/problems/SRTMACH/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| timus_1661 | [Dodecahedron](https://acm.timus.ru/problem.aspx?space=1&num=1661) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Cube](https://atcoder.jp/contests/abc198/tasks/abc198_f) (ID: `atcoder_abc198_f` | Difficulty: Hard | Solves: 2)
-- [Buildings](https://codeforces.com/gym/101873/problem/B) (ID: `cf_gym_101873b` | Difficulty: Easy | Solves: 10 ⭐)
-- [Lucy and the Flowers](https://www.codechef.com/problems/DECORATE) (ID: `codechef_decorate` | Difficulty: Medium | Solves: 3 ⭐)
-- [Colorful Grids](https://www.codechef.com/problems/ICPC16E) (ID: `codechef_icpc16e` | Difficulty: Medium | Solves: 3 ⭐)
-- [Side Transmutations](https://codeforces.com/contest/1065/problem/E) (ID: `codeforces_1065e` | Difficulty: Medium | Solves: 4 ⭐)
-- [Unique Strings](https://codeforces.com/contest/1954/problem/F) (ID: `codeforces_1954f` | Difficulty: Hard | Solves: 1 ⭐)
-- [Number of Cubes](https://codeforces.com/contest/2040/problem/F) (ID: `codeforces_2040f` | Difficulty: Hard | Solves: 2)
-- [Cube Coloring](https://csacademy.com/contest/beta-round-8/task/cube-coloring/) (ID: `csacademy_cube_coloring` | Difficulty: Easy | Solves: 4 ⭐)
-- [Counting Necklaces](https://cses.fi/problemset/task/2209) (ID: `cses_2209` | Difficulty: Easy | Solves: 20 ⭐)
-- [Counting Grids](https://cses.fi/problemset/task/2210) (ID: `cses_2210` | Difficulty: Easy | Solves: 16 ⭐)
-- [Count the Necklaces](https://www.hackerrank.com/contests/infinitum12/challenges/count-the-necklaces) (ID: `hackerrank_count_the_necklaces` | Difficulty: Easy | Solves: 5)
-- [Necklace](https://lightoj.com/problem/necklace) (ID: `lightoj_necklace` | Difficulty: Easy | Solves: 10 ⭐)
-- [Necklace of Beads](http://poj.org/problem?id=1286) (ID: `poj_1286` | Difficulty: Medium | Solves: 3)
-- [Magic Bracelet](http://poj.org/problem?id=2888) (ID: `poj_2888` | Difficulty: Medium | Solves: 1)
-- [Sorting Machine](https://www.spoj.com/problems/SRTMACH/) (ID: `spoj_srtmach` | Difficulty: Medium | Solves: 3)
-- [Dodecahedron](https://acm.timus.ru/problem.aspx?space=1&num=1661) (ID: `timus_1661` | Difficulty: Medium | Solves: 1)
 
 ---
 

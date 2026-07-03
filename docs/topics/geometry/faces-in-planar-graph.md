@@ -4,6 +4,10 @@ title: Faces in Planar Graph
 
 # Faces in Planar Graph
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,31 +16,24 @@ title: Faces in Planar Graph
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_105112i | [Isolated Island](https://codeforces.com/gym/105112/problem/I) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| lightoj_farmers_tale | [Farmers' Tale](https://lightoj.com/problem/farmers-tale) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| poj_3743 | [LL’s cake](https://vjudge.net/problem/POJ-3743) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| timus_1664 | [Pipeline Transportation](https://acm.timus.ru/problem.aspx?space=1&num=1664) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| timus_1681 | [Brother Bear's Garden](https://acm.timus.ru/problem.aspx?space=1&num=1681) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Isolated Island](https://codeforces.com/gym/105112/problem/I) (ID: `cf_gym_105112i` | Difficulty: Medium ⭐)
-- [Farmers' Tale](https://lightoj.com/problem/farmers-tale) (ID: `lightoj_farmers_tale` | Difficulty: Hard | Solves: 3 ⭐)
-- [LL’s cake](https://vjudge.net/problem/POJ-3743) (ID: `poj_3743` | Difficulty: Hard ⭐)
-- [Pipeline Transportation](https://acm.timus.ru/problem.aspx?space=1&num=1664) (ID: `timus_1664` | Difficulty: Medium)
-- [Brother Bear's Garden](https://acm.timus.ru/problem.aspx?space=1&num=1681) (ID: `timus_1681` | Difficulty: Medium)
 
 ---
 

@@ -4,6 +4,10 @@ title: Knapsack and Subset Sum Optimizations
 
 # Knapsack and Subset Sum Optimizations
 
+**Category:** Dynamic Programming (DP) &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,45 +16,38 @@ title: Knapsack and Subset Sum Optimizations
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Phase 4
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc221_g | [Jumping sequence](https://atcoder.jp/contests/abc221/tasks/abc221_g) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_agc020_c | [Median Sum](https://atcoder.jp/contests/agc020/tasks/agc020_c) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| boi2021_statement_boi2021_0_keyboard_en.pdf | [Keyboard](https://www.boi2021.de/wp-content/uploads/2021/04/statement-boi2021-0-keyboard-en.pdf) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_minfund | [Min-Fund Country](https://www.codechef.com/problems/MINFUND) | CodeChef | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codechef_treups | [Tree Upshot](https://www.codechef.com/LTIME101B/problems/TREUPS) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1481f | [AB Tree](https://codeforces.com/problemset/problem/1481/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1839e | [Decreasing Game](https://codeforces.com/problemset/problem/1839/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1856e2 | [PermuTree (hard version)](https://codeforces.com/contest/1856/problem/E2) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_688e | [The Values You Can Make](https://codeforces.com/contest/688/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_755f | [PolandBall and Gifts](https://codeforces.com/contest/755/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_95e | [Lucky Country](https://codeforces.com/contest/95/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1093 | [Two Sets II](https://cses.fi/problemset/task/1093) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1706 | [School Excursion](https://cses.fi/problemset/task/1706) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1745 | [Money Sums](https://cses.fi/problemset/task/1745) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| kattis_eavesdropperevasion | [Eavesdropper Evasion](https://ncpc21.kattis.com/problems/eavesdropperevasion) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| noi18_knapsack | [Knapsack](https://oj.uz/problem/view/NOI18_knapsack) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_adacoins | [Ada and Coins](https://vjudge.net/problem/SPOJ-ADACOINS) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_ild18acp | [Count Pairs](https://vjudge.net/problem/SPOJ-ILD18ACP) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| yandex_18290f | [Subset Sum](https://official.contest.yandex.ru/opencupXX/contest/18290/problems/F/) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Jumping sequence](https://atcoder.jp/contests/abc221/tasks/abc221_g) (ID: `atcoder_abc221_g` | Difficulty: Medium | Solves: 7 ⭐)
-- [Median Sum](https://atcoder.jp/contests/agc020/tasks/agc020_c) (ID: `atcoder_agc020_c` | Difficulty: Medium | Solves: 55 ⭐)
-- [Keyboard](https://www.boi2021.de/wp-content/uploads/2021/04/statement-boi2021-0-keyboard-en.pdf) (ID: `boi2021_statement_boi2021_0_keyboard_en.pdf` | Difficulty: Medium | Solves: 6 ⭐)
-- [Min-Fund Country](https://www.codechef.com/problems/MINFUND) (ID: `codechef_minfund` | Difficulty: Easy | Solves: 6)
-- [Tree Upshot](https://www.codechef.com/LTIME101B/problems/TREUPS) (ID: `codechef_treups` | Difficulty: Medium | Solves: 2)
-- [AB Tree](https://codeforces.com/problemset/problem/1481/F) (ID: `codeforces_1481f` | Difficulty: Hard | Solves: 8 ⭐)
-- [Decreasing Game](https://codeforces.com/problemset/problem/1839/E) (ID: `codeforces_1839e` | Difficulty: Easy | Solves: 22 ⭐)
-- [PermuTree (hard version)](https://codeforces.com/contest/1856/problem/E2) (ID: `codeforces_1856e2` | Difficulty: Medium | Solves: 27 ⭐)
-- [The Values You Can Make](https://codeforces.com/contest/688/problem/E) (ID: `codeforces_688e` | Difficulty: Medium | Solves: 30)
-- [PolandBall and Gifts](https://codeforces.com/contest/755/problem/F) (ID: `codeforces_755f` | Difficulty: Medium | Solves: 52 ⭐)
-- [Lucky Country](https://codeforces.com/contest/95/problem/E) (ID: `codeforces_95e` | Difficulty: Medium | Solves: 31)
-- [Two Sets II](https://cses.fi/problemset/task/1093) (ID: `cses_1093` | Difficulty: Easy | Solves: 552 ⭐)
-- [School Excursion](https://cses.fi/problemset/task/1706) (ID: `cses_1706` | Difficulty: Medium | Solves: 19)
-- [Money Sums](https://cses.fi/problemset/task/1745) (ID: `cses_1745` | Difficulty: Easy | Solves: 657 ⭐)
-- [Eavesdropper Evasion](https://ncpc21.kattis.com/problems/eavesdropperevasion) (ID: `kattis_eavesdropperevasion` | Difficulty: Medium | Solves: 1)
-- [Knapsack](https://oj.uz/problem/view/NOI18_knapsack) (ID: `noi18_knapsack` | Difficulty: Medium | Solves: 16)
-- [Ada and Coins](https://vjudge.net/problem/SPOJ-ADACOINS) (ID: `spoj_adacoins` | Difficulty: Easy | Solves: 119 ⭐)
-- [Count Pairs](https://vjudge.net/problem/SPOJ-ILD18ACP) (ID: `spoj_ild18acp` | Difficulty: Medium | Solves: 7 ⭐)
-- [Subset Sum](https://official.contest.yandex.ru/opencupXX/contest/18290/problems/F/) (ID: `yandex_18290f` | Difficulty: Medium | Solves: 2 ⭐)
 
 ---
 

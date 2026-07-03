@@ -4,6 +4,10 @@ title: XOR Segment Tree
 
 # XOR Segment Tree
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,31 +16,24 @@ title: XOR Segment Tree
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| baekjoon_24271 | [xor^2](https://www.acmicpc.net/problem/24271) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1401f | [Reverse and Swap](https://codeforces.com/contest/1401/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1654f | [Minimal String Xoration](https://codeforces.com/contest/1654/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1716e | [Swap and Maximum Block](https://codeforces.com/contest/1716/problem/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| yukicoder_1891 | [Static Xor Range Composite Query](https://yukicoder.me/problems/no/1891) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [xor^2](https://www.acmicpc.net/problem/24271) (ID: `baekjoon_24271` | Difficulty: Easy | Solves: 5 ⭐)
-- [Reverse and Swap](https://codeforces.com/contest/1401/problem/F) (ID: `codeforces_1401f` | Difficulty: Medium | Solves: 2)
-- [Minimal String Xoration](https://codeforces.com/contest/1654/problem/F) (ID: `codeforces_1654f` | Difficulty: Medium | Solves: 2)
-- [Swap and Maximum Block](https://codeforces.com/contest/1716/problem/E) (ID: `codeforces_1716e` | Difficulty: Easy | Solves: 3 ⭐)
-- [Static Xor Range Composite Query](https://yukicoder.me/problems/no/1891) (ID: `yukicoder_1891` | Difficulty: Medium | Solves: 2 ⭐)
 
 ---
 

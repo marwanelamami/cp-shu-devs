@@ -4,6 +4,10 @@ title: Longest Increasing Subsequence (LIS)
 
 # Longest Increasing Subsequence (LIS)
 
+**Category:** Dynamic Programming (DP) &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,54 +16,47 @@ title: Longest Increasing Subsequence (LIS)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Phase 2
-- **Interview Topic**: Yes
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| acmsguru_99999521 | [North-East](https://codeforces.com/problemsets/acmsguru/problem/99999/521) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_abc165_f | [LIS on Tree](https://atcoder.jp/contests/abc165/tasks/abc165_f) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_abc237_f | [|LIS| = 3](https://atcoder.jp/contests/abc237/tasks/abc237_f) | AtCoder | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| atcoder_abc369_f | [Gather Coins](https://atcoder.jp/contests/abc369/tasks/abc369_f) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_agc059_f | [LIDS](https://atcoder.jp/contests/agc059/tasks/agc059_f) | AtCoder | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| atcoder_arc091_c | [LISDL](https://atcoder.jp/contests/arc091/tasks/arc091_c) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_arc149_b | [Two LIS Sum](https://atcoder.jp/contests/arc149/tasks/arc149_b) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_arc175_d | [LIS on Tree 2](https://atcoder.jp/contests/arc175/tasks/arc175_d) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_dp_q | [Flowers](https://atcoder.jp/contests/dp/tasks/dp_q) | AtCoder | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_101821b | [LIS vs. LDS](https://codeforces.com/problemset/gymProblem/101821/B) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_10d | [LCIS](https://codeforces.com/problemset/problem/10/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1304d | [Shortest and Longest LIS](https://codeforces.com/problemset/problem/1304/D) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1682c | [LIS or Reverse LIS?](https://codeforces.com/problemset/problem/1682/C) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_486e | [LIS of Sequence](https://codeforces.com/problemset/problem/486/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_76f | [Tourist](https://codeforces.com/contest/76/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_977f | [Consecutive Subsequence](https://codeforces.com/contest/977/problem/F) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1145 | [Increasing Subsequence](https://cses.fi/problemset/task/1145) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| leetcode_longest_increasing_subsequence | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | LeetCode | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_binary_sort | [Binary Sort](https://lightoj.com/problem/binary-sort) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| spoj_altseq | [Alternating Sequences](https://www.spoj.com/problems/ALTSEQ/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_dosa | [Dosa](https://www.spoj.com/problems/DOSA/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_hmlis | [HowManyLis](https://www.spoj.com/problems/HMLIS/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_nds | [Increasing numbers](https://www.spoj.com/problems/NDS/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_onexlis | [One X LIS](https://www.spoj.com/problems/ONEXLIS/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_supper | [Supernumbers in a permutation](https://www.spoj.com/problems/SUPPER/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_3153 | [Happy Birthday](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=3153) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_3637 | [Tiling Up Blocks](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=3637) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_4600 | [Back to Edit Distance](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=4600) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [North-East](https://codeforces.com/problemsets/acmsguru/problem/99999/521) (ID: `acmsguru_99999521` | Difficulty: Medium | Solves: 3 ⭐)
-- [LIS on Tree](https://atcoder.jp/contests/abc165/tasks/abc165_f) (ID: `atcoder_abc165_f` | Difficulty: Medium | Solves: 22 ⭐)
-- [|LIS| = 3](https://atcoder.jp/contests/abc237/tasks/abc237_f) (ID: `atcoder_abc237_f` | Difficulty: Easy | Solves: 19 ⭐)
-- [Gather Coins](https://atcoder.jp/contests/abc369/tasks/abc369_f) (ID: `atcoder_abc369_f` | Difficulty: Medium | Solves: 5 ⭐)
-- [LIDS](https://atcoder.jp/contests/agc059/tasks/agc059_f) (ID: `atcoder_agc059_f` | Difficulty: Extreme | Solves: 2)
-- [LISDL](https://atcoder.jp/contests/arc091/tasks/arc091_c) (ID: `atcoder_arc091_c` | Difficulty: Medium | Solves: 8 ⭐)
-- [Two LIS Sum](https://atcoder.jp/contests/arc149/tasks/arc149_b) (ID: `atcoder_arc149_b` | Difficulty: Medium | Solves: 16 ⭐)
-- [LIS on Tree 2](https://atcoder.jp/contests/arc175/tasks/arc175_d) (ID: `atcoder_arc175_d` | Difficulty: Medium | Solves: 1 ⭐)
-- [Flowers](https://atcoder.jp/contests/dp/tasks/dp_q) (ID: `atcoder_dp_q` | Difficulty: Easy | Solves: 103 ⭐)
-- [LIS vs. LDS](https://codeforces.com/problemset/gymProblem/101821/B) (ID: `codeforces_101821b` | Difficulty: Medium | Solves: 1 ⭐)
-- [LCIS](https://codeforces.com/problemset/problem/10/D) (ID: `codeforces_10d` | Difficulty: Medium | Solves: 9)
-- [Shortest and Longest LIS](https://codeforces.com/problemset/problem/1304/D) (ID: `codeforces_1304d` | Difficulty: Easy | Solves: 19)
-- [LIS or Reverse LIS?](https://codeforces.com/problemset/problem/1682/C) (ID: `codeforces_1682c` | Difficulty: Easy | Solves: 45)
-- [LIS of Sequence](https://codeforces.com/problemset/problem/486/E) (ID: `codeforces_486e` | Difficulty: Medium | Solves: 12 ⭐)
-- [Tourist](https://codeforces.com/contest/76/problem/F) (ID: `codeforces_76f` | Difficulty: Medium | Solves: 6)
-- [Consecutive Subsequence](https://codeforces.com/contest/977/problem/F) (ID: `codeforces_977f` | Difficulty: Easy | Solves: 58)
-- [Increasing Subsequence](https://cses.fi/problemset/task/1145) (ID: `cses_1145` | Difficulty: Easy | Solves: 208 ⭐)
-- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) (ID: `leetcode_longest_increasing_subsequence` | Difficulty: Easy | Solves: 149 ⭐)
-- [Binary Sort](https://lightoj.com/problem/binary-sort) (ID: `lightoj_binary_sort` | Difficulty: Hard | Solves: 2 ⭐)
-- [Alternating Sequences](https://www.spoj.com/problems/ALTSEQ/) (ID: `spoj_altseq` | Difficulty: Medium | Solves: 3)
-- [Dosa](https://www.spoj.com/problems/DOSA/) (ID: `spoj_dosa` | Difficulty: Easy | Solves: 39 ⭐)
-- [HowManyLis](https://www.spoj.com/problems/HMLIS/) (ID: `spoj_hmlis` | Difficulty: Easy | Solves: 25 ⭐)
-- [Increasing numbers](https://www.spoj.com/problems/NDS/) (ID: `spoj_nds` | Difficulty: Easy | Solves: 22 ⭐)
-- [One X LIS](https://www.spoj.com/problems/ONEXLIS/) (ID: `spoj_onexlis` | Difficulty: Easy | Solves: 12 ⭐)
-- [Supernumbers in a permutation](https://www.spoj.com/problems/SUPPER/) (ID: `spoj_supper` | Difficulty: Medium | Solves: 2)
-- [Happy Birthday](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=3153) (ID: `uva_3153` | Difficulty: Medium | Solves: 1)
-- [Tiling Up Blocks](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=3637) (ID: `uva_3637` | Difficulty: Medium | Solves: 1)
-- [Back to Edit Distance](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=4600) (ID: `uva_4600` | Difficulty: Easy | Solves: 10)
 
 ---
 

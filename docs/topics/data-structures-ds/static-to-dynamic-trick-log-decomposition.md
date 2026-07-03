@@ -4,6 +4,10 @@ title: Static to Dynamic Trick / Log Decomposition
 
 # Static to Dynamic Trick / Log Decomposition
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: Static to Dynamic Trick / Log Decomposition
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_710f | [String Set Queries](https://codeforces.com/contest/710/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_2085 | [Monster Game II](https://cses.fi/problemset/task/2085) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [String Set Queries](https://codeforces.com/contest/710/problem/F) (ID: `codeforces_710f` | Difficulty: Medium | Solves: 11 ⭐)
-- [Monster Game II](https://cses.fi/problemset/task/2085) (ID: `cses_2085` | Difficulty: Medium | Solves: 3 ⭐)
 
 ---
 

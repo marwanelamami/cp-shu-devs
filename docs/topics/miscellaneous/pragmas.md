@@ -4,6 +4,10 @@ title: Pragmas
 
 # Pragmas
 
+**Category:** Miscellaneous &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,32 +16,25 @@ title: Pragmas
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codechef_songif | [Sonya and Gifts](https://www.codechef.com/MAY19A/problems/SONGIF) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1270f | [Awesome Substrings](https://codeforces.com/contest/1270/problem/F) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy ⭐</span> |
+| codeforces_855f | [Nagini](https://codeforces.com/contest/855/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_896e | [Welcome home, Chtholly](https://codeforces.com/contest/896/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| codeforces_911g | [Mass Change Queries](https://codeforces.com/contest/911/problem/G) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_925e | [May Holidays](https://codeforces.com/contest/925/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Sonya and Gifts](https://www.codechef.com/MAY19A/problems/SONGIF) (ID: `codechef_songif` | Difficulty: Medium | Solves: 1 ⭐)
-- [Awesome Substrings](https://codeforces.com/contest/1270/problem/F) (ID: `codeforces_1270f` | Difficulty: Easy ⭐)
-- [Nagini](https://codeforces.com/contest/855/problem/F) (ID: `codeforces_855f` | Difficulty: Medium | Solves: 4)
-- [Welcome home, Chtholly](https://codeforces.com/contest/896/problem/E) (ID: `codeforces_896e` | Difficulty: Hard ⭐)
-- [Mass Change Queries](https://codeforces.com/contest/911/problem/G) (ID: `codeforces_911g` | Difficulty: Easy | Solves: 16 ⭐)
-- [May Holidays](https://codeforces.com/contest/925/problem/E) (ID: `codeforces_925e` | Difficulty: Medium)
 
 ---
 

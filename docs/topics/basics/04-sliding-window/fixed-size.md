@@ -1,7 +1,6 @@
 # Sliding Window (Fixed)
 
-**Category:** Basics  
-**Difficulty:** <span style="color: #2563eb; font-weight: 600;">● Easy</span>
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
 ---
 
@@ -67,12 +66,22 @@ The space complexity is $O(k)$ because we are storing at most $k$ distinct eleme
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+### Recommended Python Resources
+*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+  - [Python implementation guide for Sliding Window Technique](https://www.geeksforgeeks.org/sliding-window-technique-in-python/)
 
 ---
 
 ## Practice Problems
-This topic contains no problems.
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc194_e | [Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_p6172 | [Tactical Removal](https://www.codechef.com/problems/P6172) | CodeChef | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1692g | [2^Sort](https://codeforces.com/problemset/problem/1692/G) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1076 | [Sliding Window Median](https://cses.fi/problemset/task/1076) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_3221 | [Sliding Window Minimum](https://cses.fi/boi24/task/3221) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_deque_stl | [Deque-STL](https://vjudge.net/problem/HackerRank-deque-stl) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+
 
 ---
 

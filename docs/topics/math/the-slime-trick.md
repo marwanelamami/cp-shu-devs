@@ -4,6 +4,10 @@ title: The Slime Trick
 
 # The Slime Trick
 
+**Category:** Math &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: The Slime Trick
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_1025g | [Company Acquisitions](https://codeforces.com/contest/1025/problem/G) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1349d | [Slime and Biscuits](https://codeforces.com/contest/1349/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Company Acquisitions](https://codeforces.com/contest/1025/problem/G) (ID: `codeforces_1025g` | Difficulty: Hard | Solves: 3 ⭐)
-- [Slime and Biscuits](https://codeforces.com/contest/1349/problem/D) (ID: `codeforces_1349d` | Difficulty: Medium | Solves: 2 ⭐)
 
 ---
 

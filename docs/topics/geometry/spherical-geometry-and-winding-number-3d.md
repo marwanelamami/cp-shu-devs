@@ -4,6 +4,10 @@ title: Spherical Geometry and Winding Number(3D)
 
 # Spherical Geometry and Winding Number(3D)
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,29 +16,22 @@ title: Spherical Geometry and Winding Number(3D)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| kattis_cheese | [Cutting Cheese](https://vjudge.net/problem/Kattis-cheese) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| lightoj_der_stern | [Der Stern](https://lightoj.com/problem/der-stern) | Other | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| uva_13281 | [Bermuda Polygon](https://vjudge.net/problem/UVA-13281) | VJudge | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
 
----
-
-## Curated Practice Problems
-- [Cutting Cheese](https://vjudge.net/problem/Kattis-cheese) (ID: `kattis_cheese` | Difficulty: Medium ⭐)
-- [Der Stern](https://lightoj.com/problem/der-stern) (ID: `lightoj_der_stern` | Difficulty: Medium ⭐)
-- [Bermuda Polygon ](https://vjudge.net/problem/UVA-13281) (ID: `uva_13281` | Difficulty: Medium ⭐)
 
 ---
 

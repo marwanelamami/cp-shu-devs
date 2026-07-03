@@ -4,6 +4,10 @@ title: Circles, Circle Relations, Intersections, Inscribed Circles and Circumcir
 
 # Circles, Circle Relations, Intersections, Inscribed Circles and Circumcircles(2D)
 
+**Category:** Geometry &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,43 +16,36 @@ title: Circles, Circle Relations, Intersections, Inscribed Circles and Circumcir
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_100199f | [Get Out!](https://codeforces.com/gym/100199/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_andoor | [A New Door](https://www.codechef.com/problems/ANDOOR) | CodeChef | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_681e | [Runaway to a Shadow](https://codeforces.com/problemset/problem/681/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_933c | [A Colourful Prospect](https://codeforces.com/problemset/problem/933/C) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| lightoj_1118 | [Incredible Molecules](https://vjudge.net/problem/LightOJ-1118) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_pair_of_touching_circles | [Pair of Touching Circles](https://lightoj.com/problem/pair-of-touching-circles) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_the_falling_circle | [The Falling Circle](https://lightoj.com/problem/the-falling-circle) | Other | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| poj_3743 | [LL’s cake](https://vjudge.net/problem/POJ-3743) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| spoj_anarc09f | [Air Strike](https://vjudge.net/problem/SPOJ-ANARC09F) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_circint | [Intersecting Circles](https://www.spoj.com/problems/CIRCINT/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_smpcirc | [Two Circles](https://www.spoj.com/problems/SMPCIRC/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| timus_1429 | [Biscuits](https://acm.timus.ru/problem.aspx?space=1&num=1429) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_circle_of_boltu | [Circle of Boltu](https://toph.co/p/circle-of-boltu) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_11152 | [Colourful Flowers](https://vjudge.net/problem/UVA-11152) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_1242 | [Rings and Glue](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1242) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| uva_190 | [Circle Through Three Points](https://vjudge.net/problem/UVA-190) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uva_438 | [The Circumference of the Circle](https://vjudge.net/problem/UVA-438) | VJudge | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Get Out!](https://codeforces.com/gym/100199/problem/F) (ID: `cf_gym_100199f` | Difficulty: Medium | Solves: 1)
-- [A New Door](https://www.codechef.com/problems/ANDOOR) (ID: `codechef_andoor` | Difficulty: Easy | Solves: 1 ⭐)
-- [Runaway to a Shadow](https://codeforces.com/problemset/problem/681/E) (ID: `codeforces_681e` | Difficulty: Medium | Solves: 1)
-- [A Colourful Prospect](https://codeforces.com/problemset/problem/933/C) (ID: `codeforces_933c` | Difficulty: Hard | Solves: 2 ⭐)
-- [Incredible Molecules](https://vjudge.net/problem/LightOJ-1118) (ID: `lightoj_1118` | Difficulty: Easy | Solves: 2 ⭐)
-- [Pair of Touching Circles](https://lightoj.com/problem/pair-of-touching-circles) (ID: `lightoj_pair_of_touching_circles` | Difficulty: Medium | Solves: 4 ⭐)
-- [The Falling Circle](https://lightoj.com/problem/the-falling-circle) (ID: `lightoj_the_falling_circle` | Difficulty: Hard ⭐)
-- [LL’s cake](https://vjudge.net/problem/POJ-3743) (ID: `poj_3743` | Difficulty: Hard ⭐)
-- [Air Strike](https://vjudge.net/problem/SPOJ-ANARC09F) (ID: `spoj_anarc09f` | Difficulty: Easy)
-- [Intersecting Circles](https://www.spoj.com/problems/CIRCINT/) (ID: `spoj_circint` | Difficulty: Easy | Solves: 11 ⭐)
-- [Two Circles](https://www.spoj.com/problems/SMPCIRC/) (ID: `spoj_smpcirc` | Difficulty: Easy | Solves: 6 ⭐)
-- [Biscuits](https://acm.timus.ru/problem.aspx?space=1&num=1429) (ID: `timus_1429` | Difficulty: Medium)
-- [Circle of Boltu](https://toph.co/p/circle-of-boltu) (ID: `toph_circle_of_boltu` | Difficulty: Easy | Solves: 2)
-- [Colourful Flowers](https://vjudge.net/problem/UVA-11152) (ID: `uva_11152` | Difficulty: Easy | Solves: 10 ⭐)
-- [Rings and Glue](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1242) (ID: `uva_1242` | Difficulty: Medium | Solves: 2)
-- [Circle Through Three Points](https://vjudge.net/problem/UVA-190) (ID: `uva_190` | Difficulty: Easy | Solves: 7 ⭐)
-- [The Circumference of the Circle](https://vjudge.net/problem/UVA-438) (ID: `uva_438` | Difficulty: Easy | Solves: 17 ⭐)
 
 ---
 

@@ -4,6 +4,10 @@ title: Substring DP
 
 # Substring DP
 
+**Category:** Dynamic Programming (DP) &nbsp;|&nbsp; **Difficulty:** <span style="color: #2563eb; font-weight: 600;">Easy</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,35 +16,28 @@ title: Substring DP
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Easy
-- **Importance**: High
-- **Phase**: Phase 4
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc295_f | [substr = S](https://atcoder.jp/contests/abc295/tasks/abc295_f) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1015f | [Bracket Substring](https://codeforces.com/problemset/problem/1015/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_346b | [Lucky Common Subsequence](https://codeforces.com/problemset/problem/346/B) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_808g | [Anthem of Berland](https://codeforces.com/contest/808/problem/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1112 | [Required Substring](https://cses.fi/problemset/task/1112) | CSES | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_unlucky_strings | [Unlucky Strings](https://lightoj.com/problem/unlucky-strings) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_pstring | [Remove The String](https://www.spoj.com/problems/PSTRING/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| timus_1002 | [Phone Numbers](https://acm.timus.ru/problem.aspx?space=1&num=1002) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_nitu_and_her_lucky_string | [Nitu and Her Lucky String](https://toph.co/p/nitu-and-her-lucky-string) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [substr = S](https://atcoder.jp/contests/abc295/tasks/abc295_f) (ID: `atcoder_abc295_f` | Difficulty: Medium | Solves: 2)
-- [Bracket Substring](https://codeforces.com/problemset/problem/1015/F) (ID: `codeforces_1015f` | Difficulty: Medium | Solves: 37 ⭐)
-- [Lucky Common Subsequence](https://codeforces.com/problemset/problem/346/B) (ID: `codeforces_346b` | Difficulty: Medium | Solves: 64 ⭐)
-- [Anthem of Berland](https://codeforces.com/contest/808/problem/G) (ID: `codeforces_808g` | Difficulty: Medium | Solves: 66 ⭐)
-- [Required Substring](https://cses.fi/problemset/task/1112) (ID: `cses_1112` | Difficulty: Medium | Solves: 65 ⭐)
-- [Unlucky Strings](https://lightoj.com/problem/unlucky-strings) (ID: `lightoj_unlucky_strings` | Difficulty: Medium | Solves: 16 ⭐)
-- [Remove The String](https://www.spoj.com/problems/PSTRING/) (ID: `spoj_pstring` | Difficulty: Medium | Solves: 9 ⭐)
-- [Phone Numbers](https://acm.timus.ru/problem.aspx?space=1&num=1002) (ID: `timus_1002` | Difficulty: Medium | Solves: 5)
-- [Nitu and Her Lucky String](https://toph.co/p/nitu-and-her-lucky-string) (ID: `toph_nitu_and_her_lucky_string` | Difficulty: Medium | Solves: 4 ⭐)
 
 ---
 

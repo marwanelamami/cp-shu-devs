@@ -1,7 +1,6 @@
 # Dynamic Arrays
 
-**Category:** Basics  
-**Difficulty:** <span style="color: #059669; font-weight: 600;">● Very Easy</span>
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
 ---
 
@@ -102,12 +101,38 @@ Arrays are often combined with:
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+### Recommended Python Resources
+*Python lists function as dynamic arrays. For fixed-size static arrays, pre-allocate list memory.*
+  - [Python Lists & Dynamic Arrays | Real Python](https://realpython.com/python-lists-tuples/)
+  - [Pre-allocating lists in Python for efficiency](https://stackoverflow.com/questions/10324831/how-to-preallocate-lists-in-python)
 
 ---
 
 ## Practice Problems
-This topic contains no problems.
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| gym_287309e | [Max](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_287309y | [Easy Fibonacci](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Y) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_287310a | [Summation](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_287310b | [Searching](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_287310c | [Replacement](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/C) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_287310e | [Lowest Number](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| gym_287310f | [Reversing](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310g | [Palindrome Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310h | [Sorting](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/H) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310i | [Smallest Pair](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/I) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310l | [Max Subarray](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/L) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310m | [Replace MinMax](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/M) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310p | [Minimize Number](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/P) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310q | [Count Subarrays](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/Q) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310r | [Permutation with arrays](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/R) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| gym_287310s | [Search In Matrix](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/S) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| gym_287310t | [Matrix](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/T) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| gym_287310u | [Is B a subsequence of A ?](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/U) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| gym_287310v | [Frequency Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/V) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| gym_287310w | [Mirror Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/W) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| hackerrank_2d_array | [2D Array - DS](https://vjudge.net/problem/HackerRank-2d-array) | VJudge | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+
 
 ---
 

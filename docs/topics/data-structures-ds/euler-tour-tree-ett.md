@@ -4,6 +4,10 @@ title: Euler Tour Tree (ETT)
 
 # Euler Tour Tree (ETT)
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,28 +16,21 @@ title: Euler Tour Tree (ETT)
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| codeforces_414e | [Mashmokh's Designed Problem](https://codeforces.com/contest/414/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| yosupo_dynamic_tree_subtree_add_subtree_sum | [Dynamic Tree Subtree Add Subtree Sum](https://judge.yosupo.jp/problem/dynamic_tree_subtree_add_subtree_sum) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
 
----
-
-## Curated Practice Problems
-- [Mashmokh's Designed Problem](https://codeforces.com/contest/414/problem/E) (ID: `codeforces_414e` | Difficulty: Hard ⭐)
-- [Dynamic Tree Subtree Add Subtree Sum](https://judge.yosupo.jp/problem/dynamic_tree_subtree_add_subtree_sum) (ID: `yosupo_dynamic_tree_subtree_add_subtree_sum` | Difficulty: Hard | Solves: 1 ⭐)
 
 ---
 

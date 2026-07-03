@@ -4,6 +4,10 @@ title: Inverse Graph
 
 # Inverse Graph
 
+**Category:** Graph Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,37 +16,30 @@ title: Inverse Graph
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_101102k | [Topological Sort](https://codeforces.com/gym/101102/problem/K) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1242b | [0-1 MST](https://codeforces.com/problemset/problem/1242/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_1477d | [Nezzar and Hidden Permutations](https://codeforces.com/contest/1477/problem/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1508c | [Complete the MST](https://codeforces.com/contest/1508/problem/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_190e | [Counter Attack](https://codeforces.com/contest/190/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_653e | [Bear and Forgotten Tree 2](https://codeforces.com/contest/653/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_920e | [Connected Components?](https://codeforces.com/problemset/problem/920/E) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerrank_rust_murderer | [Rust & Murderer](https://www.hackerrank.com/challenges/rust-murderer/problem) | HackerRank | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| kattis_flightplans | [Flight Plans](https://open.kattis.com/problems/flightplans) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| usaco_765 | [A Pie for a Pie](https://usaco.org/index.php?page=viewproblem2&cpid=765) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| yosupo_connected_components_of_complement_graph | [Connected Components of Complement Graph](https://judge.yosupo.jp/problem/connected_components_of_complement_graph) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Topological Sort](https://codeforces.com/gym/101102/problem/K) (ID: `cf_gym_101102k` | Difficulty: Hard | Solves: 19 ⭐)
-- [0-1 MST](https://codeforces.com/problemset/problem/1242/B) (ID: `codeforces_1242b` | Difficulty: Easy | Solves: 37 ⭐)
-- [Nezzar and Hidden Permutations](https://codeforces.com/contest/1477/problem/D) (ID: `codeforces_1477d` | Difficulty: Hard | Solves: 2)
-- [Complete the MST](https://codeforces.com/contest/1508/problem/C) (ID: `codeforces_1508c` | Difficulty: Medium | Solves: 2)
-- [Counter Attack](https://codeforces.com/contest/190/problem/E) (ID: `codeforces_190e` | Difficulty: Medium | Solves: 17)
-- [Bear and Forgotten Tree 2](https://codeforces.com/contest/653/problem/E) (ID: `codeforces_653e` | Difficulty: Medium | Solves: 7)
-- [Connected Components?](https://codeforces.com/problemset/problem/920/E) (ID: `codeforces_920e` | Difficulty: Easy | Solves: 39 ⭐)
-- [Rust & Murderer](https://www.hackerrank.com/challenges/rust-murderer/problem) (ID: `hackerrank_rust_murderer` | Difficulty: Medium)
-- [Flight Plans](https://open.kattis.com/problems/flightplans) (ID: `kattis_flightplans` | Difficulty: Medium | Solves: 4 ⭐)
-- [A Pie for a Pie](https://usaco.org/index.php?page=viewproblem2&cpid=765) (ID: `usaco_765` | Difficulty: Medium | Solves: 4 ⭐)
-- [Connected Components of Complement Graph](https://judge.yosupo.jp/problem/connected_components_of_complement_graph) (ID: `yosupo_connected_components_of_complement_graph` | Difficulty: Easy | Solves: 11 ⭐)
 
 ---
 

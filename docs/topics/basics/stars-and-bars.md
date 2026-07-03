@@ -4,6 +4,10 @@ title: Stars and Bars
 
 # Stars and Bars
 
+**Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,40 +16,29 @@ title: Stars and Bars
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-- [Stars and bars | CP Algorithms](https://cp-algorithms.com/combinatorics/stars_and_bars.html) ⭐
-  - [Stars and Bars (and bagels) | Numberphile](https://www.youtube.com/watch?v=UTCScjoPymA) 🎥
-
-### 🐍 Python Notes
-*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Basic
-- **Importance**: High
-- **Phase**: Phase 2
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc110_d | [Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| atcoder_abc156_e | [Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1288c | [Two Arrays](https://codeforces.com/problemset/problem/1288/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1931g | [One-Dimensional Puzzle](https://codeforces.com/contest/1931/problem/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_553a | [Kyoya and Colored Balls](https://codeforces.com/problemset/problem/553/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_57c | [Array](https://codeforces.com/contest/57/problem/C) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cses_1716 | [Distributing Apples](https://cses.fi/problemset/task/1716) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_problem_makes_problem | [Problem Makes Problem](https://lightoj.com/problem/problem-makes-problem) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_marbles | [Marbles](https://www.spoj.com/problems/MARBLES/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_ucv2013e | [Greedy Walking](https://www.spoj.com/problems/UCV2013E/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) (ID: `atcoder_abc110_d` | Difficulty: Hard | Solves: 43 ⭐)
-- [Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e) (ID: `atcoder_abc156_e` | Difficulty: Hard | Solves: 36 ⭐)
-- [Two Arrays](https://codeforces.com/problemset/problem/1288/C) (ID: `codeforces_1288c` | Difficulty: Medium | Solves: 92 ⭐)
-- [One-Dimensional Puzzle](https://codeforces.com/contest/1931/problem/G) (ID: `codeforces_1931g` | Difficulty: Medium | Solves: 29)
-- [Kyoya and Colored Balls](https://codeforces.com/problemset/problem/553/A) (ID: `codeforces_553a` | Difficulty: Easy | Solves: 106 ⭐)
-- [Array](https://codeforces.com/contest/57/problem/C) (ID: `codeforces_57c` | Difficulty: Easy | Solves: 135 ⭐)
-- [Distributing Apples](https://cses.fi/problemset/task/1716) (ID: `cses_1716` | Difficulty: Easy | Solves: 219 ⭐)
-- [Problem Makes Problem](https://lightoj.com/problem/problem-makes-problem) (ID: `lightoj_problem_makes_problem` | Difficulty: Easy | Solves: 119 ⭐)
-- [Marbles](https://www.spoj.com/problems/MARBLES/) (ID: `spoj_marbles` | Difficulty: Medium | Solves: 36)
-- [Greedy Walking](https://www.spoj.com/problems/UCV2013E/) (ID: `spoj_ucv2013e` | Difficulty: Medium | Solves: 58 ⭐)
 
 ---
 

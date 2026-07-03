@@ -4,6 +4,10 @@ title: Primitive Root
 
 # Primitive Root
 
+**Category:** Number Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,32 +16,25 @@ title: Primitive Root
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_agc047_c | [Product Modulo](https://atcoder.jp/contests/agc047/tasks/agc047_c) | AtCoder | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codechef_coolsbst | [Cool Subsets](https://www.codechef.com/JAN21A/problems/COOLSBST) | CodeChef | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codechef_minprod | [Product of Minimums](https://www.codechef.com/problems/MINPROD) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_284a | [Cows and Primitive Roots](https://codeforces.com/problemset/problem/284/A) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_problem4 | [PRIMITIVEROOTS](https://www.spoj.com/problems/PROBLEM4/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_proot | [Primitive Root](https://www.spoj.com/problems/PROOT/) | SPOJ | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Product Modulo](https://atcoder.jp/contests/agc047/tasks/agc047_c) (ID: `atcoder_agc047_c` | Difficulty: Hard | Solves: 25 ⭐)
-- [Cool Subsets](https://www.codechef.com/JAN21A/problems/COOLSBST) (ID: `codechef_coolsbst` | Difficulty: Hard | Solves: 2 ⭐)
-- [Product of Minimums](https://www.codechef.com/problems/MINPROD) (ID: `codechef_minprod` | Difficulty: Medium | Solves: 3 ⭐)
-- [Cows and Primitive Roots](https://codeforces.com/problemset/problem/284/A) (ID: `codeforces_284a` | Difficulty: Easy | Solves: 12)
-- [PRIMITIVEROOTS](https://www.spoj.com/problems/PROBLEM4/) (ID: `spoj_problem4` | Difficulty: Medium | Solves: 7)
-- [Primitive Root](https://www.spoj.com/problems/PROOT/) (ID: `spoj_proot` | Difficulty: Medium | Solves: 9 ⭐)
 
 ---
 

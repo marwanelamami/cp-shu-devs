@@ -4,6 +4,10 @@ title: Power Tower /  Generalized Euler theorem
 
 # Power Tower /  Generalized Euler theorem
 
+**Category:** Number Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,32 +16,25 @@ title: Power Tower /  Generalized Euler theorem
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_arc113_b | [A^B^C](https://atcoder.jp/contests/arc113/tasks/arc113_b) | AtCoder | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_gym_100975f | [Simple Calculations](https://codeforces.com/gym/100975/problem/F) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codechef_ckoj20e | [Venkatesh is bored](https://www.codechef.com/problems/CKOJ20E) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_906d | [Power Tower](https://codeforces.com/problemset/problem/906/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cses_1712 | [Exponentiation II](https://cses.fi/problemset/task/1712) | CSES | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| kattis_exponial | [Exponial](https://open.kattis.com/problems/exponial) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [A^B^C](https://atcoder.jp/contests/arc113/tasks/arc113_b) (ID: `atcoder_arc113_b` | Difficulty: Easy | Solves: 8)
-- [Simple Calculations](https://codeforces.com/gym/100975/problem/F) (ID: `cf_gym_100975f` | Difficulty: Easy | Solves: 12 ⭐)
-- [Venkatesh is bored](https://www.codechef.com/problems/CKOJ20E) (ID: `codechef_ckoj20e` | Difficulty: Medium | Solves: 1 ⭐)
-- [Power Tower](https://codeforces.com/problemset/problem/906/D) (ID: `codeforces_906d` | Difficulty: Medium | Solves: 12 ⭐)
-- [Exponentiation II](https://cses.fi/problemset/task/1712) (ID: `cses_1712` | Difficulty: Easy | Solves: 159 ⭐)
-- [Exponial](https://open.kattis.com/problems/exponial) (ID: `kattis_exponial` | Difficulty: Medium | Solves: 5 ⭐)
 
 ---
 

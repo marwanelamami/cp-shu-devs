@@ -4,6 +4,10 @@ title: Pollard Rho
 
 # Pollard Rho
 
+**Category:** Number Theory &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,31 +16,24 @@ title: Pollard Rho
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| cf_gym_100753f | [Divisions](https://codeforces.com/gym/100753/problem/F) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_fact1 | [Integer Factorization (20 digits)](https://www.spoj.com/problems/FACT1/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| spoj_fact2 | [Integer Factorization (29 digits)](https://www.spoj.com/problems/FACT2/) | SPOJ | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| toph_story_of_totient_function | [Story of Totient Function](https://toph.co/p/story-of-totient-function) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| yosupo_factorize | [Factorize](https://judge.yosupo.jp/problem/factorize) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Divisions](https://codeforces.com/gym/100753/problem/F) (ID: `cf_gym_100753f` | Difficulty: Easy | Solves: 32 ⭐)
-- [Integer Factorization (20 digits)](https://www.spoj.com/problems/FACT1/) (ID: `spoj_fact1` | Difficulty: Easy | Solves: 10 ⭐)
-- [Integer Factorization (29 digits)](https://www.spoj.com/problems/FACT2/) (ID: `spoj_fact2` | Difficulty: Hard | Solves: 2)
-- [Story of Totient Function](https://toph.co/p/story-of-totient-function) (ID: `toph_story_of_totient_function` | Difficulty: Easy | Solves: 4 ⭐)
-- [Factorize](https://judge.yosupo.jp/problem/factorize) (ID: `yosupo_factorize` | Difficulty: Easy | Solves: 22 ⭐)
 
 ---
 

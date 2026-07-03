@@ -4,6 +4,10 @@ title: [Trick] Maintaining Log N DSU / Range Parallel DSU
 
 # [Trick] Maintaining Log N DSU / Range Parallel DSU
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #059669; font-weight: 600;">Low</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,31 +16,24 @@ title: [Trick] Maintaining Log N DSU / Range Parallel DSU
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: Low
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc349_g | [Palindrome Construction](https://atcoder.jp/contests/abc349/tasks/abc349_g) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cf_gym_103388l | [Listing Passwords](https://codeforces.com/gym/103388/problem/L) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_cowsheds | [Kuroni and the Cowsheds](https://www.codechef.com/problems/COWSHEDS) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| csacademy_substring_restrictions | [Substring Restrictions](https://csacademy.com/contest/archive/task/substring-restrictions/statement/) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| yosupo_range_parallel_unionfind | [Range Parallel Unionfind](https://judge.yosupo.jp/problem/range_parallel_unionfind) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Palindrome Construction](https://atcoder.jp/contests/abc349/tasks/abc349_g) (ID: `atcoder_abc349_g` | Difficulty: Medium | Solves: 3 ⭐)
-- [ Listing Passwords](https://codeforces.com/gym/103388/problem/L) (ID: `cf_gym_103388l` | Difficulty: Medium | Solves: 3 ⭐)
-- [Kuroni and the Cowsheds](https://www.codechef.com/problems/COWSHEDS) (ID: `codechef_cowsheds` | Difficulty: Medium ⭐)
-- [Substring Restrictions](https://csacademy.com/contest/archive/task/substring-restrictions/statement/) (ID: `csacademy_substring_restrictions` | Difficulty: Medium | Solves: 3 ⭐)
-- [Range Parallel Unionfind](https://judge.yosupo.jp/problem/range_parallel_unionfind) (ID: `yosupo_range_parallel_unionfind` | Difficulty: Medium | Solves: 3 ⭐)
 
 ---
 

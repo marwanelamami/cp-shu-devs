@@ -4,6 +4,10 @@ title: Segment Tree Beats
 
 # Segment Tree Beats
 
+**Category:** Data Structures (DS) &nbsp;|&nbsp; **Difficulty:** <span style="color: #ef4444; font-weight: 600;">Hard</span> &nbsp;|&nbsp; **Importance:** <span style="color: #d97706; font-weight: 600;">Medium</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,44 +16,37 @@ title: Segment Tree Beats
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Hard
-- **Importance**: Medium
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc256_h | [I like Query Problem](https://atcoder.jp/contests/abc256/tasks/abc256_h) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| cf_group_327313b | [Minimize!](https://codeforces.com/group/1rv4rhCsHp/contest/327313/problem/B) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_group_327313d | [Minimize, add!](https://codeforces.com/group/1rv4rhCsHp/contest/327313/problem/D) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_group_327313e | [Minimize, add, GCDize and their friends](https://codeforces.com/group/1rv4rhCsHp/contest/327313/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1572f | [Stations](https://codeforces.com/contest/1572/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_438d | [The Child and Sequence](https://codeforces.com/contest/438/problem/D) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_453e | [Little Pony and Lord Tirek](https://codeforces.com/problemset/problem/453/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_679e | [Bear and Bad Powers of 42](https://codeforces.com/contest/679/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_793f | [Julia the snail](https://codeforces.com/problemset/problem/793/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_855f | [Nagini](https://codeforces.com/contest/855/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_997e | [Good Subsegments](https://codeforces.com/contest/997/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium ⭐</span> |
+| csacademy_and_or_max | [And or Max](https://csacademy.com/contest/round-70/task/and-or-max) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| dmoj_olep1 | [Overflow](https://dmoj.ca/problem/olep1) | Other | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| hackerrank_box_operations | [Box Operations](https://www.hackerrank.com/challenges/box-operations/problem) | HackerRank | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| hdu_5306 | [Gorgeous Sequence](http://acm.hdu.edu.cn/showproblem.php?pid=5306) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| uoj_164 | [Tsinghua Training Camp 2015V](https://uoj.ac/problem/164) | Other | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| uoj_169 | [New Year’s Day Old Man and Sequence](https://uoj.ac/problem/169) | Other | <span style="color: #ef4444; font-weight: 600;">Hard ⭐</span> |
+| yosupo_range_chmin_chmax_add_range_sum | [Range Chmin Chmax Add Range Sum](https://judge.yosupo.jp/problem/range_chmin_chmax_add_range_sum) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [I like Query Problem](https://atcoder.jp/contests/abc256/tasks/abc256_h) (ID: `atcoder_abc256_h` | Difficulty: Medium | Solves: 4)
-- [Minimize!](https://codeforces.com/group/1rv4rhCsHp/contest/327313/problem/B) (ID: `cf_group_327313b` | Difficulty: Easy | Solves: 13 ⭐)
-- [Minimize, add!](https://codeforces.com/group/1rv4rhCsHp/contest/327313/problem/D) (ID: `cf_group_327313d` | Difficulty: Easy | Solves: 12 ⭐)
-- [Minimize, add, GCDize and their friends](https://codeforces.com/group/1rv4rhCsHp/contest/327313/problem/E) (ID: `cf_group_327313e` | Difficulty: Hard | Solves: 1)
-- [Stations](https://codeforces.com/contest/1572/problem/F) (ID: `codeforces_1572f` | Difficulty: Hard)
-- [The Child and Sequence](https://codeforces.com/contest/438/problem/D) (ID: `codeforces_438d` | Difficulty: Easy | Solves: 77 ⭐)
-- [Little Pony and Lord Tirek](https://codeforces.com/problemset/problem/453/E) (ID: `codeforces_453e` | Difficulty: Medium | Solves: 1)
-- [Bear and Bad Powers of 42](https://codeforces.com/contest/679/problem/E) (ID: `codeforces_679e` | Difficulty: Medium | Solves: 2)
-- [Julia the snail](https://codeforces.com/problemset/problem/793/F) (ID: `codeforces_793f` | Difficulty: Medium)
-- [Nagini](https://codeforces.com/contest/855/problem/F) (ID: `codeforces_855f` | Difficulty: Medium | Solves: 4)
-- [Good Subsegments](https://codeforces.com/contest/997/problem/E) (ID: `codeforces_997e` | Difficulty: Medium ⭐)
-- [And or Max](https://csacademy.com/contest/round-70/task/and-or-max) (ID: `csacademy_and_or_max` | Difficulty: Medium | Solves: 5 ⭐)
-- [Overflow](https://dmoj.ca/problem/olep1) (ID: `dmoj_olep1` | Difficulty: Hard | Solves: 1)
-- [Box Operations](https://www.hackerrank.com/challenges/box-operations/problem) (ID: `hackerrank_box_operations` | Difficulty: Medium | Solves: 1)
-- [Gorgeous Sequence](http://acm.hdu.edu.cn/showproblem.php?pid=5306) (ID: `hdu_5306` | Difficulty: Easy | Solves: 6)
-- [Tsinghua Training Camp 2015V](https://uoj.ac/problem/164) (ID: `uoj_164` | Difficulty: Extreme)
-- [New Year’s Day Old Man and Sequence](https://uoj.ac/problem/169) (ID: `uoj_169` | Difficulty: Hard ⭐)
-- [Range Chmin Chmax Add Range Sum](https://judge.yosupo.jp/problem/range_chmin_chmax_add_range_sum) (ID: `yosupo_range_chmin_chmax_add_range_sum` | Difficulty: Medium | Solves: 6 ⭐)
 
 ---
 

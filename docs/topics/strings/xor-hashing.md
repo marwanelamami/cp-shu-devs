@@ -4,6 +4,10 @@ title: XOR Hashing
 
 # XOR Hashing
 
+**Category:** Strings &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,42 +16,35 @@ title: XOR Hashing
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Phase 4
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc250_e | [Prefix Equality](https://atcoder.jp/contests/abc250/tasks/abc250_e) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1175f | [The Number of Subpermutations](https://codeforces.com/problemset/problem/1175/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1418g | [Three Occurrences](https://codeforces.com/problemset/problem/1418/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1479d | [Odd Mineral Resource](https://codeforces.com/contest/1479/problem/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1622f | [Quadratic Set](https://codeforces.com/contest/1622/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1746f | [Kazaee](https://codeforces.com/contest/1746/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1771f | [Hossam and Range Minimum Query](https://codeforces.com/contest/1771/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1830c | [Hyperregular Bracket Strings](https://codeforces.com/problemset/problem/1830/C) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1914g2 | [G2. Light Bulbs (Hard Version)](https://codeforces.com/contest/1914/problem/G2) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1977d | [XORificator](https://codeforces.com/contest/1977/problem/D) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_2014h | [Robin Hood Archery](https://codeforces.com/contest/2014/problem/H) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| codeforces_869e | [The Untended Antiquity](https://codeforces.com/problemset/problem/869/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_895c | [Square Subsets](https://codeforces.com/contest/895/problem/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| hackerrank_number_game_on_a_tree | [Number Game on a Tree](https://www.hackerrank.com/contests/hourrank-17/challenges/number-game-on-a-tree/problem) | HackerRank | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| toph_ep_palindromes | [EP-Palindromes](https://toph.co/p/ep-palindromes) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| toph_is_it_a_square | [Is It A Square?](https://toph.co/p/is-it-a-square) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
 
----
-
-## Curated Practice Problems
-- [Prefix Equality](https://atcoder.jp/contests/abc250/tasks/abc250_e) (ID: `atcoder_abc250_e` | Difficulty: Medium | Solves: 31 ⭐)
-- [The Number of Subpermutations](https://codeforces.com/problemset/problem/1175/F) (ID: `codeforces_1175f` | Difficulty: Medium | Solves: 24 ⭐)
-- [Three Occurrences](https://codeforces.com/problemset/problem/1418/G) (ID: `codeforces_1418g` | Difficulty: Medium | Solves: 30 ⭐)
-- [Odd Mineral Resource](https://codeforces.com/contest/1479/problem/D) (ID: `codeforces_1479d` | Difficulty: Hard | Solves: 5)
-- [Quadratic Set](https://codeforces.com/contest/1622/problem/F) (ID: `codeforces_1622f` | Difficulty: Hard | Solves: 1)
-- [Kazaee](https://codeforces.com/contest/1746/problem/F) (ID: `codeforces_1746f` | Difficulty: Hard | Solves: 7 ⭐)
-- [Hossam and Range Minimum Query](https://codeforces.com/contest/1771/problem/F) (ID: `codeforces_1771f` | Difficulty: Medium | Solves: 41 ⭐)
-- [Hyperregular Bracket Strings](https://codeforces.com/problemset/problem/1830/C) (ID: `codeforces_1830c` | Difficulty: Hard | Solves: 9 ⭐)
-- [G2. Light Bulbs (Hard Version)](https://codeforces.com/contest/1914/problem/G2) (ID: `codeforces_1914g2` | Difficulty: Medium | Solves: 5)
-- [XORificator](https://codeforces.com/contest/1977/problem/D) (ID: `codeforces_1977d` | Difficulty: Medium | Solves: 12 ⭐)
-- [Robin Hood Archery](https://codeforces.com/contest/2014/problem/H) (ID: `codeforces_2014h` | Difficulty: Easy | Solves: 104)
-- [The Untended Antiquity](https://codeforces.com/problemset/problem/869/E) (ID: `codeforces_869e` | Difficulty: Hard | Solves: 16 ⭐)
-- [Square Subsets](https://codeforces.com/contest/895/problem/C) (ID: `codeforces_895c` | Difficulty: Medium | Solves: 115 ⭐)
-- [Number Game on a Tree](https://www.hackerrank.com/contests/hourrank-17/challenges/number-game-on-a-tree/problem) (ID: `hackerrank_number_game_on_a_tree` | Difficulty: Hard | Solves: 3 ⭐)
-- [EP-Palindromes](https://toph.co/p/ep-palindromes) (ID: `toph_ep_palindromes` | Difficulty: Medium | Solves: 6)
-- [Is It A Square?](https://toph.co/p/is-it-a-square) (ID: `toph_is_it_a_square` | Difficulty: Medium | Solves: 7 ⭐)
 
 ---
 

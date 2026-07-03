@@ -4,6 +4,10 @@ title: Vector Space and XOR Basis
 
 # Vector Space and XOR Basis
 
+**Category:** Math &nbsp;|&nbsp; **Difficulty:** <span style="color: #d97706; font-weight: 600;">Medium</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
+
+---
+
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
 
@@ -12,55 +16,48 @@ title: Vector Space and XOR Basis
 ## YouKn0wWho Academy Reference
 While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
 
-👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
-### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy syllabus link above.*
-
+No other additional resources were added to this topic.
 
 ---
 
-## Topic Details
-- **Difficulty**: Medium
-- **Importance**: High
-- **Phase**: Not Specified
-- **Interview Topic**: No
+## Practice Problems
+| ID | Problem | Platform | Difficulty |
+|---|---|---|---|
+| atcoder_abc141_f | [Xor Sum 3](https://atcoder.jp/contests/abc141/tasks/abc141_f) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_abc223_h | [Xor Query](https://atcoder.jp/contests/abc223/tasks/abc223_h) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_abc236_f | [Spices](https://atcoder.jp/contests/abc236/tasks/abc236_f) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_agc045_a | [Xor Battle](https://atcoder.jp/contests/agc045/tasks/agc045_a) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_arc146_c | [Even XOR](https://atcoder.jp/contests/arc146/tasks/arc146_c) | AtCoder | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| atcoder_cf16_exhibition_final_h | [AB=C Problem](https://atcoder.jp/contests/cf16-exhibition-final/tasks/cf16_exhibition_final_h) | AtCoder | <span style="color: #334155; font-weight: 600;">Extreme</span> |
+| cf_group_203881s | [Godzilla and Pretty XOR](https://codeforces.com/group/qcIqFPYhVr/contest/203881/problem/S) | Codeforces | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| cf_gym_103414g | [Maximaze XOR sum](https://codeforces.com/gym/103414/problem/G) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| cf_gym_104147j | [Two Faced Hobz](https://codeforces.com/gym/104147/problem/J) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codechef_xorcmpnt | [Bitsetbaba and Power Grid](https://www.codechef.com/COOK106A/problems/XORCMPNT) | CodeChef | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1100f | [Ivan and Burgers](https://codeforces.com/problemset/problem/1100/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1101g | [(Zero XOR Subset)-less](https://codeforces.com/contest/1101/problem/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1163e | [Magical Permutation](https://codeforces.com/contest/1163/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_1299d | [Around the World](https://codeforces.com/contest/1299/problem/D) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1336e1 | [Chiori and Doll Picking (easy version)](https://codeforces.com/contest/1336/problem/E1) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_1778e | [The Tree Has Fallen!](https://codeforces.com/contest/1778/problem/E) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_2116f | [Gellyfish and Forget-Me-Not](https://codeforces.com/contest/2116/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_2143f | [Increasing Xor](https://codeforces.com/contest/2143/problem/F) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_587e | [Duff as a Queen](https://codeforces.com/contest/587/problem/E) | Codeforces | <span style="color: #ef4444; font-weight: 600;">Hard</span> |
+| codeforces_662a | [Gambling Nim](https://codeforces.com/problemset/problem/662/A) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_845g | [Shortest Path Problem?](https://codeforces.com/contest/845/problem/G) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_895c | [Square Subsets](https://codeforces.com/contest/895/problem/C) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| codeforces_959f | [Mahmoud and Ehab and yet another xor task](https://codeforces.com/contest/959/problem/F) | Codeforces | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| csacademy_xor_closure | [Xor Closure](https://csacademy.com/contest/archive/task/xor-closure/statement/) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| hackerearth_chef_f59c8115 | [Chef & Chutneys](https://www.hackerearth.com/problem/algorithm/chef-f59c8115) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_maximum_subset_sum | [Maximum Subset Sum](https://lightoj.com/problem/maximum-subset-sum) | Other | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
+| lightoj_subsets_forming_perfect_squar | [Subsets Forming Perfect Squares](https://lightoj.com/problem/subsets-forming-perfect-squar) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| lightoj_uncle_bob_xor_sum | [Uncle Bob and XOR Sum](https://lightoj.com/problem/uncle-bob-xor-sum) | Other | <span style="color: #d97706; font-weight: 600;">Medium</span> |
+| spoj_xmax | [XOR Maximization](https://www.spoj.com/problems/XMAX/) | SPOJ | <span style="color: #2563eb; font-weight: 600;">Easy</span> |
 
----
-
-## Curated Practice Problems
-- [Xor Sum 3](https://atcoder.jp/contests/abc141/tasks/abc141_f) (ID: `atcoder_abc141_f` | Difficulty: Medium | Solves: 10)
-- [Xor Query](https://atcoder.jp/contests/abc223/tasks/abc223_h) (ID: `atcoder_abc223_h` | Difficulty: Medium | Solves: 24 ⭐)
-- [Spices](https://atcoder.jp/contests/abc236/tasks/abc236_f) (ID: `atcoder_abc236_f` | Difficulty: Medium | Solves: 11)
-- [Xor Battle](https://atcoder.jp/contests/agc045/tasks/agc045_a) (ID: `atcoder_agc045_a` | Difficulty: Medium | Solves: 16)
-- [Even XOR](https://atcoder.jp/contests/arc146/tasks/arc146_c) (ID: `atcoder_arc146_c` | Difficulty: Medium | Solves: 8 ⭐)
-- [AB=C Problem](https://atcoder.jp/contests/cf16-exhibition-final/tasks/cf16_exhibition_final_h) (ID: `atcoder_cf16_exhibition_final_h` | Difficulty: Extreme | Solves: 1 ⭐)
-- [ Godzilla and Pretty XOR](https://codeforces.com/group/qcIqFPYhVr/contest/203881/problem/S) (ID: `cf_group_203881s` | Difficulty: Easy | Solves: 32 ⭐)
-- [Maximaze XOR sum](https://codeforces.com/gym/103414/problem/G) (ID: `cf_gym_103414g` | Difficulty: Hard | Solves: 7 ⭐)
-- [Two Faced Hobz](https://codeforces.com/gym/104147/problem/J) (ID: `cf_gym_104147j` | Difficulty: Medium)
-- [Bitsetbaba and Power Grid](https://www.codechef.com/COOK106A/problems/XORCMPNT) (ID: `codechef_xorcmpnt` | Difficulty: Medium | Solves: 18 ⭐)
-- [Ivan and Burgers](https://codeforces.com/problemset/problem/1100/F) (ID: `codeforces_1100f` | Difficulty: Medium | Solves: 39 ⭐)
-- [(Zero XOR Subset)-less](https://codeforces.com/contest/1101/problem/G) (ID: `codeforces_1101g` | Difficulty: Medium | Solves: 27 ⭐)
-- [Magical Permutation](https://codeforces.com/contest/1163/problem/E) (ID: `codeforces_1163e` | Difficulty: Medium | Solves: 7)
-- [Around the World](https://codeforces.com/contest/1299/problem/D) (ID: `codeforces_1299d` | Difficulty: Hard)
-- [Chiori and Doll Picking (easy version)](https://codeforces.com/contest/1336/problem/E1) (ID: `codeforces_1336e1` | Difficulty: Hard | Solves: 6 ⭐)
-- [The Tree Has Fallen!](https://codeforces.com/contest/1778/problem/E) (ID: `codeforces_1778e` | Difficulty: Medium | Solves: 15 ⭐)
-- [Gellyfish and Forget-Me-Not](https://codeforces.com/contest/2116/problem/F) (ID: `codeforces_2116f` | Difficulty: Hard | Solves: 2)
-- [Increasing Xor](https://codeforces.com/contest/2143/problem/F) (ID: `codeforces_2143f` | Difficulty: Hard | Solves: 1 ⭐)
-- [Duff as a Queen](https://codeforces.com/contest/587/problem/E) (ID: `codeforces_587e` | Difficulty: Hard | Solves: 9 ⭐)
-- [Gambling Nim](https://codeforces.com/problemset/problem/662/A) (ID: `codeforces_662a` | Difficulty: Medium | Solves: 10)
-- [Shortest Path Problem?](https://codeforces.com/contest/845/problem/G) (ID: `codeforces_845g` | Difficulty: Medium | Solves: 14 ⭐)
-- [Square Subsets](https://codeforces.com/contest/895/problem/C) (ID: `codeforces_895c` | Difficulty: Medium | Solves: 115 ⭐)
-- [Mahmoud and Ehab and yet another xor task](https://codeforces.com/contest/959/problem/F) (ID: `codeforces_959f` | Difficulty: Medium | Solves: 51 ⭐)
-- [Xor Closure](https://csacademy.com/contest/archive/task/xor-closure/statement/) (ID: `csacademy_xor_closure` | Difficulty: Easy | Solves: 44 ⭐)
-- [Chef & Chutneys](https://www.hackerearth.com/problem/algorithm/chef-f59c8115) (ID: `hackerearth_chef_f59c8115` | Difficulty: Medium | Solves: 8 ⭐)
-- [Maximum Subset Sum](https://lightoj.com/problem/maximum-subset-sum) (ID: `lightoj_maximum_subset_sum` | Difficulty: Easy | Solves: 42 ⭐)
-- [Subsets Forming Perfect Squares](https://lightoj.com/problem/subsets-forming-perfect-squar) (ID: `lightoj_subsets_forming_perfect_squar` | Difficulty: Medium | Solves: 25 ⭐)
-- [Uncle Bob and XOR Sum](https://lightoj.com/problem/uncle-bob-xor-sum) (ID: `lightoj_uncle_bob_xor_sum` | Difficulty: Medium | Solves: 3 ⭐)
-- [XOR Maximization](https://www.spoj.com/problems/XMAX/) (ID: `spoj_xmax` | Difficulty: Easy | Solves: 49 ⭐)
 
 ---
 
