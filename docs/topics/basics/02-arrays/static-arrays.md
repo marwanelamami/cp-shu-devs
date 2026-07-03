@@ -122,14 +122,62 @@ def insertMiddle(arr, i, n, length):
 
 The operations discussed above are critical for solving many problems. In fact, the key to solving many problems is being able to implement insert middle and delete middle efficiently. Don't worry if the practice problems feel challenging at first — focus on understanding the concepts, and the solution will follow.
 
-## Practice
+---
 
-| # | Problem | Platform | Difficulty |
-|---|---|---|---|
-| 1 | [Watermelon](https://codeforces.com/problemset/problem/4/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
-| 2 | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
-| 3 | [Team](https://codeforces.com/problemset/problem/231/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
-| 4 | [Missing Number](https://cses.fi/problemset/task/1083) | CSES | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
-| 5 | [Increasing Array](https://cses.fi/problemset/task/1094) | CSES | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
-| 6 | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Codeforces | <span style="color: #059669; font-weight: 600;">● Very Easy</span> |
-| 7 | [Permutations](https://cses.fi/problemset/task/1070) | CSES | <span style="color: #2563eb; font-weight: 600;">● Easy</span> |
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
+
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Additional Resources
+### 🐍 Recommended Python Resources (First Priority)
+*Python lists function as dynamic arrays. For fixed-size static arrays, pre-allocate list memory.*
+  - [Python Lists & Dynamic Arrays | Real Python](https://realpython.com/python-lists-tuples/)
+  - [Pre-allocating lists in Python for efficiency](https://stackoverflow.com/questions/10324831/how-to-preallocate-lists-in-python)
+
+### 📘 Additional General & C++ Resources (Second Priority)
+- [Arrays  | Tech With Tim](https://www.youtube.com/watch?v=1FVBeLD_FdE&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3&index=9) ⭐ 🎥
+  - [C++ Arrays | Programiz](https://www.programiz.com/cpp-programming/arrays) ⭐
+  - [Passing Array to a Function in C++ Programming | Programiz](https://www.programiz.com/cpp-programming/passing-arrays-function)
+  - [C++ Multidimensional Arrays | Programiz](https://www.programiz.com/cpp-programming/multidimensional-arrays)
+  - [C++ pass arrays to functions | Bro Code](https://youtu.be/VQSroKMqISE)
+
+
+---
+
+## Topic Details
+- **Difficulty**: Basic
+- **Importance**: High
+- **Phase**: Phase 0
+- **Interview Topic**: Yes
+
+---
+
+## Curated Practice Problems
+- [Max](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E) (ID: `gym_287309e` | Difficulty: Easy | Solves: 557)
+- [Easy Fibonacci ](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Y) (ID: `gym_287309y` | Difficulty: Easy | Solves: 552 ⭐)
+- [Summation](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/A) (ID: `gym_287310a` | Difficulty: Easy | Solves: 673 ⭐)
+- [Searching](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B) (ID: `gym_287310b` | Difficulty: Easy | Solves: 638 ⭐)
+- [Replacement](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/C) (ID: `gym_287310c` | Difficulty: Easy | Solves: 574)
+- [Lowest Number](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E) (ID: `gym_287310e` | Difficulty: Easy | Solves: 581 ⭐)
+- [Reversing](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/F) (ID: `gym_287310f` | Difficulty: Medium | Solves: 600 ⭐)
+- [Palindrome Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/G) (ID: `gym_287310g` | Difficulty: Medium | Solves: 575 ⭐)
+- [Sorting](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/H) (ID: `gym_287310h` | Difficulty: Medium | Solves: 530 ⭐)
+- [Smallest Pair](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/I) (ID: `gym_287310i` | Difficulty: Medium | Solves: 495 ⭐)
+- [Max Subarray ](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/L) (ID: `gym_287310l` | Difficulty: Medium | Solves: 417 ⭐)
+- [Replace MinMax](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/M) (ID: `gym_287310m` | Difficulty: Medium | Solves: 453 ⭐)
+- [Minimize Number](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/P) (ID: `gym_287310p` | Difficulty: Medium | Solves: 427 ⭐)
+- [Count Subarrays](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/Q) (ID: `gym_287310q` | Difficulty: Medium | Solves: 342)
+- [Permutation with arrays](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/R) (ID: `gym_287310r` | Difficulty: Medium | Solves: 405 ⭐)
+- [Search In Matrix](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/S) (ID: `gym_287310s` | Difficulty: Hard | Solves: 396 ⭐)
+- [Matrix](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/T) (ID: `gym_287310t` | Difficulty: Hard | Solves: 389 ⭐)
+- [Is B a subsequence of A ? ](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/U) (ID: `gym_287310u` | Difficulty: Hard | Solves: 381 ⭐)
+- [Frequency Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/V) (ID: `gym_287310v` | Difficulty: Hard | Solves: 434 ⭐)
+- [Mirror Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/W) (ID: `gym_287310w` | Difficulty: Hard | Solves: 362)
+- [2D Array - DS](https://vjudge.net/problem/HackerRank-2d-array) (ID: `hackerrank_2d_array` | Difficulty: Hard | Solves: 296 ⭐)
+
+---
+
+[Return to Home](../../../index.md)

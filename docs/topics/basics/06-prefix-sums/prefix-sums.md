@@ -56,3 +56,35 @@ The space complexity to store the prefix sum array is $O(n)$. If we don't need t
 It should also be noted that sum is not the only operation we can perform using this technique. We can also calculate a prefix product and other prefix operations.
 
 We can also do the opposite and get a **postfix sum**, which would be a running sum of all the elements starting from the end of the array and going backwards.
+
+---
+
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
+
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Additional Resources
+### 📘 General & C++ Resources
+- [Prefix Sums - Problems | Errichto Algorithms](https://www.youtube.com/watch?v=PhgtNY_-CiY) ⭐ 🎥
+  - [Introduction to Prefix Sums | USACO Guide](https://usaco.guide/silver/prefix-sums?lang=cpp) ⭐
+
+
+---
+
+## Topic Details
+- **Difficulty**: Basic
+- **Importance**: High
+- **Phase**: Phase 1
+- **Interview Topic**: Yes
+
+---
+
+## Curated Practice Problems
+*No practice problems mapped to this topic. Check back soon!*
+
+---
+
+[Return to Home](../../../index.md)

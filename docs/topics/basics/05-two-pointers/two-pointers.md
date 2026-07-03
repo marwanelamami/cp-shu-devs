@@ -68,3 +68,39 @@ In both cases the time complexity is $O(n)$ where $n$ is the length of the input
 
 ### Space Complexity
 The space complexity is $O(1)$ because we only need a few variables to store the pointers.
+
+---
+
+## YouKn0wWho Academy Reference
+While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
+
+👉 [YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
+
+---
+
+## Additional Resources
+### 📘 General & C++ Resources
+- [Two Pointers Method | CF EDU](https://codeforces.com/edu/course/2/lesson/9) ⭐ *(Complete steps 1 and 2)*
+  - [Two Pointers | USACO Guide](https://usaco.guide/silver/two-pointers?lang=cpp) ⭐
+  - [8.1 Two pointers method | CPH](https://usaco.guide/CPH.pdf#page=87)
+  - [Two Pointers Technique | Geeks for Geeks](https://www.geeksforgeeks.org/two-pointers-technique/)
+  - [Visual introduction Two Pointer Algorithm | Data Structure and Algorithm for Coding Interviews |  Josh's DevBox](https://www.youtube.com/watch?v=On03HWe2tZM) 🎥
+  - [Two Pointers in 7 minutes | AlgoMasterIO](https://www.youtube.com/watch?v=QzZ7nmouLTI&list=PLK63NuByH5o9odyBT7nfYkHZyvGQ5oVp2)
+
+
+---
+
+## Topic Details
+- **Difficulty**: Basic
+- **Importance**: High
+- **Phase**: Phase 1
+- **Interview Topic**: Yes
+
+---
+
+## Curated Practice Problems
+*No practice problems mapped to this topic. Check back soon!*
+
+---
+
+[Return to Home](../../../index.md)
