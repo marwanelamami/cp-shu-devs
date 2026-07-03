@@ -10,98 +10,98 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 
 
 ### Intro to Programming
-- [What is Programming?](what-is-programming/) (Importance: Medium)
+- [What is Programming?](what-is-programming/) (Importance: High)
 
 ### Learn a Language
-- [Intro to C++ and Setting up the Environment](intro-to-c-and-setting-up-the-environment/) (Importance: Medium)
-- [Data Types, Variables and Input Output](data-types-variables-and-input-output/) (Importance: Medium)
-- [Operators](operators/) (Importance: Medium)
-- [Conditional Statements](conditional-statements/) (Importance: Medium)
-- [Loops](loops/) (Importance: Medium)
-- [Functions](functions/) (Importance: Medium)
-- [Arrays](../../topics/basics/02-arrays/static-arrays/) (Importance: Medium)
-- [Strings](strings/) (Importance: Medium)
-- [Pointers and References](pointers-and-references/) (Importance: Medium)
-- [Structures](structures/) (Importance: Medium)
+- [Intro to C++ and Setting up the Environment](intro-to-c-and-setting-up-the-environment/) (Importance: High)
+- [Data Types, Variables and Input Output](data-types-variables-and-input-output/) (Importance: High)
+- [Operators](operators/) (Importance: High)
+- [Conditional Statements](conditional-statements/) (Importance: High)
+- [Loops](loops/) (Importance: High)
+- [Functions](functions/) (Importance: High)
+- [Arrays](../../topics/basics/02-arrays/static-arrays/) (Importance: High)
+- [Strings](strings/) (Importance: High)
+- [Pointers and References](pointers-and-references/) (Importance: High)
+- [Structures](structures/) (Importance: High)
 
 ### Intro to Competitive Programming
-- [What is Competitive Programming?](what-is-competitive-programming/) (Importance: Medium)
+- [What is Competitive Programming?](../../topics/basics/01-intro-to-cp/intro-to-cp.md) (Importance: High)
 
 ### Bitwise Thinking
-- [Bitwise Operations and Bitmasks](bitwise-operations-and-bitmasks/) (Importance: Medium)
+- [Bitwise Operations and Bitmasks](bitwise-operations-and-bitmasks/) (Importance: High)
 
 ### Complexity Analysis
-- [Big O Notation and Time and Space Complexity Analysis](big-o-notation-and-time-and-space-complexity-analysis/) (Importance: Medium)
-- [Fast Input Output](fast-input-output/) (Importance: Medium)
+- [Big O Notation and Time and Space Complexity Analysis](../../topics/basics/01-intro-to-cp/complexity-analysis.md) (Importance: High)
+- [Fast Input Output](fast-input-output/) (Importance: High)
 
 ### Recursion
-- [Recursion](recursion/) (Importance: Medium)
+- [Recursion](recursion/) (Importance: High)
 
 ### Very Basic Math
-- [Divisors](divisors/) (Importance: Medium)
-- [GCD and LCM](gcd-and-lcm/) (Importance: Medium)
-- [Harmonic Number](harmonic-number/) (Importance: Medium)
+- [Divisors](divisors/) (Importance: High)
+- [GCD and LCM](gcd-and-lcm/) (Importance: High)
+- [Harmonic Number](harmonic-number/) (Importance: High)
 
 ### Range Queries Without Updates
-- [Prefix Sum](prefix-sum/) (Importance: Medium)
-- [Prefix XOR](prefix-xor/) (Importance: Medium)
+- [Prefix Sum](prefix-sum/) (Importance: High)
+- [Prefix XOR](prefix-xor/) (Importance: High)
 
 ### Standard Template Library (STL)
-- [Intro to STL, Containers and Iterators](intro-to-stl-containers-and-iterators/) (Importance: Medium)
-- [Pairs and Tuples](pairs-and-tuples/) (Importance: Medium)
-- [Vector](vector/) (Importance: Medium)
-- [Stack](stack/) (Importance: Medium)
-- [Queue](queue/) (Importance: Medium)
-- [Priority Queue / Heap](priority-queue-heap/) (Importance: Medium)
-- [Deque](deque/) (Importance: Medium)
-- [Set, Unordered Set and Multiset](set-unordered-set-and-multiset/) (Importance: Medium)
-- [Map and Unordered Map](map-and-unordered-map/) (Importance: Medium)
-- [Bitset](bitset/) (Importance: Medium)
+- [Intro to STL, Containers and Iterators](intro-to-stl-containers-and-iterators/) (Importance: High)
+- [Pairs and Tuples](pairs-and-tuples/) (Importance: High)
+- [Vector](vector/) (Importance: High)
+- [Stack](stack/) (Importance: High)
+- [Queue](queue/) (Importance: High)
+- [Priority Queue / Heap](priority-queue-heap/) (Importance: High)
+- [Deque](deque/) (Importance: High)
+- [Set, Unordered Set and Multiset](set-unordered-set-and-multiset/) (Importance: High)
+- [Map and Unordered Map](map-and-unordered-map/) (Importance: High)
+- [Bitset](bitset/) (Importance: High)
 - [List / Linked List](list-linked-list/) (Importance: Medium)
 
 ### Leveraging Monotonicity
-- [Binary Search](binary-search/) (Importance: Medium)
-- [Two Pointers](two-pointers/) (Importance: Medium)
+- [Binary Search](binary-search/) (Importance: High)
+- [Two Pointers](../../topics/basics/05-two-pointers/two-pointers.md) (Importance: High)
 
 ### Basic Sorting Algorithms
-- [Bubble Sort](bubble-sort/) (Importance: Medium)
-- [Selection Sort](selection-sort/) (Importance: Medium)
-- [Insertion Sort](insertion-sort/) (Importance: Medium)
-- [Counting Sort](counting-sort/) (Importance: Medium)
-- [Merge Sort](merge-sort/) (Importance: Medium)
+- [Bubble Sort](bubble-sort/) (Importance: High)
+- [Selection Sort](selection-sort/) (Importance: High)
+- [Insertion Sort](insertion-sort/) (Importance: High)
+- [Counting Sort](counting-sort/) (Importance: High)
+- [Merge Sort](merge-sort/) (Importance: High)
 - [Quick Sort](quick-sort/) (Importance: Medium)
-- [Radix Sort](radix-sort/) (Importance: Medium)
-- [C++ STL Sort and Custom Comparator](c-stl-sort-and-custom-comparator/) (Importance: Medium)
+- [Radix Sort](radix-sort/) (Importance: Low)
+- [C++ STL Sort and Custom Comparator](c-stl-sort-and-custom-comparator/) (Importance: High)
 
 ### Divide and Conquer
-- [Divide and Conquer](divide-and-conquer/) (Importance: Medium)
+- [Divide and Conquer](divide-and-conquer/) (Importance: High)
 
 ### Greedy and Constructive
-- [Basic Greedy Algorithms](basic-greedy-algorithms/) (Importance: Medium)
-- [Basic Constructive Algorithms](basic-constructive-algorithms/) (Importance: Medium)
+- [Basic Greedy Algorithms](basic-greedy-algorithms/) (Importance: High)
+- [Basic Constructive Algorithms](basic-constructive-algorithms/) (Importance: High)
 
 ### 2D Prefix Sum
-- [2D Prefix Sum](2d-prefix-sum/) (Importance: Medium)
+- [2D Prefix Sum](2d-prefix-sum/) (Importance: High)
 
 ### More Techniques
-- [Difference Array](difference-array/) (Importance: Medium)
-- [Sliding Window Technique](sliding-window-technique/) (Importance: Medium)
+- [Difference Array](difference-array/) (Importance: High)
+- [Sliding Window Technique](sliding-window-technique/) (Importance: High)
 
 ### Bit Manipulation
-- [Bit Manipulation](bit-manipulation/) (Importance: Medium)
-- [The XOR Trick](the-xor-trick/) (Importance: Medium)
+- [Bit Manipulation](bit-manipulation/) (Importance: High)
+- [The XOR Trick](the-xor-trick/) (Importance: High)
 
 ### Basic Modular Arithmetic
-- [Binary Exponentiation and Basic Modular Arithmetic](binary-exponentiation-and-basic-modular-arithmetic/) (Importance: Medium)
-- [Fermat's Little Theorem and Modular Inverse](fermat-s-little-theorem-and-modular-inverse/) (Importance: Medium)
+- [Binary Exponentiation and Basic Modular Arithmetic](binary-exponentiation-and-basic-modular-arithmetic/) (Importance: High)
+- [Fermat's Little Theorem and Modular Inverse](fermat-s-little-theorem-and-modular-inverse/) (Importance: High)
 
 ### Basic Counting
-- [Permutations, Combinations and Basic Counting Problems](permutations-combinations-and-basic-counting-problems/) (Importance: Medium)
-- [Stars and Bars](stars-and-bars/) (Importance: Medium)
+- [Permutations, Combinations and Basic Counting Problems](permutations-combinations-and-basic-counting-problems/) (Importance: High)
+- [Stars and Bars](stars-and-bars/) (Importance: High)
 - [Pigeonhole Principle](pigeonhole-principle/) (Importance: Medium)
 
 ### Very Basic Graphs
-- [Introduction to Graphs | Definitions and Representations](introduction-to-graphs-definitions-and-representations/) (Importance: Medium)
+- [Introduction to Graphs | Definitions and Representations](introduction-to-graphs-definitions-and-representations/) (Importance: High)
 
 
 ---

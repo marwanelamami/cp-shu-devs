@@ -10,9 +10,9 @@ title: Quick Sort
 ---
 
 ## Core Resource
-The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
+Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
 
-👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
 
 ---
 
@@ -27,10 +27,10 @@ The recommended primary reference for this topic is the YouKn0wWho Academy topic
 ---
 
 ## Topic Details
-- **Difficulty**: Not Specified
-- **Importance**: Not Specified
-- **Phase**: Not Specified
-- **Interview Topic**: Not Specified
+- **Difficulty**: Basic
+- **Importance**: Medium
+- **Phase**: Phase 1
+- **Interview Topic**: Yes
 
 ---
 

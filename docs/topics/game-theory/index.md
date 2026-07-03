@@ -10,19 +10,19 @@ Welcome to the **Game Theory** guidebook notes, curriculum structure, and practi
 
 
 ### Grundy Number / Nim
-- [Grundy Number and Basic Game Theory](grundy-number-and-basic-game-theory/) (Importance: Medium)
-- [Nimber](nimber/) (Importance: Medium)
+- [Grundy Number and Basic Game Theory](grundy-number-and-basic-game-theory/) (Importance: High)
+- [Nimber](nimber/) (Importance: Low)
 
 ### Hackenbush
 - [Green Hackenbush on Trees and Graphs](green-hackenbush-on-trees-and-graphs/) (Importance: Medium)
-- [Blue Red HackenBush](blue-red-hackenbush/) (Importance: Medium)
+- [Blue Red HackenBush](blue-red-hackenbush/) (Importance: Low)
 
 ### Graph Games
-- [Games on Arbitrary Graphs](games-on-arbitrary-graphs/) (Importance: Medium)
-- [[Problem] Matching Game On A Graph](problem-matching-game-on-a-graph/) (Importance: Medium)
+- [Games on Arbitrary Graphs](games-on-arbitrary-graphs/) (Importance: Low)
+- [[Problem] Matching Game On A Graph](problem-matching-game-on-a-graph/) (Importance: Low)
 
 ### Miscellaneous
-- [Alpha Beta Pruning](alpha-beta-pruning/) (Importance: Medium)
+- [Alpha Beta Pruning](alpha-beta-pruning/) (Importance: Low)
 
 
 ---

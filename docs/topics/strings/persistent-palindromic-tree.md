@@ -10,24 +10,24 @@ title: Persistent Palindromic Tree
 ---
 
 ## Core Resource
-The recommended primary reference for this topic is the YouKn0wWho Academy topic list:
+Access the core lessons, interactive syllabus, and progress tracker on our academy platform:
 
-👉 [YouKn0wWho Academy Topic List](https://youkn0wwho.academy/topic-list)
+👉 [Start Learning on the Academy Platform](https://youkn0wwho.academy/topic-list)
 
 ---
 
 ## Additional Resources
 #### 📘 General & C++ Resources
-*Refer to the YouKn0wWho Academy reference above.*
+*Refer to the core Academy platform reference above.*
 
 
 ---
 
 ## Topic Details
-- **Difficulty**: Not Specified
-- **Importance**: Not Specified
+- **Difficulty**: Hard
+- **Importance**: Low
 - **Phase**: Not Specified
-- **Interview Topic**: Not Specified
+- **Interview Topic**: No
 
 ---
 
