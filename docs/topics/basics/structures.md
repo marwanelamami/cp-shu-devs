@@ -13,15 +13,8 @@ title: Structures
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Structures](https://youkn0wwho.academy/topic-list/structures)
 *Representing structures using class, dict, or dataclasses.*
   - [Python 3's f-Strings & Dataclasses Guide | Real Python](https://realpython.com/python-data-classes/)
 

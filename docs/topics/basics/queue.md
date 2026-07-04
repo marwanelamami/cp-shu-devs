@@ -13,15 +13,8 @@ title: Queue
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Queue](https://youkn0wwho.academy/topic-list/queue)
 *Use collections.deque for O(1) double-ended queues. Do not use queue.Queue as it is thread-safe and slow.*
   - [Python Queue & collections.deque | Real Python](https://realpython.com/python-queue/)
 

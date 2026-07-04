@@ -13,7 +13,7 @@ title: What is Programming?
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - What is Programming?](https://youkn0wwho.academy/topic-list/programming)
 
 ---
 

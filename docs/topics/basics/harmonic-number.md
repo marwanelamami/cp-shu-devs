@@ -13,7 +13,7 @@ title: Harmonic Number
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Harmonic Number](https://youkn0wwho.academy/topic-list/harmonic-series)
 
 ---
 

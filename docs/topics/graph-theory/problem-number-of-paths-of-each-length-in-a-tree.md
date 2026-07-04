@@ -13,15 +13,8 @@ title: [Problem] Number of Paths of Each Length in a Tree
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - [Problem] Number of Paths of Each Length in a Tree](https://youkn0wwho.academy/topic-list/number-of-paths-of-each-length-in-a-tree)
 
 ---
 

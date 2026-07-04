@@ -114,7 +114,7 @@ Next, we'll formally look at the sliding window technique. There are two variati
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Kadane's Algorithm](https://youkn0wwho.academy/topic-list/kadane-s-algorithm)
 
 ---
 

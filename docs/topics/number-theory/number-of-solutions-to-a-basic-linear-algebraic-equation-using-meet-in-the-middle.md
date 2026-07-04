@@ -13,15 +13,8 @@ title: Number of Solutions to a Basic Linear Algebraic Equation using Meet in th
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Number of Solutions to a Basic Linear Algebraic Equation using Meet in the Middle](https://youkn0wwho.academy/topic-list/number-of-solutions-to-a-basic-linear-algebraic-equation-with-variable-upper-bound-constraints)
 
 ---
 

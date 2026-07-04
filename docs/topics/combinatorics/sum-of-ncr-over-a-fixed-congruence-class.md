@@ -13,15 +13,8 @@ title: Sum of nCr Over a Fixed Congruence Class
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Sum of nCr Over a Fixed Congruence Class](https://youkn0wwho.academy/topic-list/sum-of-ncr-over-a-fixed-congruence-class)
 
 ---
 

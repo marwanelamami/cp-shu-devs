@@ -13,15 +13,8 @@ title: Priority Queue / Heap
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Priority Queue / Heap](https://youkn0wwho.academy/topic-list/priority-queue)
 *heapq module implements binary min-heaps. Multiply by -1 for max-heap.*
   - [Python's heapq: Guide to Priority Queues | Real Python](https://realpython.com/python-heapq-module/)
 

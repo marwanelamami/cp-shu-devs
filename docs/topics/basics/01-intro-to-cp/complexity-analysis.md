@@ -140,7 +140,7 @@ $$10 \times n = 10n \rightarrow O(n)$$
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Big O Notation and Time and Space Complexity Analysis](https://youkn0wwho.academy/topic-list/complexity-analysis)
 
 ---
 

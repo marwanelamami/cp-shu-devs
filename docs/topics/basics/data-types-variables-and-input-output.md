@@ -13,15 +13,8 @@ title: Data Types, Variables and Input Output
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Data Types, Variables and Input Output](https://youkn0wwho.academy/topic-list/variables-and-data-types)
 *Python's dynamic data types (int, float, str, bool, list, dict, set, tuple).*
   - [Python Variables and Basic Data Types | Real Python](https://realpython.com/python-variables/)
   - [Python Input and Output (sys.stdin & print) | GeeksforGeeks](https://www.geeksforgeeks.org/python-input-methods-in-competitive-programming/)

@@ -13,15 +13,8 @@ title: Loops
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Loops](https://youkn0wwho.academy/topic-list/loops)
 *For loops, while loops, and range() function in Python.*
   - [Python Loops (For & While) | Real Python](https://realpython.com/python-for-loop/)
 

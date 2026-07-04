@@ -250,6 +250,25 @@ def load_cache():
     with open(cache_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def format_additional_resources(topic):
+    ykw_id = topic.get("id") if topic.get("id") else slugify(topic["name"])
+    ykw_url = f"https://youkn0wwho.academy/topic-list/{ykw_id.replace('_', '-')}"
+    
+    resources = []
+    # Always include YouKn0wWho Academy Topic List link first
+    resources.append(f"- [YouKn0wWho Academy - {topic['name']}]({ykw_url})")
+    
+    for res in topic.get("python_resources", []):
+        res_stripped = res.strip()
+        if not res_stripped:
+            continue
+        if "remain identical in Python" in res_stripped:
+            continue
+        resources.append(res)
+        
+    return "\n".join(resources).strip()
+
+
 def cmd_generate_placeholders():
     data = load_cache()
     if not data:
@@ -289,10 +308,7 @@ def cmd_generate_placeholders():
         topic_file = os.path.join(cat_dir, f"{topic_slug}.md")
         
         # Format resources
-        python_text = "\n".join(topic["python_resources"]).strip()
-        resources_md = "No other additional resources were added to this topic."
-        if "http" in python_text:
-            resources_md = f"### Recommended Python Resources\n{python_text}"
+        resources_text = format_additional_resources(topic)
             
         # Format difficulty/importance spans
         diff_span = get_difficulty_span(topic["difficulty"] or "Basic")
@@ -316,15 +332,8 @@ title: {topic_name}
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-{resources_md}
+{resources_text}
 
 ---
 
@@ -513,18 +522,15 @@ def cmd_format_handwritten():
                 
         problems_table = build_problems_table(merged_problems)
         
-        # Additional resources (Python resources only)
-        python_text = "\n".join(topic["python_resources"]).strip()
-        resources_md = "No other additional resources were added to this topic."
-        if "http" in python_text:
-            resources_md = f"### Recommended Python Resources\n{python_text}"
+        # Additional resources
+        resources_text = format_additional_resources(topic)
             
         new_content = f"""{body.strip()}
 
 ---
 
 ## Additional Resources
-{resources_md}
+{resources_text}
 
 ---
 

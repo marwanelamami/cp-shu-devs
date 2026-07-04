@@ -59,7 +59,7 @@ We can also do the opposite and get a **postfix sum**, which would be a running 
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Prefix Sum](https://youkn0wwho.academy/topic-list/prefix-sum)
 
 ---
 

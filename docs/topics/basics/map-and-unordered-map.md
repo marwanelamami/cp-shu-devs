@@ -13,15 +13,8 @@ title: Map and Unordered Map
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Map and Unordered Map](https://youkn0wwho.academy/topic-list/map)
 *dict is a hash map. Use sortedcontainers.SortedDict for ordered keys.*
   - [Python Dictionaries & Hash Maps | Real Python](https://realpython.com/python-dicts/)
   - [Using sortedcontainers.SortedDict in Python](http://www.grantjenks.com/docs/sortedcontainers/sorteddict.html)

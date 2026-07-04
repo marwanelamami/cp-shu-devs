@@ -59,7 +59,7 @@ To understand how to read problem constraints and construct solutions, we begin 
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - What is Competitive Programming?](https://youkn0wwho.academy/topic-list/competitive-programming)
 
 ---
 

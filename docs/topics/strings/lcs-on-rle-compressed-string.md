@@ -13,15 +13,8 @@ title: LCS on RLE compressed string
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - LCS on RLE compressed string](https://youkn0wwho.academy/topic-list/lcs-on-rle-compressed-string)
 
 ---
 

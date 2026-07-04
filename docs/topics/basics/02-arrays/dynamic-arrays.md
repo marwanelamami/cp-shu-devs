@@ -101,7 +101,7 @@ Arrays are often combined with:
 ---
 
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Arrays](https://youkn0wwho.academy/topic-list/arrays)
 *Python lists function as dynamic arrays. For fixed-size static arrays, pre-allocate list memory.*
   - [Python Lists & Dynamic Arrays | Real Python](https://realpython.com/python-lists-tuples/)
   - [Pre-allocating lists in Python for efficiency](https://stackoverflow.com/questions/10324831/how-to-preallocate-lists-in-python)

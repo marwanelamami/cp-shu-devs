@@ -13,15 +13,8 @@ title: Stack
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Stack](https://youkn0wwho.academy/topic-list/stack)
 *Implement stacks using list.append() and list.pop() or collections.deque.*
   - [How to Implement a Stack in Python | Real Python](https://realpython.com/how-to-implement-python-stack/)
 

@@ -13,7 +13,7 @@ title: Fast Input Output
 ---
 
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Fast Input Output](https://youkn0wwho.academy/topic-list/fast-input-output)
 *Avoiding TLE in Python by using sys.stdin.readline and sys.stdout.write.*
   - [Fast I/O methods in Python for CP | GeeksforGeeks](https://www.geeksforgeeks.org/fast-i-o-for-competitive-programming-in-python/)
 

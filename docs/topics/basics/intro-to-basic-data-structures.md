@@ -13,7 +13,7 @@ title: Intro to Basic Data Structures
 ---
 
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Intro to Basic Data Structures](https://youkn0wwho.academy/topic-list/stl-intro)
 *Introduction to Python's built-in containers (list, tuple, dict, set, collections).*
   - [Python Collections Module | GeeksforGeeks](https://www.geeksforgeeks.org/python-collections-module/)
 

@@ -13,15 +13,8 @@ title: List / Linked List
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - List / Linked List](https://youkn0wwho.academy/topic-list/list)
 *collections.deque provides doubly linked list properties (fast appends/pops on ends).*
   - [Python Deque (std::list equivalent) | Real Python](https://realpython.com/python-deque/)
 

@@ -13,15 +13,8 @@ title: Pointers and References
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Pointers and References](https://youkn0wwho.academy/topic-list/pointers)
 *Python does not have pointers. Variables hold references to objects. Pass-by-object-reference.*
   - [Pass by Reference or Value in Python? | Real Python](https://realpython.com/python-pass-by-reference/)
 

@@ -66,8 +66,7 @@ The space complexity is $O(k)$ because we are storing at most $k$ distinct eleme
 ---
 
 ## Additional Resources
-### Recommended Python Resources
-*The concept and algorithmic implementation remain identical in Python. Refer to the general resources above.*
+- [YouKn0wWho Academy - Sliding Window Technique](https://youkn0wwho.academy/topic-list/sliding-window-technique)
   - [Python implementation guide for Sliding Window Technique](https://www.geeksforgeeks.org/sliding-window-technique-in-python/)
 
 ---

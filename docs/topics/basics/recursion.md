@@ -13,7 +13,7 @@ title: Recursion
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Recursion](https://youkn0wwho.academy/topic-list/recursion)
 
 ---
 

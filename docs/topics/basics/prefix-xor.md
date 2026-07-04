@@ -13,7 +13,7 @@ title: Prefix XOR
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Prefix XOR](https://youkn0wwho.academy/topic-list/prefix-xor)
 
 ---
 

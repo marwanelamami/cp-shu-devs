@@ -13,15 +13,8 @@ title: [Problem] Maximum Area of a Polygon using Given Lengths in CCW Order
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - [Problem] Maximum Area of a Polygon using Given Lengths in CCW Order](https://youkn0wwho.academy/topic-list/maximum-area-of-a-polygon-using-given-lengths-in-ccw-order)
 
 ---
 

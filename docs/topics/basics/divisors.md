@@ -13,7 +13,7 @@ title: Divisors
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Divisors](https://youkn0wwho.academy/topic-list/divisors)
 
 ---
 

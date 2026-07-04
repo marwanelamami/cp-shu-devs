@@ -13,7 +13,7 @@ title: Setting up the Environment
 ---
 
 ## Additional Resources
-### Recommended Python Resources
+- [YouKn0wWho Academy - Setting up the Environment](https://youkn0wwho.academy/topic-list/intro-to-cpp)
 *Setting up Python 3 interpreter and IDEs (VS Code, PyCharm).*
   - [Python 3 Installation & Setup Guide | Real Python](https://realpython.com/installing-python/)
   - [Python official tutorial for beginners](https://docs.python.org/3/tutorial/index.html)

@@ -13,15 +13,8 @@ title: Stirling Number of the Second Kind for Fixed K
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Stirling Number of the Second Kind for Fixed K](https://youkn0wwho.academy/topic-list/stirling-number-of-the-second-kind-for-fixed-k)
 
 ---
 

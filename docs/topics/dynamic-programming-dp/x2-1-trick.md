@@ -13,15 +13,8 @@ title: x2 +1 Trick
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - x2 +1 Trick](https://youkn0wwho.academy/topic-list/x2-plus-1-trick)
 
 ---
 

@@ -71,7 +71,7 @@ The space complexity is $O(1)$ because we only need a few variables to store the
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Two Pointers](https://youkn0wwho.academy/topic-list/two-pointers)
 
 ---
 

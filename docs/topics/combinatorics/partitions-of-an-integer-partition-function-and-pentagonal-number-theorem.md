@@ -13,15 +13,8 @@ title: Partitions of an Integer, Partition Function and Pentagonal Number Theore
 
 ---
 
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
-
----
-
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - Partitions of an Integer, Partition Function and Pentagonal Number Theorem](https://youkn0wwho.academy/topic-list/partition-function)
 
 ---
 

@@ -13,7 +13,7 @@ title: GCD and LCM
 ---
 
 ## Additional Resources
-No other additional resources were added to this topic.
+- [YouKn0wWho Academy - GCD and LCM](https://youkn0wwho.academy/topic-list/gcd-and-lcm)
 
 ---
 
