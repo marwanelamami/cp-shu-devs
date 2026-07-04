@@ -14,15 +14,24 @@ mkdocs_path = r"d:\3-Projects\cp-shu-devs\mkdocs.yml"
 
 # Hand-written guidebooks mapping to YouKn0wWho Topic IDs/slugs
 guidebooks = {
+    "topics/basics/what-is-programming.md": "programming",
+    "topics/basics/setting-up-the-environment.md": "intro_to_cpp",
     "topics/basics/01-intro-to-cp/intro-to-cp.md": "competitive_programming",
     "topics/basics/01-intro-to-cp/complexity-analysis.md": "complexity_analysis",
+    "topics/basics/fast-input-output.md": "fast_input_output",
     "topics/basics/02-arrays/static-arrays.md": "arrays",
     "topics/basics/02-arrays/dynamic-arrays.md": "arrays",
     "topics/basics/03-kadanes-algorithm/kadanes-algorithm.md": "kadanes-algorithm",
     "topics/basics/04-sliding-window/fixed-size.md": "sliding_window_technique",
     "topics/basics/04-sliding-window/variable-size.md": "sliding_window_technique",
     "topics/basics/05-two-pointers/two-pointers.md": "two_pointers",
-    "topics/basics/06-prefix-sums/prefix-sums.md": "prefix_sum"
+    "topics/basics/recursion.md": "recursion",
+    "topics/basics/divisors.md": "divisors",
+    "topics/basics/gcd-and-lcm.md": "gcd_and_lcm",
+    "topics/basics/harmonic-number.md": "harmonic_series",
+    "topics/basics/06-prefix-sums/prefix-sums.md": "prefix_sum",
+    "topics/basics/prefix-xor.md": "prefix_xor",
+    "topics/basics/intro-to-basic-data-structures.md": "stl_intro"
 }
 
 overrides = {v: k for k, v in guidebooks.items()}
@@ -648,6 +657,23 @@ def cmd_generate_roadmap():
             parsed_tree[cat_name][sub_name] = []
         parsed_tree[cat_name][sub_name].append(topic)
         
+    def arrange_row(row):
+        if len(row) == 3:
+            high = [item for item in row if item[3] == "high"]
+            others = [item for item in row if item[3] != "high"]
+            if len(high) == 1 and len(others) == 2:
+                return [others[0], high[0], others[1]]
+            elif len(high) == 2 and len(others) == 1:
+                return [high[0], high[1], others[0]]
+            return row
+        elif len(row) == 2:
+            high = [item for item in row if item[3] == "high"]
+            others = [item for item in row if item[3] != "high"]
+            if len(high) == 1 and len(others) == 1:
+                return [high[0], others[0]]
+            return row
+        return row
+        
     roadmap_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -661,231 +687,184 @@ def cmd_generate_roadmap():
       background: transparent;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
-    .rm-container {
-      margin: 1.5rem 0;
-      max-width: 100%;
-    }
+    .rm-container { margin: 1.5rem 0; max-width: 100%; }
     .rm-legend {
-      display: flex;
-      gap: 1.5rem;
-      margin-bottom: 1.5rem;
-      font-size: 0.85rem;
-      align-items: center;
+      display: flex; gap: 1.5rem; margin-bottom: 1.5rem;
+      font-size: 0.85rem; align-items: center; flex-wrap: wrap;
     }
-    .rm-legend-item {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-    .rm-legend-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-    }
-    
+    .rm-legend-item { display: flex; align-items: center; gap: 0.4rem; }
+    .rm-legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    /* Category accordion */
     .rm-category {
       border: 1px solid var(--md-typeset-color, #e2e8f0);
-      border-radius: 6px;
-      margin-bottom: 0.75rem;
-      background: var(--md-card-background, #ffffff);
-      overflow: hidden;
+      border-radius: 6px; margin-bottom: 0.75rem;
+      background: var(--md-card-background, #ffffff); overflow: hidden;
     }
     .rm-category-header {
       padding: 0.85rem 1.25rem;
       background: var(--md-default-bg-color, #f8fafc);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-      font-weight: 600;
-      user-select: none;
+      display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; font-weight: 600; user-select: none;
       transition: background 0.15s ease;
+      position: relative; z-index: 3;
     }
-    .rm-category-header:hover {
-      background: var(--md-default-bg-color-hover, #f1f5f9);
-    }
-    .rm-category.open .rm-category-header {
-      border-bottom: 1px solid var(--md-typeset-color, #e2e8f0);
-    }
-    .rm-category-title {
-      font-size: 0.95rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
+    .rm-category-header:hover { background: var(--md-default-bg-color-hover, #f1f5f9); }
+    .rm-category.open .rm-category-header { border-bottom: 1px solid var(--md-typeset-color, #e2e8f0); }
+    .rm-category-title { font-size: 0.95rem; display: flex; align-items: center; gap: 0.5rem; }
     .rm-category-badge {
-      font-size: 0.7rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 9999px;
-      background: #e0e7ff;
-      color: #4f46e5;
-      font-weight: 500;
+      font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 9999px;
+      background: #e0e7ff; color: #4f46e5; font-weight: 500;
     }
-    .rm-category-content {
-      display: none;
-      padding: 1.25rem;
-    }
-    .rm-category.open .rm-category-content {
-      display: block;
-    }
-    .rm-toggle-icon {
-      font-size: 1.1rem;
-      color: #64748b;
-      font-weight: bold;
+    .rm-category-content { display: none; padding: 1.25rem; }
+    .rm-category.open .rm-category-content { display: block; }
+    .rm-toggle-icon { font-size: 1.1rem; color: #64748b; font-weight: bold; }
+
+    /* Tree flow */
+    .rm-tree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      gap: 3.5rem; /* Increased vertical gap between milestone layers */
     }
 
-    /* Flowchart layout */
-    .rm-flow-container {
+    /* Milestone accordion */
+    .rm-milestone {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 0.75rem;
-      width: 100%;
-      box-sizing: border-box;
     }
-    .rm-flow-row {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.75rem;
-      flex-wrap: wrap;
-      width: 100%;
+    .rm-milestone-header {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+      cursor: pointer; user-select: none;
+      padding: 0.5rem 1rem; border-radius: 6px;
+      font-weight: 600; font-size: 0.9rem; color: #4f46e5;
+      background: rgba(79, 70, 229, 0.06); border: 1px solid rgba(79, 70, 229, 0.15);
+      transition: all 0.2s ease; margin: 0 auto; width: fit-content; min-width: 200px;
+      position: relative; z-index: 2;
     }
+    .rm-milestone-header:hover { background: rgba(79, 70, 229, 0.12); }
+    .rm-milestone-header .rm-ms-icon {
+      font-size: 0.8rem; transition: transform 0.3s ease;
+    }
+    .rm-milestone.open .rm-milestone-header .rm-ms-icon { transform: rotate(90deg); }
     
-    .rm-topic {
+    .rm-milestone-body {
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
-      padding: 0.6rem 0.9rem;
-      border: 1px solid var(--md-typeset-color, #e2e8f0);
-      border-radius: 6px;
-      background: var(--md-default-bg-color, #ffffff);
-      text-decoration: none !important;
-      color: var(--md-typeset-color, #1e293b) !important;
-      font-size: 0.85rem;
-      font-weight: 500;
-      transition: all 0.15s ease;
-      min-width: 220px;
-      max-width: 320px;
+      gap: 3.5rem; /* Increased gap between internal rows */
+      transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), opacity 0.4s ease 0.1s;
+      width: 100%;
       box-sizing: border-box;
+      padding: 0;
+    }
+    .rm-milestone.open .rm-milestone-body {
+      max-height: 3000px;
+      opacity: 1;
+      margin-top: 3.5rem; /* Space between header and first internal row */
+    }
+
+    /* Topic row */
+    .rm-row {
+      display: flex; align-items: center; justify-content: center;
+      gap: 1.5rem; width: 100%;
+      position: relative; z-index: 2;
+    }
+
+    /* Topic card */
+    .rm-topic {
+      display: flex; justify-content: space-between; align-items: center; gap: 0.5rem;
+      padding: 0.55rem 0.85rem;
+      border: 1px solid var(--md-typeset-color, #e2e8f0);
+      border-radius: 6px; background: var(--md-default-bg-color, #ffffff);
+      text-decoration: none !important; color: var(--md-typeset-color, #1e293b) !important;
+      font-size: 0.82rem; font-weight: 500;
+      transition: all 0.15s ease, opacity 0.4s ease, transform 0.4s ease;
+      min-width: 180px; max-width: 280px; box-sizing: border-box; flex: 0 1 auto;
+      position: relative; z-index: 2;
     }
     .rm-topic:hover {
-      border-color: #3b82f6;
-      background: #eff6ff;
-      color: #1d4ed8 !important;
+      border-color: #3b82f6; background: #eff6ff; color: #1d4ed8 !important;
+      transform: translateY(-1px); box-shadow: 0 2px 8px rgba(59,130,246,0.15);
     }
-    
-    .rm-group-container {
-      border: 1px dashed rgba(79, 70, 229, 0.4);
-      border-radius: 8px;
-      padding: 1.25rem;
-      background: rgba(79, 70, 229, 0.02);
+
+    /* Animated items inside milestones */
+    .rm-milestone .rm-anim-item {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .rm-milestone.open .rm-anim-item { opacity: 1; transform: translateY(0); }
+
+    /* Dynamic SVG connectors */
+    .rm-tree-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.75rem;
-    }
-    .rm-group-title {
-      font-weight: 600;
-      font-size: 0.95rem;
-      color: #4f46e5;
-      margin-bottom: 0.5rem;
-      text-align: center;
-      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+      z-index: 1;
     }
     
-    .rm-arrow-down {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #94a3b8;
-      margin: 0.25rem 0;
+    /* Theme color variables */
+    :root {
+      --rm-connector-color: #cbd5e1;
     }
-    .rm-arrow-down svg {
-      width: 24px;
-      height: 24px;
-    }
-    .rm-arrow-right {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #94a3b8;
-    }
-    .rm-arrow-right svg {
-      width: 18px;
-      height: 18px;
-    }
-    
+
+    /* Badges */
     .rm-badge {
-      font-size: 0.65rem;
-      font-weight: 600;
-      padding: 0.1rem 0.35rem;
-      border-radius: 3px;
-      color: #ffffff;
-      text-transform: uppercase;
-      letter-spacing: 0.025em;
+      font-size: 0.6rem; font-weight: 600; padding: 0.1rem 0.35rem;
+      border-radius: 3px; color: #fff; text-transform: uppercase;
+      letter-spacing: 0.025em; white-space: nowrap;
     }
     .rm-badge.high { background: #ef4444; }
     .rm-badge.medium { background: #f59e0b; }
     .rm-badge.low { background: #10b981; }
 
+    /* Construction notice */
     .rm-construction-notice {
-      padding: 0.85rem 1.25rem;
-      background: rgba(37, 99, 235, 0.08); /* 8% indigo/blue tint */
-      border: 1px solid rgba(37, 99, 235, 0.2);
-      border-radius: 6px;
-      margin-top: 0.25rem;
-      margin-bottom: 1.25rem;
-      font-size: 0.85rem;
-      color: var(--md-typeset-color, #1e293b);
-      line-height: 1.5;
-      width: 100%;
-      box-sizing: border-box;
+      padding: 0.85rem 1.25rem; background: rgba(37,99,235,0.08);
+      border: 1px solid rgba(37,99,235,0.2); border-radius: 6px;
+      margin-bottom: 1.25rem; font-size: 0.85rem;
+      color: var(--md-typeset-color, #1e293b); line-height: 1.5;
+      width: 100%; box-sizing: border-box;
     }
 
-    /* Dark mode overrides */
-    [data-md-color-scheme="slate"] .rm-category {
-      background: #1e293b;
-      border-color: #334155;
+    /* Dark mode */
+    [data-md-color-scheme="slate"] {
+      --rm-connector-color: #475569;
     }
-    [data-md-color-scheme="slate"] .rm-category-header {
-      background: #0f172a;
-    }
-    [data-md-color-scheme="slate"] .rm-category-header:hover {
-      background: #1e293b;
-    }
-    [data-md-color-scheme="slate"] .rm-category.open .rm-category-header {
-      border-bottom-color: #334155;
-    }
+    [data-md-color-scheme="slate"] .rm-category { background: #1e293b; border-color: #334155; }
+    [data-md-color-scheme="slate"] .rm-category-header { background: #0f172a; }
+    [data-md-color-scheme="slate"] .rm-category-header:hover { background: #1e293b; }
+    [data-md-color-scheme="slate"] .rm-category.open .rm-category-header { border-bottom-color: #334155; }
     [data-md-color-scheme="slate"] .rm-topic {
-      background: #0f172a;
-      border-color: #334155;
-      color: #cbd5e1 !important;
+      background: #0f172a; border-color: #334155; color: #cbd5e1 !important;
     }
     [data-md-color-scheme="slate"] .rm-topic:hover {
-      border-color: #3b82f6;
-      background: #1e293b;
-      color: #60a5fa !important;
+      border-color: #3b82f6; background: #1e293b; color: #60a5fa !important;
+      box-shadow: 0 2px 8px rgba(59,130,246,0.25);
     }
-    [data-md-color-scheme="slate"] .rm-group-container {
-      background: rgba(129, 140, 248, 0.02);
-      border-color: rgba(129, 140, 248, 0.3);
+    [data-md-color-scheme="slate"] .rm-milestone-header {
+      color: #818cf8; background: rgba(129,140,248,0.06); border-color: rgba(129,140,248,0.2);
     }
-    [data-md-color-scheme="slate"] .rm-group-title {
-      color: #818cf8;
-    }
-    
-    /* Responsive overrides */
-    @media (max-width: 768px) {
-      .rm-flow-row {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      .rm-arrow-right {
-        display: none; /* Hide horizontal arrows on wrap */
-      }
+    [data-md-color-scheme="slate"] .rm-milestone-header:hover { background: rgba(129,140,248,0.12); }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      .rm-row { flex-direction: column; gap: 0.5rem; }
+      .rm-topic { min-width: 0; max-width: 100%; width: 100%; }
+      .rm-tree-svg { display: none; }
+      .rm-milestone .rm-anim-item { opacity: 1; transform: none; }
     }
   </style>
 </head>
@@ -907,23 +886,12 @@ def cmd_generate_roadmap():
     </div>
 """
 
-    arrow_down_html = """
-        <div class="rm-arrow-down">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-        </div>
-"""
-
-    arrow_right_html = """
-                  <div class="rm-arrow-right">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                  </div>
-"""
-
     for cat_name, subs in parsed_tree.items():
         cat_slug = slugify(cat_name)
         badge_style = "background: #e0e7ff; color: #4f46e5;"
         badge_text = "Active" if cat_name == "Basics" else "Soon"
         
+        has_cat_content = False
         cat_html = f"""
     <!-- Category: {cat_name} -->
     <div class="rm-category" id="cat-{cat_slug}">
@@ -933,28 +901,26 @@ def cmd_generate_roadmap():
       </div>
       <div class="rm-category-content">
 """
-        # If not Basics, add construction notice
         if cat_name != "Basics":
             cat_html += """        <div class="rm-construction-notice">
           The content for this milestone is currently under development. We are actively writing explanations and selecting practice problems for these topics, which will be released soon!
         </div>
 """
-            
-        cat_html += """        <div class="rm-flow-container">
+        cat_html += """        <div class="rm-tree">
 """
         
-        milestones = []
+        milestone_blocks = []
         for sub_name, topics in subs.items():
             if not topics:
                 continue
-                
+            has_cat_content = True
+            
             sub_items = []
             for topic in topics:
                 topic_id = topic["id"]
                 if not topic_id:
                     topic_id = slugify(topic["name"])
                     
-                # Importance badge
                 imp = (topic.get("importance") or "Medium").lower()
                 imp_badge = "medium"
                 if "high" in imp:
@@ -963,7 +929,6 @@ def cmd_generate_roadmap():
                     imp_badge = "low"
                 badge_label = imp.capitalize()
                 
-                # Routing check
                 if cat_name != "Basics":
                     link = f"https://youkn0wwho.academy/topic-list/{topic_id.replace('_', '-')}"
                     target_attr = 'target="_blank"'
@@ -975,7 +940,9 @@ def cmd_generate_roadmap():
                         topic_slug = slugify(topic["name"])
                         link = f"topics/{cat_slug}/{topic_slug}/"
                         
-                # Specials
+                if link.endswith(".md"):
+                    link = link[:-3] + "/"
+                    
                 if cat_name == "Basics" and topic["name"] == "Arrays":
                     sub_items.append(("Static Arrays", "topics/basics/02-arrays/static-arrays/", target_attr, "high", "High"))
                     sub_items.append(("Dynamic Arrays", "topics/basics/02-arrays/dynamic-arrays/", target_attr, "high", "High"))
@@ -985,67 +952,289 @@ def cmd_generate_roadmap():
                 else:
                     sub_items.append((topic["name"], link, target_attr, imp_badge, badge_label))
             
-            # Construct milestone HTML
             milestone_html = ""
             if len(sub_items) == 1:
                 name, link, target_attr, imp_badge, badge_label = sub_items[0]
-                milestone_html = f"""          <a href="{link}" {target_attr} class="rm-topic">
-            <span>{name}</span>
-            <span class="rm-badge {imp_badge}">{badge_label}</span>
-          </a>"""
+                milestone_html = f"""          <div class="rm-row">
+            <a href="{link}" {target_attr} class="rm-topic">
+              <span>{name}</span>
+              <span class="rm-badge {imp_badge}">{badge_label}</span>
+            </a>
+          </div>"""
             else:
-                # Group container
-                milestone_html = f"""          <div class="rm-group-container">
-            <div class="rm-group-title">{sub_name}</div>
+                milestone_slug = slugify(sub_name)
+                milestone_html = f"""          <div class="rm-milestone" id="ms-{cat_slug}-{milestone_slug}">
+            <div class="rm-milestone-header" onclick="toggleMilestone(this)">
+              <span class="rm-ms-icon">&#9654;</span>
+              <span>{sub_name}</span>
+            </div>
+            <div class="rm-milestone-body">
 """
-                # Chunk into rows of size 3
                 chunked_rows = [sub_items[j:j + 3] for j in range(0, len(sub_items), 3)]
+                step_index = 0
                 for r_idx, row in enumerate(chunked_rows):
-                    milestone_html += """            <div class="rm-flow-row">
-"""
-                    for t_idx, item in enumerate(row):
+                    arranged_row = arrange_row(row)
+                    
+                    row_delay = f"{step_index * 0.06:.2f}s"
+                    milestone_html += f'              <div class="rm-row rm-anim-item" style="transition-delay:{row_delay}">\n'
+                    for item in arranged_row:
                         name, link, target_attr, imp_badge, badge_label = item
-                        milestone_html += f"""              <a href="{link}" {target_attr} class="rm-topic">
-                <span>{name}</span>
-                <span class="rm-badge {imp_badge}">{badge_label}</span>
-              </a>
-"""
-                        # Add right arrow if not the last item in the row
-                        if t_idx < len(row) - 1:
-                            milestone_html += arrow_right_html
-                            
-                    milestone_html += """            </div>
-"""
-                    # Add down arrow between rows
-                    if r_idx < len(chunked_rows) - 1:
-                        milestone_html += arrow_down_html
+                        milestone_html += f'                <a href="{link}" {target_attr} class="rm-topic">\n'
+                        milestone_html += f'                  <span>{name}</span>\n'
+                        milestone_html += f'                  <span class="rm-badge {imp_badge}">{badge_label}</span>\n'
+                        milestone_html += f'                </a>\n'
+                    milestone_html += f'              </div>\n'
+                    step_index += 1
                         
-                milestone_html += """          </div>"""
+                milestone_html += """            </div>
+          </div>"""
                 
-            milestones.append(milestone_html)
+            milestone_blocks.append(milestone_html)
             
-        # Join milestones with down arrows
-        cat_html += (arrow_down_html).join(milestones)
-        
+        category_tree_html = "\n".join(milestone_blocks)
+        cat_html += category_tree_html
         cat_html += """
         </div>
       </div>
     </div>
 """
-        roadmap_html += cat_html
+        if has_cat_content:
+            roadmap_html += cat_html
             
     roadmap_html += """
   </div>
 
   <script>
+    function sendHeight() {
+      const height = document.body.scrollHeight || document.documentElement.scrollHeight;
+      window.parent.postMessage({ type: 'resize-roadmap', height: height }, '*');
+    }
+
+    function drawRoadmapConnections() {
+      const trees = document.querySelectorAll('.rm-tree');
+      trees.forEach(tree => {
+        const treeRect = tree.getBoundingClientRect();
+        if (treeRect.width === 0 || treeRect.height === 0) return;
+
+        let svg = tree.querySelector('svg.rm-tree-svg');
+        if (!svg) {
+          svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+          svg.setAttribute('class', 'rm-tree-svg');
+          tree.appendChild(svg);
+        }
+
+        svg.innerHTML = `
+          <defs>
+            <marker id="arrow-dynamic" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="var(--rm-connector-color)" />
+            </marker>
+          </defs>
+        `;
+
+        const layers = [];
+        for (let child of tree.children) {
+          if (child.classList.contains('rm-row')) {
+            if (child.offsetHeight > 0) {
+              layers.push({ type: 'row', element: child });
+            }
+          } else if (child.classList.contains('rm-milestone')) {
+            const header = child.querySelector('.rm-milestone-header');
+            if (header && header.offsetHeight > 0) {
+              layers.push({ type: 'header', element: header });
+            }
+            if (child.classList.contains('open')) {
+              const body = child.querySelector('.rm-milestone-body');
+              if (body) {
+                const bodyRows = body.querySelectorAll('.rm-row');
+                bodyRows.forEach(row => {
+                  if (row.offsetHeight > 0) {
+                    layers.push({ type: 'row', element: row });
+                  }
+                });
+              }
+            }
+          }
+        }
+
+        function getLayerNodes(layer) {
+          if (layer.type === 'row') {
+            return Array.from(layer.element.querySelectorAll('.rm-topic'));
+          } else {
+            return [layer.element];
+          }
+        }
+
+        for (let i = 0; i < layers.length - 1; i++) {
+          const sources = getLayerNodes(layers[i]);
+          const targets = getLayerNodes(layers[i + 1]);
+          if (sources.length === 0 || targets.length === 0) continue;
+
+          const sourceRects = sources.map(node => node.getBoundingClientRect());
+          const targetRects = targets.map(node => node.getBoundingClientRect());
+
+          const connections = [];
+
+          // 1. For each source, find closest target
+          sources.forEach((src, sIdx) => {
+            const sr = sourceRects[sIdx];
+            const sx = sr.left - treeRect.left + sr.width / 2;
+            
+            let closestTgtIdx = 0;
+            let minDistance = Infinity;
+            targets.forEach((tgt, tIdx) => {
+              const tr = targetRects[tIdx];
+              const tx = tr.left - treeRect.left + tr.width / 2;
+              const dist = Math.abs(sx - tx);
+              if (dist < minDistance) {
+                minDistance = dist;
+                closestTgtIdx = tIdx;
+              }
+            });
+            connections.push({ sIdx, tIdx: closestTgtIdx });
+          });
+
+          // 2. For each target, find closest source
+          targets.forEach((tgt, tIdx) => {
+            const tr = targetRects[tIdx];
+            const tx = tr.left - treeRect.left + tr.width / 2;
+            
+            let closestSrcIdx = 0;
+            let minDistance = Infinity;
+            sources.forEach((src, sIdx) => {
+              const sr = sourceRects[sIdx];
+              const sx = sr.left - treeRect.left + sr.width / 2;
+              const dist = Math.abs(sx - tx);
+              if (dist < minDistance) {
+                minDistance = dist;
+                closestSrcIdx = sIdx;
+              }
+            });
+            
+            // Check if this connection is already added
+            const exists = connections.some(c => c.sIdx === closestSrcIdx && c.tIdx === tIdx);
+            if (!exists) {
+              connections.push({ sIdx: closestSrcIdx, tIdx });
+            }
+          });
+
+          // 3. Draw smooth rounded-elbow connectors (straight down / across / down,
+          // with quarter-round corners) instead of lopsided S-curves. This keeps
+          // connectors clean even when source and target are far apart horizontally.
+          //
+          // All connectors in this layer bend at one shared horizontal split line
+          // (rather than each connector's own midpoint). Boxes in a row can have
+          // slightly different heights (e.g. a one-line box next to a two-line box),
+          // which would otherwise give each connector a slightly different bend
+          // height and cause sibling lines that curve the same direction to cross
+          // one another right where they fanned out.
+          const allSy = sourceRects.map(r => r.bottom - treeRect.top + 6);
+          const allTy = targetRects.map(r => r.top - treeRect.top - 8);
+          const maxSy = Math.max(...allSy);
+          const minTy = Math.min(...allTy);
+          const splitY = maxSy < minTy ? (maxSy + minTy) / 2 : null;
+
+          connections.forEach(({ sIdx, tIdx }) => {
+            const sr = sourceRects[sIdx];
+            const sx = sr.left - treeRect.left + sr.width / 2;
+            const sy = sr.bottom - treeRect.top + 6; // Offset down by 6px to prevent touching the box
+
+            const tr = targetRects[tIdx];
+            const tx = tr.left - treeRect.left + tr.width / 2;
+            const ty = tr.top - treeRect.top - 8; // Offset up by 8px for the arrowhead to clear the box cleanly
+
+            const dx = tx - sx;
+            const midY = splitY !== null ? splitY : sy + (ty - sy) / 2;
+
+            let d;
+            if (Math.abs(dx) < 1) {
+              // Same column: perfectly straight vertical line
+              d = `M ${sx} ${sy} L ${tx} ${ty}`;
+            } else {
+              // Rounded elbow: down -> curve -> across -> curve -> down.
+              // The corner radius on the way OUT of the source (rStart) can be
+              // generous since nothing sits there. The corner on the way IN to
+              // the target (rEnd) is kept smaller and a minimum straight "tail"
+              // is reserved right before the box, so the arrowhead marker sits
+              // on a plain straight segment instead of overlapping the curve's
+              // own bend (which is what made arrowheads look hooked/curled).
+              const sign = dx > 0 ? 1 : -1;
+              const availTop = midY - sy;
+              const availBottom = ty - midY;
+              // The arrowhead marker itself occupies ~17.5px right at the path's end
+              // (markerHeight 7 * strokeWidth 2.5). minTail must clear that footprint
+              // with room to spare, or the marker overlaps the curve's own bend and
+              // the two blend into a hooked/doubled shape instead of a clean arrow.
+              const minTail = 24;
+              const rStart = Math.max(0, Math.min(14, Math.abs(dx) / 2, availTop));
+              const rEnd = Math.max(0, Math.min(10, Math.abs(dx) / 2, availBottom - minTail));
+              d = `M ${sx} ${sy} ` +
+                  `L ${sx} ${midY - rStart} ` +
+                  `Q ${sx} ${midY}, ${sx + sign * rStart} ${midY} ` +
+                  `L ${tx - sign * rEnd} ${midY} ` +
+                  `Q ${tx} ${midY}, ${tx} ${midY + rEnd} ` +
+                  `L ${tx} ${ty}`;
+            }
+
+            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('d', d);
+            path.setAttribute('stroke', 'var(--rm-connector-color)');
+            path.setAttribute('stroke-width', '2.5');
+            path.setAttribute('fill', 'none');
+            path.setAttribute('stroke-linecap', 'butt');
+            path.setAttribute('stroke-linejoin', 'round');
+            path.setAttribute('marker-end', 'url(#arrow-dynamic)');
+            svg.appendChild(path);
+          });
+        }
+      });
+    }
+
+    let drawLoopActive = false;
+    function triggerDrawLoop(duration = 600) {
+      const startTime = Date.now();
+      function loop() {
+        drawRoadmapConnections();
+        if (Date.now() - startTime < duration) {
+          requestAnimationFrame(loop);
+        } else {
+          drawRoadmapConnections();
+        }
+      }
+      requestAnimationFrame(loop);
+    }
+
     function toggleCategory(el) {
       const parent = el.parentElement;
+      if (parent.classList.contains('disabled')) return;
       parent.classList.toggle('open');
       const icon = el.querySelector('.rm-toggle-icon');
       if (icon) {
         icon.textContent = parent.classList.contains('open') ? '−' : '+';
       }
+      setTimeout(sendHeight, 50);
+      triggerDrawLoop(600);
     }
+
+    function toggleMilestone(el) {
+      const milestone = el.parentElement;
+      milestone.classList.toggle('open');
+      setTimeout(sendHeight, 50);
+      triggerDrawLoop(600);
+    }
+
+    // Draw initial connections and handle window changes
+    window.addEventListener('load', () => {
+      drawRoadmapConnections();
+      sendHeight();
+    });
+    window.addEventListener('resize', () => {
+      drawRoadmapConnections();
+      sendHeight();
+    });
+    
+    // Fallbacks
+    setInterval(drawRoadmapConnections, 500);
+    setInterval(sendHeight, 500);
   </script>
 </body>
 </html>

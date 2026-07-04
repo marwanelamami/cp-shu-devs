@@ -37,7 +37,7 @@ nav:
   - "Basics":
     - "Intro to Programming": topics/basics/what-is-programming.md
     - "Learn a Language":
-      - "Intro to C++ and Setting up the Environment": topics/basics/intro-to-c-and-setting-up-the-environment.md
+      - "Setting up the Environment": topics/basics/setting-up-the-environment.md
       - "Data Types, Variables and Input Output": topics/basics/data-types-variables-and-input-output.md
       - "Operators": topics/basics/operators.md
       - "Conditional Statements": topics/basics/conditional-statements.md
@@ -61,8 +61,8 @@ nav:
     - "Range Queries Without Updates":
       - "Prefix Sum": topics/basics/06-prefix-sums/prefix-sums.md
       - "Prefix XOR": topics/basics/prefix-xor.md
-    - "Standard Template Library (STL)":
-      - "Intro to STL, Containers and Iterators": topics/basics/intro-to-stl-containers-and-iterators.md
+    - "Basic Data Structures":
+      - "Intro to Basic Data Structures": topics/basics/intro-to-basic-data-structures.md
       - "Pairs and Tuples": topics/basics/pairs-and-tuples.md
       - "Vector": topics/basics/vector.md
       - "Stack": topics/basics/stack.md

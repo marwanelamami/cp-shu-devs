@@ -11,7 +11,7 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
   - [Recursion](#recursion)
   - [Very Basic Math](#very-basic-math)
   - [Range Queries Without Updates](#range-queries-without-updates)
-  - [Standard Template Library (STL)](#standard-template-library-stl)
+  - [Basic Data Structures](#basic-data-structures)
   - [Leveraging Monotonicity](#leveraging-monotonicity)
   - [Basic Sorting Algorithms](#basic-sorting-algorithms)
   - [Divide and Conquer](#divide-and-conquer)
@@ -171,7 +171,7 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 ### Learn a Language
 *Learning C++ is recommended.*
 
-#### Intro to C++ and Setting up the Environment
+#### Setting up the Environment
 - **Topic ID**: `intro_to_cpp`
 - **Difficulty**: Basic
 - **Importance**: High
@@ -829,8 +829,8 @@ A comprehensive list of topics in Competitive Programming, fetched from [YouKn0w
 
 ---
 
-### Standard Template Library (STL)
-#### Intro to STL, Containers and Iterators
+### Basic Data Structures
+#### Intro to Basic Data Structures
 - **Topic ID**: `stl_intro`
 - **Difficulty**: Basic
 - **Importance**: High

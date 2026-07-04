@@ -56,13 +56,6 @@ To understand how to read problem constraints and construct solutions, we begin 
 
 ![Your First Problem](../images/intro-to-cp/intro-3.png)
 
-## Algorithms & Data Structures
-
-Every solution in competitive programming is composed of an algorithm working in tandem with one or more data structures. If you modify one, the entire performance of your solution changes. An algorithm is only as fast as the data structures it runs on.
-
-- **Algorithm**: A step-by-step method to solve a problem. It must be both correct and efficient. Think of it as *the recipe* — it defines what actions to perform and in what order.
-- **Data Structure**: A concrete way to organize and store data so that operations can be performed efficiently. It is *the container*, and its shape determines which operations are cheap and which are expensive.
-
 ---
 
 ## Additional Resources

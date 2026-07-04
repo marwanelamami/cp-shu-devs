@@ -1,8 +1,7 @@
 ---
-title: Intro to STL, Containers and Iterators
----
+title: Intro to Basic Data Structures
 
-# Intro to STL, Containers and Iterators
+# Intro to Basic Data Structures
 
 **Category:** Basics &nbsp;|&nbsp; **Difficulty:** <span style="color: #334155; font-weight: 600;">Basic</span> &nbsp;|&nbsp; **Importance:** <span style="color: #ef4444; font-weight: 600;">High</span>
 
@@ -10,13 +9,6 @@ title: Intro to STL, Containers and Iterators
 
 !!! info "Under Construction"
     No content has been prepared for this topic/subtopic yet. We are actively developing the content and will be releasing it soon!
-
----
-
-## YouKn0wWho Academy Reference
-While we prepare our written explanations for this topic, you can follow the interactive path and submit solutions directly on the YouKn0wWho Academy platform:
-
-[YouKn0wWho Academy Topic Syllabus](https://youkn0wwho.academy/topic-list)
 
 ---
 
@@ -32,4 +24,4 @@ This topic contains no problems.
 
 ---
 
-[Return to Home](../../index.md)
+[Return to Home](../../../index.md)

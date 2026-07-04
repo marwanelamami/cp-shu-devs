@@ -9,11 +9,7 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 ---
 
 
-### Intro to Programming
-- [What is Programming?](what-is-programming/) (Importance: High)
-
 ### Learn a Language
-- [Intro to C++ and Setting up the Environment](intro-to-c-and-setting-up-the-environment/) (Importance: High)
 - [Data Types, Variables and Input Output](data-types-variables-and-input-output/) (Importance: High)
 - [Operators](operators/) (Importance: High)
 - [Conditional Statements](conditional-statements/) (Importance: High)
@@ -26,22 +22,7 @@ Welcome to the **Basics** guidebook notes, curriculum structure, and practice se
 ### Bitwise Thinking
 - [Bitwise Operations and Bitmasks](bitwise-operations-and-bitmasks/) (Importance: High)
 
-### Complexity Analysis
-- [Fast Input Output](fast-input-output/) (Importance: High)
-
-### Recursion
-- [Recursion](recursion/) (Importance: High)
-
-### Very Basic Math
-- [Divisors](divisors/) (Importance: High)
-- [GCD and LCM](gcd-and-lcm/) (Importance: High)
-- [Harmonic Number](harmonic-number/) (Importance: High)
-
-### Range Queries Without Updates
-- [Prefix XOR](prefix-xor/) (Importance: High)
-
-### Standard Template Library (STL)
-- [Intro to STL, Containers and Iterators](intro-to-stl-containers-and-iterators/) (Importance: High)
+### Basic Data Structures
 - [Pairs and Tuples](pairs-and-tuples/) (Importance: High)
 - [Vector](vector/) (Importance: High)
 - [Stack](stack/) (Importance: High)
